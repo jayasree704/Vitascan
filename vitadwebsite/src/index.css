@@ -436,9 +436,10 @@ body,
 /* ─── Dashboard Responsive Grid ───────────────────────────── */
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 1fr 340px;
-  gap: 16px;
-  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  align-items: stretch;
 }
 
 .dash-col-main {

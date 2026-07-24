@@ -381,8 +381,8 @@ export default function Dashboard() {
                 <div className="scale-seg suf" title="Sufficient (30-100)" />
                 <div className="scale-pin" style={{ left: `${Math.min((level / 60) * 100, 96)}%` }} />
               </div>
-              <div className="scale-labels" style={{ fontSize: 9 }}>
-                <span>0</span><span>20</span><span>30</span><span>60+</span>
+              <div className="scale-labels" style={{ display: 'flex', justifyContent: 'space-between', fontSize: 10, marginTop: 4, color: 'var(--on-surface-var)' }}>
+                <span>0 ng/mL</span><span>20</span><span>30</span><span>60+ ng/mL</span>
               </div>
             </div>
           </div>
