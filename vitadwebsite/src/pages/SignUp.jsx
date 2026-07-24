@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import toast from 'react-hot-toast';
@@ -15,11 +15,17 @@ function GoogleLogo() {
 }
 
 export default function SignUp() {
-  const { signUpWithEmail, signInWithGoogle } = useAuth();
+  const { user, signUpWithEmail, signInWithGoogle } = useAuth();
   const navigate = useNavigate();
   const [form, setForm] = useState({ fullName: '', email: '', password: '' });
   const [showPw, setShowPw] = useState(false);
   const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    if (user) {
+      navigate('/dashboard', { replace: true });
+    }
+  }, [user, navigate]);
 
   const set = (k) => (e) => setForm(f => ({ ...f, [k]: e.target.value }));
 
