@@ -1,0 +1,25 @@
+# Dependencies & Builds
+node_modules/
+dist/
+dist-ssr/
+build/
+.dart_tool/
+.pub-cache/
+.pub/
+ephemeral/
+
+# Logs
+*.log
+logs/
+
+# Environment & Secrets
+.env
+.env.*
+*.env
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
