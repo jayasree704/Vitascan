@@ -1,5 +1,9 @@
 export async function analyzeTestStripWithGemini(fileOrBase64) {
-  const apiKey = import.meta.env.VITE_GEMINI_API_KEY || 'REDACTED_GEMINI_API_KEY';
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+
+  if (!apiKey) {
+    console.warn('VITE_GEMINI_API_KEY missing in .env environment variables.');
+  }
 
   let base64Data = '';
   let mimeType = 'image/jpeg';
@@ -89,36 +93,38 @@ Return ONLY a raw valid JSON object with the following exact structure:
     },
   };
 
-  // Requested model: gemini-3-flash-preview, with fallback to gemini-1.5-flash
+  // Model gemini-3-flash-preview requested, fallback to gemini-1.5-flash
   const models = ['gemini-3-flash-preview', 'gemini-1.5-flash', 'gemini-1.5-pro'];
 
-  for (const modelName of models) {
-    try {
-      const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
-      const res = await fetch(url, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload),
-      });
+  if (apiKey) {
+    for (const modelName of models) {
+      try {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
 
-      if (!res.ok) continue;
+        if (!res.ok) continue;
 
-      const data = await res.json();
-      const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-      if (text) {
-        const cleanedText = text.replace(/```json/g, '').replace(/```/g, '').trim();
-        const parsed = JSON.parse(cleanedText);
-        return {
-          level: parseFloat(parsed.vitamin_d_level) || 31.0,
-          status: parsed.status || 'Sufficient',
-          confidence: parseFloat(parsed.ai_confidence) || 0.94,
-          lifestyleTips: parsed.lifestyle_tips || [],
-          recommendations: parsed.recommendations || [],
-          rawResponse: text,
-        };
+        const data = await res.json();
+        const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+        if (text) {
+          const cleanedText = text.replace(/```json/g, '').replace(/```/g, '').trim();
+          const parsed = JSON.parse(cleanedText);
+          return {
+            level: parseFloat(parsed.vitamin_d_level) || 31.0,
+            status: parsed.status || 'Sufficient',
+            confidence: parseFloat(parsed.ai_confidence) || 0.94,
+            lifestyleTips: parsed.lifestyle_tips || [],
+            recommendations: parsed.recommendations || [],
+            rawResponse: text,
+          };
+        }
+      } catch (e) {
+        console.warn(`Gemini API call to model ${modelName} failed:`, e);
       }
-    } catch (e) {
-      console.warn(`Gemini API call to model ${modelName} failed:`, e);
     }
   }
 
