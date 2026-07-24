@@ -1066,10 +1066,13 @@ body,
   border-radius: 24px;
   width: 100%;
   max-width: 420px;
-  padding: 28px;
   position: relative;
   box-shadow: 0 24px 64px rgba(0, 0, 0, .18);
   animation: slideUp .25s ease both;
+  max-height: 92vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 .modal-close {
@@ -1134,6 +1137,76 @@ body,
   background: var(--surface-low);
   border-radius: 10px;
   margin-bottom: 8px;
+}
+
+/* scrollable content area inside modal */
+.modal-scroll-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 28px 28px 16px 28px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ── Modal action footer ── */
+.modal-action-footer {
+  display: flex;
+  gap: 10px;
+  padding: 14px 28px 24px 28px;
+  border-top: 1.5px solid var(--outline-var);
+  background: var(--surface);
+  border-radius: 0 0 24px 24px;
+  flex-shrink: 0;
+}
+
+.modal-btn-dl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  flex: 1;
+  padding: 11px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(135deg, #0058BC 0%, #1A73E8 100%);
+  color: #fff;
+  box-shadow: 0 3px 12px rgba(0,88,188,.28);
+  transition: all .2s;
+  font-family: inherit;
+}
+.modal-btn-dl:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,88,188,.38);
+}
+.modal-btn-dl:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.modal-btn-share {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  flex: 1;
+  padding: 11px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1.5px solid var(--outline-var);
+  background: var(--surface-low);
+  color: var(--on-surface);
+  transition: all .2s;
+  font-family: inherit;
+}
+.modal-btn-share:hover {
+  background: #E8EEFF;
+  border-color: var(--primary);
+  color: var(--primary);
+  transform: translateY(-1px);
 }
 
 /* ─── Profile ────────────────────────────────────────────── */
@@ -1774,3 +1847,261 @@ body,
   padding: 6px 12px;
   text-align: center;
 }
+
+/* ─── Report Actions ─────────────────────────────────────── */
+.ra-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.btn-report-dl {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  background: linear-gradient(135deg, #0058BC 0%, #1A73E8 100%);
+  color: #fff;
+  box-shadow: 0 3px 12px rgba(0, 88, 188, 0.30);
+  transition: all .2s;
+  flex: 1;
+  min-width: 140px;
+  justify-content: center;
+}
+.btn-report-dl:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 88, 188, 0.38);
+}
+.btn-report-dl:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.btn-report-share {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1.5px solid var(--outline-var);
+  background: var(--surface);
+  color: var(--on-surface);
+  transition: all .2s;
+  flex: 1;
+  min-width: 140px;
+  justify-content: center;
+}
+.btn-report-share:hover {
+  background: var(--surface-low);
+  border-color: var(--primary);
+  color: var(--primary);
+  transform: translateY(-1px);
+}
+
+/* Compact ra buttons (inside history modal) */
+.ra-compact {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+.ra-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 7px 14px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: all .18s;
+  flex: 1;
+  justify-content: center;
+}
+.ra-icon-btn.ra-pdf {
+  background: linear-gradient(135deg, #0058BC 0%, #1A73E8 100%);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 88, 188, 0.25);
+}
+.ra-icon-btn.ra-pdf:hover:not(:disabled) {
+  box-shadow: 0 4px 14px rgba(0, 88, 188, 0.35);
+  transform: translateY(-1px);
+}
+.ra-icon-btn.ra-share {
+  background: var(--surface-low);
+  color: var(--on-surface);
+  border: 1.5px solid var(--outline-var);
+}
+.ra-icon-btn.ra-share:hover {
+  background: #E8EEFF;
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+/* ─── Share Modal ────────────────────────────────────────── */
+.share-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(24, 28, 35, 0.50);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  animation: fadeInOverlay .2s ease;
+  padding: 0 16px;
+}
+
+@keyframes fadeInOverlay {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.share-modal {
+  width: 100%;
+  max-width: 420px;
+  background: var(--surface);
+  border-radius: 24px 24px 0 0;
+  padding: 20px 24px 32px;
+  box-shadow: 0 -8px 40px rgba(0, 0, 0, .18);
+  animation: slideUpModal .28s cubic-bezier(.34,1.56,.64,1);
+}
+
+@keyframes slideUpModal {
+  from { transform: translateY(100%); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+
+/* On desktop — center as a normal modal */
+@media (min-width: 600px) {
+  .share-overlay {
+    align-items: center;
+  }
+  .share-modal {
+    border-radius: 20px;
+    animation: zoomInModal .22s cubic-bezier(.34,1.56,.64,1);
+  }
+  @keyframes zoomInModal {
+    from { transform: scale(.88); opacity: 0; }
+    to   { transform: scale(1);   opacity: 1; }
+  }
+}
+
+.share-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.share-modal-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--on-surface);
+}
+
+.share-modal-close {
+  background: var(--surface-low);
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--on-surface-var);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .15s;
+}
+.share-modal-close:hover {
+  background: var(--outline-var);
+}
+
+.share-modal-sub {
+  font-size: 12px;
+  color: var(--outline);
+  margin-bottom: 20px;
+  margin-top: 2px;
+}
+
+/* App grid */
+.share-apps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.share-app-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  padding: 14px 8px;
+  border-radius: 16px;
+  border: none;
+  background: var(--surface-low);
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--on-surface);
+  font-size: 12px;
+  font-weight: 600;
+  transition: all .2s;
+  font-family: inherit;
+}
+.share-app-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,.10);
+}
+.share-app-btn:active {
+  transform: translateY(0);
+}
+
+.share-app-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+/* Copy circle */
+.share-copy-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #5856D6 0%, #7C3AED 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Native share circle */
+.share-native-circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #FF9500 0%, #FF6B00 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover accents per app */
+.share-wa:hover     { background: #E8FBF0; }
+.share-sms:hover    { background: #E8F4FF; }
+.share-email:hover  { background: #FEE8E8; }
+.share-telegram:hover { background: #E4F4FD; }
+.share-copy:hover   { background: #EDECFF; }
+.share-native:hover { background: #FFF4E5; }

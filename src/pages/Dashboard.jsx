@@ -5,6 +5,7 @@ import { useAuth } from '../contexts/AuthContext';
 import Sidebar from '../components/Sidebar';
 import toast from 'react-hot-toast';
 import { analyzeTestStripWithGemini } from '../lib/gemini';
+import ReportActions from '../components/ReportActions';
 import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, Tooltip,
 } from 'recharts';
@@ -439,8 +440,9 @@ export default function Dashboard() {
                         {result.patient_age && <span> · {result.patient_age} yrs</span>}
                       </div>
                       <p className="ar-desc">{statusDesc(result.vitamin_d_level)}</p>
-                      <div className="ar-save-badge">Saved to history</div>
-                      <div className="ar-actions">
+                      <div className="ar-save-badge">✓ Saved to history</div>
+                      <ReportActions scan={result} />
+                      <div className="ar-actions" style={{ marginTop: 8 }}>
                         <button className="btn btn-outline" onClick={resetUpload} style={{ flex: 1, padding: '8px' }}>New Scan</button>
                         <Link to="/history" className="btn btn-primary" style={{ flex: 1, textDecoration: 'none', justifyContent: 'center', padding: '8px' }}>View History</Link>
                       </div>
