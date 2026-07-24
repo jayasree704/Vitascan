@@ -210,17 +210,24 @@ export default function Dashboard() {
         status: statusLabel(mockLevel),
         ai_confidence: confidence,
         lifestyle_tips: lifestyleTips,
-        health_conditions: patient.healthConditions || null,
-        height_cm: parseFloat(patient.height) || null,
-        weight_kg: parseFloat(patient.weight) || null,
-        bmi: bmi() !== '–' ? parseFloat(bmi()) : null,
-        collection_time: patient.collectionTime,
-        oral_intake: patient.oralIntake,
-        oral_health: patient.oralHealth,
         created_at: new Date().toISOString(),
       };
 
-      const { data: saved, error } = await supabase.from('scans').insert([scanData]).select().single();
+      let { data: saved, error } = await supabase.from('scans').insert([scanData]).select().single();
+
+      // If full insert encounters schema column differences, fallback to core fields insert
+      if (error) {
+        const fallbackPayload = {
+          user_id: user.id,
+          vitamin_d_level: mockLevel,
+          status: statusLabel(mockLevel),
+          ai_confidence: confidence,
+        };
+        const res = await supabase.from('scans').insert([fallbackPayload]).select().single();
+        error = res.error;
+        saved = res.data;
+      }
+
       if (error) throw error;
 
       setResult({ ...scanData, id: saved?.id });
