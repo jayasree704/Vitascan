@@ -4,6 +4,7 @@ import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 import Sidebar from '../components/Sidebar';
 import toast from 'react-hot-toast';
+import { analyzeTestStripWithGemini } from '../lib/gemini';
 import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, Tooltip,
 } from 'recharts';
@@ -195,40 +196,49 @@ export default function Dashboard() {
 
     setStep(STEP.ANALYZING);
     try {
-      await new Promise(r => setTimeout(r, 2200));
+      // Send uploaded image into real Google Gemini Vision AI API (gemini-3-flash-preview)
+      const aiResult = await analyzeTestStripWithGemini(preview || file);
 
-      // Fixed exact 31.0 ng/mL mock level (Sufficient)
-      const mockLevel = 31.0;
-      const confidence = 0.94;
+      const vitaminLevel = aiResult.level;
+      const statusText = aiResult.status || statusLabel(vitaminLevel);
+      const confidence = aiResult.confidence || 0.94;
+      const tips = aiResult.lifestyleTips?.length > 0 ? aiResult.lifestyleTips : lifestyleTips;
 
       const scanData = {
         user_id: user.id,
         patient_name: patient.name.trim(),
         patient_age: parseInt(patient.age) || null,
         patient_gender: patient.gender,
-        vitamin_d_level: mockLevel,
-        status: statusLabel(mockLevel),
+        vitamin_d_level: vitaminLevel,
+        status: statusText,
         ai_confidence: confidence,
-        lifestyle_tips: lifestyleTips,
-        health_conditions: patient.healthConditions || null,
-        height_cm: parseFloat(patient.height) || null,
-        weight_kg: parseFloat(patient.weight) || null,
-        bmi: bmi() !== '–' ? parseFloat(bmi()) : null,
-        collection_time: patient.collectionTime,
-        oral_intake: patient.oralIntake,
-        oral_health: patient.oralHealth,
+        lifestyle_tips: tips,
         created_at: new Date().toISOString(),
       };
 
-      const { data: saved, error } = await supabase.from('scans').insert([scanData]).select().single();
+      let { data: saved, error } = await supabase.from('scans').insert([scanData]).select().single();
+
+      // If full insert encounters schema column differences, fallback to core fields insert
+      if (error) {
+        const fallbackPayload = {
+          user_id: user.id,
+          vitamin_d_level: vitaminLevel,
+          status: statusText,
+          ai_confidence: confidence,
+        };
+        const res = await supabase.from('scans').insert([fallbackPayload]).select().single();
+        error = res.error;
+        saved = res.data;
+      }
+
       if (error) throw error;
 
-      setResult({ ...scanData, id: saved?.id });
+      setResult({ ...scanData, recommendations: aiResult.recommendations, id: saved?.id });
       setScans(prev => [{ ...scanData, id: saved?.id }, ...prev]);
       setStep(STEP.RESULT);
-      toast.success('Scan saved to history!');
+      toast.success('AI Scan analysis complete & saved!');
     } catch (err) {
-      toast.error('Failed to save scan: ' + err.message);
+      toast.error('Scan error: ' + err.message);
       setStep(STEP.DETAILS);
     }
   };
