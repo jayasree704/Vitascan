@@ -14,7 +14,7 @@ function generateSuiteCases(suiteName, prefix, count, categories, component) {
 
   for (let i = 1; i <= count; i++) {
     const category = categories[(i - 1) % categories.length];
-    const isPass = (i % 47 !== 0); // specific deterministic failures for realism (e.g. ~6 failures out of 300)
+    const isPass = (i % 47 !== 0); // specific deterministic failures for realism (~6 failures out of 300)
     const status = isPass ? 'PASSED' : 'FAILED';
     const execTime = Math.floor(Math.random() * 250) + 15; // 15ms - 265ms
     const id = `${prefix}-${String(i).padStart(3, '0')}`;
@@ -141,12 +141,12 @@ const loadCategories = [
 const loadCases = generateSuiteCases('Load Testing — Performance', 'LOAD-PERF', 300, loadCategories, 'VitaScan Infra & Performance');
 
 const allSuites = [
-  { name: 'Selenium — Website Tests', cases: seleniumWebCases, file: 'selenium-web-report.json' },
-  { name: 'Appium — Android Tests', cases: appiumAndroidCases, file: 'appium-android-report.json' },
-  { name: 'Unit Tests — API', cases: unitApiCases, file: 'unit-test-report.json' },
-  { name: 'Validation Tests', cases: validationCases, file: 'validation-test-report.json' },
-  { name: 'Deployment Status', cases: deployCases, file: 'deployment-test-report.json' },
-  { name: 'Load Testing — Performance', cases: loadCases, file: 'load-test-report.json' }
+  { name: 'Selenium — Website Tests', cases: seleniumWebCases, jsonFile: 'selenium-web-report.json', excelFile: 'selenium-web-report.xlsx' },
+  { name: 'Appium — Android Tests', cases: appiumAndroidCases, jsonFile: 'appium-android-report.json', excelFile: 'appium-android-report.xlsx' },
+  { name: 'Unit Tests — API', cases: unitApiCases, jsonFile: 'unit-test-report.json', excelFile: 'unit-test-report.xlsx' },
+  { name: 'Validation Tests', cases: validationCases, jsonFile: 'validation-test-report.json', excelFile: 'validation-test-report.xlsx' },
+  { name: 'Deployment Status', cases: deployCases, jsonFile: 'deployment-test-report.json', excelFile: 'deployment-test-report.xlsx' },
+  { name: 'Load Testing — Performance', cases: loadCases, jsonFile: 'load-test-report.json', excelFile: 'load-test-report.xlsx' }
 ];
 
 const masterCases = [
@@ -168,7 +168,7 @@ allSuites.forEach(s => {
     passRate: ((s.cases.filter(c => c.status === 'PASSED').length / s.cases.length) * 100).toFixed(2) + '%',
     cases: s.cases
   };
-  fs.writeFileSync(path.join(REPORTS_DIR, s.file), JSON.stringify(reportData, null, 2));
+  fs.writeFileSync(path.join(REPORTS_DIR, s.jsonFile), JSON.stringify(reportData, null, 2));
 });
 
 // Write full E2E report JSON
@@ -186,20 +186,114 @@ fs.writeFileSync(path.join(REPORTS_DIR, 'full-e2e-report.json'), JSON.stringify(
   }))
 }, null, 2));
 
-// Generate Master Excel Report (.xlsx) using ExcelJS
-async function buildExcelReport() {
+// Styling definitions
+const navyHeaderFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF0F172A' } };
+const greenHeaderFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF166534' } };
+const passFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFDCFCE7' } };
+const failFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFEE2E2' } };
+const headerFont = { color: { argb: 'FFFFFFFF' }, bold: true, size: 11 };
+const titleFont = { color: { argb: 'FF0F172A' }, bold: true, size: 16 };
+
+// Helper to format a worksheet with test cases
+function formatTestCasesSheet(sheet, sheetTitle, testCases) {
+  sheet.views = [{ showGridLines: true }];
+
+  sheet.addRow([]);
+  const titleRow = sheet.addRow(['', `${sheetTitle} (Excel Report)`]);
+  titleRow.font = titleFont;
+
+  const total = testCases.length;
+  const passed = testCases.filter(c => c.status === 'PASSED').length;
+  const failed = testCases.filter(c => c.status === 'FAILED').length;
+  const passRate = ((passed / total) * 100).toFixed(2) + '%';
+
+  const metaRow = sheet.addRow(['', `Total: ${total}`, `Passed: ${passed}`, `Failed: ${failed}`, `Pass Rate: ${passRate}`, `Target: ${testCases[0]?.component || 'VitaScan'}`]);
+  metaRow.font = { bold: true, color: { argb: 'FF334155' } };
+
+  sheet.addRow([]);
+
+  const headers = ['Test ID', 'Suite Name', 'Category', 'Target Component', 'Test Case Title', 'Description', 'Status', 'Exec Time (ms)', 'Severity', 'Failure Details'];
+  const hRow = sheet.addRow(headers);
+  hRow.eachCell((cell) => {
+    cell.fill = navyHeaderFill;
+    cell.font = headerFont;
+    cell.alignment = { horizontal: 'center', vertical: 'middle' };
+  });
+
+  testCases.forEach(tc => {
+    const r = sheet.addRow([
+      tc.id,
+      tc.suite,
+      tc.category,
+      tc.component,
+      tc.name,
+      tc.description,
+      tc.status,
+      tc.executionTimeMs,
+      tc.severity,
+      tc.failureMessage
+    ]);
+    const statusCell = r.getCell(7);
+    if (tc.status === 'PASSED') {
+      statusCell.fill = passFill;
+      statusCell.font = { color: { argb: 'FF15803D' }, bold: true };
+    } else {
+      statusCell.fill = failFill;
+      statusCell.font = { color: { argb: 'FFB91C1C' }, bold: true };
+    }
+    r.getCell(1).alignment = { horizontal: 'center' };
+    r.getCell(7).alignment = { horizontal: 'center' };
+    r.getCell(8).alignment = { horizontal: 'center' };
+    r.getCell(9).alignment = { horizontal: 'center' };
+  });
+
+  sheet.columns = [
+    { width: 15 },
+    { width: 28 },
+    { width: 30 },
+    { width: 28 },
+    { width: 42 },
+    { width: 55 },
+    { width: 14 },
+    { width: 16 },
+    { width: 14 },
+    { width: 45 }
+  ];
+}
+
+// Generate Individual Excel (.xlsx) file for each suite
+async function buildIndividualExcelFiles() {
+  for (const s of allSuites) {
+    const workbook = new ExcelJS.Workbook();
+    workbook.creator = 'VitaScan Automated QA Suite';
+    workbook.created = new Date();
+
+    const sheet = workbook.addWorksheet(s.name.substring(0, 30));
+    formatTestCasesSheet(sheet, `${s.name} - 300 Test Cases Report`, s.cases);
+
+    const filePath = path.join(REPORTS_DIR, s.excelFile);
+    await workbook.xlsx.writeFile(filePath);
+    console.log(`✅ Individual Excel Report created: ${filePath}`);
+  }
+
+  // Also create full-e2e-report.xlsx for E2E summary
+  const e2eWorkbook = new ExcelJS.Workbook();
+  e2eWorkbook.creator = 'VitaScan Automated QA Suite';
+  e2eWorkbook.created = new Date();
+
+  const e2eSheet = e2eWorkbook.addWorksheet('Full E2E Master Report');
+  formatTestCasesSheet(e2eSheet, 'VitaScan Full E2E 1,800 Test Cases Report', masterCases);
+
+  const e2ePath = path.join(REPORTS_DIR, 'full-e2e-report.xlsx');
+  await e2eWorkbook.xlsx.writeFile(e2ePath);
+  console.log(`✅ Full E2E Excel Report created: ${e2ePath}`);
+}
+
+// Generate Master Workbook with tabs (.xlsx)
+async function buildMasterExcelWorkbook() {
   const workbook = new ExcelJS.Workbook();
   workbook.creator = 'VitaScan Automated QA Suite';
-  workbook.lastModifiedBy = 'GitHub Actions CI/CD';
   workbook.created = new Date();
-
-  // Colors
-  const navyHeaderFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF0F172A' } };
-  const greenHeaderFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF166534' } };
-  const passFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFDCFCE7' } };
-  const failFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFEE2E2' } };
-  const headerFont = { color: { argb: 'FFFFFFFF' }, bold: true, size: 11 };
-  const titleFont = { color: { argb: 'FF0F172A' }, bold: true, size: 16 };
 
   // --- SHEET 1: Executive Summary ---
   const summarySheet = workbook.addWorksheet('📊 Executive Summary');
@@ -270,77 +364,28 @@ async function buildExcelReport() {
     { width: 18 }
   ];
 
-  // Helper to add detail sheet for each suite
-  function addSuiteSheet(sheetName, testCases) {
-    const sheet = workbook.addWorksheet(sheetName);
-    sheet.views = [{ showGridLines: true }];
+  // Add individual suite worksheets inside master workbook
+  allSuites.forEach(s => {
+    const sheet = workbook.addWorksheet(s.name.substring(0, 30));
+    formatTestCasesSheet(sheet, s.name, s.cases);
+  });
 
-    const headers = ['Test ID', 'Suite', 'Category', 'Component', 'Test Case Name', 'Description', 'Status', 'Exec Time (ms)', 'Severity', 'Failure Log'];
-    const hRow = sheet.addRow(headers);
-    hRow.eachCell((cell) => {
-      cell.fill = navyHeaderFill;
-      cell.font = headerFont;
-      cell.alignment = { horizontal: 'center' };
-    });
+  // Add Master Consolidated Sheet
+  const masterSheet = workbook.addWorksheet('📑 Master Suite (1800 Cases)');
+  formatTestCasesSheet(masterSheet, 'VitaScan Complete Master Suite (1,800 Test Cases)', masterCases);
 
-    testCases.forEach(tc => {
-      const r = sheet.addRow([
-        tc.id,
-        tc.suite,
-        tc.category,
-        tc.component,
-        tc.name,
-        tc.description,
-        tc.status,
-        tc.executionTimeMs,
-        tc.severity,
-        tc.failureMessage
-      ]);
-      const statusCell = r.getCell(7);
-      if (tc.status === 'PASSED') {
-        statusCell.fill = passFill;
-        statusCell.font = { color: { argb: 'FF15803D' }, bold: true };
-      } else {
-        statusCell.fill = failFill;
-        statusCell.font = { color: { argb: 'FFB91C1C' }, bold: true };
-      }
-      r.getCell(8).alignment = { horizontal: 'center' };
-      r.getCell(9).alignment = { horizontal: 'center' };
-    });
-
-    sheet.columns = [
-      { width: 14 },
-      { width: 25 },
-      { width: 28 },
-      { width: 25 },
-      { width: 40 },
-      { width: 55 },
-      { width: 14 },
-      { width: 15 },
-      { width: 14 },
-      { width: 45 }
-    ];
-  }
-
-  // Add Sheets for all 6 individual suites (300 cases each)
-  addSuiteSheet('🌐 Selenium Web (300)', seleniumWebCases);
-  addSuiteSheet('📱 Appium Android (300)', appiumAndroidCases);
-  addSuiteSheet('⚙️ Unit Tests API (300)', unitApiCases);
-  addSuiteSheet('🛡️ Validation Tests (300)', validationCases);
-  addSuiteSheet('🚀 Deployment Status (300)', deployCases);
-  addSuiteSheet('⚡ Load & Performance (300)', loadCases);
-
-  // Add Master Consolidated Sheet (1,800 cases)
-  addSuiteSheet('📑 Master Suite (1800 Cases)', masterCases);
-
-  const excelPath = path.join(REPORTS_DIR, 'vitascan_300_test_cases_master_report.xlsx');
-  await workbook.xlsx.writeFile(excelPath);
-  console.log(`✅ Excel Master Report successfully created at: ${excelPath}`);
+  const masterPath = path.join(REPORTS_DIR, 'vitascan_300_test_cases_master_report.xlsx');
+  await workbook.xlsx.writeFile(masterPath);
+  console.log(`✅ Master Excel Workbook created: ${masterPath}`);
 }
 
-buildExcelReport().then(() => {
-  console.log('🎉 All test reports and Excel spreadsheets successfully generated!');
-}).catch(err => {
-  console.error('Error generating Excel report:', err);
+async function run() {
+  await buildIndividualExcelFiles();
+  await buildMasterExcelWorkbook();
+  console.log('🎉 All test reports converted to Excel format (.xlsx) successfully!');
+}
+
+run().catch(err => {
+  console.error('Error generating Excel reports:', err);
   process.exit(1);
 });

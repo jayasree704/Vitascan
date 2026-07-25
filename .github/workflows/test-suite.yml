@@ -26,11 +26,11 @@ jobs:
       - name: Execute 300 Selenium Web Test Cases
         run: node scripts/generate_test_reports.js
 
-      - name: Upload Selenium Web Report Artifact
+      - name: Upload Selenium Web Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
           name: selenium-web-report
-          path: reports/selenium-web-report.json
+          path: reports/selenium-web-report.xlsx
 
   appium-android-tests:
     name: Appium — Android Tests (300)
@@ -50,11 +50,11 @@ jobs:
       - name: Execute 300 Appium Android Test Cases
         run: node scripts/generate_test_reports.js
 
-      - name: Upload Appium Android Report Artifact
+      - name: Upload Appium Android Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
           name: appium-android-report
-          path: reports/appium-android-report.json
+          path: reports/appium-android-report.xlsx
 
   unit-api-tests:
     name: Unit Tests — API (300)
@@ -74,11 +74,11 @@ jobs:
       - name: Execute 300 Unit API Test Cases
         run: node scripts/generate_test_reports.js
 
-      - name: Upload Unit API Report Artifact
+      - name: Upload Unit API Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
           name: unit-test-report
-          path: reports/unit-test-report.json
+          path: reports/unit-test-report.xlsx
 
   validation-tests:
     name: Validation Tests (300)
@@ -98,11 +98,11 @@ jobs:
       - name: Execute 300 Validation Test Cases
         run: node scripts/generate_test_reports.js
 
-      - name: Upload Validation Report Artifact
+      - name: Upload Validation Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
           name: validation-test-report
-          path: reports/validation-test-report.json
+          path: reports/validation-test-report.xlsx
 
   deployment-status-tests:
     name: Deployment Status (300)
@@ -122,11 +122,11 @@ jobs:
       - name: Execute 300 Deployment Status Test Cases
         run: node scripts/generate_test_reports.js
 
-      - name: Upload Deployment Status Report Artifact
+      - name: Upload Deployment Status Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
           name: deployment-test-report
-          path: reports/deployment-test-report.json
+          path: reports/deployment-test-report.xlsx
 
   load-performance-tests:
     name: Load Testing — Performance (300)
@@ -146,11 +146,11 @@ jobs:
       - name: Execute 300 Load Testing Test Cases
         run: node scripts/generate_test_reports.js
 
-      - name: Upload Load Performance Report Artifact
+      - name: Upload Load Performance Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
           name: load-test-report
-          path: reports/load-test-report.json
+          path: reports/load-test-report.xlsx
 
   compile-master-report-and-deploy:
     name: Compile Master Report & Deploy
@@ -173,11 +173,11 @@ jobs:
           npm run build
           node scripts/generate_test_reports.js
 
-      - name: Upload Full E2E JSON Report Artifact
+      - name: Upload Full E2E Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
           name: full-e2e-report
-          path: reports/full-e2e-report.json
+          path: reports/full-e2e-report.xlsx
 
       - name: Upload Master Excel Sheet Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4

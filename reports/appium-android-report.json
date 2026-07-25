@@ -13,10 +13,10 @@
       "name": "Appium — Android Tests Case #1 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 166,
+      "executionTimeMs": 193,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:56.520Z"
+      "timestamp": "2026-07-25T02:55:47.684Z"
     },
     {
       "id": "MOB-APP-002",
@@ -26,10 +26,10 @@
       "name": "Appium — Android Tests Case #2 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 257,
+      "executionTimeMs": 198,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:21.694Z"
+      "timestamp": "2026-07-25T03:22:18.721Z"
     },
     {
       "id": "MOB-APP-003",
@@ -39,10 +39,10 @@
       "name": "Appium — Android Tests Case #3 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 24,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:18.078Z"
+      "timestamp": "2026-07-25T02:54:43.702Z"
     },
     {
       "id": "MOB-APP-004",
@@ -52,10 +52,10 @@
       "name": "Appium — Android Tests Case #4 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 223,
+      "executionTimeMs": 173,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:28.292Z"
+      "timestamp": "2026-07-25T03:05:53.128Z"
     },
     {
       "id": "MOB-APP-005",
@@ -65,10 +65,10 @@
       "name": "Appium — Android Tests Case #5 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 154,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:53.957Z"
+      "timestamp": "2026-07-25T03:01:41.250Z"
     },
     {
       "id": "MOB-APP-006",
@@ -78,10 +78,10 @@
       "name": "Appium — Android Tests Case #6 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 36,
+      "executionTimeMs": 79,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:59.701Z"
+      "timestamp": "2026-07-25T02:56:33.115Z"
     },
     {
       "id": "MOB-APP-007",
@@ -91,10 +91,10 @@
       "name": "Appium — Android Tests Case #7 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 57,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:12.871Z"
+      "timestamp": "2026-07-25T02:40:07.418Z"
     },
     {
       "id": "MOB-APP-008",
@@ -104,10 +104,10 @@
       "name": "Appium — Android Tests Case #8 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 174,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:34.931Z"
+      "timestamp": "2026-07-25T02:30:50.407Z"
     },
     {
       "id": "MOB-APP-009",
@@ -117,10 +117,10 @@
       "name": "Appium — Android Tests Case #9 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 111,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:13.840Z"
+      "timestamp": "2026-07-25T02:34:21.736Z"
     },
     {
       "id": "MOB-APP-010",
@@ -130,10 +130,10 @@
       "name": "Appium — Android Tests Case #10 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 21,
+      "executionTimeMs": 232,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:43.085Z"
+      "timestamp": "2026-07-25T02:55:58.810Z"
     },
     {
       "id": "MOB-APP-011",
@@ -143,10 +143,10 @@
       "name": "Appium — Android Tests Case #11 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 59,
+      "executionTimeMs": 213,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:10.357Z"
+      "timestamp": "2026-07-25T02:40:29.750Z"
     },
     {
       "id": "MOB-APP-012",
@@ -156,10 +156,10 @@
       "name": "Appium — Android Tests Case #12 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 155,
+      "executionTimeMs": 96,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:51.605Z"
+      "timestamp": "2026-07-25T03:04:19.745Z"
     },
     {
       "id": "MOB-APP-013",
@@ -169,10 +169,10 @@
       "name": "Appium — Android Tests Case #13 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 81,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:38.700Z"
+      "timestamp": "2026-07-25T03:00:20.542Z"
     },
     {
       "id": "MOB-APP-014",
@@ -182,10 +182,10 @@
       "name": "Appium — Android Tests Case #14 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 116,
+      "executionTimeMs": 57,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:41.841Z"
+      "timestamp": "2026-07-25T03:24:54.201Z"
     },
     {
       "id": "MOB-APP-015",
@@ -195,10 +195,10 @@
       "name": "Appium — Android Tests Case #15 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 94,
+      "executionTimeMs": 141,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:09.672Z"
+      "timestamp": "2026-07-25T02:54:55.165Z"
     },
     {
       "id": "MOB-APP-016",
@@ -208,10 +208,10 @@
       "name": "Appium — Android Tests Case #16 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 239,
+      "executionTimeMs": 159,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:10.048Z"
+      "timestamp": "2026-07-25T02:46:31.482Z"
     },
     {
       "id": "MOB-APP-017",
@@ -221,10 +221,10 @@
       "name": "Appium — Android Tests Case #17 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 252,
+      "executionTimeMs": 65,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:47.434Z"
+      "timestamp": "2026-07-25T02:27:42.691Z"
     },
     {
       "id": "MOB-APP-018",
@@ -234,10 +234,10 @@
       "name": "Appium — Android Tests Case #18 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 241,
+      "executionTimeMs": 38,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:51.401Z"
+      "timestamp": "2026-07-25T02:30:33.544Z"
     },
     {
       "id": "MOB-APP-019",
@@ -247,10 +247,10 @@
       "name": "Appium — Android Tests Case #19 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 115,
+      "executionTimeMs": 255,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:58.272Z"
+      "timestamp": "2026-07-25T02:41:41.967Z"
     },
     {
       "id": "MOB-APP-020",
@@ -260,10 +260,10 @@
       "name": "Appium — Android Tests Case #20 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 199,
+      "executionTimeMs": 224,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:25:29.207Z"
+      "timestamp": "2026-07-25T02:41:10.753Z"
     },
     {
       "id": "MOB-APP-021",
@@ -273,10 +273,10 @@
       "name": "Appium — Android Tests Case #21 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 170,
+      "executionTimeMs": 119,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:01.926Z"
+      "timestamp": "2026-07-25T02:33:37.456Z"
     },
     {
       "id": "MOB-APP-022",
@@ -286,10 +286,10 @@
       "name": "Appium — Android Tests Case #22 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 101,
+      "executionTimeMs": 132,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:34.102Z"
+      "timestamp": "2026-07-25T02:43:13.835Z"
     },
     {
       "id": "MOB-APP-023",
@@ -299,10 +299,10 @@
       "name": "Appium — Android Tests Case #23 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 229,
+      "executionTimeMs": 200,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:32.644Z"
+      "timestamp": "2026-07-25T03:08:33.368Z"
     },
     {
       "id": "MOB-APP-024",
@@ -312,10 +312,10 @@
       "name": "Appium — Android Tests Case #24 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 42,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:30.284Z"
+      "timestamp": "2026-07-25T02:42:21.195Z"
     },
     {
       "id": "MOB-APP-025",
@@ -325,10 +325,10 @@
       "name": "Appium — Android Tests Case #25 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 215,
+      "executionTimeMs": 88,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:17.974Z"
+      "timestamp": "2026-07-25T02:26:00.141Z"
     },
     {
       "id": "MOB-APP-026",
@@ -338,10 +338,10 @@
       "name": "Appium — Android Tests Case #26 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 72,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:25.336Z"
+      "timestamp": "2026-07-25T03:14:56.790Z"
     },
     {
       "id": "MOB-APP-027",
@@ -351,10 +351,10 @@
       "name": "Appium — Android Tests Case #27 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 22,
+      "executionTimeMs": 73,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:03.580Z"
+      "timestamp": "2026-07-25T02:27:08.447Z"
     },
     {
       "id": "MOB-APP-028",
@@ -364,10 +364,10 @@
       "name": "Appium — Android Tests Case #28 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 246,
+      "executionTimeMs": 70,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:54.528Z"
+      "timestamp": "2026-07-25T02:57:39.974Z"
     },
     {
       "id": "MOB-APP-029",
@@ -377,10 +377,10 @@
       "name": "Appium — Android Tests Case #29 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 166,
+      "executionTimeMs": 170,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:02.618Z"
+      "timestamp": "2026-07-25T03:00:03.840Z"
     },
     {
       "id": "MOB-APP-030",
@@ -390,10 +390,10 @@
       "name": "Appium — Android Tests Case #30 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 189,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:02.731Z"
+      "timestamp": "2026-07-25T02:25:19.725Z"
     },
     {
       "id": "MOB-APP-031",
@@ -403,10 +403,10 @@
       "name": "Appium — Android Tests Case #31 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 120,
+      "executionTimeMs": 174,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:24.774Z"
+      "timestamp": "2026-07-25T03:15:36.042Z"
     },
     {
       "id": "MOB-APP-032",
@@ -416,10 +416,10 @@
       "name": "Appium — Android Tests Case #32 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 19,
+      "executionTimeMs": 141,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:10.343Z"
+      "timestamp": "2026-07-25T03:09:13.857Z"
     },
     {
       "id": "MOB-APP-033",
@@ -429,10 +429,10 @@
       "name": "Appium — Android Tests Case #33 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 97,
+      "executionTimeMs": 50,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:39.940Z"
+      "timestamp": "2026-07-25T03:15:41.285Z"
     },
     {
       "id": "MOB-APP-034",
@@ -442,10 +442,10 @@
       "name": "Appium — Android Tests Case #34 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 146,
+      "executionTimeMs": 31,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:48.929Z"
+      "timestamp": "2026-07-25T02:54:16.354Z"
     },
     {
       "id": "MOB-APP-035",
@@ -455,10 +455,10 @@
       "name": "Appium — Android Tests Case #35 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 134,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:51.319Z"
+      "timestamp": "2026-07-25T02:34:39.494Z"
     },
     {
       "id": "MOB-APP-036",
@@ -468,10 +468,10 @@
       "name": "Appium — Android Tests Case #36 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 128,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:04.069Z"
+      "timestamp": "2026-07-25T03:11:36.657Z"
     },
     {
       "id": "MOB-APP-037",
@@ -481,10 +481,10 @@
       "name": "Appium — Android Tests Case #37 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 70,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:13.570Z"
+      "timestamp": "2026-07-25T03:06:05.647Z"
     },
     {
       "id": "MOB-APP-038",
@@ -494,10 +494,10 @@
       "name": "Appium — Android Tests Case #38 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 190,
+      "executionTimeMs": 175,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:09.987Z"
+      "timestamp": "2026-07-25T02:31:16.471Z"
     },
     {
       "id": "MOB-APP-039",
@@ -507,10 +507,10 @@
       "name": "Appium — Android Tests Case #39 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 50,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:13.578Z"
+      "timestamp": "2026-07-25T02:38:46.119Z"
     },
     {
       "id": "MOB-APP-040",
@@ -520,10 +520,10 @@
       "name": "Appium — Android Tests Case #40 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 258,
+      "executionTimeMs": 163,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:27.747Z"
+      "timestamp": "2026-07-25T03:04:41.341Z"
     },
     {
       "id": "MOB-APP-041",
@@ -533,10 +533,10 @@
       "name": "Appium — Android Tests Case #41 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 213,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:46.271Z"
+      "timestamp": "2026-07-25T03:18:22.574Z"
     },
     {
       "id": "MOB-APP-042",
@@ -546,10 +546,10 @@
       "name": "Appium — Android Tests Case #42 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 242,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:54.898Z"
+      "timestamp": "2026-07-25T02:38:46.292Z"
     },
     {
       "id": "MOB-APP-043",
@@ -559,10 +559,10 @@
       "name": "Appium — Android Tests Case #43 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 230,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:34.152Z"
+      "timestamp": "2026-07-25T03:01:52.265Z"
     },
     {
       "id": "MOB-APP-044",
@@ -572,10 +572,10 @@
       "name": "Appium — Android Tests Case #44 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 22,
+      "executionTimeMs": 44,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:32.329Z"
+      "timestamp": "2026-07-25T03:11:27.524Z"
     },
     {
       "id": "MOB-APP-045",
@@ -585,10 +585,10 @@
       "name": "Appium — Android Tests Case #45 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 52,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:17.507Z"
+      "timestamp": "2026-07-25T02:35:55.902Z"
     },
     {
       "id": "MOB-APP-046",
@@ -598,10 +598,10 @@
       "name": "Appium — Android Tests Case #46 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 50,
+      "executionTimeMs": 85,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:39.720Z"
+      "timestamp": "2026-07-25T02:52:57.730Z"
     },
     {
       "id": "MOB-APP-047",
@@ -611,10 +611,10 @@
       "name": "Appium — Android Tests Case #47 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "FAILED",
-      "executionTimeMs": 46,
+      "executionTimeMs": 164,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Google Auth Native Bridge, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:42:10.260Z"
+      "timestamp": "2026-07-25T03:16:42.090Z"
     },
     {
       "id": "MOB-APP-048",
@@ -624,10 +624,10 @@
       "name": "Appium — Android Tests Case #48 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 123,
+      "executionTimeMs": 251,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:16.021Z"
+      "timestamp": "2026-07-25T02:56:56.190Z"
     },
     {
       "id": "MOB-APP-049",
@@ -637,10 +637,10 @@
       "name": "Appium — Android Tests Case #49 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 211,
+      "executionTimeMs": 228,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:14.674Z"
+      "timestamp": "2026-07-25T02:42:47.965Z"
     },
     {
       "id": "MOB-APP-050",
@@ -650,10 +650,10 @@
       "name": "Appium — Android Tests Case #50 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 163,
+      "executionTimeMs": 153,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:28.506Z"
+      "timestamp": "2026-07-25T03:01:03.171Z"
     },
     {
       "id": "MOB-APP-051",
@@ -663,10 +663,10 @@
       "name": "Appium — Android Tests Case #51 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 263,
+      "executionTimeMs": 31,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:44.888Z"
+      "timestamp": "2026-07-25T02:56:18.162Z"
     },
     {
       "id": "MOB-APP-052",
@@ -676,10 +676,10 @@
       "name": "Appium — Android Tests Case #52 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 256,
+      "executionTimeMs": 77,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:50.574Z"
+      "timestamp": "2026-07-25T02:41:53.671Z"
     },
     {
       "id": "MOB-APP-053",
@@ -689,10 +689,10 @@
       "name": "Appium — Android Tests Case #53 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 134,
+      "executionTimeMs": 201,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:06.010Z"
+      "timestamp": "2026-07-25T02:43:22.607Z"
     },
     {
       "id": "MOB-APP-054",
@@ -702,10 +702,10 @@
       "name": "Appium — Android Tests Case #54 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 175,
+      "executionTimeMs": 150,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:42.891Z"
+      "timestamp": "2026-07-25T03:12:55.223Z"
     },
     {
       "id": "MOB-APP-055",
@@ -715,10 +715,10 @@
       "name": "Appium — Android Tests Case #55 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 79,
+      "executionTimeMs": 133,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:43.368Z"
+      "timestamp": "2026-07-25T03:09:50.244Z"
     },
     {
       "id": "MOB-APP-056",
@@ -728,10 +728,10 @@
       "name": "Appium — Android Tests Case #56 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 64,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:01.060Z"
+      "timestamp": "2026-07-25T02:38:22.472Z"
     },
     {
       "id": "MOB-APP-057",
@@ -741,10 +741,10 @@
       "name": "Appium — Android Tests Case #57 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 212,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:55.438Z"
+      "timestamp": "2026-07-25T03:17:16.244Z"
     },
     {
       "id": "MOB-APP-058",
@@ -754,10 +754,10 @@
       "name": "Appium — Android Tests Case #58 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 84,
+      "executionTimeMs": 28,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:18.411Z"
+      "timestamp": "2026-07-25T03:17:44.205Z"
     },
     {
       "id": "MOB-APP-059",
@@ -767,10 +767,10 @@
       "name": "Appium — Android Tests Case #59 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 50,
+      "executionTimeMs": 222,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:44.544Z"
+      "timestamp": "2026-07-25T02:41:48.758Z"
     },
     {
       "id": "MOB-APP-060",
@@ -780,10 +780,10 @@
       "name": "Appium — Android Tests Case #60 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 218,
+      "executionTimeMs": 178,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:24.714Z"
+      "timestamp": "2026-07-25T03:20:40.756Z"
     },
     {
       "id": "MOB-APP-061",
@@ -793,10 +793,10 @@
       "name": "Appium — Android Tests Case #61 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 48,
+      "executionTimeMs": 244,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:03.952Z"
+      "timestamp": "2026-07-25T03:18:32.611Z"
     },
     {
       "id": "MOB-APP-062",
@@ -806,10 +806,10 @@
       "name": "Appium — Android Tests Case #62 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 240,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:45.489Z"
+      "timestamp": "2026-07-25T02:26:30.089Z"
     },
     {
       "id": "MOB-APP-063",
@@ -819,10 +819,10 @@
       "name": "Appium — Android Tests Case #63 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 69,
+      "executionTimeMs": 149,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:15.265Z"
+      "timestamp": "2026-07-25T02:45:21.077Z"
     },
     {
       "id": "MOB-APP-064",
@@ -832,10 +832,10 @@
       "name": "Appium — Android Tests Case #64 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 222,
+      "executionTimeMs": 241,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:25.512Z"
+      "timestamp": "2026-07-25T03:15:20.431Z"
     },
     {
       "id": "MOB-APP-065",
@@ -845,10 +845,10 @@
       "name": "Appium — Android Tests Case #65 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 86,
+      "executionTimeMs": 202,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:58.577Z"
+      "timestamp": "2026-07-25T02:58:09.046Z"
     },
     {
       "id": "MOB-APP-066",
@@ -858,10 +858,10 @@
       "name": "Appium — Android Tests Case #66 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 180,
+      "executionTimeMs": 127,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:26.204Z"
+      "timestamp": "2026-07-25T03:09:46.540Z"
     },
     {
       "id": "MOB-APP-067",
@@ -871,10 +871,10 @@
       "name": "Appium — Android Tests Case #67 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 70,
+      "executionTimeMs": 71,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:49.595Z"
+      "timestamp": "2026-07-25T02:47:41.764Z"
     },
     {
       "id": "MOB-APP-068",
@@ -884,10 +884,10 @@
       "name": "Appium — Android Tests Case #68 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 83,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:32.003Z"
+      "timestamp": "2026-07-25T02:50:44.984Z"
     },
     {
       "id": "MOB-APP-069",
@@ -897,10 +897,10 @@
       "name": "Appium — Android Tests Case #69 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 238,
+      "executionTimeMs": 84,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:24.130Z"
+      "timestamp": "2026-07-25T03:10:48.692Z"
     },
     {
       "id": "MOB-APP-070",
@@ -910,10 +910,10 @@
       "name": "Appium — Android Tests Case #70 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 239,
+      "executionTimeMs": 52,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:32.424Z"
+      "timestamp": "2026-07-25T02:48:33.811Z"
     },
     {
       "id": "MOB-APP-071",
@@ -923,10 +923,10 @@
       "name": "Appium — Android Tests Case #71 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 33,
+      "executionTimeMs": 93,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:56.992Z"
+      "timestamp": "2026-07-25T03:01:35.305Z"
     },
     {
       "id": "MOB-APP-072",
@@ -936,10 +936,10 @@
       "name": "Appium — Android Tests Case #72 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 191,
+      "executionTimeMs": 122,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:20.525Z"
+      "timestamp": "2026-07-25T02:38:19.654Z"
     },
     {
       "id": "MOB-APP-073",
@@ -949,10 +949,10 @@
       "name": "Appium — Android Tests Case #73 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 181,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:19.099Z"
+      "timestamp": "2026-07-25T02:50:23.219Z"
     },
     {
       "id": "MOB-APP-074",
@@ -962,10 +962,10 @@
       "name": "Appium — Android Tests Case #74 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 259,
+      "executionTimeMs": 27,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:58.375Z"
+      "timestamp": "2026-07-25T02:48:17.274Z"
     },
     {
       "id": "MOB-APP-075",
@@ -975,10 +975,10 @@
       "name": "Appium — Android Tests Case #75 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 203,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:11.578Z"
+      "timestamp": "2026-07-25T02:42:09.844Z"
     },
     {
       "id": "MOB-APP-076",
@@ -988,10 +988,10 @@
       "name": "Appium — Android Tests Case #76 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 31,
+      "executionTimeMs": 112,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:27.444Z"
+      "timestamp": "2026-07-25T03:12:07.037Z"
     },
     {
       "id": "MOB-APP-077",
@@ -1001,10 +1001,10 @@
       "name": "Appium — Android Tests Case #77 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 190,
+      "executionTimeMs": 240,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:36.994Z"
+      "timestamp": "2026-07-25T02:25:11.057Z"
     },
     {
       "id": "MOB-APP-078",
@@ -1014,10 +1014,10 @@
       "name": "Appium — Android Tests Case #78 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 85,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:43.238Z"
+      "timestamp": "2026-07-25T02:37:11.157Z"
     },
     {
       "id": "MOB-APP-079",
@@ -1027,10 +1027,10 @@
       "name": "Appium — Android Tests Case #79 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 179,
+      "executionTimeMs": 263,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:21.899Z"
+      "timestamp": "2026-07-25T03:10:07.207Z"
     },
     {
       "id": "MOB-APP-080",
@@ -1040,10 +1040,10 @@
       "name": "Appium — Android Tests Case #80 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 243,
+      "executionTimeMs": 207,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:51.124Z"
+      "timestamp": "2026-07-25T02:32:18.691Z"
     },
     {
       "id": "MOB-APP-081",
@@ -1053,10 +1053,10 @@
       "name": "Appium — Android Tests Case #81 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 200,
+      "executionTimeMs": 27,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:05.527Z"
+      "timestamp": "2026-07-25T03:12:15.886Z"
     },
     {
       "id": "MOB-APP-082",
@@ -1066,10 +1066,10 @@
       "name": "Appium — Android Tests Case #82 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 34,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:44.398Z"
+      "timestamp": "2026-07-25T02:37:29.223Z"
     },
     {
       "id": "MOB-APP-083",
@@ -1079,10 +1079,10 @@
       "name": "Appium — Android Tests Case #83 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 20,
+      "executionTimeMs": 234,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:38.125Z"
+      "timestamp": "2026-07-25T03:23:27.195Z"
     },
     {
       "id": "MOB-APP-084",
@@ -1092,10 +1092,10 @@
       "name": "Appium — Android Tests Case #84 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 212,
+      "executionTimeMs": 232,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:58.334Z"
+      "timestamp": "2026-07-25T03:15:56.932Z"
     },
     {
       "id": "MOB-APP-085",
@@ -1105,10 +1105,10 @@
       "name": "Appium — Android Tests Case #85 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 45,
+      "executionTimeMs": 159,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:31.125Z"
+      "timestamp": "2026-07-25T03:06:06.786Z"
     },
     {
       "id": "MOB-APP-086",
@@ -1118,10 +1118,10 @@
       "name": "Appium — Android Tests Case #86 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 67,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:52.339Z"
+      "timestamp": "2026-07-25T03:08:01.601Z"
     },
     {
       "id": "MOB-APP-087",
@@ -1131,10 +1131,10 @@
       "name": "Appium — Android Tests Case #87 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 42,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:53.899Z"
+      "timestamp": "2026-07-25T03:23:38.586Z"
     },
     {
       "id": "MOB-APP-088",
@@ -1144,10 +1144,10 @@
       "name": "Appium — Android Tests Case #88 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 52,
+      "executionTimeMs": 239,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:54.224Z"
+      "timestamp": "2026-07-25T02:51:58.840Z"
     },
     {
       "id": "MOB-APP-089",
@@ -1157,10 +1157,10 @@
       "name": "Appium — Android Tests Case #89 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 64,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:21.681Z"
+      "timestamp": "2026-07-25T03:01:33.230Z"
     },
     {
       "id": "MOB-APP-090",
@@ -1170,10 +1170,10 @@
       "name": "Appium — Android Tests Case #90 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 227,
+      "executionTimeMs": 172,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:01.355Z"
+      "timestamp": "2026-07-25T03:20:30.996Z"
     },
     {
       "id": "MOB-APP-091",
@@ -1183,10 +1183,10 @@
       "name": "Appium — Android Tests Case #91 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 75,
+      "executionTimeMs": 144,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:40.327Z"
+      "timestamp": "2026-07-25T03:10:59.447Z"
     },
     {
       "id": "MOB-APP-092",
@@ -1196,10 +1196,10 @@
       "name": "Appium — Android Tests Case #92 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 117,
+      "executionTimeMs": 193,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:50.310Z"
+      "timestamp": "2026-07-25T02:43:34.726Z"
     },
     {
       "id": "MOB-APP-093",
@@ -1209,10 +1209,10 @@
       "name": "Appium — Android Tests Case #93 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 141,
+      "executionTimeMs": 106,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:32.884Z"
+      "timestamp": "2026-07-25T02:32:07.471Z"
     },
     {
       "id": "MOB-APP-094",
@@ -1222,10 +1222,10 @@
       "name": "Appium — Android Tests Case #94 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "FAILED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 143,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Camera Capture & Gallery Picker, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:20:56.053Z"
+      "timestamp": "2026-07-25T02:28:29.207Z"
     },
     {
       "id": "MOB-APP-095",
@@ -1235,10 +1235,10 @@
       "name": "Appium — Android Tests Case #95 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 253,
+      "executionTimeMs": 93,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:19.868Z"
+      "timestamp": "2026-07-25T02:34:07.338Z"
     },
     {
       "id": "MOB-APP-096",
@@ -1248,10 +1248,10 @@
       "name": "Appium — Android Tests Case #96 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 89,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:15.237Z"
+      "timestamp": "2026-07-25T02:44:39.995Z"
     },
     {
       "id": "MOB-APP-097",
@@ -1261,10 +1261,10 @@
       "name": "Appium — Android Tests Case #97 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 103,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:53.272Z"
+      "timestamp": "2026-07-25T02:28:55.294Z"
     },
     {
       "id": "MOB-APP-098",
@@ -1274,10 +1274,10 @@
       "name": "Appium — Android Tests Case #98 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 216,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:53.289Z"
+      "timestamp": "2026-07-25T03:15:21.065Z"
     },
     {
       "id": "MOB-APP-099",
@@ -1287,10 +1287,10 @@
       "name": "Appium — Android Tests Case #99 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 62,
+      "executionTimeMs": 47,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:31.650Z"
+      "timestamp": "2026-07-25T02:54:49.413Z"
     },
     {
       "id": "MOB-APP-100",
@@ -1300,10 +1300,10 @@
       "name": "Appium — Android Tests Case #100 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 88,
+      "executionTimeMs": 19,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:15.057Z"
+      "timestamp": "2026-07-25T03:01:18.338Z"
     },
     {
       "id": "MOB-APP-101",
@@ -1313,10 +1313,10 @@
       "name": "Appium — Android Tests Case #101 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 199,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:01.794Z"
+      "timestamp": "2026-07-25T02:30:12.611Z"
     },
     {
       "id": "MOB-APP-102",
@@ -1326,10 +1326,10 @@
       "name": "Appium — Android Tests Case #102 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 239,
+      "executionTimeMs": 54,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:28:06.949Z"
+      "timestamp": "2026-07-25T03:20:10.629Z"
     },
     {
       "id": "MOB-APP-103",
@@ -1339,10 +1339,10 @@
       "name": "Appium — Android Tests Case #103 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 19,
+      "executionTimeMs": 217,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:00.906Z"
+      "timestamp": "2026-07-25T03:00:10.905Z"
     },
     {
       "id": "MOB-APP-104",
@@ -1352,10 +1352,10 @@
       "name": "Appium — Android Tests Case #104 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 79,
+      "executionTimeMs": 181,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:14.708Z"
+      "timestamp": "2026-07-25T02:26:49.652Z"
     },
     {
       "id": "MOB-APP-105",
@@ -1365,10 +1365,10 @@
       "name": "Appium — Android Tests Case #105 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 40,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:28.018Z"
+      "timestamp": "2026-07-25T02:58:13.054Z"
     },
     {
       "id": "MOB-APP-106",
@@ -1378,10 +1378,10 @@
       "name": "Appium — Android Tests Case #106 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 232,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:24:16.120Z"
+      "timestamp": "2026-07-25T03:04:01.329Z"
     },
     {
       "id": "MOB-APP-107",
@@ -1391,10 +1391,10 @@
       "name": "Appium — Android Tests Case #107 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 93,
+      "executionTimeMs": 105,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:38.099Z"
+      "timestamp": "2026-07-25T02:33:01.817Z"
     },
     {
       "id": "MOB-APP-108",
@@ -1404,10 +1404,10 @@
       "name": "Appium — Android Tests Case #108 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 104,
+      "executionTimeMs": 107,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:31.112Z"
+      "timestamp": "2026-07-25T03:11:44.704Z"
     },
     {
       "id": "MOB-APP-109",
@@ -1417,10 +1417,10 @@
       "name": "Appium — Android Tests Case #109 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 21,
+      "executionTimeMs": 32,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:13.835Z"
+      "timestamp": "2026-07-25T02:40:04.359Z"
     },
     {
       "id": "MOB-APP-110",
@@ -1430,10 +1430,10 @@
       "name": "Appium — Android Tests Case #110 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 120,
+      "executionTimeMs": 28,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:07.988Z"
+      "timestamp": "2026-07-25T03:19:07.639Z"
     },
     {
       "id": "MOB-APP-111",
@@ -1443,10 +1443,10 @@
       "name": "Appium — Android Tests Case #111 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 80,
+      "executionTimeMs": 152,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:55.804Z"
+      "timestamp": "2026-07-25T02:55:18.932Z"
     },
     {
       "id": "MOB-APP-112",
@@ -1456,10 +1456,10 @@
       "name": "Appium — Android Tests Case #112 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 30,
+      "executionTimeMs": 106,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:37.769Z"
+      "timestamp": "2026-07-25T02:42:07.791Z"
     },
     {
       "id": "MOB-APP-113",
@@ -1469,10 +1469,10 @@
       "name": "Appium — Android Tests Case #113 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 69,
+      "executionTimeMs": 242,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:46.508Z"
+      "timestamp": "2026-07-25T02:30:17.834Z"
     },
     {
       "id": "MOB-APP-114",
@@ -1482,10 +1482,10 @@
       "name": "Appium — Android Tests Case #114 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 264,
+      "executionTimeMs": 231,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:02.771Z"
+      "timestamp": "2026-07-25T03:20:16.901Z"
     },
     {
       "id": "MOB-APP-115",
@@ -1495,10 +1495,10 @@
       "name": "Appium — Android Tests Case #115 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 34,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:16.715Z"
+      "timestamp": "2026-07-25T02:40:09.154Z"
     },
     {
       "id": "MOB-APP-116",
@@ -1508,10 +1508,10 @@
       "name": "Appium — Android Tests Case #116 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 170,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:14.486Z"
+      "timestamp": "2026-07-25T02:41:30.248Z"
     },
     {
       "id": "MOB-APP-117",
@@ -1521,10 +1521,10 @@
       "name": "Appium — Android Tests Case #117 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 171,
+      "executionTimeMs": 156,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:16.666Z"
+      "timestamp": "2026-07-25T02:58:27.852Z"
     },
     {
       "id": "MOB-APP-118",
@@ -1534,10 +1534,10 @@
       "name": "Appium — Android Tests Case #118 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 152,
+      "executionTimeMs": 47,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:11.313Z"
+      "timestamp": "2026-07-25T02:52:23.509Z"
     },
     {
       "id": "MOB-APP-119",
@@ -1547,10 +1547,10 @@
       "name": "Appium — Android Tests Case #119 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 189,
+      "executionTimeMs": 53,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:10.881Z"
+      "timestamp": "2026-07-25T03:12:03.025Z"
     },
     {
       "id": "MOB-APP-120",
@@ -1560,10 +1560,10 @@
       "name": "Appium — Android Tests Case #120 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 64,
+      "executionTimeMs": 95,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:42.131Z"
+      "timestamp": "2026-07-25T03:10:54.018Z"
     },
     {
       "id": "MOB-APP-121",
@@ -1573,10 +1573,10 @@
       "name": "Appium — Android Tests Case #121 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 155,
+      "executionTimeMs": 125,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:14.721Z"
+      "timestamp": "2026-07-25T03:01:55.758Z"
     },
     {
       "id": "MOB-APP-122",
@@ -1586,10 +1586,10 @@
       "name": "Appium — Android Tests Case #122 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 230,
+      "executionTimeMs": 147,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:58.485Z"
+      "timestamp": "2026-07-25T03:20:37.695Z"
     },
     {
       "id": "MOB-APP-123",
@@ -1599,10 +1599,10 @@
       "name": "Appium — Android Tests Case #123 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 76,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:06.300Z"
+      "timestamp": "2026-07-25T03:01:48.784Z"
     },
     {
       "id": "MOB-APP-124",
@@ -1612,10 +1612,10 @@
       "name": "Appium — Android Tests Case #124 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 248,
+      "executionTimeMs": 173,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:24.185Z"
+      "timestamp": "2026-07-25T02:56:29.607Z"
     },
     {
       "id": "MOB-APP-125",
@@ -1625,10 +1625,10 @@
       "name": "Appium — Android Tests Case #125 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 76,
+      "executionTimeMs": 85,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:16.976Z"
+      "timestamp": "2026-07-25T03:04:46.016Z"
     },
     {
       "id": "MOB-APP-126",
@@ -1638,10 +1638,10 @@
       "name": "Appium — Android Tests Case #126 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 158,
+      "executionTimeMs": 20,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:01.560Z"
+      "timestamp": "2026-07-25T03:15:42.715Z"
     },
     {
       "id": "MOB-APP-127",
@@ -1651,10 +1651,10 @@
       "name": "Appium — Android Tests Case #127 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 142,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:52.521Z"
+      "timestamp": "2026-07-25T03:12:26.870Z"
     },
     {
       "id": "MOB-APP-128",
@@ -1664,10 +1664,10 @@
       "name": "Appium — Android Tests Case #128 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 118,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:38.106Z"
+      "timestamp": "2026-07-25T03:24:09.168Z"
     },
     {
       "id": "MOB-APP-129",
@@ -1677,10 +1677,10 @@
       "name": "Appium — Android Tests Case #129 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 18,
+      "executionTimeMs": 161,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:53.412Z"
+      "timestamp": "2026-07-25T02:56:51.767Z"
     },
     {
       "id": "MOB-APP-130",
@@ -1690,10 +1690,10 @@
       "name": "Appium — Android Tests Case #130 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 206,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:30.331Z"
+      "timestamp": "2026-07-25T02:31:38.604Z"
     },
     {
       "id": "MOB-APP-131",
@@ -1703,10 +1703,10 @@
       "name": "Appium — Android Tests Case #131 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 126,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:27.780Z"
+      "timestamp": "2026-07-25T03:06:42.310Z"
     },
     {
       "id": "MOB-APP-132",
@@ -1716,10 +1716,10 @@
       "name": "Appium — Android Tests Case #132 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 59,
+      "executionTimeMs": 153,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:10.656Z"
+      "timestamp": "2026-07-25T03:10:11.171Z"
     },
     {
       "id": "MOB-APP-133",
@@ -1729,10 +1729,10 @@
       "name": "Appium — Android Tests Case #133 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 202,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:41.247Z"
+      "timestamp": "2026-07-25T03:09:52.093Z"
     },
     {
       "id": "MOB-APP-134",
@@ -1742,10 +1742,10 @@
       "name": "Appium — Android Tests Case #134 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 65,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:55.871Z"
+      "timestamp": "2026-07-25T03:19:14.648Z"
     },
     {
       "id": "MOB-APP-135",
@@ -1755,10 +1755,10 @@
       "name": "Appium — Android Tests Case #135 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 223,
+      "executionTimeMs": 250,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:31.475Z"
+      "timestamp": "2026-07-25T03:15:41.005Z"
     },
     {
       "id": "MOB-APP-136",
@@ -1768,10 +1768,10 @@
       "name": "Appium — Android Tests Case #136 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 25,
+      "executionTimeMs": 245,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:20.074Z"
+      "timestamp": "2026-07-25T03:11:36.543Z"
     },
     {
       "id": "MOB-APP-137",
@@ -1781,10 +1781,10 @@
       "name": "Appium — Android Tests Case #137 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 91,
+      "executionTimeMs": 121,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:37.139Z"
+      "timestamp": "2026-07-25T02:49:56.782Z"
     },
     {
       "id": "MOB-APP-138",
@@ -1794,10 +1794,10 @@
       "name": "Appium — Android Tests Case #138 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 26,
+      "executionTimeMs": 61,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:02.276Z"
+      "timestamp": "2026-07-25T02:59:00.024Z"
     },
     {
       "id": "MOB-APP-139",
@@ -1807,10 +1807,10 @@
       "name": "Appium — Android Tests Case #139 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 137,
+      "executionTimeMs": 60,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:11.727Z"
+      "timestamp": "2026-07-25T02:36:56.313Z"
     },
     {
       "id": "MOB-APP-140",
@@ -1820,10 +1820,10 @@
       "name": "Appium — Android Tests Case #140 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 135,
+      "executionTimeMs": 166,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:52.135Z"
+      "timestamp": "2026-07-25T02:27:27.462Z"
     },
     {
       "id": "MOB-APP-141",
@@ -1833,10 +1833,10 @@
       "name": "Appium — Android Tests Case #141 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "FAILED",
-      "executionTimeMs": 243,
+      "executionTimeMs": 124,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Analysis Results Screen Rendering, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:35:26.824Z"
+      "timestamp": "2026-07-25T02:55:12.390Z"
     },
     {
       "id": "MOB-APP-142",
@@ -1846,10 +1846,10 @@
       "name": "Appium — Android Tests Case #142 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 240,
+      "executionTimeMs": 71,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:36.524Z"
+      "timestamp": "2026-07-25T03:02:23.903Z"
     },
     {
       "id": "MOB-APP-143",
@@ -1859,10 +1859,10 @@
       "name": "Appium — Android Tests Case #143 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 70,
+      "executionTimeMs": 50,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:16.649Z"
+      "timestamp": "2026-07-25T02:54:12.347Z"
     },
     {
       "id": "MOB-APP-144",
@@ -1872,10 +1872,10 @@
       "name": "Appium — Android Tests Case #144 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 128,
+      "executionTimeMs": 26,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:27.732Z"
+      "timestamp": "2026-07-25T02:50:30.100Z"
     },
     {
       "id": "MOB-APP-145",
@@ -1885,10 +1885,10 @@
       "name": "Appium — Android Tests Case #145 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 133,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:16.363Z"
+      "timestamp": "2026-07-25T03:07:10.882Z"
     },
     {
       "id": "MOB-APP-146",
@@ -1898,10 +1898,10 @@
       "name": "Appium — Android Tests Case #146 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 93,
+      "executionTimeMs": 171,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:37.231Z"
+      "timestamp": "2026-07-25T02:39:09.619Z"
     },
     {
       "id": "MOB-APP-147",
@@ -1911,10 +1911,10 @@
       "name": "Appium — Android Tests Case #147 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 32,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:37.649Z"
+      "timestamp": "2026-07-25T03:06:40.461Z"
     },
     {
       "id": "MOB-APP-148",
@@ -1924,10 +1924,10 @@
       "name": "Appium — Android Tests Case #148 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 202,
+      "executionTimeMs": 69,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:12.630Z"
+      "timestamp": "2026-07-25T03:19:09.662Z"
     },
     {
       "id": "MOB-APP-149",
@@ -1937,10 +1937,10 @@
       "name": "Appium — Android Tests Case #149 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 101,
+      "executionTimeMs": 149,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:08.188Z"
+      "timestamp": "2026-07-25T02:27:44.161Z"
     },
     {
       "id": "MOB-APP-150",
@@ -1950,10 +1950,10 @@
       "name": "Appium — Android Tests Case #150 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 151,
+      "executionTimeMs": 50,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:30.606Z"
+      "timestamp": "2026-07-25T02:55:41.263Z"
     },
     {
       "id": "MOB-APP-151",
@@ -1963,10 +1963,10 @@
       "name": "Appium — Android Tests Case #151 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 102,
+      "executionTimeMs": 112,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:02.562Z"
+      "timestamp": "2026-07-25T03:11:16.349Z"
     },
     {
       "id": "MOB-APP-152",
@@ -1976,10 +1976,10 @@
       "name": "Appium — Android Tests Case #152 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 157,
+      "executionTimeMs": 256,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:10.566Z"
+      "timestamp": "2026-07-25T02:53:30.428Z"
     },
     {
       "id": "MOB-APP-153",
@@ -1989,10 +1989,10 @@
       "name": "Appium — Android Tests Case #153 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 198,
+      "executionTimeMs": 208,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:08.173Z"
+      "timestamp": "2026-07-25T03:07:35.562Z"
     },
     {
       "id": "MOB-APP-154",
@@ -2002,10 +2002,10 @@
       "name": "Appium — Android Tests Case #154 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 36,
+      "executionTimeMs": 140,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:41.268Z"
+      "timestamp": "2026-07-25T03:15:24.851Z"
     },
     {
       "id": "MOB-APP-155",
@@ -2015,10 +2015,10 @@
       "name": "Appium — Android Tests Case #155 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 80,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:56.456Z"
+      "timestamp": "2026-07-25T02:39:54.458Z"
     },
     {
       "id": "MOB-APP-156",
@@ -2028,10 +2028,10 @@
       "name": "Appium — Android Tests Case #156 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 203,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:14.379Z"
+      "timestamp": "2026-07-25T02:44:43.690Z"
     },
     {
       "id": "MOB-APP-157",
@@ -2041,10 +2041,10 @@
       "name": "Appium — Android Tests Case #157 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 262,
+      "executionTimeMs": 130,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:46.709Z"
+      "timestamp": "2026-07-25T03:01:24.543Z"
     },
     {
       "id": "MOB-APP-158",
@@ -2054,10 +2054,10 @@
       "name": "Appium — Android Tests Case #158 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 123,
+      "executionTimeMs": 139,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:38.910Z"
+      "timestamp": "2026-07-25T02:59:18.757Z"
     },
     {
       "id": "MOB-APP-159",
@@ -2067,10 +2067,10 @@
       "name": "Appium — Android Tests Case #159 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 224,
+      "executionTimeMs": 222,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:04.547Z"
+      "timestamp": "2026-07-25T03:19:37.896Z"
     },
     {
       "id": "MOB-APP-160",
@@ -2080,10 +2080,10 @@
       "name": "Appium — Android Tests Case #160 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 244,
+      "executionTimeMs": 51,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:57.243Z"
+      "timestamp": "2026-07-25T02:41:19.127Z"
     },
     {
       "id": "MOB-APP-161",
@@ -2093,10 +2093,10 @@
       "name": "Appium — Android Tests Case #161 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 78,
+      "executionTimeMs": 65,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:20.451Z"
+      "timestamp": "2026-07-25T02:31:17.147Z"
     },
     {
       "id": "MOB-APP-162",
@@ -2106,10 +2106,10 @@
       "name": "Appium — Android Tests Case #162 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 227,
+      "executionTimeMs": 38,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:43.333Z"
+      "timestamp": "2026-07-25T03:22:47.974Z"
     },
     {
       "id": "MOB-APP-163",
@@ -2119,10 +2119,10 @@
       "name": "Appium — Android Tests Case #163 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 241,
+      "executionTimeMs": 199,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:24:53.293Z"
+      "timestamp": "2026-07-25T03:14:09.627Z"
     },
     {
       "id": "MOB-APP-164",
@@ -2132,10 +2132,10 @@
       "name": "Appium — Android Tests Case #164 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 43,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:55.521Z"
+      "timestamp": "2026-07-25T03:07:25.472Z"
     },
     {
       "id": "MOB-APP-165",
@@ -2145,10 +2145,10 @@
       "name": "Appium — Android Tests Case #165 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 164,
+      "executionTimeMs": 255,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:26:22.689Z"
+      "timestamp": "2026-07-25T02:30:09.537Z"
     },
     {
       "id": "MOB-APP-166",
@@ -2158,10 +2158,10 @@
       "name": "Appium — Android Tests Case #166 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 107,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:20.912Z"
+      "timestamp": "2026-07-25T03:21:34.796Z"
     },
     {
       "id": "MOB-APP-167",
@@ -2171,10 +2171,10 @@
       "name": "Appium — Android Tests Case #167 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 46,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:09.675Z"
+      "timestamp": "2026-07-25T02:35:27.486Z"
     },
     {
       "id": "MOB-APP-168",
@@ -2184,10 +2184,10 @@
       "name": "Appium — Android Tests Case #168 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 68,
+      "executionTimeMs": 19,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:03.382Z"
+      "timestamp": "2026-07-25T03:16:04.599Z"
     },
     {
       "id": "MOB-APP-169",
@@ -2197,10 +2197,10 @@
       "name": "Appium — Android Tests Case #169 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 67,
+      "executionTimeMs": 115,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:54.410Z"
+      "timestamp": "2026-07-25T03:15:44.763Z"
     },
     {
       "id": "MOB-APP-170",
@@ -2210,10 +2210,10 @@
       "name": "Appium — Android Tests Case #170 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 97,
+      "executionTimeMs": 138,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:23.869Z"
+      "timestamp": "2026-07-25T02:59:52.213Z"
     },
     {
       "id": "MOB-APP-171",
@@ -2223,10 +2223,10 @@
       "name": "Appium — Android Tests Case #171 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 142,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:35.228Z"
+      "timestamp": "2026-07-25T02:36:46.439Z"
     },
     {
       "id": "MOB-APP-172",
@@ -2236,10 +2236,10 @@
       "name": "Appium — Android Tests Case #172 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 85,
+      "executionTimeMs": 41,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:25:59.081Z"
+      "timestamp": "2026-07-25T02:31:33.565Z"
     },
     {
       "id": "MOB-APP-173",
@@ -2249,10 +2249,10 @@
       "name": "Appium — Android Tests Case #173 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 68,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:24.209Z"
+      "timestamp": "2026-07-25T02:30:13.572Z"
     },
     {
       "id": "MOB-APP-174",
@@ -2262,10 +2262,10 @@
       "name": "Appium — Android Tests Case #174 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 21,
+      "executionTimeMs": 129,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:54.158Z"
+      "timestamp": "2026-07-25T02:26:56.956Z"
     },
     {
       "id": "MOB-APP-175",
@@ -2275,10 +2275,10 @@
       "name": "Appium — Android Tests Case #175 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 15,
+      "executionTimeMs": 69,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:17.265Z"
+      "timestamp": "2026-07-25T02:27:53.690Z"
     },
     {
       "id": "MOB-APP-176",
@@ -2288,10 +2288,10 @@
       "name": "Appium — Android Tests Case #176 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 131,
+      "executionTimeMs": 204,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:38.842Z"
+      "timestamp": "2026-07-25T02:53:14.274Z"
     },
     {
       "id": "MOB-APP-177",
@@ -2301,10 +2301,10 @@
       "name": "Appium — Android Tests Case #177 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 112,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:40.560Z"
+      "timestamp": "2026-07-25T02:43:28.731Z"
     },
     {
       "id": "MOB-APP-178",
@@ -2314,10 +2314,10 @@
       "name": "Appium — Android Tests Case #178 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 123,
+      "executionTimeMs": 63,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:44.846Z"
+      "timestamp": "2026-07-25T03:22:52.573Z"
     },
     {
       "id": "MOB-APP-179",
@@ -2327,10 +2327,10 @@
       "name": "Appium — Android Tests Case #179 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 143,
+      "executionTimeMs": 58,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:24.299Z"
+      "timestamp": "2026-07-25T03:04:40.877Z"
     },
     {
       "id": "MOB-APP-180",
@@ -2340,10 +2340,10 @@
       "name": "Appium — Android Tests Case #180 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 25,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:32.879Z"
+      "timestamp": "2026-07-25T03:24:39.808Z"
     },
     {
       "id": "MOB-APP-181",
@@ -2353,10 +2353,10 @@
       "name": "Appium — Android Tests Case #181 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 168,
+      "executionTimeMs": 138,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:06.042Z"
+      "timestamp": "2026-07-25T03:19:40.061Z"
     },
     {
       "id": "MOB-APP-182",
@@ -2366,10 +2366,10 @@
       "name": "Appium — Android Tests Case #182 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 16,
+      "executionTimeMs": 172,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:53.557Z"
+      "timestamp": "2026-07-25T02:30:35.475Z"
     },
     {
       "id": "MOB-APP-183",
@@ -2379,10 +2379,10 @@
       "name": "Appium — Android Tests Case #183 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 192,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:42.997Z"
+      "timestamp": "2026-07-25T02:51:25.973Z"
     },
     {
       "id": "MOB-APP-184",
@@ -2392,10 +2392,10 @@
       "name": "Appium — Android Tests Case #184 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 186,
+      "executionTimeMs": 177,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:31.280Z"
+      "timestamp": "2026-07-25T02:44:52.757Z"
     },
     {
       "id": "MOB-APP-185",
@@ -2405,10 +2405,10 @@
       "name": "Appium — Android Tests Case #185 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 54,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:50.835Z"
+      "timestamp": "2026-07-25T02:50:09.793Z"
     },
     {
       "id": "MOB-APP-186",
@@ -2418,10 +2418,10 @@
       "name": "Appium — Android Tests Case #186 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 73,
+      "executionTimeMs": 130,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:54.383Z"
+      "timestamp": "2026-07-25T02:58:25.029Z"
     },
     {
       "id": "MOB-APP-187",
@@ -2431,10 +2431,10 @@
       "name": "Appium — Android Tests Case #187 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 218,
+      "executionTimeMs": 238,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:28.544Z"
+      "timestamp": "2026-07-25T03:03:03.160Z"
     },
     {
       "id": "MOB-APP-188",
@@ -2444,10 +2444,10 @@
       "name": "Appium — Android Tests Case #188 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "FAILED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 116,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for User Profile Screen & Avatar Upload, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:24:38.746Z"
+      "timestamp": "2026-07-25T03:24:28.773Z"
     },
     {
       "id": "MOB-APP-189",
@@ -2457,10 +2457,10 @@
       "name": "Appium — Android Tests Case #189 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 141,
+      "executionTimeMs": 24,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:02.882Z"
+      "timestamp": "2026-07-25T02:36:50.906Z"
     },
     {
       "id": "MOB-APP-190",
@@ -2470,10 +2470,10 @@
       "name": "Appium — Android Tests Case #190 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 127,
+      "executionTimeMs": 176,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:58.701Z"
+      "timestamp": "2026-07-25T02:54:33.669Z"
     },
     {
       "id": "MOB-APP-191",
@@ -2483,10 +2483,10 @@
       "name": "Appium — Android Tests Case #191 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 79,
+      "executionTimeMs": 154,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:08.380Z"
+      "timestamp": "2026-07-25T02:47:53.202Z"
     },
     {
       "id": "MOB-APP-192",
@@ -2496,10 +2496,10 @@
       "name": "Appium — Android Tests Case #192 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 248,
+      "executionTimeMs": 86,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:32.329Z"
+      "timestamp": "2026-07-25T03:10:59.928Z"
     },
     {
       "id": "MOB-APP-193",
@@ -2509,10 +2509,10 @@
       "name": "Appium — Android Tests Case #193 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 148,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:00.474Z"
+      "timestamp": "2026-07-25T02:42:38.446Z"
     },
     {
       "id": "MOB-APP-194",
@@ -2522,10 +2522,10 @@
       "name": "Appium — Android Tests Case #194 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 163,
+      "executionTimeMs": 30,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:36.847Z"
+      "timestamp": "2026-07-25T02:26:57.219Z"
     },
     {
       "id": "MOB-APP-195",
@@ -2535,10 +2535,10 @@
       "name": "Appium — Android Tests Case #195 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 42,
+      "executionTimeMs": 186,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:00.270Z"
+      "timestamp": "2026-07-25T02:31:54.712Z"
     },
     {
       "id": "MOB-APP-196",
@@ -2548,10 +2548,10 @@
       "name": "Appium — Android Tests Case #196 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 66,
+      "executionTimeMs": 201,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:06.191Z"
+      "timestamp": "2026-07-25T02:29:57.612Z"
     },
     {
       "id": "MOB-APP-197",
@@ -2561,10 +2561,10 @@
       "name": "Appium — Android Tests Case #197 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 190,
+      "executionTimeMs": 74,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:21.523Z"
+      "timestamp": "2026-07-25T03:21:55.661Z"
     },
     {
       "id": "MOB-APP-198",
@@ -2574,10 +2574,10 @@
       "name": "Appium — Android Tests Case #198 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 141,
+      "executionTimeMs": 96,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:30.200Z"
+      "timestamp": "2026-07-25T03:07:15.051Z"
     },
     {
       "id": "MOB-APP-199",
@@ -2587,10 +2587,10 @@
       "name": "Appium — Android Tests Case #199 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 132,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:13.026Z"
+      "timestamp": "2026-07-25T03:11:25.180Z"
     },
     {
       "id": "MOB-APP-200",
@@ -2600,10 +2600,10 @@
       "name": "Appium — Android Tests Case #200 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 169,
+      "executionTimeMs": 48,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:43.500Z"
+      "timestamp": "2026-07-25T02:41:23.302Z"
     },
     {
       "id": "MOB-APP-201",
@@ -2613,10 +2613,10 @@
       "name": "Appium — Android Tests Case #201 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 30,
+      "executionTimeMs": 146,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:32.070Z"
+      "timestamp": "2026-07-25T03:23:01.909Z"
     },
     {
       "id": "MOB-APP-202",
@@ -2626,10 +2626,10 @@
       "name": "Appium — Android Tests Case #202 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 131,
+      "executionTimeMs": 178,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:10.343Z"
+      "timestamp": "2026-07-25T02:57:49.122Z"
     },
     {
       "id": "MOB-APP-203",
@@ -2639,10 +2639,10 @@
       "name": "Appium — Android Tests Case #203 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 225,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:48.535Z"
+      "timestamp": "2026-07-25T02:55:48.384Z"
     },
     {
       "id": "MOB-APP-204",
@@ -2652,10 +2652,10 @@
       "name": "Appium — Android Tests Case #204 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 65,
+      "executionTimeMs": 142,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:06.630Z"
+      "timestamp": "2026-07-25T02:57:48.372Z"
     },
     {
       "id": "MOB-APP-205",
@@ -2665,10 +2665,10 @@
       "name": "Appium — Android Tests Case #205 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 72,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:04.004Z"
+      "timestamp": "2026-07-25T03:23:51.715Z"
     },
     {
       "id": "MOB-APP-206",
@@ -2678,10 +2678,10 @@
       "name": "Appium — Android Tests Case #206 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 240,
+      "executionTimeMs": 256,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:12.793Z"
+      "timestamp": "2026-07-25T02:34:50.376Z"
     },
     {
       "id": "MOB-APP-207",
@@ -2691,10 +2691,10 @@
       "name": "Appium — Android Tests Case #207 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 128,
+      "executionTimeMs": 212,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:51.700Z"
+      "timestamp": "2026-07-25T02:26:54.461Z"
     },
     {
       "id": "MOB-APP-208",
@@ -2704,10 +2704,10 @@
       "name": "Appium — Android Tests Case #208 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 167,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:50.439Z"
+      "timestamp": "2026-07-25T02:58:28.896Z"
     },
     {
       "id": "MOB-APP-209",
@@ -2717,10 +2717,10 @@
       "name": "Appium — Android Tests Case #209 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 134,
+      "executionTimeMs": 74,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:31.555Z"
+      "timestamp": "2026-07-25T03:06:23.957Z"
     },
     {
       "id": "MOB-APP-210",
@@ -2730,10 +2730,10 @@
       "name": "Appium — Android Tests Case #210 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 49,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:58.168Z"
+      "timestamp": "2026-07-25T02:35:40.231Z"
     },
     {
       "id": "MOB-APP-211",
@@ -2743,10 +2743,10 @@
       "name": "Appium — Android Tests Case #211 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 234,
+      "executionTimeMs": 93,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:23.702Z"
+      "timestamp": "2026-07-25T02:49:10.708Z"
     },
     {
       "id": "MOB-APP-212",
@@ -2756,10 +2756,10 @@
       "name": "Appium — Android Tests Case #212 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 127,
+      "executionTimeMs": 143,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:33.472Z"
+      "timestamp": "2026-07-25T03:03:51.643Z"
     },
     {
       "id": "MOB-APP-213",
@@ -2769,10 +2769,10 @@
       "name": "Appium — Android Tests Case #213 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 156,
+      "executionTimeMs": 29,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:46.913Z"
+      "timestamp": "2026-07-25T02:57:01.503Z"
     },
     {
       "id": "MOB-APP-214",
@@ -2782,10 +2782,10 @@
       "name": "Appium — Android Tests Case #214 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 36,
+      "executionTimeMs": 260,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:51.759Z"
+      "timestamp": "2026-07-25T02:27:19.772Z"
     },
     {
       "id": "MOB-APP-215",
@@ -2795,10 +2795,10 @@
       "name": "Appium — Android Tests Case #215 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 237,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:58.694Z"
+      "timestamp": "2026-07-25T03:03:35.300Z"
     },
     {
       "id": "MOB-APP-216",
@@ -2808,10 +2808,10 @@
       "name": "Appium — Android Tests Case #216 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 43,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:08.519Z"
+      "timestamp": "2026-07-25T03:19:29.289Z"
     },
     {
       "id": "MOB-APP-217",
@@ -2821,10 +2821,10 @@
       "name": "Appium — Android Tests Case #217 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 169,
+      "executionTimeMs": 176,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:56.211Z"
+      "timestamp": "2026-07-25T02:28:03.398Z"
     },
     {
       "id": "MOB-APP-218",
@@ -2834,10 +2834,10 @@
       "name": "Appium — Android Tests Case #218 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 98,
+      "executionTimeMs": 237,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:19.176Z"
+      "timestamp": "2026-07-25T03:07:46.264Z"
     },
     {
       "id": "MOB-APP-219",
@@ -2847,10 +2847,10 @@
       "name": "Appium — Android Tests Case #219 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 156,
+      "executionTimeMs": 177,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:34.147Z"
+      "timestamp": "2026-07-25T02:28:17.452Z"
     },
     {
       "id": "MOB-APP-220",
@@ -2860,10 +2860,10 @@
       "name": "Appium — Android Tests Case #220 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 140,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:02.244Z"
+      "timestamp": "2026-07-25T02:26:37.100Z"
     },
     {
       "id": "MOB-APP-221",
@@ -2873,10 +2873,10 @@
       "name": "Appium — Android Tests Case #221 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 171,
+      "executionTimeMs": 103,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:24.026Z"
+      "timestamp": "2026-07-25T02:47:09.862Z"
     },
     {
       "id": "MOB-APP-222",
@@ -2886,10 +2886,10 @@
       "name": "Appium — Android Tests Case #222 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 220,
+      "executionTimeMs": 84,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:49.997Z"
+      "timestamp": "2026-07-25T02:36:36.000Z"
     },
     {
       "id": "MOB-APP-223",
@@ -2899,10 +2899,10 @@
       "name": "Appium — Android Tests Case #223 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 245,
+      "executionTimeMs": 181,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:58.885Z"
+      "timestamp": "2026-07-25T03:17:11.844Z"
     },
     {
       "id": "MOB-APP-224",
@@ -2912,10 +2912,10 @@
       "name": "Appium — Android Tests Case #224 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 242,
+      "executionTimeMs": 220,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:15.851Z"
+      "timestamp": "2026-07-25T03:23:23.308Z"
     },
     {
       "id": "MOB-APP-225",
@@ -2925,10 +2925,10 @@
       "name": "Appium — Android Tests Case #225 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 97,
+      "executionTimeMs": 158,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:21.677Z"
+      "timestamp": "2026-07-25T03:16:42.987Z"
     },
     {
       "id": "MOB-APP-226",
@@ -2938,10 +2938,10 @@
       "name": "Appium — Android Tests Case #226 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 141,
+      "executionTimeMs": 110,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:45.624Z"
+      "timestamp": "2026-07-25T03:18:22.933Z"
     },
     {
       "id": "MOB-APP-227",
@@ -2951,10 +2951,10 @@
       "name": "Appium — Android Tests Case #227 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 244,
+      "executionTimeMs": 188,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:01.223Z"
+      "timestamp": "2026-07-25T03:03:27.843Z"
     },
     {
       "id": "MOB-APP-228",
@@ -2964,10 +2964,10 @@
       "name": "Appium — Android Tests Case #228 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 196,
+      "executionTimeMs": 80,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:49.546Z"
+      "timestamp": "2026-07-25T02:57:21.132Z"
     },
     {
       "id": "MOB-APP-229",
@@ -2977,10 +2977,10 @@
       "name": "Appium — Android Tests Case #229 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 144,
+      "executionTimeMs": 92,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:56.978Z"
+      "timestamp": "2026-07-25T02:40:57.395Z"
     },
     {
       "id": "MOB-APP-230",
@@ -2990,10 +2990,10 @@
       "name": "Appium — Android Tests Case #230 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 263,
+      "executionTimeMs": 105,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:54.497Z"
+      "timestamp": "2026-07-25T03:22:22.074Z"
     },
     {
       "id": "MOB-APP-231",
@@ -3003,10 +3003,10 @@
       "name": "Appium — Android Tests Case #231 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 91,
+      "executionTimeMs": 130,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:45.543Z"
+      "timestamp": "2026-07-25T02:44:02.489Z"
     },
     {
       "id": "MOB-APP-232",
@@ -3016,10 +3016,10 @@
       "name": "Appium — Android Tests Case #232 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 254,
+      "executionTimeMs": 240,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:22.923Z"
+      "timestamp": "2026-07-25T03:11:46.210Z"
     },
     {
       "id": "MOB-APP-233",
@@ -3029,10 +3029,10 @@
       "name": "Appium — Android Tests Case #233 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 250,
+      "executionTimeMs": 123,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:14.217Z"
+      "timestamp": "2026-07-25T03:05:26.639Z"
     },
     {
       "id": "MOB-APP-234",
@@ -3042,10 +3042,10 @@
       "name": "Appium — Android Tests Case #234 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 18,
+      "executionTimeMs": 62,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:12.366Z"
+      "timestamp": "2026-07-25T03:24:41.838Z"
     },
     {
       "id": "MOB-APP-235",
@@ -3055,10 +3055,10 @@
       "name": "Appium — Android Tests Case #235 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "FAILED",
-      "executionTimeMs": 87,
+      "executionTimeMs": 65,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for PDF Export to Android Local Storage, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:46:18.345Z"
+      "timestamp": "2026-07-25T03:13:21.635Z"
     },
     {
       "id": "MOB-APP-236",
@@ -3068,10 +3068,10 @@
       "name": "Appium — Android Tests Case #236 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 218,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:39.989Z"
+      "timestamp": "2026-07-25T02:48:54.357Z"
     },
     {
       "id": "MOB-APP-237",
@@ -3081,10 +3081,10 @@
       "name": "Appium — Android Tests Case #237 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 75,
+      "executionTimeMs": 73,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:38.348Z"
+      "timestamp": "2026-07-25T03:22:04.026Z"
     },
     {
       "id": "MOB-APP-238",
@@ -3094,10 +3094,10 @@
       "name": "Appium — Android Tests Case #238 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 250,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:52.053Z"
+      "timestamp": "2026-07-25T02:39:19.326Z"
     },
     {
       "id": "MOB-APP-239",
@@ -3107,10 +3107,10 @@
       "name": "Appium — Android Tests Case #239 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 234,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:23.984Z"
+      "timestamp": "2026-07-25T03:09:05.248Z"
     },
     {
       "id": "MOB-APP-240",
@@ -3120,10 +3120,10 @@
       "name": "Appium — Android Tests Case #240 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 116,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:12.220Z"
+      "timestamp": "2026-07-25T03:05:57.977Z"
     },
     {
       "id": "MOB-APP-241",
@@ -3133,10 +3133,10 @@
       "name": "Appium — Android Tests Case #241 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 155,
+      "executionTimeMs": 173,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:18.897Z"
+      "timestamp": "2026-07-25T02:31:16.420Z"
     },
     {
       "id": "MOB-APP-242",
@@ -3146,10 +3146,10 @@
       "name": "Appium — Android Tests Case #242 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 116,
+      "executionTimeMs": 176,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:53.980Z"
+      "timestamp": "2026-07-25T02:42:04.090Z"
     },
     {
       "id": "MOB-APP-243",
@@ -3159,10 +3159,10 @@
       "name": "Appium — Android Tests Case #243 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 115,
+      "executionTimeMs": 212,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:02.892Z"
+      "timestamp": "2026-07-25T02:27:43.710Z"
     },
     {
       "id": "MOB-APP-244",
@@ -3172,10 +3172,10 @@
       "name": "Appium — Android Tests Case #244 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 156,
+      "executionTimeMs": 213,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:10.683Z"
+      "timestamp": "2026-07-25T02:34:25.159Z"
     },
     {
       "id": "MOB-APP-245",
@@ -3185,10 +3185,10 @@
       "name": "Appium — Android Tests Case #245 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 215,
+      "executionTimeMs": 63,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:16.076Z"
+      "timestamp": "2026-07-25T02:49:31.806Z"
     },
     {
       "id": "MOB-APP-246",
@@ -3198,10 +3198,10 @@
       "name": "Appium — Android Tests Case #246 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 25,
+      "executionTimeMs": 88,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:14.200Z"
+      "timestamp": "2026-07-25T02:39:31.375Z"
     },
     {
       "id": "MOB-APP-247",
@@ -3211,10 +3211,10 @@
       "name": "Appium — Android Tests Case #247 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 30,
+      "executionTimeMs": 203,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:30.903Z"
+      "timestamp": "2026-07-25T03:01:08.151Z"
     },
     {
       "id": "MOB-APP-248",
@@ -3224,10 +3224,10 @@
       "name": "Appium — Android Tests Case #248 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 189,
+      "executionTimeMs": 132,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:20.104Z"
+      "timestamp": "2026-07-25T03:04:36.954Z"
     },
     {
       "id": "MOB-APP-249",
@@ -3237,10 +3237,10 @@
       "name": "Appium — Android Tests Case #249 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 61,
+      "executionTimeMs": 58,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:53.743Z"
+      "timestamp": "2026-07-25T03:19:56.773Z"
     },
     {
       "id": "MOB-APP-250",
@@ -3250,10 +3250,10 @@
       "name": "Appium — Android Tests Case #250 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 151,
+      "executionTimeMs": 198,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:15.118Z"
+      "timestamp": "2026-07-25T03:17:31.046Z"
     },
     {
       "id": "MOB-APP-251",
@@ -3263,10 +3263,10 @@
       "name": "Appium — Android Tests Case #251 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 170,
+      "executionTimeMs": 81,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:31.215Z"
+      "timestamp": "2026-07-25T02:37:59.227Z"
     },
     {
       "id": "MOB-APP-252",
@@ -3276,10 +3276,10 @@
       "name": "Appium — Android Tests Case #252 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 140,
+      "executionTimeMs": 102,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:25.376Z"
+      "timestamp": "2026-07-25T02:50:07.537Z"
     },
     {
       "id": "MOB-APP-253",
@@ -3289,10 +3289,10 @@
       "name": "Appium — Android Tests Case #253 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 128,
+      "executionTimeMs": 43,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:15.864Z"
+      "timestamp": "2026-07-25T02:52:40.018Z"
     },
     {
       "id": "MOB-APP-254",
@@ -3302,10 +3302,10 @@
       "name": "Appium — Android Tests Case #254 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 86,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:00.814Z"
+      "timestamp": "2026-07-25T02:59:57.158Z"
     },
     {
       "id": "MOB-APP-255",
@@ -3315,10 +3315,10 @@
       "name": "Appium — Android Tests Case #255 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 131,
+      "executionTimeMs": 44,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:45.196Z"
+      "timestamp": "2026-07-25T03:10:45.094Z"
     },
     {
       "id": "MOB-APP-256",
@@ -3328,10 +3328,10 @@
       "name": "Appium — Android Tests Case #256 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 98,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:02.288Z"
+      "timestamp": "2026-07-25T03:09:31.030Z"
     },
     {
       "id": "MOB-APP-257",
@@ -3341,10 +3341,10 @@
       "name": "Appium — Android Tests Case #257 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 128,
+      "executionTimeMs": 262,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:24.463Z"
+      "timestamp": "2026-07-25T02:25:45.635Z"
     },
     {
       "id": "MOB-APP-258",
@@ -3354,10 +3354,10 @@
       "name": "Appium — Android Tests Case #258 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 188,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:34.380Z"
+      "timestamp": "2026-07-25T02:42:21.121Z"
     },
     {
       "id": "MOB-APP-259",
@@ -3367,10 +3367,10 @@
       "name": "Appium — Android Tests Case #259 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 73,
+      "executionTimeMs": 144,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:19.363Z"
+      "timestamp": "2026-07-25T02:34:48.720Z"
     },
     {
       "id": "MOB-APP-260",
@@ -3380,10 +3380,10 @@
       "name": "Appium — Android Tests Case #260 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 204,
+      "executionTimeMs": 186,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:07.001Z"
+      "timestamp": "2026-07-25T02:30:04.248Z"
     },
     {
       "id": "MOB-APP-261",
@@ -3393,10 +3393,10 @@
       "name": "Appium — Android Tests Case #261 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 243,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:11.681Z"
+      "timestamp": "2026-07-25T02:27:22.989Z"
     },
     {
       "id": "MOB-APP-262",
@@ -3406,10 +3406,10 @@
       "name": "Appium — Android Tests Case #262 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 70,
+      "executionTimeMs": 104,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:07.029Z"
+      "timestamp": "2026-07-25T02:47:13.432Z"
     },
     {
       "id": "MOB-APP-263",
@@ -3419,10 +3419,10 @@
       "name": "Appium — Android Tests Case #263 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 109,
+      "executionTimeMs": 124,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:08.710Z"
+      "timestamp": "2026-07-25T03:20:19.029Z"
     },
     {
       "id": "MOB-APP-264",
@@ -3432,10 +3432,10 @@
       "name": "Appium — Android Tests Case #264 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 237,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:40.746Z"
+      "timestamp": "2026-07-25T03:08:40.717Z"
     },
     {
       "id": "MOB-APP-265",
@@ -3445,10 +3445,10 @@
       "name": "Appium — Android Tests Case #265 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 220,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:19.650Z"
+      "timestamp": "2026-07-25T02:47:10.174Z"
     },
     {
       "id": "MOB-APP-266",
@@ -3458,10 +3458,10 @@
       "name": "Appium — Android Tests Case #266 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 244,
+      "executionTimeMs": 66,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:30.402Z"
+      "timestamp": "2026-07-25T03:02:14.332Z"
     },
     {
       "id": "MOB-APP-267",
@@ -3471,10 +3471,10 @@
       "name": "Appium — Android Tests Case #267 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 229,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:32.951Z"
+      "timestamp": "2026-07-25T03:24:38.045Z"
     },
     {
       "id": "MOB-APP-268",
@@ -3484,10 +3484,10 @@
       "name": "Appium — Android Tests Case #268 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 264,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:25.536Z"
+      "timestamp": "2026-07-25T02:43:37.659Z"
     },
     {
       "id": "MOB-APP-269",
@@ -3497,10 +3497,10 @@
       "name": "Appium — Android Tests Case #269 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 39,
+      "executionTimeMs": 231,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:16.188Z"
+      "timestamp": "2026-07-25T02:47:29.093Z"
     },
     {
       "id": "MOB-APP-270",
@@ -3510,10 +3510,10 @@
       "name": "Appium — Android Tests Case #270 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 149,
+      "executionTimeMs": 220,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:49.206Z"
+      "timestamp": "2026-07-25T02:49:50.207Z"
     },
     {
       "id": "MOB-APP-271",
@@ -3523,10 +3523,10 @@
       "name": "Appium — Android Tests Case #271 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 240,
+      "executionTimeMs": 30,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:26:05.832Z"
+      "timestamp": "2026-07-25T03:05:20.626Z"
     },
     {
       "id": "MOB-APP-272",
@@ -3536,10 +3536,10 @@
       "name": "Appium — Android Tests Case #272 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 205,
+      "executionTimeMs": 254,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:09.792Z"
+      "timestamp": "2026-07-25T02:46:28.807Z"
     },
     {
       "id": "MOB-APP-273",
@@ -3549,10 +3549,10 @@
       "name": "Appium — Android Tests Case #273 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 161,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:24.646Z"
+      "timestamp": "2026-07-25T02:51:18.180Z"
     },
     {
       "id": "MOB-APP-274",
@@ -3562,10 +3562,10 @@
       "name": "Appium — Android Tests Case #274 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 241,
+      "executionTimeMs": 97,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:41.636Z"
+      "timestamp": "2026-07-25T02:53:01.202Z"
     },
     {
       "id": "MOB-APP-275",
@@ -3575,10 +3575,10 @@
       "name": "Appium — Android Tests Case #275 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 202,
+      "executionTimeMs": 238,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:09.487Z"
+      "timestamp": "2026-07-25T03:11:45.375Z"
     },
     {
       "id": "MOB-APP-276",
@@ -3588,10 +3588,10 @@
       "name": "Appium — Android Tests Case #276 - Analysis Results Screen Rendering Verification",
       "description": "Verify analysis results screen rendering functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 174,
+      "executionTimeMs": 141,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:30.127Z"
+      "timestamp": "2026-07-25T03:10:14.429Z"
     },
     {
       "id": "MOB-APP-277",
@@ -3601,10 +3601,10 @@
       "name": "Appium — Android Tests Case #277 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 225,
+      "executionTimeMs": 203,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:17.847Z"
+      "timestamp": "2026-07-25T02:25:35.715Z"
     },
     {
       "id": "MOB-APP-278",
@@ -3614,10 +3614,10 @@
       "name": "Appium — Android Tests Case #278 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 158,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:04.102Z"
+      "timestamp": "2026-07-25T03:15:27.012Z"
     },
     {
       "id": "MOB-APP-279",
@@ -3627,10 +3627,10 @@
       "name": "Appium — Android Tests Case #279 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 216,
+      "executionTimeMs": 175,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:39.447Z"
+      "timestamp": "2026-07-25T02:46:33.779Z"
     },
     {
       "id": "MOB-APP-280",
@@ -3640,10 +3640,10 @@
       "name": "Appium — Android Tests Case #280 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 133,
+      "executionTimeMs": 152,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:33.819Z"
+      "timestamp": "2026-07-25T03:02:05.121Z"
     },
     {
       "id": "MOB-APP-281",
@@ -3653,10 +3653,10 @@
       "name": "Appium — Android Tests Case #281 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 138,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:50.625Z"
+      "timestamp": "2026-07-25T02:35:00.687Z"
     },
     {
       "id": "MOB-APP-282",
@@ -3666,10 +3666,10 @@
       "name": "Appium — Android Tests Case #282 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "FAILED",
-      "executionTimeMs": 69,
+      "executionTimeMs": 29,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Device Orientation & Screen Resize, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:33:23.323Z"
+      "timestamp": "2026-07-25T03:21:20.802Z"
     },
     {
       "id": "MOB-APP-283",
@@ -3679,10 +3679,10 @@
       "name": "Appium — Android Tests Case #283 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 228,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:24.034Z"
+      "timestamp": "2026-07-25T02:56:20.199Z"
     },
     {
       "id": "MOB-APP-284",
@@ -3692,10 +3692,10 @@
       "name": "Appium — Android Tests Case #284 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 16,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:22.870Z"
+      "timestamp": "2026-07-25T03:10:11.745Z"
     },
     {
       "id": "MOB-APP-285",
@@ -3705,10 +3705,10 @@
       "name": "Appium — Android Tests Case #285 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 112,
+      "executionTimeMs": 236,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:09.791Z"
+      "timestamp": "2026-07-25T02:45:42.628Z"
     },
     {
       "id": "MOB-APP-286",
@@ -3718,10 +3718,10 @@
       "name": "Appium — Android Tests Case #286 - Flutter Get Started Screen Verification",
       "description": "Verify flutter get started screen functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 153,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:29.098Z"
+      "timestamp": "2026-07-25T03:22:57.560Z"
     },
     {
       "id": "MOB-APP-287",
@@ -3731,10 +3731,10 @@
       "name": "Appium — Android Tests Case #287 - Google Auth Native Bridge Verification",
       "description": "Verify google auth native bridge functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 165,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:10.592Z"
+      "timestamp": "2026-07-25T02:46:52.112Z"
     },
     {
       "id": "MOB-APP-288",
@@ -3744,10 +3744,10 @@
       "name": "Appium — Android Tests Case #288 - Patient Information Form Verification",
       "description": "Verify patient information form functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 62,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:56.158Z"
+      "timestamp": "2026-07-25T02:26:23.450Z"
     },
     {
       "id": "MOB-APP-289",
@@ -3757,10 +3757,10 @@
       "name": "Appium — Android Tests Case #289 - Camera Capture & Gallery Picker Verification",
       "description": "Verify camera capture & gallery picker functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 250,
+      "executionTimeMs": 261,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:30.996Z"
+      "timestamp": "2026-07-25T02:58:08.925Z"
     },
     {
       "id": "MOB-APP-290",
@@ -3770,10 +3770,10 @@
       "name": "Appium — Android Tests Case #290 - Gemini Vision Android Service Verification",
       "description": "Verify gemini vision android service functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 123,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:08.542Z"
+      "timestamp": "2026-07-25T03:13:18.948Z"
     },
     {
       "id": "MOB-APP-291",
@@ -3786,7 +3786,7 @@
       "executionTimeMs": 131,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:11.437Z"
+      "timestamp": "2026-07-25T03:04:00.635Z"
     },
     {
       "id": "MOB-APP-292",
@@ -3796,10 +3796,10 @@
       "name": "Appium — Android Tests Case #292 - Scan History Provider & SQLite Storage Verification",
       "description": "Verify scan history provider & sqlite storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 146,
+      "executionTimeMs": 94,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:32.373Z"
+      "timestamp": "2026-07-25T02:51:53.165Z"
     },
     {
       "id": "MOB-APP-293",
@@ -3809,10 +3809,10 @@
       "name": "Appium — Android Tests Case #293 - User Profile Screen & Avatar Upload Verification",
       "description": "Verify user profile screen & avatar upload functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 252,
+      "executionTimeMs": 210,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:28:58.505Z"
+      "timestamp": "2026-07-25T03:18:38.577Z"
     },
     {
       "id": "MOB-APP-294",
@@ -3822,10 +3822,10 @@
       "name": "Appium — Android Tests Case #294 - App Theme & Navigation Routes Verification",
       "description": "Verify app theme & navigation routes functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 164,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:07.107Z"
+      "timestamp": "2026-07-25T02:37:54.263Z"
     },
     {
       "id": "MOB-APP-295",
@@ -3835,10 +3835,10 @@
       "name": "Appium — Android Tests Case #295 - PDF Export to Android Local Storage Verification",
       "description": "Verify pdf export to android local storage functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 133,
+      "executionTimeMs": 252,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:44.095Z"
+      "timestamp": "2026-07-25T02:54:30.159Z"
     },
     {
       "id": "MOB-APP-296",
@@ -3848,10 +3848,10 @@
       "name": "Appium — Android Tests Case #296 - Native Android Intent Sharing (SMS/WhatsApp) Verification",
       "description": "Verify native android intent sharing (sms/whatsapp) functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 27,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:51.609Z"
+      "timestamp": "2026-07-25T02:43:46.516Z"
     },
     {
       "id": "MOB-APP-297",
@@ -3861,10 +3861,10 @@
       "name": "Appium — Android Tests Case #297 - Device Orientation & Screen Resize Verification",
       "description": "Verify device orientation & screen resize functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 31,
+      "executionTimeMs": 50,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:22.108Z"
+      "timestamp": "2026-07-25T02:55:20.628Z"
     },
     {
       "id": "MOB-APP-298",
@@ -3874,10 +3874,10 @@
       "name": "Appium — Android Tests Case #298 - Network Offline Mode & Caching Verification",
       "description": "Verify network offline mode & caching functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 96,
+      "executionTimeMs": 264,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:54.306Z"
+      "timestamp": "2026-07-25T02:47:46.249Z"
     },
     {
       "id": "MOB-APP-299",
@@ -3887,10 +3887,10 @@
       "name": "Appium — Android Tests Case #299 - Push Notification Handling Verification",
       "description": "Verify push notification handling functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 239,
+      "executionTimeMs": 26,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:40.031Z"
+      "timestamp": "2026-07-25T02:30:06.875Z"
     },
     {
       "id": "MOB-APP-300",
@@ -3900,10 +3900,10 @@
       "name": "Appium — Android Tests Case #300 - Background App State & Resume Verification",
       "description": "Verify background app state & resume functionality under appium — android tests execution for VitaScan Mobile App (Flutter).",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 182,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:18.204Z"
+      "timestamp": "2026-07-25T02:57:39.436Z"
     }
   ]
 }

@@ -13,10 +13,10 @@
       "name": "Load Testing — Performance Case #1 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 147,
+      "executionTimeMs": 84,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:41.830Z"
+      "timestamp": "2026-07-25T02:39:25.701Z"
     },
     {
       "id": "LOAD-PERF-002",
@@ -26,10 +26,10 @@
       "name": "Load Testing — Performance Case #2 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 183,
+      "executionTimeMs": 134,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:52.656Z"
+      "timestamp": "2026-07-25T02:47:45.307Z"
     },
     {
       "id": "LOAD-PERF-003",
@@ -39,10 +39,10 @@
       "name": "Load Testing — Performance Case #3 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 175,
+      "executionTimeMs": 106,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:47.020Z"
+      "timestamp": "2026-07-25T03:22:11.821Z"
     },
     {
       "id": "LOAD-PERF-004",
@@ -52,10 +52,10 @@
       "name": "Load Testing — Performance Case #4 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 149,
+      "executionTimeMs": 230,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:39.409Z"
+      "timestamp": "2026-07-25T02:58:47.870Z"
     },
     {
       "id": "LOAD-PERF-005",
@@ -65,10 +65,10 @@
       "name": "Load Testing — Performance Case #5 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 233,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:38.073Z"
+      "timestamp": "2026-07-25T02:48:39.757Z"
     },
     {
       "id": "LOAD-PERF-006",
@@ -78,10 +78,10 @@
       "name": "Load Testing — Performance Case #6 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 39,
+      "executionTimeMs": 189,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:39.584Z"
+      "timestamp": "2026-07-25T03:19:02.052Z"
     },
     {
       "id": "LOAD-PERF-007",
@@ -91,10 +91,10 @@
       "name": "Load Testing — Performance Case #7 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 196,
+      "executionTimeMs": 143,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:58.043Z"
+      "timestamp": "2026-07-25T02:53:18.019Z"
     },
     {
       "id": "LOAD-PERF-008",
@@ -104,10 +104,10 @@
       "name": "Load Testing — Performance Case #8 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 221,
+      "executionTimeMs": 67,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:36.233Z"
+      "timestamp": "2026-07-25T02:25:20.250Z"
     },
     {
       "id": "LOAD-PERF-009",
@@ -117,10 +117,10 @@
       "name": "Load Testing — Performance Case #9 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 205,
+      "executionTimeMs": 53,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:04.594Z"
+      "timestamp": "2026-07-25T03:03:32.271Z"
     },
     {
       "id": "LOAD-PERF-010",
@@ -130,10 +130,10 @@
       "name": "Load Testing — Performance Case #10 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 83,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:42.943Z"
+      "timestamp": "2026-07-25T03:21:13.123Z"
     },
     {
       "id": "LOAD-PERF-011",
@@ -143,10 +143,10 @@
       "name": "Load Testing — Performance Case #11 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 204,
+      "executionTimeMs": 264,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:24:42.490Z"
+      "timestamp": "2026-07-25T02:54:54.610Z"
     },
     {
       "id": "LOAD-PERF-012",
@@ -156,10 +156,10 @@
       "name": "Load Testing — Performance Case #12 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 231,
+      "executionTimeMs": 85,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:54.849Z"
+      "timestamp": "2026-07-25T03:02:36.819Z"
     },
     {
       "id": "LOAD-PERF-013",
@@ -169,10 +169,10 @@
       "name": "Load Testing — Performance Case #13 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 228,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:15.979Z"
+      "timestamp": "2026-07-25T02:31:50.944Z"
     },
     {
       "id": "LOAD-PERF-014",
@@ -182,10 +182,10 @@
       "name": "Load Testing — Performance Case #14 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 62,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:53.587Z"
+      "timestamp": "2026-07-25T03:08:13.129Z"
     },
     {
       "id": "LOAD-PERF-015",
@@ -195,10 +195,10 @@
       "name": "Load Testing — Performance Case #15 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 119,
+      "executionTimeMs": 141,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:23.258Z"
+      "timestamp": "2026-07-25T02:51:21.468Z"
     },
     {
       "id": "LOAD-PERF-016",
@@ -208,10 +208,10 @@
       "name": "Load Testing — Performance Case #16 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 109,
+      "executionTimeMs": 117,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:15.905Z"
+      "timestamp": "2026-07-25T03:03:45.552Z"
     },
     {
       "id": "LOAD-PERF-017",
@@ -221,10 +221,10 @@
       "name": "Load Testing — Performance Case #17 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 16,
+      "executionTimeMs": 224,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:49.142Z"
+      "timestamp": "2026-07-25T02:48:59.799Z"
     },
     {
       "id": "LOAD-PERF-018",
@@ -234,10 +234,10 @@
       "name": "Load Testing — Performance Case #18 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 257,
+      "executionTimeMs": 17,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:53.798Z"
+      "timestamp": "2026-07-25T02:51:17.908Z"
     },
     {
       "id": "LOAD-PERF-019",
@@ -247,10 +247,10 @@
       "name": "Load Testing — Performance Case #19 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 199,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:14.585Z"
+      "timestamp": "2026-07-25T02:41:59.915Z"
     },
     {
       "id": "LOAD-PERF-020",
@@ -260,10 +260,10 @@
       "name": "Load Testing — Performance Case #20 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 259,
+      "executionTimeMs": 205,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:17.592Z"
+      "timestamp": "2026-07-25T03:21:49.661Z"
     },
     {
       "id": "LOAD-PERF-021",
@@ -273,10 +273,10 @@
       "name": "Load Testing — Performance Case #21 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 101,
+      "executionTimeMs": 239,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:24.011Z"
+      "timestamp": "2026-07-25T03:18:36.238Z"
     },
     {
       "id": "LOAD-PERF-022",
@@ -286,10 +286,10 @@
       "name": "Load Testing — Performance Case #22 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 101,
+      "executionTimeMs": 129,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:14.551Z"
+      "timestamp": "2026-07-25T02:36:23.379Z"
     },
     {
       "id": "LOAD-PERF-023",
@@ -299,10 +299,10 @@
       "name": "Load Testing — Performance Case #23 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 251,
+      "executionTimeMs": 65,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:25:10.473Z"
+      "timestamp": "2026-07-25T02:35:35.421Z"
     },
     {
       "id": "LOAD-PERF-024",
@@ -312,10 +312,10 @@
       "name": "Load Testing — Performance Case #24 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 67,
+      "executionTimeMs": 113,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:03.533Z"
+      "timestamp": "2026-07-25T03:19:18.157Z"
     },
     {
       "id": "LOAD-PERF-025",
@@ -325,10 +325,10 @@
       "name": "Load Testing — Performance Case #25 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 251,
+      "executionTimeMs": 152,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:22.850Z"
+      "timestamp": "2026-07-25T02:48:03.476Z"
     },
     {
       "id": "LOAD-PERF-026",
@@ -338,10 +338,10 @@
       "name": "Load Testing — Performance Case #26 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 70,
+      "executionTimeMs": 136,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:36.301Z"
+      "timestamp": "2026-07-25T03:00:50.987Z"
     },
     {
       "id": "LOAD-PERF-027",
@@ -351,10 +351,10 @@
       "name": "Load Testing — Performance Case #27 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 65,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:27.564Z"
+      "timestamp": "2026-07-25T02:56:16.033Z"
     },
     {
       "id": "LOAD-PERF-028",
@@ -364,10 +364,10 @@
       "name": "Load Testing — Performance Case #28 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 162,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:43.251Z"
+      "timestamp": "2026-07-25T03:15:16.984Z"
     },
     {
       "id": "LOAD-PERF-029",
@@ -377,10 +377,10 @@
       "name": "Load Testing — Performance Case #29 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 47,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:26.480Z"
+      "timestamp": "2026-07-25T03:16:15.608Z"
     },
     {
       "id": "LOAD-PERF-030",
@@ -390,10 +390,10 @@
       "name": "Load Testing — Performance Case #30 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 122,
+      "executionTimeMs": 64,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:32.606Z"
+      "timestamp": "2026-07-25T03:17:02.031Z"
     },
     {
       "id": "LOAD-PERF-031",
@@ -403,10 +403,10 @@
       "name": "Load Testing — Performance Case #31 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 146,
+      "executionTimeMs": 19,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:55.601Z"
+      "timestamp": "2026-07-25T02:49:17.374Z"
     },
     {
       "id": "LOAD-PERF-032",
@@ -416,10 +416,10 @@
       "name": "Load Testing — Performance Case #32 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 202,
+      "executionTimeMs": 120,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:01.748Z"
+      "timestamp": "2026-07-25T03:21:14.907Z"
     },
     {
       "id": "LOAD-PERF-033",
@@ -429,10 +429,10 @@
       "name": "Load Testing — Performance Case #33 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 181,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:38.934Z"
+      "timestamp": "2026-07-25T03:17:54.415Z"
     },
     {
       "id": "LOAD-PERF-034",
@@ -442,10 +442,10 @@
       "name": "Load Testing — Performance Case #34 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 122,
+      "executionTimeMs": 159,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:39.009Z"
+      "timestamp": "2026-07-25T03:11:30.473Z"
     },
     {
       "id": "LOAD-PERF-035",
@@ -455,10 +455,10 @@
       "name": "Load Testing — Performance Case #35 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 95,
+      "executionTimeMs": 214,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:38.945Z"
+      "timestamp": "2026-07-25T03:01:53.423Z"
     },
     {
       "id": "LOAD-PERF-036",
@@ -468,10 +468,10 @@
       "name": "Load Testing — Performance Case #36 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 66,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:47.203Z"
+      "timestamp": "2026-07-25T02:54:00.918Z"
     },
     {
       "id": "LOAD-PERF-037",
@@ -481,10 +481,10 @@
       "name": "Load Testing — Performance Case #37 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 169,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:54.803Z"
+      "timestamp": "2026-07-25T02:35:28.338Z"
     },
     {
       "id": "LOAD-PERF-038",
@@ -494,10 +494,10 @@
       "name": "Load Testing — Performance Case #38 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 48,
+      "executionTimeMs": 227,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:28.665Z"
+      "timestamp": "2026-07-25T02:54:03.133Z"
     },
     {
       "id": "LOAD-PERF-039",
@@ -507,10 +507,10 @@
       "name": "Load Testing — Performance Case #39 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 123,
+      "executionTimeMs": 173,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:07.775Z"
+      "timestamp": "2026-07-25T03:18:35.380Z"
     },
     {
       "id": "LOAD-PERF-040",
@@ -520,10 +520,10 @@
       "name": "Load Testing — Performance Case #40 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 17,
+      "executionTimeMs": 231,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:00.391Z"
+      "timestamp": "2026-07-25T02:59:32.937Z"
     },
     {
       "id": "LOAD-PERF-041",
@@ -533,10 +533,10 @@
       "name": "Load Testing — Performance Case #41 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 205,
+      "executionTimeMs": 136,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:36.175Z"
+      "timestamp": "2026-07-25T03:03:06.305Z"
     },
     {
       "id": "LOAD-PERF-042",
@@ -546,10 +546,10 @@
       "name": "Load Testing — Performance Case #42 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 85,
+      "executionTimeMs": 68,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:58.398Z"
+      "timestamp": "2026-07-25T02:53:21.435Z"
     },
     {
       "id": "LOAD-PERF-043",
@@ -559,10 +559,10 @@
       "name": "Load Testing — Performance Case #43 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 86,
+      "executionTimeMs": 72,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:55.390Z"
+      "timestamp": "2026-07-25T03:22:53.876Z"
     },
     {
       "id": "LOAD-PERF-044",
@@ -572,10 +572,10 @@
       "name": "Load Testing — Performance Case #44 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 112,
+      "executionTimeMs": 79,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:31.113Z"
+      "timestamp": "2026-07-25T02:45:37.137Z"
     },
     {
       "id": "LOAD-PERF-045",
@@ -585,10 +585,10 @@
       "name": "Load Testing — Performance Case #45 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 19,
+      "executionTimeMs": 118,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:21.775Z"
+      "timestamp": "2026-07-25T02:24:56.959Z"
     },
     {
       "id": "LOAD-PERF-046",
@@ -598,10 +598,10 @@
       "name": "Load Testing — Performance Case #46 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 45,
+      "executionTimeMs": 164,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:05.123Z"
+      "timestamp": "2026-07-25T02:40:50.630Z"
     },
     {
       "id": "LOAD-PERF-047",
@@ -611,10 +611,10 @@
       "name": "Load Testing — Performance Case #47 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "FAILED",
-      "executionTimeMs": 219,
+      "executionTimeMs": 253,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Database Query Index Benchmarks, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:32:00.663Z"
+      "timestamp": "2026-07-25T02:51:33.863Z"
     },
     {
       "id": "LOAD-PERF-048",
@@ -624,10 +624,10 @@
       "name": "Load Testing — Performance Case #48 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 210,
+      "executionTimeMs": 258,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:08.690Z"
+      "timestamp": "2026-07-25T02:57:41.852Z"
     },
     {
       "id": "LOAD-PERF-049",
@@ -637,10 +637,10 @@
       "name": "Load Testing — Performance Case #49 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 75,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:24.089Z"
+      "timestamp": "2026-07-25T03:02:08.730Z"
     },
     {
       "id": "LOAD-PERF-050",
@@ -650,10 +650,10 @@
       "name": "Load Testing — Performance Case #50 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 144,
+      "executionTimeMs": 170,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:25.853Z"
+      "timestamp": "2026-07-25T02:39:42.585Z"
     },
     {
       "id": "LOAD-PERF-051",
@@ -663,10 +663,10 @@
       "name": "Load Testing — Performance Case #51 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 87,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:47.009Z"
+      "timestamp": "2026-07-25T02:38:20.869Z"
     },
     {
       "id": "LOAD-PERF-052",
@@ -676,10 +676,10 @@
       "name": "Load Testing — Performance Case #52 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 145,
+      "executionTimeMs": 173,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:48.536Z"
+      "timestamp": "2026-07-25T02:43:16.793Z"
     },
     {
       "id": "LOAD-PERF-053",
@@ -689,10 +689,10 @@
       "name": "Load Testing — Performance Case #53 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 238,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:03.608Z"
+      "timestamp": "2026-07-25T02:54:00.436Z"
     },
     {
       "id": "LOAD-PERF-054",
@@ -702,10 +702,10 @@
       "name": "Load Testing — Performance Case #54 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 98,
+      "executionTimeMs": 230,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:43.448Z"
+      "timestamp": "2026-07-25T02:28:57.781Z"
     },
     {
       "id": "LOAD-PERF-055",
@@ -715,10 +715,10 @@
       "name": "Load Testing — Performance Case #55 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 123,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:40.252Z"
+      "timestamp": "2026-07-25T03:02:03.514Z"
     },
     {
       "id": "LOAD-PERF-056",
@@ -728,10 +728,10 @@
       "name": "Load Testing — Performance Case #56 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 93,
+      "executionTimeMs": 236,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:02.437Z"
+      "timestamp": "2026-07-25T03:05:03.181Z"
     },
     {
       "id": "LOAD-PERF-057",
@@ -741,10 +741,10 @@
       "name": "Load Testing — Performance Case #57 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 225,
+      "executionTimeMs": 17,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:10.951Z"
+      "timestamp": "2026-07-25T03:03:49.604Z"
     },
     {
       "id": "LOAD-PERF-058",
@@ -754,10 +754,10 @@
       "name": "Load Testing — Performance Case #58 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 32,
+      "executionTimeMs": 98,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:29.519Z"
+      "timestamp": "2026-07-25T02:52:39.810Z"
     },
     {
       "id": "LOAD-PERF-059",
@@ -767,10 +767,10 @@
       "name": "Load Testing — Performance Case #59 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 231,
+      "executionTimeMs": 213,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:24.903Z"
+      "timestamp": "2026-07-25T03:11:37.856Z"
     },
     {
       "id": "LOAD-PERF-060",
@@ -780,10 +780,10 @@
       "name": "Load Testing — Performance Case #60 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 217,
+      "executionTimeMs": 81,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:56.962Z"
+      "timestamp": "2026-07-25T03:13:31.770Z"
     },
     {
       "id": "LOAD-PERF-061",
@@ -793,10 +793,10 @@
       "name": "Load Testing — Performance Case #61 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 230,
+      "executionTimeMs": 136,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:14.308Z"
+      "timestamp": "2026-07-25T03:14:38.352Z"
     },
     {
       "id": "LOAD-PERF-062",
@@ -806,10 +806,10 @@
       "name": "Load Testing — Performance Case #62 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 81,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:20.516Z"
+      "timestamp": "2026-07-25T02:31:46.653Z"
     },
     {
       "id": "LOAD-PERF-063",
@@ -819,10 +819,10 @@
       "name": "Load Testing — Performance Case #63 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 44,
+      "executionTimeMs": 214,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:28:44.020Z"
+      "timestamp": "2026-07-25T03:01:03.184Z"
     },
     {
       "id": "LOAD-PERF-064",
@@ -832,10 +832,10 @@
       "name": "Load Testing — Performance Case #64 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 171,
+      "executionTimeMs": 113,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:21.683Z"
+      "timestamp": "2026-07-25T02:49:10.361Z"
     },
     {
       "id": "LOAD-PERF-065",
@@ -845,10 +845,10 @@
       "name": "Load Testing — Performance Case #65 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 43,
+      "executionTimeMs": 114,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:54.853Z"
+      "timestamp": "2026-07-25T02:55:17.936Z"
     },
     {
       "id": "LOAD-PERF-066",
@@ -858,10 +858,10 @@
       "name": "Load Testing — Performance Case #66 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 75,
+      "executionTimeMs": 38,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:14.460Z"
+      "timestamp": "2026-07-25T02:59:31.038Z"
     },
     {
       "id": "LOAD-PERF-067",
@@ -871,10 +871,10 @@
       "name": "Load Testing — Performance Case #67 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 126,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:02.512Z"
+      "timestamp": "2026-07-25T03:00:48.973Z"
     },
     {
       "id": "LOAD-PERF-068",
@@ -884,10 +884,10 @@
       "name": "Load Testing — Performance Case #68 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 157,
+      "executionTimeMs": 32,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:39.976Z"
+      "timestamp": "2026-07-25T02:52:42.204Z"
     },
     {
       "id": "LOAD-PERF-069",
@@ -897,10 +897,10 @@
       "name": "Load Testing — Performance Case #69 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 135,
+      "executionTimeMs": 150,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:58.183Z"
+      "timestamp": "2026-07-25T02:45:26.477Z"
     },
     {
       "id": "LOAD-PERF-070",
@@ -910,10 +910,10 @@
       "name": "Load Testing — Performance Case #70 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 246,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:05.608Z"
+      "timestamp": "2026-07-25T02:39:33.838Z"
     },
     {
       "id": "LOAD-PERF-071",
@@ -923,10 +923,10 @@
       "name": "Load Testing — Performance Case #71 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 145,
+      "executionTimeMs": 121,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:16.460Z"
+      "timestamp": "2026-07-25T03:09:09.860Z"
     },
     {
       "id": "LOAD-PERF-072",
@@ -936,10 +936,10 @@
       "name": "Load Testing — Performance Case #72 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 203,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:01.026Z"
+      "timestamp": "2026-07-25T02:52:45.868Z"
     },
     {
       "id": "LOAD-PERF-073",
@@ -949,10 +949,10 @@
       "name": "Load Testing — Performance Case #73 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 147,
+      "executionTimeMs": 74,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:23.233Z"
+      "timestamp": "2026-07-25T02:36:59.401Z"
     },
     {
       "id": "LOAD-PERF-074",
@@ -962,10 +962,10 @@
       "name": "Load Testing — Performance Case #74 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 199,
+      "executionTimeMs": 256,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:58.596Z"
+      "timestamp": "2026-07-25T03:23:09.417Z"
     },
     {
       "id": "LOAD-PERF-075",
@@ -975,10 +975,10 @@
       "name": "Load Testing — Performance Case #75 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 130,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:09.499Z"
+      "timestamp": "2026-07-25T02:34:59.741Z"
     },
     {
       "id": "LOAD-PERF-076",
@@ -988,10 +988,10 @@
       "name": "Load Testing — Performance Case #76 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 121,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:07.558Z"
+      "timestamp": "2026-07-25T02:51:16.439Z"
     },
     {
       "id": "LOAD-PERF-077",
@@ -1001,10 +1001,10 @@
       "name": "Load Testing — Performance Case #77 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 109,
+      "executionTimeMs": 257,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:34.250Z"
+      "timestamp": "2026-07-25T03:19:41.696Z"
     },
     {
       "id": "LOAD-PERF-078",
@@ -1014,10 +1014,10 @@
       "name": "Load Testing — Performance Case #78 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 156,
+      "executionTimeMs": 190,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:20.528Z"
+      "timestamp": "2026-07-25T02:44:15.549Z"
     },
     {
       "id": "LOAD-PERF-079",
@@ -1027,10 +1027,10 @@
       "name": "Load Testing — Performance Case #79 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 68,
+      "executionTimeMs": 165,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:18.670Z"
+      "timestamp": "2026-07-25T02:54:24.792Z"
     },
     {
       "id": "LOAD-PERF-080",
@@ -1040,10 +1040,10 @@
       "name": "Load Testing — Performance Case #80 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 115,
+      "executionTimeMs": 180,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:32.623Z"
+      "timestamp": "2026-07-25T03:20:12.621Z"
     },
     {
       "id": "LOAD-PERF-081",
@@ -1053,10 +1053,10 @@
       "name": "Load Testing — Performance Case #81 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 202,
+      "executionTimeMs": 245,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:59.986Z"
+      "timestamp": "2026-07-25T02:33:21.103Z"
     },
     {
       "id": "LOAD-PERF-082",
@@ -1066,10 +1066,10 @@
       "name": "Load Testing — Performance Case #82 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 247,
+      "executionTimeMs": 147,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:54.888Z"
+      "timestamp": "2026-07-25T03:10:57.611Z"
     },
     {
       "id": "LOAD-PERF-083",
@@ -1079,10 +1079,10 @@
       "name": "Load Testing — Performance Case #83 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 135,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:50.608Z"
+      "timestamp": "2026-07-25T02:26:51.796Z"
     },
     {
       "id": "LOAD-PERF-084",
@@ -1092,10 +1092,10 @@
       "name": "Load Testing — Performance Case #84 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 46,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:09.115Z"
+      "timestamp": "2026-07-25T02:59:42.931Z"
     },
     {
       "id": "LOAD-PERF-085",
@@ -1105,10 +1105,10 @@
       "name": "Load Testing — Performance Case #85 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 42,
+      "executionTimeMs": 45,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:21.416Z"
+      "timestamp": "2026-07-25T02:54:24.493Z"
     },
     {
       "id": "LOAD-PERF-086",
@@ -1118,10 +1118,10 @@
       "name": "Load Testing — Performance Case #86 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 174,
+      "executionTimeMs": 50,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:06.934Z"
+      "timestamp": "2026-07-25T02:54:29.187Z"
     },
     {
       "id": "LOAD-PERF-087",
@@ -1131,10 +1131,10 @@
       "name": "Load Testing — Performance Case #87 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 46,
+      "executionTimeMs": 128,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:03.746Z"
+      "timestamp": "2026-07-25T02:32:53.535Z"
     },
     {
       "id": "LOAD-PERF-088",
@@ -1144,10 +1144,10 @@
       "name": "Load Testing — Performance Case #88 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 221,
+      "executionTimeMs": 236,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:17.141Z"
+      "timestamp": "2026-07-25T03:24:22.609Z"
     },
     {
       "id": "LOAD-PERF-089",
@@ -1157,10 +1157,10 @@
       "name": "Load Testing — Performance Case #89 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 48,
+      "executionTimeMs": 197,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:49.283Z"
+      "timestamp": "2026-07-25T02:43:25.408Z"
     },
     {
       "id": "LOAD-PERF-090",
@@ -1170,10 +1170,10 @@
       "name": "Load Testing — Performance Case #90 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 72,
+      "executionTimeMs": 170,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:24:56.913Z"
+      "timestamp": "2026-07-25T02:51:28.420Z"
     },
     {
       "id": "LOAD-PERF-091",
@@ -1183,10 +1183,10 @@
       "name": "Load Testing — Performance Case #91 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 64,
+      "executionTimeMs": 213,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:49.791Z"
+      "timestamp": "2026-07-25T02:48:54.633Z"
     },
     {
       "id": "LOAD-PERF-092",
@@ -1196,10 +1196,10 @@
       "name": "Load Testing — Performance Case #92 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 193,
+      "executionTimeMs": 52,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:50.517Z"
+      "timestamp": "2026-07-25T02:51:01.100Z"
     },
     {
       "id": "LOAD-PERF-093",
@@ -1209,10 +1209,10 @@
       "name": "Load Testing — Performance Case #93 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 188,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:37.695Z"
+      "timestamp": "2026-07-25T03:17:41.289Z"
     },
     {
       "id": "LOAD-PERF-094",
@@ -1222,10 +1222,10 @@
       "name": "Load Testing — Performance Case #94 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "FAILED",
-      "executionTimeMs": 170,
+      "executionTimeMs": 67,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for React Re-render Performance, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:56:44.575Z"
+      "timestamp": "2026-07-25T02:56:37.827Z"
     },
     {
       "id": "LOAD-PERF-095",
@@ -1235,10 +1235,10 @@
       "name": "Load Testing — Performance Case #95 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 146,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:08.338Z"
+      "timestamp": "2026-07-25T03:16:45.325Z"
     },
     {
       "id": "LOAD-PERF-096",
@@ -1248,10 +1248,10 @@
       "name": "Load Testing — Performance Case #96 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 172,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:34.073Z"
+      "timestamp": "2026-07-25T02:30:46.503Z"
     },
     {
       "id": "LOAD-PERF-097",
@@ -1261,10 +1261,10 @@
       "name": "Load Testing — Performance Case #97 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 135,
+      "executionTimeMs": 59,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:14.543Z"
+      "timestamp": "2026-07-25T02:37:14.763Z"
     },
     {
       "id": "LOAD-PERF-098",
@@ -1274,10 +1274,10 @@
       "name": "Load Testing — Performance Case #98 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 228,
+      "executionTimeMs": 76,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:04.064Z"
+      "timestamp": "2026-07-25T02:52:16.619Z"
     },
     {
       "id": "LOAD-PERF-099",
@@ -1287,10 +1287,10 @@
       "name": "Load Testing — Performance Case #99 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 50,
+      "executionTimeMs": 258,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:01.806Z"
+      "timestamp": "2026-07-25T02:41:45.161Z"
     },
     {
       "id": "LOAD-PERF-100",
@@ -1300,10 +1300,10 @@
       "name": "Load Testing — Performance Case #100 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 96,
+      "executionTimeMs": 137,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:42.507Z"
+      "timestamp": "2026-07-25T02:54:17.002Z"
     },
     {
       "id": "LOAD-PERF-101",
@@ -1313,10 +1313,10 @@
       "name": "Load Testing — Performance Case #101 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 34,
+      "executionTimeMs": 185,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:25:08.618Z"
+      "timestamp": "2026-07-25T02:51:32.913Z"
     },
     {
       "id": "LOAD-PERF-102",
@@ -1326,10 +1326,10 @@
       "name": "Load Testing — Performance Case #102 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 136,
+      "executionTimeMs": 188,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:32.657Z"
+      "timestamp": "2026-07-25T03:15:00.992Z"
     },
     {
       "id": "LOAD-PERF-103",
@@ -1339,10 +1339,10 @@
       "name": "Load Testing — Performance Case #103 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 231,
+      "executionTimeMs": 77,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:17.289Z"
+      "timestamp": "2026-07-25T03:01:49.846Z"
     },
     {
       "id": "LOAD-PERF-104",
@@ -1352,10 +1352,10 @@
       "name": "Load Testing — Performance Case #104 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 169,
+      "executionTimeMs": 259,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:30.284Z"
+      "timestamp": "2026-07-25T02:53:54.676Z"
     },
     {
       "id": "LOAD-PERF-105",
@@ -1365,10 +1365,10 @@
       "name": "Load Testing — Performance Case #105 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 22,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:34.936Z"
+      "timestamp": "2026-07-25T02:33:40.259Z"
     },
     {
       "id": "LOAD-PERF-106",
@@ -1378,10 +1378,10 @@
       "name": "Load Testing — Performance Case #106 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 174,
+      "executionTimeMs": 218,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:15.009Z"
+      "timestamp": "2026-07-25T02:33:13.504Z"
     },
     {
       "id": "LOAD-PERF-107",
@@ -1391,10 +1391,10 @@
       "name": "Load Testing — Performance Case #107 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 73,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:02.561Z"
+      "timestamp": "2026-07-25T02:40:13.824Z"
     },
     {
       "id": "LOAD-PERF-108",
@@ -1404,10 +1404,10 @@
       "name": "Load Testing — Performance Case #108 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 131,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:19.015Z"
+      "timestamp": "2026-07-25T03:01:07.817Z"
     },
     {
       "id": "LOAD-PERF-109",
@@ -1417,10 +1417,10 @@
       "name": "Load Testing — Performance Case #109 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 152,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:41.819Z"
+      "timestamp": "2026-07-25T02:28:27.910Z"
     },
     {
       "id": "LOAD-PERF-110",
@@ -1430,10 +1430,10 @@
       "name": "Load Testing — Performance Case #110 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 249,
+      "executionTimeMs": 57,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:10.919Z"
+      "timestamp": "2026-07-25T02:40:31.885Z"
     },
     {
       "id": "LOAD-PERF-111",
@@ -1443,10 +1443,10 @@
       "name": "Load Testing — Performance Case #111 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 192,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:14.329Z"
+      "timestamp": "2026-07-25T02:45:32.384Z"
     },
     {
       "id": "LOAD-PERF-112",
@@ -1456,10 +1456,10 @@
       "name": "Load Testing — Performance Case #112 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 159,
+      "executionTimeMs": 162,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:09.928Z"
+      "timestamp": "2026-07-25T02:58:49.846Z"
     },
     {
       "id": "LOAD-PERF-113",
@@ -1469,10 +1469,10 @@
       "name": "Load Testing — Performance Case #113 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 38,
+      "executionTimeMs": 258,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:18.592Z"
+      "timestamp": "2026-07-25T03:13:07.741Z"
     },
     {
       "id": "LOAD-PERF-114",
@@ -1482,10 +1482,10 @@
       "name": "Load Testing — Performance Case #114 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 240,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:42.327Z"
+      "timestamp": "2026-07-25T03:00:17.004Z"
     },
     {
       "id": "LOAD-PERF-115",
@@ -1495,10 +1495,10 @@
       "name": "Load Testing — Performance Case #115 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 59,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:27.296Z"
+      "timestamp": "2026-07-25T02:55:37.629Z"
     },
     {
       "id": "LOAD-PERF-116",
@@ -1508,10 +1508,10 @@
       "name": "Load Testing — Performance Case #116 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 138,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:22.220Z"
+      "timestamp": "2026-07-25T02:59:14.678Z"
     },
     {
       "id": "LOAD-PERF-117",
@@ -1521,10 +1521,10 @@
       "name": "Load Testing — Performance Case #117 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 235,
+      "executionTimeMs": 166,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:23.327Z"
+      "timestamp": "2026-07-25T03:08:40.515Z"
     },
     {
       "id": "LOAD-PERF-118",
@@ -1534,10 +1534,10 @@
       "name": "Load Testing — Performance Case #118 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 228,
+      "executionTimeMs": 129,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:10.215Z"
+      "timestamp": "2026-07-25T02:55:23.929Z"
     },
     {
       "id": "LOAD-PERF-119",
@@ -1547,10 +1547,10 @@
       "name": "Load Testing — Performance Case #119 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 244,
+      "executionTimeMs": 190,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:28:09.856Z"
+      "timestamp": "2026-07-25T02:29:46.164Z"
     },
     {
       "id": "LOAD-PERF-120",
@@ -1560,10 +1560,10 @@
       "name": "Load Testing — Performance Case #120 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 155,
+      "executionTimeMs": 256,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:41.065Z"
+      "timestamp": "2026-07-25T02:25:26.450Z"
     },
     {
       "id": "LOAD-PERF-121",
@@ -1573,10 +1573,10 @@
       "name": "Load Testing — Performance Case #121 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 255,
+      "executionTimeMs": 239,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:46.931Z"
+      "timestamp": "2026-07-25T02:38:36.388Z"
     },
     {
       "id": "LOAD-PERF-122",
@@ -1586,10 +1586,10 @@
       "name": "Load Testing — Performance Case #122 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 245,
+      "executionTimeMs": 29,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:46.098Z"
+      "timestamp": "2026-07-25T02:56:05.531Z"
     },
     {
       "id": "LOAD-PERF-123",
@@ -1599,10 +1599,10 @@
       "name": "Load Testing — Performance Case #123 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 127,
+      "executionTimeMs": 58,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:28:18.262Z"
+      "timestamp": "2026-07-25T02:45:11.313Z"
     },
     {
       "id": "LOAD-PERF-124",
@@ -1612,10 +1612,10 @@
       "name": "Load Testing — Performance Case #124 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 242,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:24:00.955Z"
+      "timestamp": "2026-07-25T02:44:18.959Z"
     },
     {
       "id": "LOAD-PERF-125",
@@ -1625,10 +1625,10 @@
       "name": "Load Testing — Performance Case #125 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 172,
+      "executionTimeMs": 123,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:33.642Z"
+      "timestamp": "2026-07-25T02:42:31.324Z"
     },
     {
       "id": "LOAD-PERF-126",
@@ -1638,10 +1638,10 @@
       "name": "Load Testing — Performance Case #126 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 50,
+      "executionTimeMs": 218,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:14.034Z"
+      "timestamp": "2026-07-25T03:01:05.486Z"
     },
     {
       "id": "LOAD-PERF-127",
@@ -1651,10 +1651,10 @@
       "name": "Load Testing — Performance Case #127 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 96,
+      "executionTimeMs": 97,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:36.837Z"
+      "timestamp": "2026-07-25T03:04:27.858Z"
     },
     {
       "id": "LOAD-PERF-128",
@@ -1664,10 +1664,10 @@
       "name": "Load Testing — Performance Case #128 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 106,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:32.075Z"
+      "timestamp": "2026-07-25T03:00:35.035Z"
     },
     {
       "id": "LOAD-PERF-129",
@@ -1677,10 +1677,10 @@
       "name": "Load Testing — Performance Case #129 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 85,
+      "executionTimeMs": 62,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:05.059Z"
+      "timestamp": "2026-07-25T02:26:16.555Z"
     },
     {
       "id": "LOAD-PERF-130",
@@ -1690,10 +1690,10 @@
       "name": "Load Testing — Performance Case #130 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 181,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:49.509Z"
+      "timestamp": "2026-07-25T03:24:40.626Z"
     },
     {
       "id": "LOAD-PERF-131",
@@ -1703,10 +1703,10 @@
       "name": "Load Testing — Performance Case #131 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 33,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:16.971Z"
+      "timestamp": "2026-07-25T02:45:36.052Z"
     },
     {
       "id": "LOAD-PERF-132",
@@ -1716,10 +1716,10 @@
       "name": "Load Testing — Performance Case #132 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 210,
+      "executionTimeMs": 261,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:05.324Z"
+      "timestamp": "2026-07-25T03:09:36.071Z"
     },
     {
       "id": "LOAD-PERF-133",
@@ -1729,10 +1729,10 @@
       "name": "Load Testing — Performance Case #133 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 244,
+      "executionTimeMs": 92,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:13.579Z"
+      "timestamp": "2026-07-25T03:23:04.331Z"
     },
     {
       "id": "LOAD-PERF-134",
@@ -1742,10 +1742,10 @@
       "name": "Load Testing — Performance Case #134 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 120,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:07.737Z"
+      "timestamp": "2026-07-25T03:01:15.880Z"
     },
     {
       "id": "LOAD-PERF-135",
@@ -1755,10 +1755,10 @@
       "name": "Load Testing — Performance Case #135 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 22,
+      "executionTimeMs": 202,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:42.204Z"
+      "timestamp": "2026-07-25T03:07:07.470Z"
     },
     {
       "id": "LOAD-PERF-136",
@@ -1768,10 +1768,10 @@
       "name": "Load Testing — Performance Case #136 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 226,
+      "executionTimeMs": 70,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:42.555Z"
+      "timestamp": "2026-07-25T02:28:08.888Z"
     },
     {
       "id": "LOAD-PERF-137",
@@ -1781,10 +1781,10 @@
       "name": "Load Testing — Performance Case #137 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 95,
+      "executionTimeMs": 98,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:54.892Z"
+      "timestamp": "2026-07-25T02:36:51.208Z"
     },
     {
       "id": "LOAD-PERF-138",
@@ -1794,10 +1794,10 @@
       "name": "Load Testing — Performance Case #138 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 229,
+      "executionTimeMs": 70,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:00.863Z"
+      "timestamp": "2026-07-25T03:12:50.534Z"
     },
     {
       "id": "LOAD-PERF-139",
@@ -1807,10 +1807,10 @@
       "name": "Load Testing — Performance Case #139 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 247,
+      "executionTimeMs": 86,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:47.255Z"
+      "timestamp": "2026-07-25T02:56:14.590Z"
     },
     {
       "id": "LOAD-PERF-140",
@@ -1820,10 +1820,10 @@
       "name": "Load Testing — Performance Case #140 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 151,
+      "executionTimeMs": 156,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:10.989Z"
+      "timestamp": "2026-07-25T02:54:27.941Z"
     },
     {
       "id": "LOAD-PERF-141",
@@ -1833,10 +1833,10 @@
       "name": "Load Testing — Performance Case #141 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "FAILED",
-      "executionTimeMs": 217,
+      "executionTimeMs": 149,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Concurrent User Scan Simulation, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:33:31.110Z"
+      "timestamp": "2026-07-25T02:33:35.015Z"
     },
     {
       "id": "LOAD-PERF-142",
@@ -1846,10 +1846,10 @@
       "name": "Load Testing — Performance Case #142 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 88,
+      "executionTimeMs": 38,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:43.568Z"
+      "timestamp": "2026-07-25T03:07:25.980Z"
     },
     {
       "id": "LOAD-PERF-143",
@@ -1859,10 +1859,10 @@
       "name": "Load Testing — Performance Case #143 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 45,
+      "executionTimeMs": 261,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:59.611Z"
+      "timestamp": "2026-07-25T03:00:00.250Z"
     },
     {
       "id": "LOAD-PERF-144",
@@ -1872,10 +1872,10 @@
       "name": "Load Testing — Performance Case #144 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 101,
+      "executionTimeMs": 214,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:23.240Z"
+      "timestamp": "2026-07-25T02:46:26.671Z"
     },
     {
       "id": "LOAD-PERF-145",
@@ -1885,10 +1885,10 @@
       "name": "Load Testing — Performance Case #145 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 174,
+      "executionTimeMs": 42,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:44.124Z"
+      "timestamp": "2026-07-25T03:14:55.718Z"
     },
     {
       "id": "LOAD-PERF-146",
@@ -1898,10 +1898,10 @@
       "name": "Load Testing — Performance Case #146 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 158,
+      "executionTimeMs": 230,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:31.752Z"
+      "timestamp": "2026-07-25T03:08:19.818Z"
     },
     {
       "id": "LOAD-PERF-147",
@@ -1911,10 +1911,10 @@
       "name": "Load Testing — Performance Case #147 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 96,
+      "executionTimeMs": 104,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:03.399Z"
+      "timestamp": "2026-07-25T03:08:58.282Z"
     },
     {
       "id": "LOAD-PERF-148",
@@ -1924,10 +1924,10 @@
       "name": "Load Testing — Performance Case #148 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 93,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:01.560Z"
+      "timestamp": "2026-07-25T02:47:40.562Z"
     },
     {
       "id": "LOAD-PERF-149",
@@ -1937,10 +1937,10 @@
       "name": "Load Testing — Performance Case #149 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 132,
+      "executionTimeMs": 248,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:25:31.138Z"
+      "timestamp": "2026-07-25T02:36:01.144Z"
     },
     {
       "id": "LOAD-PERF-150",
@@ -1950,10 +1950,10 @@
       "name": "Load Testing — Performance Case #150 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 88,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:43.870Z"
+      "timestamp": "2026-07-25T03:15:51.290Z"
     },
     {
       "id": "LOAD-PERF-151",
@@ -1963,10 +1963,10 @@
       "name": "Load Testing — Performance Case #151 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 166,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:56.034Z"
+      "timestamp": "2026-07-25T03:15:00.014Z"
     },
     {
       "id": "LOAD-PERF-152",
@@ -1976,10 +1976,10 @@
       "name": "Load Testing — Performance Case #152 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 99,
+      "executionTimeMs": 155,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:35.850Z"
+      "timestamp": "2026-07-25T03:15:54.768Z"
     },
     {
       "id": "LOAD-PERF-153",
@@ -1989,10 +1989,10 @@
       "name": "Load Testing — Performance Case #153 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 158,
+      "executionTimeMs": 62,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:04.669Z"
+      "timestamp": "2026-07-25T02:56:13.158Z"
     },
     {
       "id": "LOAD-PERF-154",
@@ -2002,10 +2002,10 @@
       "name": "Load Testing — Performance Case #154 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 130,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:20.704Z"
+      "timestamp": "2026-07-25T03:01:54.172Z"
     },
     {
       "id": "LOAD-PERF-155",
@@ -2015,10 +2015,10 @@
       "name": "Load Testing — Performance Case #155 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 144,
+      "executionTimeMs": 193,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:05.841Z"
+      "timestamp": "2026-07-25T02:43:00.143Z"
     },
     {
       "id": "LOAD-PERF-156",
@@ -2028,10 +2028,10 @@
       "name": "Load Testing — Performance Case #156 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 255,
+      "executionTimeMs": 108,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:31:10.601Z"
+      "timestamp": "2026-07-25T03:03:05.883Z"
     },
     {
       "id": "LOAD-PERF-157",
@@ -2041,10 +2041,10 @@
       "name": "Load Testing — Performance Case #157 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 80,
+      "executionTimeMs": 30,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:19.594Z"
+      "timestamp": "2026-07-25T02:36:19.128Z"
     },
     {
       "id": "LOAD-PERF-158",
@@ -2054,10 +2054,10 @@
       "name": "Load Testing — Performance Case #158 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 196,
+      "executionTimeMs": 200,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:25.750Z"
+      "timestamp": "2026-07-25T03:16:55.126Z"
     },
     {
       "id": "LOAD-PERF-159",
@@ -2067,10 +2067,10 @@
       "name": "Load Testing — Performance Case #159 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 191,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:37.911Z"
+      "timestamp": "2026-07-25T03:08:37.288Z"
     },
     {
       "id": "LOAD-PERF-160",
@@ -2080,10 +2080,10 @@
       "name": "Load Testing — Performance Case #160 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 259,
+      "executionTimeMs": 133,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:05.113Z"
+      "timestamp": "2026-07-25T02:38:17.333Z"
     },
     {
       "id": "LOAD-PERF-161",
@@ -2093,10 +2093,10 @@
       "name": "Load Testing — Performance Case #161 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 93,
+      "executionTimeMs": 87,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:34.463Z"
+      "timestamp": "2026-07-25T02:51:52.175Z"
     },
     {
       "id": "LOAD-PERF-162",
@@ -2106,10 +2106,10 @@
       "name": "Load Testing — Performance Case #162 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 123,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:09.973Z"
+      "timestamp": "2026-07-25T02:38:15.404Z"
     },
     {
       "id": "LOAD-PERF-163",
@@ -2119,10 +2119,10 @@
       "name": "Load Testing — Performance Case #163 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 52,
+      "executionTimeMs": 67,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:03.581Z"
+      "timestamp": "2026-07-25T02:29:43.421Z"
     },
     {
       "id": "LOAD-PERF-164",
@@ -2132,10 +2132,10 @@
       "name": "Load Testing — Performance Case #164 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 244,
+      "executionTimeMs": 215,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:34.233Z"
+      "timestamp": "2026-07-25T02:33:46.382Z"
     },
     {
       "id": "LOAD-PERF-165",
@@ -2145,10 +2145,10 @@
       "name": "Load Testing — Performance Case #165 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 262,
+      "executionTimeMs": 200,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:44.261Z"
+      "timestamp": "2026-07-25T02:31:22.601Z"
     },
     {
       "id": "LOAD-PERF-166",
@@ -2158,10 +2158,10 @@
       "name": "Load Testing — Performance Case #166 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 83,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:08.644Z"
+      "timestamp": "2026-07-25T03:02:09.215Z"
     },
     {
       "id": "LOAD-PERF-167",
@@ -2171,10 +2171,10 @@
       "name": "Load Testing — Performance Case #167 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 240,
+      "executionTimeMs": 248,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:46.257Z"
+      "timestamp": "2026-07-25T03:21:23.566Z"
     },
     {
       "id": "LOAD-PERF-168",
@@ -2184,10 +2184,10 @@
       "name": "Load Testing — Performance Case #168 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 29,
+      "executionTimeMs": 227,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:28.255Z"
+      "timestamp": "2026-07-25T03:00:02.731Z"
     },
     {
       "id": "LOAD-PERF-169",
@@ -2197,10 +2197,10 @@
       "name": "Load Testing — Performance Case #169 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 192,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:25:20.112Z"
+      "timestamp": "2026-07-25T03:18:05.698Z"
     },
     {
       "id": "LOAD-PERF-170",
@@ -2210,10 +2210,10 @@
       "name": "Load Testing — Performance Case #170 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 182,
+      "executionTimeMs": 260,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:13.090Z"
+      "timestamp": "2026-07-25T02:58:31.819Z"
     },
     {
       "id": "LOAD-PERF-171",
@@ -2223,10 +2223,10 @@
       "name": "Load Testing — Performance Case #171 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 66,
+      "executionTimeMs": 249,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:42.769Z"
+      "timestamp": "2026-07-25T02:45:36.434Z"
     },
     {
       "id": "LOAD-PERF-172",
@@ -2236,10 +2236,10 @@
       "name": "Load Testing — Performance Case #172 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 72,
+      "executionTimeMs": 24,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:22.994Z"
+      "timestamp": "2026-07-25T03:23:40.593Z"
     },
     {
       "id": "LOAD-PERF-173",
@@ -2249,10 +2249,10 @@
       "name": "Load Testing — Performance Case #173 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 231,
+      "executionTimeMs": 242,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:21:15.138Z"
+      "timestamp": "2026-07-25T03:15:15.023Z"
     },
     {
       "id": "LOAD-PERF-174",
@@ -2262,10 +2262,10 @@
       "name": "Load Testing — Performance Case #174 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 221,
+      "executionTimeMs": 102,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:50.709Z"
+      "timestamp": "2026-07-25T02:45:59.160Z"
     },
     {
       "id": "LOAD-PERF-175",
@@ -2275,10 +2275,10 @@
       "name": "Load Testing — Performance Case #175 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 45,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:24.403Z"
+      "timestamp": "2026-07-25T03:22:01.616Z"
     },
     {
       "id": "LOAD-PERF-176",
@@ -2288,10 +2288,10 @@
       "name": "Load Testing — Performance Case #176 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 128,
+      "executionTimeMs": 178,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:57.585Z"
+      "timestamp": "2026-07-25T02:40:50.596Z"
     },
     {
       "id": "LOAD-PERF-177",
@@ -2301,10 +2301,10 @@
       "name": "Load Testing — Performance Case #177 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 123,
+      "executionTimeMs": 121,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:22.527Z"
+      "timestamp": "2026-07-25T03:09:49.719Z"
     },
     {
       "id": "LOAD-PERF-178",
@@ -2314,10 +2314,10 @@
       "name": "Load Testing — Performance Case #178 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 33,
+      "executionTimeMs": 36,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:58.258Z"
+      "timestamp": "2026-07-25T02:55:16.410Z"
     },
     {
       "id": "LOAD-PERF-179",
@@ -2327,10 +2327,10 @@
       "name": "Load Testing — Performance Case #179 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 236,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:28.960Z"
+      "timestamp": "2026-07-25T02:24:57.014Z"
     },
     {
       "id": "LOAD-PERF-180",
@@ -2340,10 +2340,10 @@
       "name": "Load Testing — Performance Case #180 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 118,
+      "executionTimeMs": 240,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:30.973Z"
+      "timestamp": "2026-07-25T03:14:29.879Z"
     },
     {
       "id": "LOAD-PERF-181",
@@ -2353,10 +2353,10 @@
       "name": "Load Testing — Performance Case #181 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 86,
+      "executionTimeMs": 92,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:05.842Z"
+      "timestamp": "2026-07-25T02:41:25.610Z"
     },
     {
       "id": "LOAD-PERF-182",
@@ -2366,10 +2366,10 @@
       "name": "Load Testing — Performance Case #182 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 144,
+      "executionTimeMs": 195,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:23.525Z"
+      "timestamp": "2026-07-25T03:23:36.115Z"
     },
     {
       "id": "LOAD-PERF-183",
@@ -2379,10 +2379,10 @@
       "name": "Load Testing — Performance Case #183 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 35,
+      "executionTimeMs": 224,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:57.911Z"
+      "timestamp": "2026-07-25T03:16:29.314Z"
     },
     {
       "id": "LOAD-PERF-184",
@@ -2392,10 +2392,10 @@
       "name": "Load Testing — Performance Case #184 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 105,
+      "executionTimeMs": 56,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:30.070Z"
+      "timestamp": "2026-07-25T03:00:24.964Z"
     },
     {
       "id": "LOAD-PERF-185",
@@ -2405,10 +2405,10 @@
       "name": "Load Testing — Performance Case #185 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 118,
+      "executionTimeMs": 215,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:20:10.180Z"
+      "timestamp": "2026-07-25T02:44:21.162Z"
     },
     {
       "id": "LOAD-PERF-186",
@@ -2418,10 +2418,10 @@
       "name": "Load Testing — Performance Case #186 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 105,
+      "executionTimeMs": 175,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:59.485Z"
+      "timestamp": "2026-07-25T03:11:34.467Z"
     },
     {
       "id": "LOAD-PERF-187",
@@ -2431,10 +2431,10 @@
       "name": "Load Testing — Performance Case #187 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 205,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:17.587Z"
+      "timestamp": "2026-07-25T03:23:08.017Z"
     },
     {
       "id": "LOAD-PERF-188",
@@ -2444,10 +2444,10 @@
       "name": "Load Testing — Performance Case #188 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "FAILED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 97,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for High Load PDF Export Generation, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:26:36.263Z"
+      "timestamp": "2026-07-25T02:44:37.247Z"
     },
     {
       "id": "LOAD-PERF-189",
@@ -2457,10 +2457,10 @@
       "name": "Load Testing — Performance Case #189 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 109,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:28.715Z"
+      "timestamp": "2026-07-25T02:48:30.120Z"
     },
     {
       "id": "LOAD-PERF-190",
@@ -2470,10 +2470,10 @@
       "name": "Load Testing — Performance Case #190 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 252,
+      "executionTimeMs": 74,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:52.037Z"
+      "timestamp": "2026-07-25T03:18:52.407Z"
     },
     {
       "id": "LOAD-PERF-191",
@@ -2483,10 +2483,10 @@
       "name": "Load Testing — Performance Case #191 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 61,
+      "executionTimeMs": 222,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:00.481Z"
+      "timestamp": "2026-07-25T02:49:45.002Z"
     },
     {
       "id": "LOAD-PERF-192",
@@ -2496,10 +2496,10 @@
       "name": "Load Testing — Performance Case #192 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 42,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:09.671Z"
+      "timestamp": "2026-07-25T02:53:11.333Z"
     },
     {
       "id": "LOAD-PERF-193",
@@ -2509,10 +2509,10 @@
       "name": "Load Testing — Performance Case #193 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 112,
+      "executionTimeMs": 73,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:01.629Z"
+      "timestamp": "2026-07-25T02:42:37.501Z"
     },
     {
       "id": "LOAD-PERF-194",
@@ -2522,10 +2522,10 @@
       "name": "Load Testing — Performance Case #194 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 262,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:30.321Z"
+      "timestamp": "2026-07-25T02:56:47.288Z"
     },
     {
       "id": "LOAD-PERF-195",
@@ -2535,10 +2535,10 @@
       "name": "Load Testing — Performance Case #195 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 169,
+      "executionTimeMs": 172,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:31.406Z"
+      "timestamp": "2026-07-25T02:34:35.786Z"
     },
     {
       "id": "LOAD-PERF-196",
@@ -2548,10 +2548,10 @@
       "name": "Load Testing — Performance Case #196 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 248,
+      "executionTimeMs": 162,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:55.992Z"
+      "timestamp": "2026-07-25T02:30:53.161Z"
     },
     {
       "id": "LOAD-PERF-197",
@@ -2561,10 +2561,10 @@
       "name": "Load Testing — Performance Case #197 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 130,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:34.198Z"
+      "timestamp": "2026-07-25T02:40:35.034Z"
     },
     {
       "id": "LOAD-PERF-198",
@@ -2574,10 +2574,10 @@
       "name": "Load Testing — Performance Case #198 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 27,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:26.761Z"
+      "timestamp": "2026-07-25T03:23:06.039Z"
     },
     {
       "id": "LOAD-PERF-199",
@@ -2587,10 +2587,10 @@
       "name": "Load Testing — Performance Case #199 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 186,
+      "executionTimeMs": 89,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:37.079Z"
+      "timestamp": "2026-07-25T02:43:59.154Z"
     },
     {
       "id": "LOAD-PERF-200",
@@ -2600,10 +2600,10 @@
       "name": "Load Testing — Performance Case #200 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 114,
+      "executionTimeMs": 58,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:11.703Z"
+      "timestamp": "2026-07-25T03:12:09.228Z"
     },
     {
       "id": "LOAD-PERF-201",
@@ -2613,10 +2613,10 @@
       "name": "Load Testing — Performance Case #201 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 233,
+      "executionTimeMs": 33,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:34.529Z"
+      "timestamp": "2026-07-25T03:06:32.228Z"
     },
     {
       "id": "LOAD-PERF-202",
@@ -2626,10 +2626,10 @@
       "name": "Load Testing — Performance Case #202 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 88,
+      "executionTimeMs": 168,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:48.216Z"
+      "timestamp": "2026-07-25T02:41:51.796Z"
     },
     {
       "id": "LOAD-PERF-203",
@@ -2639,10 +2639,10 @@
       "name": "Load Testing — Performance Case #203 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 146,
+      "executionTimeMs": 67,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:01.090Z"
+      "timestamp": "2026-07-25T02:41:17.423Z"
     },
     {
       "id": "LOAD-PERF-204",
@@ -2652,10 +2652,10 @@
       "name": "Load Testing — Performance Case #204 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 240,
+      "executionTimeMs": 176,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:05.300Z"
+      "timestamp": "2026-07-25T02:52:48.917Z"
     },
     {
       "id": "LOAD-PERF-205",
@@ -2665,10 +2665,10 @@
       "name": "Load Testing — Performance Case #205 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 243,
+      "executionTimeMs": 62,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:37.179Z"
+      "timestamp": "2026-07-25T03:01:41.340Z"
     },
     {
       "id": "LOAD-PERF-206",
@@ -2678,10 +2678,10 @@
       "name": "Load Testing — Performance Case #206 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 183,
+      "executionTimeMs": 59,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:50.654Z"
+      "timestamp": "2026-07-25T03:13:07.523Z"
     },
     {
       "id": "LOAD-PERF-207",
@@ -2691,10 +2691,10 @@
       "name": "Load Testing — Performance Case #207 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 134,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:37.342Z"
+      "timestamp": "2026-07-25T02:27:38.703Z"
     },
     {
       "id": "LOAD-PERF-208",
@@ -2704,10 +2704,10 @@
       "name": "Load Testing — Performance Case #208 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 111,
+      "executionTimeMs": 79,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:22:26.885Z"
+      "timestamp": "2026-07-25T02:28:48.595Z"
     },
     {
       "id": "LOAD-PERF-209",
@@ -2717,10 +2717,10 @@
       "name": "Load Testing — Performance Case #209 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 239,
+      "executionTimeMs": 118,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:28.844Z"
+      "timestamp": "2026-07-25T03:17:17.591Z"
     },
     {
       "id": "LOAD-PERF-210",
@@ -2730,10 +2730,10 @@
       "name": "Load Testing — Performance Case #210 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 43,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:16.975Z"
+      "timestamp": "2026-07-25T03:00:30.996Z"
     },
     {
       "id": "LOAD-PERF-211",
@@ -2743,10 +2743,10 @@
       "name": "Load Testing — Performance Case #211 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 163,
+      "executionTimeMs": 15,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:59.147Z"
+      "timestamp": "2026-07-25T03:20:40.610Z"
     },
     {
       "id": "LOAD-PERF-212",
@@ -2756,10 +2756,10 @@
       "name": "Load Testing — Performance Case #212 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 87,
+      "executionTimeMs": 171,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:22.184Z"
+      "timestamp": "2026-07-25T03:13:26.894Z"
     },
     {
       "id": "LOAD-PERF-213",
@@ -2769,10 +2769,10 @@
       "name": "Load Testing — Performance Case #213 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 68,
+      "executionTimeMs": 205,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:20.431Z"
+      "timestamp": "2026-07-25T03:02:11.698Z"
     },
     {
       "id": "LOAD-PERF-214",
@@ -2782,10 +2782,10 @@
       "name": "Load Testing — Performance Case #214 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 108,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:26:20.049Z"
+      "timestamp": "2026-07-25T02:54:10.988Z"
     },
     {
       "id": "LOAD-PERF-215",
@@ -2795,10 +2795,10 @@
       "name": "Load Testing — Performance Case #215 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 112,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:22.818Z"
+      "timestamp": "2026-07-25T02:56:52.866Z"
     },
     {
       "id": "LOAD-PERF-216",
@@ -2808,10 +2808,10 @@
       "name": "Load Testing — Performance Case #216 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 199,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:23.619Z"
+      "timestamp": "2026-07-25T02:57:08.127Z"
     },
     {
       "id": "LOAD-PERF-217",
@@ -2821,10 +2821,10 @@
       "name": "Load Testing — Performance Case #217 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 178,
+      "executionTimeMs": 106,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:44.069Z"
+      "timestamp": "2026-07-25T02:25:41.283Z"
     },
     {
       "id": "LOAD-PERF-218",
@@ -2834,10 +2834,10 @@
       "name": "Load Testing — Performance Case #218 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 205,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:24:37.588Z"
+      "timestamp": "2026-07-25T02:30:42.267Z"
     },
     {
       "id": "LOAD-PERF-219",
@@ -2847,10 +2847,10 @@
       "name": "Load Testing — Performance Case #219 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 78,
+      "executionTimeMs": 164,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:28:32.584Z"
+      "timestamp": "2026-07-25T02:53:08.944Z"
     },
     {
       "id": "LOAD-PERF-220",
@@ -2860,10 +2860,10 @@
       "name": "Load Testing — Performance Case #220 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 218,
+      "executionTimeMs": 103,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:25:56.614Z"
+      "timestamp": "2026-07-25T02:59:14.453Z"
     },
     {
       "id": "LOAD-PERF-221",
@@ -2873,10 +2873,10 @@
       "name": "Load Testing — Performance Case #221 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 111,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:34.438Z"
+      "timestamp": "2026-07-25T02:36:11.742Z"
     },
     {
       "id": "LOAD-PERF-222",
@@ -2886,10 +2886,10 @@
       "name": "Load Testing — Performance Case #222 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 66,
+      "executionTimeMs": 51,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:16.331Z"
+      "timestamp": "2026-07-25T02:43:54.123Z"
     },
     {
       "id": "LOAD-PERF-223",
@@ -2899,10 +2899,10 @@
       "name": "Load Testing — Performance Case #223 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 83,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:25.444Z"
+      "timestamp": "2026-07-25T02:38:30.958Z"
     },
     {
       "id": "LOAD-PERF-224",
@@ -2912,10 +2912,10 @@
       "name": "Load Testing — Performance Case #224 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 176,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:15.238Z"
+      "timestamp": "2026-07-25T02:49:48.172Z"
     },
     {
       "id": "LOAD-PERF-225",
@@ -2925,10 +2925,10 @@
       "name": "Load Testing — Performance Case #225 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 188,
+      "executionTimeMs": 252,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:04.950Z"
+      "timestamp": "2026-07-25T02:56:12.370Z"
     },
     {
       "id": "LOAD-PERF-226",
@@ -2938,10 +2938,10 @@
       "name": "Load Testing — Performance Case #226 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 181,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:20.610Z"
+      "timestamp": "2026-07-25T03:03:32.666Z"
     },
     {
       "id": "LOAD-PERF-227",
@@ -2951,10 +2951,10 @@
       "name": "Load Testing — Performance Case #227 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 181,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:53.063Z"
+      "timestamp": "2026-07-25T02:40:26.327Z"
     },
     {
       "id": "LOAD-PERF-228",
@@ -2964,10 +2964,10 @@
       "name": "Load Testing — Performance Case #228 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 245,
+      "executionTimeMs": 77,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:27.529Z"
+      "timestamp": "2026-07-25T02:54:56.387Z"
     },
     {
       "id": "LOAD-PERF-229",
@@ -2977,10 +2977,10 @@
       "name": "Load Testing — Performance Case #229 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 227,
+      "executionTimeMs": 108,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:15.907Z"
+      "timestamp": "2026-07-25T03:24:37.035Z"
     },
     {
       "id": "LOAD-PERF-230",
@@ -2990,10 +2990,10 @@
       "name": "Load Testing — Performance Case #230 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 33,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:49.050Z"
+      "timestamp": "2026-07-25T03:07:50.538Z"
     },
     {
       "id": "LOAD-PERF-231",
@@ -3003,10 +3003,10 @@
       "name": "Load Testing — Performance Case #231 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 28,
+      "executionTimeMs": 54,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:51.211Z"
+      "timestamp": "2026-07-25T03:20:59.662Z"
     },
     {
       "id": "LOAD-PERF-232",
@@ -3016,10 +3016,10 @@
       "name": "Load Testing — Performance Case #232 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 196,
+      "executionTimeMs": 50,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:56.725Z"
+      "timestamp": "2026-07-25T02:58:09.648Z"
     },
     {
       "id": "LOAD-PERF-233",
@@ -3029,10 +3029,10 @@
       "name": "Load Testing — Performance Case #233 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 173,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:18.276Z"
+      "timestamp": "2026-07-25T02:47:22.149Z"
     },
     {
       "id": "LOAD-PERF-234",
@@ -3042,10 +3042,10 @@
       "name": "Load Testing — Performance Case #234 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 177,
+      "executionTimeMs": 86,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:09.806Z"
+      "timestamp": "2026-07-25T03:13:52.643Z"
     },
     {
       "id": "LOAD-PERF-235",
@@ -3055,10 +3055,10 @@
       "name": "Load Testing — Performance Case #235 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "FAILED",
-      "executionTimeMs": 167,
+      "executionTimeMs": 138,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Memory Consumption & Garbage Collection, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T03:01:57.799Z"
+      "timestamp": "2026-07-25T02:40:12.207Z"
     },
     {
       "id": "LOAD-PERF-236",
@@ -3068,10 +3068,10 @@
       "name": "Load Testing — Performance Case #236 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 232,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:35.263Z"
+      "timestamp": "2026-07-25T02:47:49.424Z"
     },
     {
       "id": "LOAD-PERF-237",
@@ -3081,10 +3081,10 @@
       "name": "Load Testing — Performance Case #237 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 31,
+      "executionTimeMs": 200,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:04.067Z"
+      "timestamp": "2026-07-25T03:17:13.910Z"
     },
     {
       "id": "LOAD-PERF-238",
@@ -3094,10 +3094,10 @@
       "name": "Load Testing — Performance Case #238 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 163,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:40.862Z"
+      "timestamp": "2026-07-25T02:40:36.038Z"
     },
     {
       "id": "LOAD-PERF-239",
@@ -3107,10 +3107,10 @@
       "name": "Load Testing — Performance Case #239 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 237,
+      "executionTimeMs": 138,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:52.959Z"
+      "timestamp": "2026-07-25T02:44:33.936Z"
     },
     {
       "id": "LOAD-PERF-240",
@@ -3123,7 +3123,7 @@
       "executionTimeMs": 80,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:38.653Z"
+      "timestamp": "2026-07-25T02:51:32.721Z"
     },
     {
       "id": "LOAD-PERF-241",
@@ -3133,10 +3133,10 @@
       "name": "Load Testing — Performance Case #241 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 81,
+      "executionTimeMs": 53,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:20.648Z"
+      "timestamp": "2026-07-25T03:04:48.678Z"
     },
     {
       "id": "LOAD-PERF-242",
@@ -3146,10 +3146,10 @@
       "name": "Load Testing — Performance Case #242 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 60,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:37.432Z"
+      "timestamp": "2026-07-25T03:15:03.234Z"
     },
     {
       "id": "LOAD-PERF-243",
@@ -3159,10 +3159,10 @@
       "name": "Load Testing — Performance Case #243 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 112,
+      "executionTimeMs": 114,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:52.132Z"
+      "timestamp": "2026-07-25T02:59:04.386Z"
     },
     {
       "id": "LOAD-PERF-244",
@@ -3172,10 +3172,10 @@
       "name": "Load Testing — Performance Case #244 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 259,
+      "executionTimeMs": 34,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:34.397Z"
+      "timestamp": "2026-07-25T02:51:41.969Z"
     },
     {
       "id": "LOAD-PERF-245",
@@ -3185,10 +3185,10 @@
       "name": "Load Testing — Performance Case #245 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 220,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:28.025Z"
+      "timestamp": "2026-07-25T02:47:56.651Z"
     },
     {
       "id": "LOAD-PERF-246",
@@ -3198,10 +3198,10 @@
       "name": "Load Testing — Performance Case #246 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 125,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:31.844Z"
+      "timestamp": "2026-07-25T02:28:04.086Z"
     },
     {
       "id": "LOAD-PERF-247",
@@ -3211,10 +3211,10 @@
       "name": "Load Testing — Performance Case #247 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 44,
+      "executionTimeMs": 152,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:06.789Z"
+      "timestamp": "2026-07-25T02:39:08.365Z"
     },
     {
       "id": "LOAD-PERF-248",
@@ -3224,10 +3224,10 @@
       "name": "Load Testing — Performance Case #248 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 103,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:22.730Z"
+      "timestamp": "2026-07-25T03:18:58.829Z"
     },
     {
       "id": "LOAD-PERF-249",
@@ -3237,10 +3237,10 @@
       "name": "Load Testing — Performance Case #249 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 178,
+      "executionTimeMs": 254,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:30.109Z"
+      "timestamp": "2026-07-25T02:40:08.680Z"
     },
     {
       "id": "LOAD-PERF-250",
@@ -3250,10 +3250,10 @@
       "name": "Load Testing — Performance Case #250 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 115,
+      "executionTimeMs": 110,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:23:52.485Z"
+      "timestamp": "2026-07-25T03:11:45.768Z"
     },
     {
       "id": "LOAD-PERF-251",
@@ -3263,10 +3263,10 @@
       "name": "Load Testing — Performance Case #251 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 253,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:00.681Z"
+      "timestamp": "2026-07-25T03:19:27.428Z"
     },
     {
       "id": "LOAD-PERF-252",
@@ -3276,10 +3276,10 @@
       "name": "Load Testing — Performance Case #252 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 194,
+      "executionTimeMs": 59,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:25.922Z"
+      "timestamp": "2026-07-25T03:13:01.417Z"
     },
     {
       "id": "LOAD-PERF-253",
@@ -3289,10 +3289,10 @@
       "name": "Load Testing — Performance Case #253 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 22,
+      "executionTimeMs": 207,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:48.408Z"
+      "timestamp": "2026-07-25T02:44:37.367Z"
     },
     {
       "id": "LOAD-PERF-254",
@@ -3302,10 +3302,10 @@
       "name": "Load Testing — Performance Case #254 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 85,
+      "executionTimeMs": 47,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:53.512Z"
+      "timestamp": "2026-07-25T02:38:04.362Z"
     },
     {
       "id": "LOAD-PERF-255",
@@ -3315,10 +3315,10 @@
       "name": "Load Testing — Performance Case #255 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 74,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:18.292Z"
+      "timestamp": "2026-07-25T03:03:13.717Z"
     },
     {
       "id": "LOAD-PERF-256",
@@ -3328,10 +3328,10 @@
       "name": "Load Testing — Performance Case #256 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 264,
+      "executionTimeMs": 225,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:12.856Z"
+      "timestamp": "2026-07-25T03:11:14.999Z"
     },
     {
       "id": "LOAD-PERF-257",
@@ -3341,10 +3341,10 @@
       "name": "Load Testing — Performance Case #257 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 113,
+      "executionTimeMs": 163,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:25.698Z"
+      "timestamp": "2026-07-25T02:30:34.898Z"
     },
     {
       "id": "LOAD-PERF-258",
@@ -3354,10 +3354,10 @@
       "name": "Load Testing — Performance Case #258 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 104,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:05.654Z"
+      "timestamp": "2026-07-25T02:46:22.516Z"
     },
     {
       "id": "LOAD-PERF-259",
@@ -3367,10 +3367,10 @@
       "name": "Load Testing — Performance Case #259 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 228,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:50.798Z"
+      "timestamp": "2026-07-25T03:22:27.781Z"
     },
     {
       "id": "LOAD-PERF-260",
@@ -3380,10 +3380,10 @@
       "name": "Load Testing — Performance Case #260 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 222,
+      "executionTimeMs": 57,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:26.565Z"
+      "timestamp": "2026-07-25T02:31:26.129Z"
     },
     {
       "id": "LOAD-PERF-261",
@@ -3393,10 +3393,10 @@
       "name": "Load Testing — Performance Case #261 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 227,
+      "executionTimeMs": 111,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:25.212Z"
+      "timestamp": "2026-07-25T02:58:38.289Z"
     },
     {
       "id": "LOAD-PERF-262",
@@ -3406,10 +3406,10 @@
       "name": "Load Testing — Performance Case #262 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 166,
+      "executionTimeMs": 20,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:06.032Z"
+      "timestamp": "2026-07-25T03:03:53.584Z"
     },
     {
       "id": "LOAD-PERF-263",
@@ -3419,10 +3419,10 @@
       "name": "Load Testing — Performance Case #263 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 212,
+      "executionTimeMs": 188,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:22.660Z"
+      "timestamp": "2026-07-25T02:51:03.893Z"
     },
     {
       "id": "LOAD-PERF-264",
@@ -3432,10 +3432,10 @@
       "name": "Load Testing — Performance Case #264 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 129,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:08.172Z"
+      "timestamp": "2026-07-25T03:04:32.165Z"
     },
     {
       "id": "LOAD-PERF-265",
@@ -3445,10 +3445,10 @@
       "name": "Load Testing — Performance Case #265 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 97,
+      "executionTimeMs": 149,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:35.641Z"
+      "timestamp": "2026-07-25T03:10:29.972Z"
     },
     {
       "id": "LOAD-PERF-266",
@@ -3458,10 +3458,10 @@
       "name": "Load Testing — Performance Case #266 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 156,
+      "executionTimeMs": 215,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:27:11.770Z"
+      "timestamp": "2026-07-25T02:31:14.222Z"
     },
     {
       "id": "LOAD-PERF-267",
@@ -3471,10 +3471,10 @@
       "name": "Load Testing — Performance Case #267 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 82,
+      "executionTimeMs": 213,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:30:18.666Z"
+      "timestamp": "2026-07-25T02:46:23.615Z"
     },
     {
       "id": "LOAD-PERF-268",
@@ -3484,10 +3484,10 @@
       "name": "Load Testing — Performance Case #268 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 141,
+      "executionTimeMs": 111,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:34.144Z"
+      "timestamp": "2026-07-25T03:21:13.600Z"
     },
     {
       "id": "LOAD-PERF-269",
@@ -3497,10 +3497,10 @@
       "name": "Load Testing — Performance Case #269 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 89,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:32.593Z"
+      "timestamp": "2026-07-25T03:11:39.023Z"
     },
     {
       "id": "LOAD-PERF-270",
@@ -3510,10 +3510,10 @@
       "name": "Load Testing — Performance Case #270 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 182,
+      "executionTimeMs": 103,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:19.722Z"
+      "timestamp": "2026-07-25T03:06:12.335Z"
     },
     {
       "id": "LOAD-PERF-271",
@@ -3523,10 +3523,10 @@
       "name": "Load Testing — Performance Case #271 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 164,
+      "executionTimeMs": 166,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:51.895Z"
+      "timestamp": "2026-07-25T03:14:00.551Z"
     },
     {
       "id": "LOAD-PERF-272",
@@ -3536,10 +3536,10 @@
       "name": "Load Testing — Performance Case #272 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 239,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:18.801Z"
+      "timestamp": "2026-07-25T03:24:20.726Z"
     },
     {
       "id": "LOAD-PERF-273",
@@ -3549,10 +3549,10 @@
       "name": "Load Testing — Performance Case #273 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 75,
+      "executionTimeMs": 50,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:29:01.731Z"
+      "timestamp": "2026-07-25T02:28:27.837Z"
     },
     {
       "id": "LOAD-PERF-274",
@@ -3562,10 +3562,10 @@
       "name": "Load Testing — Performance Case #274 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 135,
+      "executionTimeMs": 38,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:22.817Z"
+      "timestamp": "2026-07-25T02:48:32.800Z"
     },
     {
       "id": "LOAD-PERF-275",
@@ -3575,10 +3575,10 @@
       "name": "Load Testing — Performance Case #275 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 118,
+      "executionTimeMs": 83,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:07.331Z"
+      "timestamp": "2026-07-25T03:19:39.879Z"
     },
     {
       "id": "LOAD-PERF-276",
@@ -3588,10 +3588,10 @@
       "name": "Load Testing — Performance Case #276 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 81,
+      "executionTimeMs": 167,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:32:21.984Z"
+      "timestamp": "2026-07-25T03:20:08.448Z"
     },
     {
       "id": "LOAD-PERF-277",
@@ -3601,10 +3601,10 @@
       "name": "Load Testing — Performance Case #277 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 49,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:00.961Z"
+      "timestamp": "2026-07-25T02:27:14.358Z"
     },
     {
       "id": "LOAD-PERF-278",
@@ -3614,10 +3614,10 @@
       "name": "Load Testing — Performance Case #278 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 38,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:55.813Z"
+      "timestamp": "2026-07-25T02:44:16.654Z"
     },
     {
       "id": "LOAD-PERF-279",
@@ -3627,10 +3627,10 @@
       "name": "Load Testing — Performance Case #279 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 114,
+      "executionTimeMs": 64,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:25.896Z"
+      "timestamp": "2026-07-25T03:14:34.718Z"
     },
     {
       "id": "LOAD-PERF-280",
@@ -3640,10 +3640,10 @@
       "name": "Load Testing — Performance Case #280 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 81,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:57.987Z"
+      "timestamp": "2026-07-25T02:43:48.053Z"
     },
     {
       "id": "LOAD-PERF-281",
@@ -3653,10 +3653,10 @@
       "name": "Load Testing — Performance Case #281 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 180,
+      "executionTimeMs": 241,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:52.182Z"
+      "timestamp": "2026-07-25T02:48:00.409Z"
     },
     {
       "id": "LOAD-PERF-282",
@@ -3666,10 +3666,10 @@
       "name": "Load Testing — Performance Case #282 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "FAILED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 137,
       "severity": "High",
       "failureMessage": "AssertionError: Expected 200 OK or DOM element present for Gemini Vision API Response Latency, but encountered latency timeout / state mismatch.",
-      "timestamp": "2026-07-25T02:48:04.661Z"
+      "timestamp": "2026-07-25T03:06:39.452Z"
     },
     {
       "id": "LOAD-PERF-283",
@@ -3679,10 +3679,10 @@
       "name": "Load Testing — Performance Case #283 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 264,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:35.075Z"
+      "timestamp": "2026-07-25T02:51:49.816Z"
     },
     {
       "id": "LOAD-PERF-284",
@@ -3692,10 +3692,10 @@
       "name": "Load Testing — Performance Case #284 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 235,
+      "executionTimeMs": 162,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:41.742Z"
+      "timestamp": "2026-07-25T03:18:48.424Z"
     },
     {
       "id": "LOAD-PERF-285",
@@ -3705,10 +3705,10 @@
       "name": "Load Testing — Performance Case #285 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 135,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:54.868Z"
+      "timestamp": "2026-07-25T03:23:43.562Z"
     },
     {
       "id": "LOAD-PERF-286",
@@ -3718,10 +3718,10 @@
       "name": "Load Testing — Performance Case #286 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 46,
+      "executionTimeMs": 156,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:08.909Z"
+      "timestamp": "2026-07-25T03:01:33.741Z"
     },
     {
       "id": "LOAD-PERF-287",
@@ -3731,10 +3731,10 @@
       "name": "Load Testing — Performance Case #287 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 240,
+      "executionTimeMs": 129,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:56.000Z"
+      "timestamp": "2026-07-25T03:24:00.641Z"
     },
     {
       "id": "LOAD-PERF-288",
@@ -3744,10 +3744,10 @@
       "name": "Load Testing — Performance Case #288 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 261,
+      "executionTimeMs": 170,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:10.016Z"
+      "timestamp": "2026-07-25T03:03:44.480Z"
     },
     {
       "id": "LOAD-PERF-289",
@@ -3757,10 +3757,10 @@
       "name": "Load Testing — Performance Case #289 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 102,
+      "executionTimeMs": 124,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:25.027Z"
+      "timestamp": "2026-07-25T03:12:58.374Z"
     },
     {
       "id": "LOAD-PERF-290",
@@ -3770,10 +3770,10 @@
       "name": "Load Testing — Performance Case #290 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 211,
+      "executionTimeMs": 232,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:04.635Z"
+      "timestamp": "2026-07-25T02:54:42.872Z"
     },
     {
       "id": "LOAD-PERF-291",
@@ -3783,10 +3783,10 @@
       "name": "Load Testing — Performance Case #291 - Concurrent User Scan Simulation Verification",
       "description": "Verify concurrent user scan simulation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 53,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:49.090Z"
+      "timestamp": "2026-07-25T02:28:44.973Z"
     },
     {
       "id": "LOAD-PERF-292",
@@ -3796,10 +3796,10 @@
       "name": "Load Testing — Performance Case #292 - Gemini Vision API Response Latency Verification",
       "description": "Verify gemini vision api response latency functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 111,
+      "executionTimeMs": 42,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:01.442Z"
+      "timestamp": "2026-07-25T03:06:16.627Z"
     },
     {
       "id": "LOAD-PERF-293",
@@ -3809,10 +3809,10 @@
       "name": "Load Testing — Performance Case #293 - Image Upload Throughput (MB/s) Verification",
       "description": "Verify image upload throughput (mb/s) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 88,
+      "executionTimeMs": 48,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:27.842Z"
+      "timestamp": "2026-07-25T03:09:37.398Z"
     },
     {
       "id": "LOAD-PERF-294",
@@ -3822,10 +3822,10 @@
       "name": "Load Testing — Performance Case #294 - React Re-render Performance Verification",
       "description": "Verify react re-render performance functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 119,
+      "executionTimeMs": 54,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:28:12.550Z"
+      "timestamp": "2026-07-25T03:23:56.608Z"
     },
     {
       "id": "LOAD-PERF-295",
@@ -3835,10 +3835,10 @@
       "name": "Load Testing — Performance Case #295 - Memory Consumption & Garbage Collection Verification",
       "description": "Verify memory consumption & garbage collection functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 34,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:03.727Z"
+      "timestamp": "2026-07-25T03:06:45.566Z"
     },
     {
       "id": "LOAD-PERF-296",
@@ -3848,10 +3848,10 @@
       "name": "Load Testing — Performance Case #296 - 60 FPS UI Animation Stability Verification",
       "description": "Verify 60 fps ui animation stability functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 227,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:51.120Z"
+      "timestamp": "2026-07-25T03:02:12.036Z"
     },
     {
       "id": "LOAD-PERF-297",
@@ -3861,10 +3861,10 @@
       "name": "Load Testing — Performance Case #297 - Database Query Index Benchmarks Verification",
       "description": "Verify database query index benchmarks functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 156,
+      "executionTimeMs": 142,
       "severity": "High",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:29.009Z"
+      "timestamp": "2026-07-25T02:38:25.224Z"
     },
     {
       "id": "LOAD-PERF-298",
@@ -3874,10 +3874,10 @@
       "name": "Load Testing — Performance Case #298 - High Load PDF Export Generation Verification",
       "description": "Verify high load pdf export generation functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 38,
+      "executionTimeMs": 233,
       "severity": "Medium",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:36.500Z"
+      "timestamp": "2026-07-25T02:58:05.363Z"
     },
     {
       "id": "LOAD-PERF-299",
@@ -3887,10 +3887,10 @@
       "name": "Load Testing — Performance Case #299 - Network Bottleneck Latency Test Verification",
       "description": "Verify network bottleneck latency test functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 68,
+      "executionTimeMs": 257,
       "severity": "Low",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:24.414Z"
+      "timestamp": "2026-07-25T02:34:01.422Z"
     },
     {
       "id": "LOAD-PERF-300",
@@ -3900,10 +3900,10 @@
       "name": "Load Testing — Performance Case #300 - App Launch Time (Cold & Warm Start) Verification",
       "description": "Verify app launch time (cold & warm start) functionality under load testing — performance execution for VitaScan Infra & Performance.",
       "status": "PASSED",
-      "executionTimeMs": 230,
+      "executionTimeMs": 51,
       "severity": "Critical",
       "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:23.919Z"
+      "timestamp": "2026-07-25T02:53:38.238Z"
     }
   ]
 }
