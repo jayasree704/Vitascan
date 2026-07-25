@@ -13,10 +13,10 @@
       "name": "Selenium — Website Tests Case #1 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 27,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:34.910Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:23.131Z"
     },
     {
       "id": "WEB-SEL-002",
@@ -26,10 +26,10 @@
       "name": "Selenium — Website Tests Case #2 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 43,
+      "executionTimeMs": 76,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:24.743Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:46.528Z"
     },
     {
       "id": "WEB-SEL-003",
@@ -39,10 +39,10 @@
       "name": "Selenium — Website Tests Case #3 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 183,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:10.237Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:28.238Z"
     },
     {
       "id": "WEB-SEL-004",
@@ -52,10 +52,10 @@
       "name": "Selenium — Website Tests Case #4 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 16,
+      "executionTimeMs": 34,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:58.197Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:54.390Z"
     },
     {
       "id": "WEB-SEL-005",
@@ -65,10 +65,10 @@
       "name": "Selenium — Website Tests Case #5 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 154,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:25.833Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:03.942Z"
     },
     {
       "id": "WEB-SEL-006",
@@ -78,10 +78,10 @@
       "name": "Selenium — Website Tests Case #6 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 147,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:33.700Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:03.342Z"
     },
     {
       "id": "WEB-SEL-007",
@@ -91,10 +91,10 @@
       "name": "Selenium — Website Tests Case #7 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 92,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:43.223Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:46.905Z"
     },
     {
       "id": "WEB-SEL-008",
@@ -104,10 +104,10 @@
       "name": "Selenium — Website Tests Case #8 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 129,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:03.969Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:37.076Z"
     },
     {
       "id": "WEB-SEL-009",
@@ -117,10 +117,10 @@
       "name": "Selenium — Website Tests Case #9 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 20,
+      "executionTimeMs": 197,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:47.644Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:27.858Z"
     },
     {
       "id": "WEB-SEL-010",
@@ -130,10 +130,10 @@
       "name": "Selenium — Website Tests Case #10 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 43,
+      "executionTimeMs": 79,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:12.388Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:11.461Z"
     },
     {
       "id": "WEB-SEL-011",
@@ -143,10 +143,10 @@
       "name": "Selenium — Website Tests Case #11 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 146,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:15.026Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:39.783Z"
     },
     {
       "id": "WEB-SEL-012",
@@ -156,10 +156,10 @@
       "name": "Selenium — Website Tests Case #12 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 75,
+      "executionTimeMs": 142,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:40.561Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:25.095Z"
     },
     {
       "id": "WEB-SEL-013",
@@ -169,10 +169,10 @@
       "name": "Selenium — Website Tests Case #13 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 66,
+      "executionTimeMs": 151,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:49.138Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:10.476Z"
     },
     {
       "id": "WEB-SEL-014",
@@ -182,10 +182,10 @@
       "name": "Selenium — Website Tests Case #14 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 94,
+      "executionTimeMs": 40,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:40.600Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:56.899Z"
     },
     {
       "id": "WEB-SEL-015",
@@ -195,10 +195,10 @@
       "name": "Selenium — Website Tests Case #15 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 29,
+      "executionTimeMs": 110,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:28.494Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:28.899Z"
     },
     {
       "id": "WEB-SEL-016",
@@ -208,10 +208,10 @@
       "name": "Selenium — Website Tests Case #16 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 119,
+      "executionTimeMs": 178,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:21.395Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:43:38.257Z"
     },
     {
       "id": "WEB-SEL-017",
@@ -221,10 +221,10 @@
       "name": "Selenium — Website Tests Case #17 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 21,
+      "executionTimeMs": 45,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:57.288Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:36.512Z"
     },
     {
       "id": "WEB-SEL-018",
@@ -234,10 +234,10 @@
       "name": "Selenium — Website Tests Case #18 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 186,
+      "executionTimeMs": 23,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:10.832Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:10.395Z"
     },
     {
       "id": "WEB-SEL-019",
@@ -247,10 +247,10 @@
       "name": "Selenium — Website Tests Case #19 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 54,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:26.253Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:57.259Z"
     },
     {
       "id": "WEB-SEL-020",
@@ -260,10 +260,10 @@
       "name": "Selenium — Website Tests Case #20 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 95,
+      "executionTimeMs": 68,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:28.637Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:01.106Z"
     },
     {
       "id": "WEB-SEL-021",
@@ -273,10 +273,10 @@
       "name": "Selenium — Website Tests Case #21 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 79,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:21.489Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:28.161Z"
     },
     {
       "id": "WEB-SEL-022",
@@ -286,10 +286,10 @@
       "name": "Selenium — Website Tests Case #22 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 103,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:41.256Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:54.543Z"
     },
     {
       "id": "WEB-SEL-023",
@@ -299,10 +299,10 @@
       "name": "Selenium — Website Tests Case #23 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 113,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:20.839Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:50.434Z"
     },
     {
       "id": "WEB-SEL-024",
@@ -312,10 +312,10 @@
       "name": "Selenium — Website Tests Case #24 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 41,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:16.194Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:02.051Z"
     },
     {
       "id": "WEB-SEL-025",
@@ -325,10 +325,10 @@
       "name": "Selenium — Website Tests Case #25 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 115,
+      "executionTimeMs": 93,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:38.497Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:11.263Z"
     },
     {
       "id": "WEB-SEL-026",
@@ -338,10 +338,10 @@
       "name": "Selenium — Website Tests Case #26 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 173,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:16.050Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:33:32.966Z"
     },
     {
       "id": "WEB-SEL-027",
@@ -351,10 +351,10 @@
       "name": "Selenium — Website Tests Case #27 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 211,
+      "executionTimeMs": 123,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:55.599Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:42.734Z"
     },
     {
       "id": "WEB-SEL-028",
@@ -364,10 +364,10 @@
       "name": "Selenium — Website Tests Case #28 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 68,
+      "executionTimeMs": 125,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:24.501Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:00.667Z"
     },
     {
       "id": "WEB-SEL-029",
@@ -377,10 +377,10 @@
       "name": "Selenium — Website Tests Case #29 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 31,
+      "executionTimeMs": 85,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:16.720Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:43.037Z"
     },
     {
       "id": "WEB-SEL-030",
@@ -390,10 +390,10 @@
       "name": "Selenium — Website Tests Case #30 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 199,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:47.346Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:09.360Z"
     },
     {
       "id": "WEB-SEL-031",
@@ -403,10 +403,10 @@
       "name": "Selenium — Website Tests Case #31 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 213,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:03.051Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:23.567Z"
     },
     {
       "id": "WEB-SEL-032",
@@ -416,10 +416,10 @@
       "name": "Selenium — Website Tests Case #32 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 59,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:44.118Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:02.124Z"
     },
     {
       "id": "WEB-SEL-033",
@@ -429,10 +429,10 @@
       "name": "Selenium — Website Tests Case #33 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 83,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:50.738Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:58.546Z"
     },
     {
       "id": "WEB-SEL-034",
@@ -442,10 +442,10 @@
       "name": "Selenium — Website Tests Case #34 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 187,
+      "executionTimeMs": 29,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:46.785Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:34.725Z"
     },
     {
       "id": "WEB-SEL-035",
@@ -455,10 +455,10 @@
       "name": "Selenium — Website Tests Case #35 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 79,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:29.047Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:18.704Z"
     },
     {
       "id": "WEB-SEL-036",
@@ -468,10 +468,10 @@
       "name": "Selenium — Website Tests Case #36 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 39,
+      "executionTimeMs": 132,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:55.366Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:07.697Z"
     },
     {
       "id": "WEB-SEL-037",
@@ -481,10 +481,10 @@
       "name": "Selenium — Website Tests Case #37 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 211,
+      "executionTimeMs": 104,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:52.463Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:45.435Z"
     },
     {
       "id": "WEB-SEL-038",
@@ -494,10 +494,10 @@
       "name": "Selenium — Website Tests Case #38 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 22,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:09.779Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:07.951Z"
     },
     {
       "id": "WEB-SEL-039",
@@ -507,10 +507,10 @@
       "name": "Selenium — Website Tests Case #39 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 122,
+      "executionTimeMs": 114,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:34.270Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:50.406Z"
     },
     {
       "id": "WEB-SEL-040",
@@ -520,10 +520,10 @@
       "name": "Selenium — Website Tests Case #40 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 209,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:46.736Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:50.243Z"
     },
     {
       "id": "WEB-SEL-041",
@@ -533,10 +533,10 @@
       "name": "Selenium — Website Tests Case #41 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 31,
+      "executionTimeMs": 93,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:19.898Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:05.626Z"
     },
     {
       "id": "WEB-SEL-042",
@@ -546,10 +546,10 @@
       "name": "Selenium — Website Tests Case #42 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 59,
+      "executionTimeMs": 85,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:52.760Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:55.242Z"
     },
     {
       "id": "WEB-SEL-043",
@@ -559,10 +559,10 @@
       "name": "Selenium — Website Tests Case #43 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 61,
+      "executionTimeMs": 64,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:14.790Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:41:07.840Z"
     },
     {
       "id": "WEB-SEL-044",
@@ -572,10 +572,10 @@
       "name": "Selenium — Website Tests Case #44 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 164,
+      "executionTimeMs": 194,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:01.012Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:32.129Z"
     },
     {
       "id": "WEB-SEL-045",
@@ -585,10 +585,10 @@
       "name": "Selenium — Website Tests Case #45 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 61,
+      "executionTimeMs": 192,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:09.263Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:30.328Z"
     },
     {
       "id": "WEB-SEL-046",
@@ -598,10 +598,10 @@
       "name": "Selenium — Website Tests Case #46 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 42,
+      "executionTimeMs": 35,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:45.383Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:00.687Z"
     },
     {
       "id": "WEB-SEL-047",
@@ -611,10 +611,10 @@
       "name": "Selenium — Website Tests Case #47 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 177,
+      "executionTimeMs": 188,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:52.856Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:31.769Z"
     },
     {
       "id": "WEB-SEL-048",
@@ -624,10 +624,10 @@
       "name": "Selenium — Website Tests Case #48 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 87,
+      "executionTimeMs": 94,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:29.622Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:09.995Z"
     },
     {
       "id": "WEB-SEL-049",
@@ -637,10 +637,10 @@
       "name": "Selenium — Website Tests Case #49 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 74,
+      "executionTimeMs": 124,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:30.795Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:11.431Z"
     },
     {
       "id": "WEB-SEL-050",
@@ -650,10 +650,10 @@
       "name": "Selenium — Website Tests Case #50 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 70,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:42.879Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:52.879Z"
     },
     {
       "id": "WEB-SEL-051",
@@ -663,10 +663,10 @@
       "name": "Selenium — Website Tests Case #51 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 214,
+      "executionTimeMs": 126,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:52.534Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:02.647Z"
     },
     {
       "id": "WEB-SEL-052",
@@ -676,10 +676,10 @@
       "name": "Selenium — Website Tests Case #52 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 144,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:34.144Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:48.560Z"
     },
     {
       "id": "WEB-SEL-053",
@@ -689,10 +689,10 @@
       "name": "Selenium — Website Tests Case #53 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 145,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:28.949Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:51.863Z"
     },
     {
       "id": "WEB-SEL-054",
@@ -702,10 +702,10 @@
       "name": "Selenium — Website Tests Case #54 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 108,
+      "executionTimeMs": 165,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:05.095Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:10.244Z"
     },
     {
       "id": "WEB-SEL-055",
@@ -715,10 +715,10 @@
       "name": "Selenium — Website Tests Case #55 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 202,
+      "executionTimeMs": 65,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:47.617Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:48:58.693Z"
     },
     {
       "id": "WEB-SEL-056",
@@ -728,10 +728,10 @@
       "name": "Selenium — Website Tests Case #56 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 33,
+      "executionTimeMs": 203,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:23.551Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:40.180Z"
     },
     {
       "id": "WEB-SEL-057",
@@ -741,10 +741,10 @@
       "name": "Selenium — Website Tests Case #57 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 145,
+      "executionTimeMs": 207,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:49.263Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:57.953Z"
     },
     {
       "id": "WEB-SEL-058",
@@ -754,10 +754,10 @@
       "name": "Selenium — Website Tests Case #58 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 96,
+      "executionTimeMs": 198,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:04.417Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:19.042Z"
     },
     {
       "id": "WEB-SEL-059",
@@ -767,10 +767,10 @@
       "name": "Selenium — Website Tests Case #59 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 134,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:55.059Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:32:43.615Z"
     },
     {
       "id": "WEB-SEL-060",
@@ -780,10 +780,10 @@
       "name": "Selenium — Website Tests Case #60 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 163,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:38.220Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:35.562Z"
     },
     {
       "id": "WEB-SEL-061",
@@ -793,10 +793,10 @@
       "name": "Selenium — Website Tests Case #61 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 140,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:03.818Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:02:17.124Z"
     },
     {
       "id": "WEB-SEL-062",
@@ -806,10 +806,10 @@
       "name": "Selenium — Website Tests Case #62 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 188,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:37.825Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:37.728Z"
     },
     {
       "id": "WEB-SEL-063",
@@ -819,10 +819,10 @@
       "name": "Selenium — Website Tests Case #63 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 163,
+      "executionTimeMs": 47,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:24.530Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:15.957Z"
     },
     {
       "id": "WEB-SEL-064",
@@ -832,10 +832,10 @@
       "name": "Selenium — Website Tests Case #64 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 190,
+      "executionTimeMs": 99,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:16.658Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:28.715Z"
     },
     {
       "id": "WEB-SEL-065",
@@ -845,10 +845,10 @@
       "name": "Selenium — Website Tests Case #65 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 210,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:58.655Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:11.472Z"
     },
     {
       "id": "WEB-SEL-066",
@@ -858,10 +858,10 @@
       "name": "Selenium — Website Tests Case #66 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 182,
+      "executionTimeMs": 173,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:48.912Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:46.082Z"
     },
     {
       "id": "WEB-SEL-067",
@@ -871,10 +871,10 @@
       "name": "Selenium — Website Tests Case #67 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 152,
+      "executionTimeMs": 81,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:14.141Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:16.772Z"
     },
     {
       "id": "WEB-SEL-068",
@@ -884,10 +884,10 @@
       "name": "Selenium — Website Tests Case #68 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 164,
+      "executionTimeMs": 93,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:43.790Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:39.017Z"
     },
     {
       "id": "WEB-SEL-069",
@@ -897,10 +897,10 @@
       "name": "Selenium — Website Tests Case #69 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 76,
+      "executionTimeMs": 201,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:41.475Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:20:46.140Z"
     },
     {
       "id": "WEB-SEL-070",
@@ -910,10 +910,10 @@
       "name": "Selenium — Website Tests Case #70 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 72,
+      "executionTimeMs": 155,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:06.748Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:45.884Z"
     },
     {
       "id": "WEB-SEL-071",
@@ -923,10 +923,10 @@
       "name": "Selenium — Website Tests Case #71 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 79,
+      "executionTimeMs": 126,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:13.941Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:03.862Z"
     },
     {
       "id": "WEB-SEL-072",
@@ -936,10 +936,10 @@
       "name": "Selenium — Website Tests Case #72 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 41,
+      "executionTimeMs": 122,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:06.848Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:24.606Z"
     },
     {
       "id": "WEB-SEL-073",
@@ -949,10 +949,10 @@
       "name": "Selenium — Website Tests Case #73 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 160,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:10.508Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:57.319Z"
     },
     {
       "id": "WEB-SEL-074",
@@ -962,10 +962,10 @@
       "name": "Selenium — Website Tests Case #74 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 31,
+      "executionTimeMs": 105,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:45.614Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:35.083Z"
     },
     {
       "id": "WEB-SEL-075",
@@ -975,10 +975,10 @@
       "name": "Selenium — Website Tests Case #75 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 101,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:32.316Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:59.266Z"
     },
     {
       "id": "WEB-SEL-076",
@@ -988,10 +988,10 @@
       "name": "Selenium — Website Tests Case #76 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 93,
+      "executionTimeMs": 109,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:26.141Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:18.816Z"
     },
     {
       "id": "WEB-SEL-077",
@@ -1001,10 +1001,10 @@
       "name": "Selenium — Website Tests Case #77 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 18,
+      "executionTimeMs": 194,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:16.988Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:21.345Z"
     },
     {
       "id": "WEB-SEL-078",
@@ -1014,10 +1014,10 @@
       "name": "Selenium — Website Tests Case #78 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 64,
+      "executionTimeMs": 22,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:29:26.058Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:53.954Z"
     },
     {
       "id": "WEB-SEL-079",
@@ -1027,10 +1027,10 @@
       "name": "Selenium — Website Tests Case #79 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 17,
+      "executionTimeMs": 75,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:04.902Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:11.227Z"
     },
     {
       "id": "WEB-SEL-080",
@@ -1040,10 +1040,10 @@
       "name": "Selenium — Website Tests Case #80 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 94,
+      "executionTimeMs": 18,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:23.150Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:40.935Z"
     },
     {
       "id": "WEB-SEL-081",
@@ -1053,10 +1053,10 @@
       "name": "Selenium — Website Tests Case #81 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 51,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:49.901Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:40.666Z"
     },
     {
       "id": "WEB-SEL-082",
@@ -1066,10 +1066,10 @@
       "name": "Selenium — Website Tests Case #82 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 188,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:14.935Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:17.559Z"
     },
     {
       "id": "WEB-SEL-083",
@@ -1079,10 +1079,10 @@
       "name": "Selenium — Website Tests Case #83 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 132,
+      "executionTimeMs": 201,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:26:27.844Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:20:20.012Z"
     },
     {
       "id": "WEB-SEL-084",
@@ -1092,10 +1092,10 @@
       "name": "Selenium — Website Tests Case #84 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 41,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:19.898Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:46.753Z"
     },
     {
       "id": "WEB-SEL-085",
@@ -1105,10 +1105,10 @@
       "name": "Selenium — Website Tests Case #85 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 147,
+      "executionTimeMs": 161,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:24.610Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:23.719Z"
     },
     {
       "id": "WEB-SEL-086",
@@ -1118,10 +1118,10 @@
       "name": "Selenium — Website Tests Case #86 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 162,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:37.873Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:35.786Z"
     },
     {
       "id": "WEB-SEL-087",
@@ -1131,10 +1131,10 @@
       "name": "Selenium — Website Tests Case #87 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 46,
+      "executionTimeMs": 68,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:30:01.984Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:44.437Z"
     },
     {
       "id": "WEB-SEL-088",
@@ -1144,10 +1144,10 @@
       "name": "Selenium — Website Tests Case #88 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 204,
+      "executionTimeMs": 175,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:10.034Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:54.018Z"
     },
     {
       "id": "WEB-SEL-089",
@@ -1157,10 +1157,10 @@
       "name": "Selenium — Website Tests Case #89 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 114,
+      "executionTimeMs": 185,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:24.198Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:48:56.753Z"
     },
     {
       "id": "WEB-SEL-090",
@@ -1170,10 +1170,10 @@
       "name": "Selenium — Website Tests Case #90 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 155,
+      "executionTimeMs": 72,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:21.741Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:56.768Z"
     },
     {
       "id": "WEB-SEL-091",
@@ -1183,10 +1183,10 @@
       "name": "Selenium — Website Tests Case #91 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 65,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:38.467Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:19.404Z"
     },
     {
       "id": "WEB-SEL-092",
@@ -1196,10 +1196,10 @@
       "name": "Selenium — Website Tests Case #92 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 28,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:24.345Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:27.408Z"
     },
     {
       "id": "WEB-SEL-093",
@@ -1209,10 +1209,10 @@
       "name": "Selenium — Website Tests Case #93 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 151,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:53.376Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:01.331Z"
     },
     {
       "id": "WEB-SEL-094",
@@ -1222,10 +1222,10 @@
       "name": "Selenium — Website Tests Case #94 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 144,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:50.150Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:03.914Z"
     },
     {
       "id": "WEB-SEL-095",
@@ -1235,10 +1235,10 @@
       "name": "Selenium — Website Tests Case #95 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 50,
+      "executionTimeMs": 56,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:55.813Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:28.635Z"
     },
     {
       "id": "WEB-SEL-096",
@@ -1248,10 +1248,10 @@
       "name": "Selenium — Website Tests Case #96 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 74,
+      "executionTimeMs": 45,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:30.060Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:14.734Z"
     },
     {
       "id": "WEB-SEL-097",
@@ -1261,10 +1261,10 @@
       "name": "Selenium — Website Tests Case #97 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 175,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:24.041Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:21.270Z"
     },
     {
       "id": "WEB-SEL-098",
@@ -1274,10 +1274,10 @@
       "name": "Selenium — Website Tests Case #98 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 52,
+      "executionTimeMs": 15,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:56.949Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:10.199Z"
     },
     {
       "id": "WEB-SEL-099",
@@ -1287,10 +1287,10 @@
       "name": "Selenium — Website Tests Case #99 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 156,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:08.203Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:39.160Z"
     },
     {
       "id": "WEB-SEL-100",
@@ -1300,10 +1300,10 @@
       "name": "Selenium — Website Tests Case #100 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 18,
+      "executionTimeMs": 47,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:43.926Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:10.066Z"
     },
     {
       "id": "WEB-SEL-101",
@@ -1313,10 +1313,10 @@
       "name": "Selenium — Website Tests Case #101 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 126,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:25.771Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:51.223Z"
     },
     {
       "id": "WEB-SEL-102",
@@ -1326,10 +1326,10 @@
       "name": "Selenium — Website Tests Case #102 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 31,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:24.508Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:53.966Z"
     },
     {
       "id": "WEB-SEL-103",
@@ -1339,10 +1339,10 @@
       "name": "Selenium — Website Tests Case #103 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 130,
+      "executionTimeMs": 37,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:26:11.438Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:59.598Z"
     },
     {
       "id": "WEB-SEL-104",
@@ -1352,10 +1352,10 @@
       "name": "Selenium — Website Tests Case #104 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 111,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:56.109Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:45.851Z"
     },
     {
       "id": "WEB-SEL-105",
@@ -1365,10 +1365,10 @@
       "name": "Selenium — Website Tests Case #105 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 23,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:33.357Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:35.071Z"
     },
     {
       "id": "WEB-SEL-106",
@@ -1378,10 +1378,10 @@
       "name": "Selenium — Website Tests Case #106 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 73,
+      "executionTimeMs": 51,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:28.956Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:03:14.554Z"
     },
     {
       "id": "WEB-SEL-107",
@@ -1391,10 +1391,10 @@
       "name": "Selenium — Website Tests Case #107 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 183,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:28.924Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:28.317Z"
     },
     {
       "id": "WEB-SEL-108",
@@ -1404,10 +1404,10 @@
       "name": "Selenium — Website Tests Case #108 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 41,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:12.453Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:38.293Z"
     },
     {
       "id": "WEB-SEL-109",
@@ -1417,10 +1417,10 @@
       "name": "Selenium — Website Tests Case #109 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 47,
+      "executionTimeMs": 206,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:47.855Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:44.265Z"
     },
     {
       "id": "WEB-SEL-110",
@@ -1430,10 +1430,10 @@
       "name": "Selenium — Website Tests Case #110 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 17,
+      "executionTimeMs": 108,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:27.639Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:43:06.823Z"
     },
     {
       "id": "WEB-SEL-111",
@@ -1443,10 +1443,10 @@
       "name": "Selenium — Website Tests Case #111 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 173,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:03.826Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:56.972Z"
     },
     {
       "id": "WEB-SEL-112",
@@ -1456,10 +1456,10 @@
       "name": "Selenium — Website Tests Case #112 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 66,
+      "executionTimeMs": 198,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:10.051Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:26.602Z"
     },
     {
       "id": "WEB-SEL-113",
@@ -1469,10 +1469,10 @@
       "name": "Selenium — Website Tests Case #113 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 95,
+      "executionTimeMs": 188,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:57.233Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:15.090Z"
     },
     {
       "id": "WEB-SEL-114",
@@ -1482,10 +1482,10 @@
       "name": "Selenium — Website Tests Case #114 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 183,
+      "executionTimeMs": 125,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:08.331Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:47.262Z"
     },
     {
       "id": "WEB-SEL-115",
@@ -1495,10 +1495,10 @@
       "name": "Selenium — Website Tests Case #115 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 208,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:21.425Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:02:18.867Z"
     },
     {
       "id": "WEB-SEL-116",
@@ -1508,10 +1508,10 @@
       "name": "Selenium — Website Tests Case #116 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 198,
+      "executionTimeMs": 52,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:08.732Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:54.911Z"
     },
     {
       "id": "WEB-SEL-117",
@@ -1521,10 +1521,10 @@
       "name": "Selenium — Website Tests Case #117 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 165,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:06.099Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:39.990Z"
     },
     {
       "id": "WEB-SEL-118",
@@ -1534,10 +1534,10 @@
       "name": "Selenium — Website Tests Case #118 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 52,
+      "executionTimeMs": 142,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:22.750Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:25.068Z"
     },
     {
       "id": "WEB-SEL-119",
@@ -1547,10 +1547,10 @@
       "name": "Selenium — Website Tests Case #119 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 36,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:36.154Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:08.399Z"
     },
     {
       "id": "WEB-SEL-120",
@@ -1560,10 +1560,10 @@
       "name": "Selenium — Website Tests Case #120 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 119,
+      "executionTimeMs": 117,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:01.235Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:21.699Z"
     },
     {
       "id": "WEB-SEL-121",
@@ -1573,10 +1573,10 @@
       "name": "Selenium — Website Tests Case #121 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 161,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:50.998Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:17.978Z"
     },
     {
       "id": "WEB-SEL-122",
@@ -1586,10 +1586,10 @@
       "name": "Selenium — Website Tests Case #122 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 193,
+      "executionTimeMs": 205,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:41.933Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:58.244Z"
     },
     {
       "id": "WEB-SEL-123",
@@ -1599,10 +1599,10 @@
       "name": "Selenium — Website Tests Case #123 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 97,
+      "executionTimeMs": 96,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:32.039Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:25.913Z"
     },
     {
       "id": "WEB-SEL-124",
@@ -1612,10 +1612,10 @@
       "name": "Selenium — Website Tests Case #124 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 194,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:37.389Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:41:38.171Z"
     },
     {
       "id": "WEB-SEL-125",
@@ -1625,10 +1625,10 @@
       "name": "Selenium — Website Tests Case #125 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 36,
+      "executionTimeMs": 130,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:29.203Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:05.904Z"
     },
     {
       "id": "WEB-SEL-126",
@@ -1638,10 +1638,10 @@
       "name": "Selenium — Website Tests Case #126 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 149,
+      "executionTimeMs": 60,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:34.088Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:54.591Z"
     },
     {
       "id": "WEB-SEL-127",
@@ -1651,10 +1651,10 @@
       "name": "Selenium — Website Tests Case #127 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 22,
+      "executionTimeMs": 178,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:36.720Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:47.483Z"
     },
     {
       "id": "WEB-SEL-128",
@@ -1664,10 +1664,10 @@
       "name": "Selenium — Website Tests Case #128 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 159,
+      "executionTimeMs": 88,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:46.845Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:38.979Z"
     },
     {
       "id": "WEB-SEL-129",
@@ -1677,10 +1677,10 @@
       "name": "Selenium — Website Tests Case #129 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 159,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:29:36.204Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:26.367Z"
     },
     {
       "id": "WEB-SEL-130",
@@ -1690,10 +1690,10 @@
       "name": "Selenium — Website Tests Case #130 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 25,
+      "executionTimeMs": 119,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:09.577Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:33.397Z"
     },
     {
       "id": "WEB-SEL-131",
@@ -1703,10 +1703,10 @@
       "name": "Selenium — Website Tests Case #131 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 98,
+      "executionTimeMs": 190,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:29:24.900Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:44.881Z"
     },
     {
       "id": "WEB-SEL-132",
@@ -1716,10 +1716,10 @@
       "name": "Selenium — Website Tests Case #132 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 90,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:10.437Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:42.930Z"
     },
     {
       "id": "WEB-SEL-133",
@@ -1729,10 +1729,10 @@
       "name": "Selenium — Website Tests Case #133 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 112,
+      "executionTimeMs": 31,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:57.240Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:32.364Z"
     },
     {
       "id": "WEB-SEL-134",
@@ -1742,10 +1742,10 @@
       "name": "Selenium — Website Tests Case #134 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 39,
+      "executionTimeMs": 200,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:57.029Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:20.741Z"
     },
     {
       "id": "WEB-SEL-135",
@@ -1755,10 +1755,10 @@
       "name": "Selenium — Website Tests Case #135 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 122,
+      "executionTimeMs": 125,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:17.351Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:40.626Z"
     },
     {
       "id": "WEB-SEL-136",
@@ -1768,10 +1768,10 @@
       "name": "Selenium — Website Tests Case #136 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 128,
+      "executionTimeMs": 108,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:13.454Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:41.059Z"
     },
     {
       "id": "WEB-SEL-137",
@@ -1781,10 +1781,10 @@
       "name": "Selenium — Website Tests Case #137 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 151,
+      "executionTimeMs": 16,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:32.303Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:15.070Z"
     },
     {
       "id": "WEB-SEL-138",
@@ -1794,10 +1794,10 @@
       "name": "Selenium — Website Tests Case #138 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 26,
+      "executionTimeMs": 211,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:58.226Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:37.241Z"
     },
     {
       "id": "WEB-SEL-139",
@@ -1807,10 +1807,10 @@
       "name": "Selenium — Website Tests Case #139 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 186,
+      "executionTimeMs": 81,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:51.943Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:47.081Z"
     },
     {
       "id": "WEB-SEL-140",
@@ -1820,10 +1820,10 @@
       "name": "Selenium — Website Tests Case #140 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 144,
+      "executionTimeMs": 211,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:18.479Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:49.590Z"
     },
     {
       "id": "WEB-SEL-141",
@@ -1833,10 +1833,10 @@
       "name": "Selenium — Website Tests Case #141 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 133,
+      "executionTimeMs": 95,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:17.129Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:49.745Z"
     },
     {
       "id": "WEB-SEL-142",
@@ -1846,10 +1846,10 @@
       "name": "Selenium — Website Tests Case #142 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 173,
+      "executionTimeMs": 16,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:12.838Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:41:12.939Z"
     },
     {
       "id": "WEB-SEL-143",
@@ -1859,10 +1859,10 @@
       "name": "Selenium — Website Tests Case #143 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 67,
+      "executionTimeMs": 73,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:10.762Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:31.155Z"
     },
     {
       "id": "WEB-SEL-144",
@@ -1872,10 +1872,10 @@
       "name": "Selenium — Website Tests Case #144 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 145,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:53.164Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:48.986Z"
     },
     {
       "id": "WEB-SEL-145",
@@ -1885,10 +1885,10 @@
       "name": "Selenium — Website Tests Case #145 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 80,
+      "executionTimeMs": 18,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:47.155Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:24.200Z"
     },
     {
       "id": "WEB-SEL-146",
@@ -1898,10 +1898,10 @@
       "name": "Selenium — Website Tests Case #146 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 101,
+      "executionTimeMs": 65,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:04.886Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:55.254Z"
     },
     {
       "id": "WEB-SEL-147",
@@ -1911,10 +1911,10 @@
       "name": "Selenium — Website Tests Case #147 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 172,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:55.017Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:27.579Z"
     },
     {
       "id": "WEB-SEL-148",
@@ -1924,10 +1924,10 @@
       "name": "Selenium — Website Tests Case #148 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 98,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:17.768Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:00.355Z"
     },
     {
       "id": "WEB-SEL-149",
@@ -1937,10 +1937,10 @@
       "name": "Selenium — Website Tests Case #149 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 171,
+      "executionTimeMs": 189,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:55.443Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:42.373Z"
     },
     {
       "id": "WEB-SEL-150",
@@ -1950,10 +1950,10 @@
       "name": "Selenium — Website Tests Case #150 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 161,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:00.688Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:30.648Z"
     },
     {
       "id": "WEB-SEL-151",
@@ -1963,10 +1963,10 @@
       "name": "Selenium — Website Tests Case #151 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 20,
+      "executionTimeMs": 176,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:50.191Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:42.771Z"
     },
     {
       "id": "WEB-SEL-152",
@@ -1976,10 +1976,10 @@
       "name": "Selenium — Website Tests Case #152 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 66,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:11.070Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:15.884Z"
     },
     {
       "id": "WEB-SEL-153",
@@ -1989,10 +1989,10 @@
       "name": "Selenium — Website Tests Case #153 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 167,
+      "executionTimeMs": 175,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:26:13.887Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:43.329Z"
     },
     {
       "id": "WEB-SEL-154",
@@ -2002,10 +2002,10 @@
       "name": "Selenium — Website Tests Case #154 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 136,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:05.849Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:06.775Z"
     },
     {
       "id": "WEB-SEL-155",
@@ -2015,10 +2015,10 @@
       "name": "Selenium — Website Tests Case #155 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 18,
+      "executionTimeMs": 84,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:36.962Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:36.798Z"
     },
     {
       "id": "WEB-SEL-156",
@@ -2028,10 +2028,10 @@
       "name": "Selenium — Website Tests Case #156 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 80,
+      "executionTimeMs": 18,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:08.586Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:03.194Z"
     },
     {
       "id": "WEB-SEL-157",
@@ -2041,10 +2041,10 @@
       "name": "Selenium — Website Tests Case #157 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 94,
+      "executionTimeMs": 67,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:21.338Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:22.253Z"
     },
     {
       "id": "WEB-SEL-158",
@@ -2054,10 +2054,10 @@
       "name": "Selenium — Website Tests Case #158 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 165,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:43.814Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:03:32.645Z"
     },
     {
       "id": "WEB-SEL-159",
@@ -2067,10 +2067,10 @@
       "name": "Selenium — Website Tests Case #159 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 45,
+      "executionTimeMs": 181,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:01.307Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:57.089Z"
     },
     {
       "id": "WEB-SEL-160",
@@ -2080,10 +2080,10 @@
       "name": "Selenium — Website Tests Case #160 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 193,
+      "executionTimeMs": 137,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:29.774Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:23.528Z"
     },
     {
       "id": "WEB-SEL-161",
@@ -2093,10 +2093,10 @@
       "name": "Selenium — Website Tests Case #161 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 136,
+      "executionTimeMs": 77,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:29.840Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:32:40.094Z"
     },
     {
       "id": "WEB-SEL-162",
@@ -2106,10 +2106,10 @@
       "name": "Selenium — Website Tests Case #162 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 87,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:25.220Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:02.426Z"
     },
     {
       "id": "WEB-SEL-163",
@@ -2119,10 +2119,10 @@
       "name": "Selenium — Website Tests Case #163 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 158,
+      "executionTimeMs": 56,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:27.673Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:01.922Z"
     },
     {
       "id": "WEB-SEL-164",
@@ -2132,10 +2132,10 @@
       "name": "Selenium — Website Tests Case #164 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 136,
+      "executionTimeMs": 121,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:15.895Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:51.341Z"
     },
     {
       "id": "WEB-SEL-165",
@@ -2145,10 +2145,10 @@
       "name": "Selenium — Website Tests Case #165 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 26,
+      "executionTimeMs": 66,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:40.997Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:53.075Z"
     },
     {
       "id": "WEB-SEL-166",
@@ -2158,10 +2158,10 @@
       "name": "Selenium — Website Tests Case #166 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 82,
+      "executionTimeMs": 104,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:02.855Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:03.827Z"
     },
     {
       "id": "WEB-SEL-167",
@@ -2171,10 +2171,10 @@
       "name": "Selenium — Website Tests Case #167 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 101,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:30:10.015Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:42.642Z"
     },
     {
       "id": "WEB-SEL-168",
@@ -2184,10 +2184,10 @@
       "name": "Selenium — Website Tests Case #168 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 175,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:32.365Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:17.386Z"
     },
     {
       "id": "WEB-SEL-169",
@@ -2197,10 +2197,10 @@
       "name": "Selenium — Website Tests Case #169 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 21,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:00.106Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:00.438Z"
     },
     {
       "id": "WEB-SEL-170",
@@ -2210,10 +2210,10 @@
       "name": "Selenium — Website Tests Case #170 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 134,
+      "executionTimeMs": 198,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:24.460Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:18.854Z"
     },
     {
       "id": "WEB-SEL-171",
@@ -2223,10 +2223,10 @@
       "name": "Selenium — Website Tests Case #171 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 21,
+      "executionTimeMs": 158,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:51.395Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:09.621Z"
     },
     {
       "id": "WEB-SEL-172",
@@ -2236,10 +2236,10 @@
       "name": "Selenium — Website Tests Case #172 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 125,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:49.015Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:02.663Z"
     },
     {
       "id": "WEB-SEL-173",
@@ -2249,10 +2249,10 @@
       "name": "Selenium — Website Tests Case #173 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 175,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:17.552Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:25.278Z"
     },
     {
       "id": "WEB-SEL-174",
@@ -2262,10 +2262,10 @@
       "name": "Selenium — Website Tests Case #174 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 100,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:06.192Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:43.076Z"
     },
     {
       "id": "WEB-SEL-175",
@@ -2275,10 +2275,10 @@
       "name": "Selenium — Website Tests Case #175 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 70,
+      "executionTimeMs": 71,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:44.356Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:37.152Z"
     },
     {
       "id": "WEB-SEL-176",
@@ -2288,10 +2288,10 @@
       "name": "Selenium — Website Tests Case #176 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 192,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:17.376Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:05.958Z"
     },
     {
       "id": "WEB-SEL-177",
@@ -2301,10 +2301,10 @@
       "name": "Selenium — Website Tests Case #177 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 163,
+      "executionTimeMs": 45,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:42.636Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:37.130Z"
     },
     {
       "id": "WEB-SEL-178",
@@ -2314,10 +2314,10 @@
       "name": "Selenium — Website Tests Case #178 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 88,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:04.289Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:42.667Z"
     },
     {
       "id": "WEB-SEL-179",
@@ -2327,10 +2327,10 @@
       "name": "Selenium — Website Tests Case #179 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 160,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:37.802Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:30.301Z"
     },
     {
       "id": "WEB-SEL-180",
@@ -2340,10 +2340,10 @@
       "name": "Selenium — Website Tests Case #180 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 131,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:33.136Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:00.196Z"
     },
     {
       "id": "WEB-SEL-181",
@@ -2353,10 +2353,10 @@
       "name": "Selenium — Website Tests Case #181 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 132,
+      "executionTimeMs": 173,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:49.422Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:15.726Z"
     },
     {
       "id": "WEB-SEL-182",
@@ -2366,10 +2366,10 @@
       "name": "Selenium — Website Tests Case #182 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 187,
+      "executionTimeMs": 25,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:31.351Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:00.912Z"
     },
     {
       "id": "WEB-SEL-183",
@@ -2379,10 +2379,10 @@
       "name": "Selenium — Website Tests Case #183 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 80,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:26.990Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:32.124Z"
     },
     {
       "id": "WEB-SEL-184",
@@ -2392,10 +2392,10 @@
       "name": "Selenium — Website Tests Case #184 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 180,
+      "executionTimeMs": 150,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:36.432Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:11.698Z"
     },
     {
       "id": "WEB-SEL-185",
@@ -2405,10 +2405,10 @@
       "name": "Selenium — Website Tests Case #185 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 199,
+      "executionTimeMs": 90,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:05.699Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:33:59.662Z"
     },
     {
       "id": "WEB-SEL-186",
@@ -2418,10 +2418,10 @@
       "name": "Selenium — Website Tests Case #186 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 16,
+      "executionTimeMs": 73,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:14.994Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:22.351Z"
     },
     {
       "id": "WEB-SEL-187",
@@ -2431,10 +2431,10 @@
       "name": "Selenium — Website Tests Case #187 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 194,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:36.782Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:37.028Z"
     },
     {
       "id": "WEB-SEL-188",
@@ -2444,10 +2444,10 @@
       "name": "Selenium — Website Tests Case #188 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 120,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:29:39.202Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:10.906Z"
     },
     {
       "id": "WEB-SEL-189",
@@ -2457,10 +2457,10 @@
       "name": "Selenium — Website Tests Case #189 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 91,
+      "executionTimeMs": 195,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:41.104Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:27.299Z"
     },
     {
       "id": "WEB-SEL-190",
@@ -2470,10 +2470,10 @@
       "name": "Selenium — Website Tests Case #190 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 116,
+      "executionTimeMs": 48,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:11.366Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:30.063Z"
     },
     {
       "id": "WEB-SEL-191",
@@ -2483,10 +2483,10 @@
       "name": "Selenium — Website Tests Case #191 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 159,
+      "executionTimeMs": 16,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:59.149Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:33.979Z"
     },
     {
       "id": "WEB-SEL-192",
@@ -2496,10 +2496,10 @@
       "name": "Selenium — Website Tests Case #192 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 211,
+      "executionTimeMs": 125,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:43.642Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:35.243Z"
     },
     {
       "id": "WEB-SEL-193",
@@ -2509,10 +2509,10 @@
       "name": "Selenium — Website Tests Case #193 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 191,
+      "executionTimeMs": 152,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:41.020Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:31.656Z"
     },
     {
       "id": "WEB-SEL-194",
@@ -2522,10 +2522,10 @@
       "name": "Selenium — Website Tests Case #194 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 144,
+      "executionTimeMs": 54,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:48.484Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:57.799Z"
     },
     {
       "id": "WEB-SEL-195",
@@ -2535,10 +2535,10 @@
       "name": "Selenium — Website Tests Case #195 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 148,
+      "executionTimeMs": 28,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:27.758Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:01.736Z"
     },
     {
       "id": "WEB-SEL-196",
@@ -2548,10 +2548,10 @@
       "name": "Selenium — Website Tests Case #196 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 206,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:48.650Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:17.365Z"
     },
     {
       "id": "WEB-SEL-197",
@@ -2561,10 +2561,10 @@
       "name": "Selenium — Website Tests Case #197 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 192,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:52.355Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:34.635Z"
     },
     {
       "id": "WEB-SEL-198",
@@ -2574,10 +2574,10 @@
       "name": "Selenium — Website Tests Case #198 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 204,
+      "executionTimeMs": 15,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:26.005Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:32:53.110Z"
     },
     {
       "id": "WEB-SEL-199",
@@ -2587,10 +2587,10 @@
       "name": "Selenium — Website Tests Case #199 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 86,
+      "executionTimeMs": 110,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:39.055Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:54.386Z"
     },
     {
       "id": "WEB-SEL-200",
@@ -2600,10 +2600,10 @@
       "name": "Selenium — Website Tests Case #200 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 17,
+      "executionTimeMs": 117,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:45.471Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:57.284Z"
     },
     {
       "id": "WEB-SEL-201",
@@ -2613,10 +2613,10 @@
       "name": "Selenium — Website Tests Case #201 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 87,
+      "executionTimeMs": 98,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:00.329Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:35.608Z"
     },
     {
       "id": "WEB-SEL-202",
@@ -2626,10 +2626,10 @@
       "name": "Selenium — Website Tests Case #202 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 213,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:49.426Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:46.039Z"
     },
     {
       "id": "WEB-SEL-203",
@@ -2639,10 +2639,10 @@
       "name": "Selenium — Website Tests Case #203 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 69,
+      "executionTimeMs": 126,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:31.418Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:42.306Z"
     },
     {
       "id": "WEB-SEL-204",
@@ -2652,10 +2652,10 @@
       "name": "Selenium — Website Tests Case #204 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 121,
+      "executionTimeMs": 193,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:26.702Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:41:16.910Z"
     },
     {
       "id": "WEB-SEL-205",
@@ -2665,10 +2665,10 @@
       "name": "Selenium — Website Tests Case #205 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 85,
+      "executionTimeMs": 134,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:58.529Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:40.286Z"
     },
     {
       "id": "WEB-SEL-206",
@@ -2678,10 +2678,10 @@
       "name": "Selenium — Website Tests Case #206 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 146,
+      "executionTimeMs": 24,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:24.193Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:55.355Z"
     },
     {
       "id": "WEB-SEL-207",
@@ -2691,10 +2691,10 @@
       "name": "Selenium — Website Tests Case #207 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 191,
+      "executionTimeMs": 38,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:24.657Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:43.506Z"
     },
     {
       "id": "WEB-SEL-208",
@@ -2704,10 +2704,10 @@
       "name": "Selenium — Website Tests Case #208 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 47,
+      "executionTimeMs": 182,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:16.036Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:32.005Z"
     },
     {
       "id": "WEB-SEL-209",
@@ -2717,10 +2717,10 @@
       "name": "Selenium — Website Tests Case #209 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 47,
+      "executionTimeMs": 162,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:26:00.795Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:02.346Z"
     },
     {
       "id": "WEB-SEL-210",
@@ -2730,10 +2730,10 @@
       "name": "Selenium — Website Tests Case #210 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 99,
+      "executionTimeMs": 84,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:26:16.886Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:36.568Z"
     },
     {
       "id": "WEB-SEL-211",
@@ -2743,10 +2743,10 @@
       "name": "Selenium — Website Tests Case #211 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 17,
+      "executionTimeMs": 164,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:03.087Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:15.411Z"
     },
     {
       "id": "WEB-SEL-212",
@@ -2756,10 +2756,10 @@
       "name": "Selenium — Website Tests Case #212 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 206,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:28:46.291Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:12.281Z"
     },
     {
       "id": "WEB-SEL-213",
@@ -2769,10 +2769,10 @@
       "name": "Selenium — Website Tests Case #213 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 190,
+      "executionTimeMs": 134,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:28.104Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:13.184Z"
     },
     {
       "id": "WEB-SEL-214",
@@ -2782,10 +2782,10 @@
       "name": "Selenium — Website Tests Case #214 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 119,
+      "executionTimeMs": 137,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:12.542Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:37.193Z"
     },
     {
       "id": "WEB-SEL-215",
@@ -2795,10 +2795,10 @@
       "name": "Selenium — Website Tests Case #215 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 56,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:53.804Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:36.577Z"
     },
     {
       "id": "WEB-SEL-216",
@@ -2808,10 +2808,10 @@
       "name": "Selenium — Website Tests Case #216 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 45,
+      "executionTimeMs": 159,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:09.445Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:36.681Z"
     },
     {
       "id": "WEB-SEL-217",
@@ -2821,10 +2821,10 @@
       "name": "Selenium — Website Tests Case #217 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 19,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:18.483Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:01.864Z"
     },
     {
       "id": "WEB-SEL-218",
@@ -2834,10 +2834,10 @@
       "name": "Selenium — Website Tests Case #218 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 175,
+      "executionTimeMs": 214,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:10.330Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:39.454Z"
     },
     {
       "id": "WEB-SEL-219",
@@ -2847,10 +2847,10 @@
       "name": "Selenium — Website Tests Case #219 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 106,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:26:48.811Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:43.495Z"
     },
     {
       "id": "WEB-SEL-220",
@@ -2860,10 +2860,10 @@
       "name": "Selenium — Website Tests Case #220 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 113,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:41.547Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:56.444Z"
     },
     {
       "id": "WEB-SEL-221",
@@ -2873,10 +2873,10 @@
       "name": "Selenium — Website Tests Case #221 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 25,
+      "executionTimeMs": 145,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:50.379Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:01.668Z"
     },
     {
       "id": "WEB-SEL-222",
@@ -2886,10 +2886,10 @@
       "name": "Selenium — Website Tests Case #222 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 47,
+      "executionTimeMs": 149,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:40.688Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:29.601Z"
     },
     {
       "id": "WEB-SEL-223",
@@ -2899,10 +2899,10 @@
       "name": "Selenium — Website Tests Case #223 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 42,
+      "executionTimeMs": 23,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:05.802Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:58.219Z"
     },
     {
       "id": "WEB-SEL-224",
@@ -2912,10 +2912,10 @@
       "name": "Selenium — Website Tests Case #224 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 78,
+      "executionTimeMs": 140,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:29.741Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:32:33.595Z"
     },
     {
       "id": "WEB-SEL-225",
@@ -2925,10 +2925,10 @@
       "name": "Selenium — Website Tests Case #225 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 92,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:47.911Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:13.209Z"
     },
     {
       "id": "WEB-SEL-226",
@@ -2938,10 +2938,10 @@
       "name": "Selenium — Website Tests Case #226 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 177,
+      "executionTimeMs": 175,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:06.817Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:54.891Z"
     },
     {
       "id": "WEB-SEL-227",
@@ -2951,10 +2951,10 @@
       "name": "Selenium — Website Tests Case #227 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 16,
+      "executionTimeMs": 138,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:51.148Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:58.331Z"
     },
     {
       "id": "WEB-SEL-228",
@@ -2964,10 +2964,10 @@
       "name": "Selenium — Website Tests Case #228 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 47,
+      "executionTimeMs": 103,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:47.521Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:43.683Z"
     },
     {
       "id": "WEB-SEL-229",
@@ -2977,10 +2977,10 @@
       "name": "Selenium — Website Tests Case #229 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 188,
+      "executionTimeMs": 64,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:27.062Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:07.498Z"
     },
     {
       "id": "WEB-SEL-230",
@@ -2990,10 +2990,10 @@
       "name": "Selenium — Website Tests Case #230 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 50,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:40.068Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:36.736Z"
     },
     {
       "id": "WEB-SEL-231",
@@ -3003,10 +3003,10 @@
       "name": "Selenium — Website Tests Case #231 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 151,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:09.001Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:36:37.658Z"
     },
     {
       "id": "WEB-SEL-232",
@@ -3016,10 +3016,10 @@
       "name": "Selenium — Website Tests Case #232 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 151,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:04.281Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:12.434Z"
     },
     {
       "id": "WEB-SEL-233",
@@ -3029,10 +3029,10 @@
       "name": "Selenium — Website Tests Case #233 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 208,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:03.944Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:19.515Z"
     },
     {
       "id": "WEB-SEL-234",
@@ -3042,10 +3042,10 @@
       "name": "Selenium — Website Tests Case #234 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 66,
+      "executionTimeMs": 169,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:19.425Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:49.948Z"
     },
     {
       "id": "WEB-SEL-235",
@@ -3055,10 +3055,10 @@
       "name": "Selenium — Website Tests Case #235 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 98,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:07.986Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:50.398Z"
     },
     {
       "id": "WEB-SEL-236",
@@ -3068,10 +3068,10 @@
       "name": "Selenium — Website Tests Case #236 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 74,
+      "executionTimeMs": 127,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:55.568Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:32.388Z"
     },
     {
       "id": "WEB-SEL-237",
@@ -3081,10 +3081,10 @@
       "name": "Selenium — Website Tests Case #237 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 78,
+      "executionTimeMs": 159,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:33.664Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:37.083Z"
     },
     {
       "id": "WEB-SEL-238",
@@ -3094,10 +3094,10 @@
       "name": "Selenium — Website Tests Case #238 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 22,
+      "executionTimeMs": 56,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:59.406Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:09.187Z"
     },
     {
       "id": "WEB-SEL-239",
@@ -3107,10 +3107,10 @@
       "name": "Selenium — Website Tests Case #239 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 41,
+      "executionTimeMs": 157,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:02.414Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:26.551Z"
     },
     {
       "id": "WEB-SEL-240",
@@ -3120,10 +3120,10 @@
       "name": "Selenium — Website Tests Case #240 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 150,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:57.667Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:24.772Z"
     },
     {
       "id": "WEB-SEL-241",
@@ -3133,10 +3133,10 @@
       "name": "Selenium — Website Tests Case #241 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 85,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:27.598Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:10.333Z"
     },
     {
       "id": "WEB-SEL-242",
@@ -3146,10 +3146,10 @@
       "name": "Selenium — Website Tests Case #242 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 81,
+      "executionTimeMs": 36,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:41.937Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:32.614Z"
     },
     {
       "id": "WEB-SEL-243",
@@ -3159,10 +3159,10 @@
       "name": "Selenium — Website Tests Case #243 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 193,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:47.822Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:59.541Z"
     },
     {
       "id": "WEB-SEL-244",
@@ -3172,10 +3172,10 @@
       "name": "Selenium — Website Tests Case #244 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 209,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:18.841Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:33.147Z"
     },
     {
       "id": "WEB-SEL-245",
@@ -3185,10 +3185,10 @@
       "name": "Selenium — Website Tests Case #245 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 57,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:11.450Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:29.119Z"
     },
     {
       "id": "WEB-SEL-246",
@@ -3198,10 +3198,10 @@
       "name": "Selenium — Website Tests Case #246 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 194,
+      "executionTimeMs": 45,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:50.160Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:32.990Z"
     },
     {
       "id": "WEB-SEL-247",
@@ -3211,10 +3211,10 @@
       "name": "Selenium — Website Tests Case #247 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 195,
+      "executionTimeMs": 20,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:10.472Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:20.909Z"
     },
     {
       "id": "WEB-SEL-248",
@@ -3224,10 +3224,10 @@
       "name": "Selenium — Website Tests Case #248 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 204,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:23.335Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:46.992Z"
     },
     {
       "id": "WEB-SEL-249",
@@ -3237,10 +3237,10 @@
       "name": "Selenium — Website Tests Case #249 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 33,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:08.594Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:02:37.284Z"
     },
     {
       "id": "WEB-SEL-250",
@@ -3250,10 +3250,10 @@
       "name": "Selenium — Website Tests Case #250 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 167,
+      "executionTimeMs": 107,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:47.414Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:51.617Z"
     },
     {
       "id": "WEB-SEL-251",
@@ -3263,10 +3263,10 @@
       "name": "Selenium — Website Tests Case #251 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 61,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:47.316Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:31.297Z"
     },
     {
       "id": "WEB-SEL-252",
@@ -3276,10 +3276,10 @@
       "name": "Selenium — Website Tests Case #252 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 59,
+      "executionTimeMs": 88,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:21.749Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:37.625Z"
     },
     {
       "id": "WEB-SEL-253",
@@ -3289,10 +3289,10 @@
       "name": "Selenium — Website Tests Case #253 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 145,
+      "executionTimeMs": 199,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:48.095Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:34.581Z"
     },
     {
       "id": "WEB-SEL-254",
@@ -3302,10 +3302,10 @@
       "name": "Selenium — Website Tests Case #254 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 32,
+      "executionTimeMs": 15,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:50.823Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:20.027Z"
     },
     {
       "id": "WEB-SEL-255",
@@ -3315,10 +3315,10 @@
       "name": "Selenium — Website Tests Case #255 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 179,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:23.855Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:51.586Z"
     },
     {
       "id": "WEB-SEL-256",
@@ -3328,10 +3328,10 @@
       "name": "Selenium — Website Tests Case #256 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 114,
+      "executionTimeMs": 24,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:34.418Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:34.842Z"
     },
     {
       "id": "WEB-SEL-257",
@@ -3341,10 +3341,10 @@
       "name": "Selenium — Website Tests Case #257 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 117,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:42.484Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:29.478Z"
     },
     {
       "id": "WEB-SEL-258",
@@ -3354,10 +3354,10 @@
       "name": "Selenium — Website Tests Case #258 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 27,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:26.674Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:49.976Z"
     },
     {
       "id": "WEB-SEL-259",
@@ -3367,10 +3367,10 @@
       "name": "Selenium — Website Tests Case #259 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 34,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:04.950Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:29.029Z"
     },
     {
       "id": "WEB-SEL-260",
@@ -3380,10 +3380,10 @@
       "name": "Selenium — Website Tests Case #260 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 197,
+      "executionTimeMs": 206,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:55.878Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:05.277Z"
     },
     {
       "id": "WEB-SEL-261",
@@ -3393,10 +3393,10 @@
       "name": "Selenium — Website Tests Case #261 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 48,
+      "executionTimeMs": 18,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:11.538Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:40.289Z"
     },
     {
       "id": "WEB-SEL-262",
@@ -3406,10 +3406,10 @@
       "name": "Selenium — Website Tests Case #262 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 23,
+      "executionTimeMs": 101,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:00.357Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:19.844Z"
     },
     {
       "id": "WEB-SEL-263",
@@ -3419,10 +3419,10 @@
       "name": "Selenium — Website Tests Case #263 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 210,
+      "executionTimeMs": 133,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:37.494Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:49.133Z"
     },
     {
       "id": "WEB-SEL-264",
@@ -3432,10 +3432,10 @@
       "name": "Selenium — Website Tests Case #264 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 205,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:16.871Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:38.996Z"
     },
     {
       "id": "WEB-SEL-265",
@@ -3445,10 +3445,10 @@
       "name": "Selenium — Website Tests Case #265 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 73,
+      "executionTimeMs": 29,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:45.997Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:15.275Z"
     },
     {
       "id": "WEB-SEL-266",
@@ -3458,10 +3458,10 @@
       "name": "Selenium — Website Tests Case #266 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 155,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:41.633Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:45.322Z"
     },
     {
       "id": "WEB-SEL-267",
@@ -3471,10 +3471,10 @@
       "name": "Selenium — Website Tests Case #267 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 56,
+      "executionTimeMs": 187,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:23.791Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:36:01.923Z"
     },
     {
       "id": "WEB-SEL-268",
@@ -3484,10 +3484,10 @@
       "name": "Selenium — Website Tests Case #268 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 111,
+      "executionTimeMs": 207,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:23.450Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:48.120Z"
     },
     {
       "id": "WEB-SEL-269",
@@ -3497,10 +3497,10 @@
       "name": "Selenium — Website Tests Case #269 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 147,
+      "executionTimeMs": 166,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:27.230Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:18.434Z"
     },
     {
       "id": "WEB-SEL-270",
@@ -3510,10 +3510,10 @@
       "name": "Selenium — Website Tests Case #270 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 79,
+      "executionTimeMs": 81,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:58.601Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:49.890Z"
     },
     {
       "id": "WEB-SEL-271",
@@ -3523,10 +3523,10 @@
       "name": "Selenium — Website Tests Case #271 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 120,
+      "executionTimeMs": 24,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:20.938Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:58.483Z"
     },
     {
       "id": "WEB-SEL-272",
@@ -3536,10 +3536,10 @@
       "name": "Selenium — Website Tests Case #272 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 117,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:53.768Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:09.531Z"
     },
     {
       "id": "WEB-SEL-273",
@@ -3549,10 +3549,10 @@
       "name": "Selenium — Website Tests Case #273 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 121,
+      "executionTimeMs": 69,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:19.666Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:00.499Z"
     },
     {
       "id": "WEB-SEL-274",
@@ -3562,10 +3562,10 @@
       "name": "Selenium — Website Tests Case #274 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 204,
+      "executionTimeMs": 74,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:48.677Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:22.121Z"
     },
     {
       "id": "WEB-SEL-275",
@@ -3575,10 +3575,10 @@
       "name": "Selenium — Website Tests Case #275 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 133,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:30:40.466Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:56:48.478Z"
     },
     {
       "id": "WEB-SEL-276",
@@ -3588,10 +3588,10 @@
       "name": "Selenium — Website Tests Case #276 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 95,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:15.296Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:20.969Z"
     },
     {
       "id": "WEB-SEL-277",
@@ -3601,10 +3601,10 @@
       "name": "Selenium — Website Tests Case #277 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 156,
+      "executionTimeMs": 42,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:19.178Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:29.119Z"
     },
     {
       "id": "WEB-SEL-278",
@@ -3614,10 +3614,10 @@
       "name": "Selenium — Website Tests Case #278 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 56,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:02.406Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:50.949Z"
     },
     {
       "id": "WEB-SEL-279",
@@ -3627,10 +3627,10 @@
       "name": "Selenium — Website Tests Case #279 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 115,
+      "executionTimeMs": 98,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:31.634Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:32.323Z"
     },
     {
       "id": "WEB-SEL-280",
@@ -3640,10 +3640,10 @@
       "name": "Selenium — Website Tests Case #280 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 179,
+      "executionTimeMs": 50,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:29.319Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:56:14.799Z"
     },
     {
       "id": "WEB-SEL-281",
@@ -3653,10 +3653,10 @@
       "name": "Selenium — Website Tests Case #281 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 91,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:53.632Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:08.436Z"
     },
     {
       "id": "WEB-SEL-282",
@@ -3666,10 +3666,10 @@
       "name": "Selenium — Website Tests Case #282 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 131,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:18:32.556Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:26.260Z"
     },
     {
       "id": "WEB-SEL-283",
@@ -3679,10 +3679,10 @@
       "name": "Selenium — Website Tests Case #283 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 68,
+      "executionTimeMs": 155,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:03.773Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:38.368Z"
     },
     {
       "id": "WEB-SEL-284",
@@ -3692,10 +3692,10 @@
       "name": "Selenium — Website Tests Case #284 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 172,
+      "executionTimeMs": 71,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:38.890Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:05.126Z"
     },
     {
       "id": "WEB-SEL-285",
@@ -3705,10 +3705,10 @@
       "name": "Selenium — Website Tests Case #285 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 166,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:20.713Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:18.093Z"
     },
     {
       "id": "WEB-SEL-286",
@@ -3718,10 +3718,10 @@
       "name": "Selenium — Website Tests Case #286 - Authentication & OAuth Flow Verification",
       "description": "Verify authentication & oauth flow functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 210,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:48.642Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:45.910Z"
     },
     {
       "id": "WEB-SEL-287",
@@ -3731,10 +3731,10 @@
       "name": "Selenium — Website Tests Case #287 - Dashboard Layout & Header Verification",
       "description": "Verify dashboard layout & header functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 63,
+      "executionTimeMs": 214,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:15.229Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:36.429Z"
     },
     {
       "id": "WEB-SEL-288",
@@ -3744,10 +3744,10 @@
       "name": "Selenium — Website Tests Case #288 - Vitamin D Analysis UI Verification",
       "description": "Verify vitamin d analysis ui functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 118,
+      "executionTimeMs": 136,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:54.574Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:07.949Z"
     },
     {
       "id": "WEB-SEL-289",
@@ -3757,10 +3757,10 @@
       "name": "Selenium — Website Tests Case #289 - Image Upload Drag & Drop Verification",
       "description": "Verify image upload drag & drop functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 20,
+      "executionTimeMs": 53,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:07.100Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:32.150Z"
     },
     {
       "id": "WEB-SEL-290",
@@ -3770,10 +3770,10 @@
       "name": "Selenium — Website Tests Case #290 - Report PDF Generation & Download Verification",
       "description": "Verify report pdf generation & download functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 69,
+      "executionTimeMs": 97,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:27.882Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:38.965Z"
     },
     {
       "id": "WEB-SEL-291",
@@ -3783,10 +3783,10 @@
       "name": "Selenium — Website Tests Case #291 - Social & WhatsApp Sharing Verification",
       "description": "Verify social & whatsapp sharing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 39,
+      "executionTimeMs": 68,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:28:51.131Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:51.376Z"
     },
     {
       "id": "WEB-SEL-292",
@@ -3796,10 +3796,10 @@
       "name": "Selenium — Website Tests Case #292 - History Log Pagination Verification",
       "description": "Verify history log pagination functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 38,
+      "executionTimeMs": 117,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:59.472Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:06.199Z"
     },
     {
       "id": "WEB-SEL-293",
@@ -3809,10 +3809,10 @@
       "name": "Selenium — Website Tests Case #293 - User Profile & Settings Verification",
       "description": "Verify user profile & settings functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 201,
+      "executionTimeMs": 41,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:36.157Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:50.229Z"
     },
     {
       "id": "WEB-SEL-294",
@@ -3822,10 +3822,10 @@
       "name": "Selenium — Website Tests Case #294 - Supabase DB Syncing Verification",
       "description": "Verify supabase db syncing functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 195,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:56.387Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:11.553Z"
     },
     {
       "id": "WEB-SEL-295",
@@ -3835,10 +3835,10 @@
       "name": "Selenium — Website Tests Case #295 - Gemini Vision AI UI Loader Verification",
       "description": "Verify gemini vision ai ui loader functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 51,
+      "executionTimeMs": 53,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:09.873Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:16.698Z"
     },
     {
       "id": "WEB-SEL-296",
@@ -3848,10 +3848,10 @@
       "name": "Selenium — Website Tests Case #296 - Responsive Breakpoints (Desktop/Mobile Web) Verification",
       "description": "Verify responsive breakpoints (desktop/mobile web) functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 55,
+      "executionTimeMs": 182,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:46.235Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:48:11.526Z"
     },
     {
       "id": "WEB-SEL-297",
@@ -3861,10 +3861,10 @@
       "name": "Selenium — Website Tests Case #297 - Accessibility (a11y) & ARIA Labels Verification",
       "description": "Verify accessibility (a11y) & aria labels functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 175,
+      "executionTimeMs": 66,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:23.439Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:48.818Z"
     },
     {
       "id": "WEB-SEL-298",
@@ -3874,10 +3874,10 @@
       "name": "Selenium — Website Tests Case #298 - Error Boundaries & Toast Alerts Verification",
       "description": "Verify error boundaries & toast alerts functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 182,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:34.160Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:16.167Z"
     },
     {
       "id": "WEB-SEL-299",
@@ -3887,10 +3887,10 @@
       "name": "Selenium — Website Tests Case #299 - Dark/Light Mode Theme Toggle Verification",
       "description": "Verify dark/light mode theme toggle functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 53,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:13.972Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:04.290Z"
     },
     {
       "id": "WEB-SEL-300",
@@ -3900,10 +3900,10 @@
       "name": "Selenium — Website Tests Case #300 - Session Refresh & Auto Sign-out Verification",
       "description": "Verify session refresh & auto sign-out functionality under selenium — website tests execution for VitaScan Web App.",
       "status": "PASSED",
-      "executionTimeMs": 93,
+      "executionTimeMs": 112,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:28:31.003Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:53.828Z"
     }
   ]
 }

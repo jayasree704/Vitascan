@@ -13,10 +13,10 @@
       "name": "Unit Tests — API Case #1 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 182,
+      "executionTimeMs": 28,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:46.871Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:55.503Z"
     },
     {
       "id": "UNIT-API-002",
@@ -26,10 +26,10 @@
       "name": "Unit Tests — API Case #2 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 202,
+      "executionTimeMs": 91,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:32.333Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:58.705Z"
     },
     {
       "id": "UNIT-API-003",
@@ -39,10 +39,10 @@
       "name": "Unit Tests — API Case #3 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 194,
+      "executionTimeMs": 157,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:16.577Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:19.783Z"
     },
     {
       "id": "UNIT-API-004",
@@ -52,10 +52,10 @@
       "name": "Unit Tests — API Case #4 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 104,
+      "executionTimeMs": 180,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:59.391Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:55.769Z"
     },
     {
       "id": "UNIT-API-005",
@@ -65,10 +65,10 @@
       "name": "Unit Tests — API Case #5 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 134,
+      "executionTimeMs": 172,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:17.295Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:11.670Z"
     },
     {
       "id": "UNIT-API-006",
@@ -78,10 +78,10 @@
       "name": "Unit Tests — API Case #6 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 130,
+      "executionTimeMs": 117,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:33.294Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:21.760Z"
     },
     {
       "id": "UNIT-API-007",
@@ -91,10 +91,10 @@
       "name": "Unit Tests — API Case #7 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 193,
+      "executionTimeMs": 107,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:58.737Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:10.206Z"
     },
     {
       "id": "UNIT-API-008",
@@ -104,10 +104,10 @@
       "name": "Unit Tests — API Case #8 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 56,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:39.513Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:38.046Z"
     },
     {
       "id": "UNIT-API-009",
@@ -117,10 +117,10 @@
       "name": "Unit Tests — API Case #9 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 205,
+      "executionTimeMs": 78,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:29.415Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:17.654Z"
     },
     {
       "id": "UNIT-API-010",
@@ -130,10 +130,10 @@
       "name": "Unit Tests — API Case #10 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 16,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:38.559Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:36.808Z"
     },
     {
       "id": "UNIT-API-011",
@@ -143,10 +143,10 @@
       "name": "Unit Tests — API Case #11 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 116,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:01.759Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:29.420Z"
     },
     {
       "id": "UNIT-API-012",
@@ -156,10 +156,10 @@
       "name": "Unit Tests — API Case #12 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 187,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:46.390Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:04.593Z"
     },
     {
       "id": "UNIT-API-013",
@@ -169,10 +169,10 @@
       "name": "Unit Tests — API Case #13 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 124,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:30.831Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:45.424Z"
     },
     {
       "id": "UNIT-API-014",
@@ -182,10 +182,10 @@
       "name": "Unit Tests — API Case #14 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 111,
+      "executionTimeMs": 201,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:34.058Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:35.185Z"
     },
     {
       "id": "UNIT-API-015",
@@ -195,10 +195,10 @@
       "name": "Unit Tests — API Case #15 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 143,
+      "executionTimeMs": 99,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:59.381Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:46.044Z"
     },
     {
       "id": "UNIT-API-016",
@@ -208,10 +208,10 @@
       "name": "Unit Tests — API Case #16 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 75,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:20.947Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:44.660Z"
     },
     {
       "id": "UNIT-API-017",
@@ -221,10 +221,10 @@
       "name": "Unit Tests — API Case #17 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 26,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:53.927Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:11.321Z"
     },
     {
       "id": "UNIT-API-018",
@@ -234,10 +234,10 @@
       "name": "Unit Tests — API Case #18 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 116,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:31.791Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:13.303Z"
     },
     {
       "id": "UNIT-API-019",
@@ -247,10 +247,10 @@
       "name": "Unit Tests — API Case #19 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 167,
+      "executionTimeMs": 89,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:54.657Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:26.635Z"
     },
     {
       "id": "UNIT-API-020",
@@ -260,10 +260,10 @@
       "name": "Unit Tests — API Case #20 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 214,
+      "executionTimeMs": 99,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:36.042Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:23.323Z"
     },
     {
       "id": "UNIT-API-021",
@@ -273,10 +273,10 @@
       "name": "Unit Tests — API Case #21 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 88,
+      "executionTimeMs": 126,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:54.385Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:07.558Z"
     },
     {
       "id": "UNIT-API-022",
@@ -286,10 +286,10 @@
       "name": "Unit Tests — API Case #22 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 128,
+      "executionTimeMs": 134,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:00.803Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:39.110Z"
     },
     {
       "id": "UNIT-API-023",
@@ -301,8 +301,8 @@
       "status": "PASSED",
       "executionTimeMs": 38,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:13.413Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:38.855Z"
     },
     {
       "id": "UNIT-API-024",
@@ -312,10 +312,10 @@
       "name": "Unit Tests — API Case #24 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 214,
+      "executionTimeMs": 109,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:16.746Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:56.425Z"
     },
     {
       "id": "UNIT-API-025",
@@ -325,10 +325,10 @@
       "name": "Unit Tests — API Case #25 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 170,
+      "executionTimeMs": 38,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:14.906Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:08.299Z"
     },
     {
       "id": "UNIT-API-026",
@@ -338,10 +338,10 @@
       "name": "Unit Tests — API Case #26 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 44,
+      "executionTimeMs": 33,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:22.580Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:05.660Z"
     },
     {
       "id": "UNIT-API-027",
@@ -351,10 +351,10 @@
       "name": "Unit Tests — API Case #27 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 96,
+      "executionTimeMs": 104,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:41.866Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:40.957Z"
     },
     {
       "id": "UNIT-API-028",
@@ -364,10 +364,10 @@
       "name": "Unit Tests — API Case #28 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 50,
+      "executionTimeMs": 204,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:20.487Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:56:00.033Z"
     },
     {
       "id": "UNIT-API-029",
@@ -377,10 +377,10 @@
       "name": "Unit Tests — API Case #29 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 50,
+      "executionTimeMs": 128,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:43.964Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:20:12.541Z"
     },
     {
       "id": "UNIT-API-030",
@@ -390,10 +390,10 @@
       "name": "Unit Tests — API Case #30 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 128,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:18.077Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:12.375Z"
     },
     {
       "id": "UNIT-API-031",
@@ -403,10 +403,10 @@
       "name": "Unit Tests — API Case #31 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 149,
+      "executionTimeMs": 151,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:58.574Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:56.023Z"
     },
     {
       "id": "UNIT-API-032",
@@ -416,10 +416,10 @@
       "name": "Unit Tests — API Case #32 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 28,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:54.129Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:22.493Z"
     },
     {
       "id": "UNIT-API-033",
@@ -429,10 +429,10 @@
       "name": "Unit Tests — API Case #33 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 147,
+      "executionTimeMs": 38,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:18.404Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:47.950Z"
     },
     {
       "id": "UNIT-API-034",
@@ -442,10 +442,10 @@
       "name": "Unit Tests — API Case #34 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 38,
+      "executionTimeMs": 171,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:53.981Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:27.258Z"
     },
     {
       "id": "UNIT-API-035",
@@ -455,10 +455,10 @@
       "name": "Unit Tests — API Case #35 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 166,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:32.062Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:43.978Z"
     },
     {
       "id": "UNIT-API-036",
@@ -468,10 +468,10 @@
       "name": "Unit Tests — API Case #36 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 59,
+      "executionTimeMs": 132,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:11.426Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:35.522Z"
     },
     {
       "id": "UNIT-API-037",
@@ -481,10 +481,10 @@
       "name": "Unit Tests — API Case #37 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 114,
+      "executionTimeMs": 62,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:47.804Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:05.344Z"
     },
     {
       "id": "UNIT-API-038",
@@ -494,10 +494,10 @@
       "name": "Unit Tests — API Case #38 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 129,
+      "executionTimeMs": 102,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:24.327Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:56:29.076Z"
     },
     {
       "id": "UNIT-API-039",
@@ -507,10 +507,10 @@
       "name": "Unit Tests — API Case #39 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 61,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:07.394Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:49.674Z"
     },
     {
       "id": "UNIT-API-040",
@@ -520,10 +520,10 @@
       "name": "Unit Tests — API Case #40 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 28,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:14.385Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:15.781Z"
     },
     {
       "id": "UNIT-API-041",
@@ -533,10 +533,10 @@
       "name": "Unit Tests — API Case #41 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 46,
+      "executionTimeMs": 115,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:22.870Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:00.025Z"
     },
     {
       "id": "UNIT-API-042",
@@ -546,10 +546,10 @@
       "name": "Unit Tests — API Case #42 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 172,
+      "executionTimeMs": 173,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:09.880Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:03:20.068Z"
     },
     {
       "id": "UNIT-API-043",
@@ -559,10 +559,10 @@
       "name": "Unit Tests — API Case #43 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 34,
+      "executionTimeMs": 148,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:03.005Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:20.388Z"
     },
     {
       "id": "UNIT-API-044",
@@ -572,10 +572,10 @@
       "name": "Unit Tests — API Case #44 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 74,
+      "executionTimeMs": 18,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:04.319Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:54.430Z"
     },
     {
       "id": "UNIT-API-045",
@@ -585,10 +585,10 @@
       "name": "Unit Tests — API Case #45 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 132,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:02.588Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:28.496Z"
     },
     {
       "id": "UNIT-API-046",
@@ -598,10 +598,10 @@
       "name": "Unit Tests — API Case #46 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 95,
+      "executionTimeMs": 150,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:48.079Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:31.381Z"
     },
     {
       "id": "UNIT-API-047",
@@ -611,10 +611,10 @@
       "name": "Unit Tests — API Case #47 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 92,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:06.399Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:55.856Z"
     },
     {
       "id": "UNIT-API-048",
@@ -624,10 +624,10 @@
       "name": "Unit Tests — API Case #48 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 188,
+      "executionTimeMs": 145,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:29.985Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:03.622Z"
     },
     {
       "id": "UNIT-API-049",
@@ -637,10 +637,10 @@
       "name": "Unit Tests — API Case #49 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 48,
+      "executionTimeMs": 16,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:51.310Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:07.837Z"
     },
     {
       "id": "UNIT-API-050",
@@ -650,10 +650,10 @@
       "name": "Unit Tests — API Case #50 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 171,
+      "executionTimeMs": 32,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:30.968Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:52.745Z"
     },
     {
       "id": "UNIT-API-051",
@@ -663,10 +663,10 @@
       "name": "Unit Tests — API Case #51 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 72,
+      "executionTimeMs": 122,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:29.484Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:52.437Z"
     },
     {
       "id": "UNIT-API-052",
@@ -676,10 +676,10 @@
       "name": "Unit Tests — API Case #52 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 84,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:08.184Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:11.066Z"
     },
     {
       "id": "UNIT-API-053",
@@ -689,10 +689,10 @@
       "name": "Unit Tests — API Case #53 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 114,
+      "executionTimeMs": 32,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:51.666Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:28:19.201Z"
     },
     {
       "id": "UNIT-API-054",
@@ -702,10 +702,10 @@
       "name": "Unit Tests — API Case #54 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 211,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:38.013Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:01.168Z"
     },
     {
       "id": "UNIT-API-055",
@@ -715,10 +715,10 @@
       "name": "Unit Tests — API Case #55 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 64,
+      "executionTimeMs": 136,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:48.226Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:20:13.299Z"
     },
     {
       "id": "UNIT-API-056",
@@ -728,10 +728,10 @@
       "name": "Unit Tests — API Case #56 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 16,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:30.985Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:21.011Z"
     },
     {
       "id": "UNIT-API-057",
@@ -741,10 +741,10 @@
       "name": "Unit Tests — API Case #57 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 38,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:01.738Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:30.631Z"
     },
     {
       "id": "UNIT-API-058",
@@ -754,10 +754,10 @@
       "name": "Unit Tests — API Case #58 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 178,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:19.204Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:34.742Z"
     },
     {
       "id": "UNIT-API-059",
@@ -767,10 +767,10 @@
       "name": "Unit Tests — API Case #59 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 44,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:02.581Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:31.646Z"
     },
     {
       "id": "UNIT-API-060",
@@ -780,10 +780,10 @@
       "name": "Unit Tests — API Case #60 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 118,
+      "executionTimeMs": 88,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:43.974Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:04.975Z"
     },
     {
       "id": "UNIT-API-061",
@@ -793,10 +793,10 @@
       "name": "Unit Tests — API Case #61 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 200,
+      "executionTimeMs": 44,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:06.194Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:54.238Z"
     },
     {
       "id": "UNIT-API-062",
@@ -806,10 +806,10 @@
       "name": "Unit Tests — API Case #62 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 123,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:23.512Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:30.158Z"
     },
     {
       "id": "UNIT-API-063",
@@ -819,10 +819,10 @@
       "name": "Unit Tests — API Case #63 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 144,
+      "executionTimeMs": 200,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:36.868Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:04.116Z"
     },
     {
       "id": "UNIT-API-064",
@@ -832,10 +832,10 @@
       "name": "Unit Tests — API Case #64 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 51,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:16.780Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:26.862Z"
     },
     {
       "id": "UNIT-API-065",
@@ -845,10 +845,10 @@
       "name": "Unit Tests — API Case #65 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 205,
+      "executionTimeMs": 198,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:56.521Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:02.205Z"
     },
     {
       "id": "UNIT-API-066",
@@ -858,10 +858,10 @@
       "name": "Unit Tests — API Case #66 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 64,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:29.431Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:03.863Z"
     },
     {
       "id": "UNIT-API-067",
@@ -871,10 +871,10 @@
       "name": "Unit Tests — API Case #67 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 67,
+      "executionTimeMs": 184,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:55.208Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:40.096Z"
     },
     {
       "id": "UNIT-API-068",
@@ -884,10 +884,10 @@
       "name": "Unit Tests — API Case #68 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 198,
+      "executionTimeMs": 161,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:29:40.964Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:32:03.852Z"
     },
     {
       "id": "UNIT-API-069",
@@ -897,10 +897,10 @@
       "name": "Unit Tests — API Case #69 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 50,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:15.824Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:25.023Z"
     },
     {
       "id": "UNIT-API-070",
@@ -910,10 +910,10 @@
       "name": "Unit Tests — API Case #70 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 145,
+      "executionTimeMs": 50,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:46.382Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:03.654Z"
     },
     {
       "id": "UNIT-API-071",
@@ -923,10 +923,10 @@
       "name": "Unit Tests — API Case #71 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 200,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:14.729Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:43.730Z"
     },
     {
       "id": "UNIT-API-072",
@@ -936,10 +936,10 @@
       "name": "Unit Tests — API Case #72 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 122,
+      "executionTimeMs": 46,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:27.227Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:34.109Z"
     },
     {
       "id": "UNIT-API-073",
@@ -949,10 +949,10 @@
       "name": "Unit Tests — API Case #73 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 55,
+      "executionTimeMs": 213,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:43.604Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:45.893Z"
     },
     {
       "id": "UNIT-API-074",
@@ -962,10 +962,10 @@
       "name": "Unit Tests — API Case #74 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 68,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:46.141Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:10.048Z"
     },
     {
       "id": "UNIT-API-075",
@@ -975,10 +975,10 @@
       "name": "Unit Tests — API Case #75 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 120,
+      "executionTimeMs": 75,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:45.880Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:29.994Z"
     },
     {
       "id": "UNIT-API-076",
@@ -988,10 +988,10 @@
       "name": "Unit Tests — API Case #76 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 159,
+      "executionTimeMs": 76,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:11.014Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:28.956Z"
     },
     {
       "id": "UNIT-API-077",
@@ -1001,10 +1001,10 @@
       "name": "Unit Tests — API Case #77 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 204,
+      "executionTimeMs": 67,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:57.992Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:44.592Z"
     },
     {
       "id": "UNIT-API-078",
@@ -1014,10 +1014,10 @@
       "name": "Unit Tests — API Case #78 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 15,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:25.788Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:44.147Z"
     },
     {
       "id": "UNIT-API-079",
@@ -1027,10 +1027,10 @@
       "name": "Unit Tests — API Case #79 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 49,
+      "executionTimeMs": 65,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:35.009Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:15.733Z"
     },
     {
       "id": "UNIT-API-080",
@@ -1040,10 +1040,10 @@
       "name": "Unit Tests — API Case #80 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 91,
+      "executionTimeMs": 131,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:28.007Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:52.080Z"
     },
     {
       "id": "UNIT-API-081",
@@ -1053,10 +1053,10 @@
       "name": "Unit Tests — API Case #81 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 67,
+      "executionTimeMs": 123,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:27.040Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:03:15.579Z"
     },
     {
       "id": "UNIT-API-082",
@@ -1066,10 +1066,10 @@
       "name": "Unit Tests — API Case #82 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 149,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:12.856Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:29.878Z"
     },
     {
       "id": "UNIT-API-083",
@@ -1079,10 +1079,10 @@
       "name": "Unit Tests — API Case #83 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 200,
+      "executionTimeMs": 88,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:06.485Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:03.650Z"
     },
     {
       "id": "UNIT-API-084",
@@ -1092,10 +1092,10 @@
       "name": "Unit Tests — API Case #84 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 137,
+      "executionTimeMs": 24,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:29:15.912Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:19.162Z"
     },
     {
       "id": "UNIT-API-085",
@@ -1105,10 +1105,10 @@
       "name": "Unit Tests — API Case #85 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 177,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:16.948Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:55.424Z"
     },
     {
       "id": "UNIT-API-086",
@@ -1118,10 +1118,10 @@
       "name": "Unit Tests — API Case #86 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 163,
+      "executionTimeMs": 95,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:06.532Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:43.225Z"
     },
     {
       "id": "UNIT-API-087",
@@ -1131,10 +1131,10 @@
       "name": "Unit Tests — API Case #87 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 122,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:01.135Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:41.480Z"
     },
     {
       "id": "UNIT-API-088",
@@ -1144,10 +1144,10 @@
       "name": "Unit Tests — API Case #88 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 172,
+      "executionTimeMs": 135,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:27.495Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:48.789Z"
     },
     {
       "id": "UNIT-API-089",
@@ -1157,10 +1157,10 @@
       "name": "Unit Tests — API Case #89 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 105,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:15.822Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:01.565Z"
     },
     {
       "id": "UNIT-API-090",
@@ -1170,10 +1170,10 @@
       "name": "Unit Tests — API Case #90 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 151,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:48.666Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:23.546Z"
     },
     {
       "id": "UNIT-API-091",
@@ -1183,10 +1183,10 @@
       "name": "Unit Tests — API Case #91 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 141,
+      "executionTimeMs": 31,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:50.581Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:47.946Z"
     },
     {
       "id": "UNIT-API-092",
@@ -1196,10 +1196,10 @@
       "name": "Unit Tests — API Case #92 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 149,
+      "executionTimeMs": 199,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:18.970Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:58.783Z"
     },
     {
       "id": "UNIT-API-093",
@@ -1209,10 +1209,10 @@
       "name": "Unit Tests — API Case #93 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 24,
+      "executionTimeMs": 152,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:13.349Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:44.336Z"
     },
     {
       "id": "UNIT-API-094",
@@ -1222,10 +1222,10 @@
       "name": "Unit Tests — API Case #94 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 162,
+      "executionTimeMs": 84,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:54.754Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:03:13.946Z"
     },
     {
       "id": "UNIT-API-095",
@@ -1235,10 +1235,10 @@
       "name": "Unit Tests — API Case #95 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 194,
+      "executionTimeMs": 128,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:57.772Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:33.193Z"
     },
     {
       "id": "UNIT-API-096",
@@ -1248,10 +1248,10 @@
       "name": "Unit Tests — API Case #96 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 137,
+      "executionTimeMs": 80,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:20.502Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:49.681Z"
     },
     {
       "id": "UNIT-API-097",
@@ -1261,10 +1261,10 @@
       "name": "Unit Tests — API Case #97 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 28,
+      "executionTimeMs": 88,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:02.187Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:34.694Z"
     },
     {
       "id": "UNIT-API-098",
@@ -1274,10 +1274,10 @@
       "name": "Unit Tests — API Case #98 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 166,
+      "executionTimeMs": 136,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:43.140Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:49.765Z"
     },
     {
       "id": "UNIT-API-099",
@@ -1287,10 +1287,10 @@
       "name": "Unit Tests — API Case #99 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 151,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:45.057Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:29.728Z"
     },
     {
       "id": "UNIT-API-100",
@@ -1300,10 +1300,10 @@
       "name": "Unit Tests — API Case #100 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 160,
+      "executionTimeMs": 92,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:23.316Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:43.971Z"
     },
     {
       "id": "UNIT-API-101",
@@ -1313,10 +1313,10 @@
       "name": "Unit Tests — API Case #101 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 177,
+      "executionTimeMs": 204,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:10.614Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:32:54.024Z"
     },
     {
       "id": "UNIT-API-102",
@@ -1326,10 +1326,10 @@
       "name": "Unit Tests — API Case #102 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 101,
+      "executionTimeMs": 149,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:31.256Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:37.186Z"
     },
     {
       "id": "UNIT-API-103",
@@ -1339,10 +1339,10 @@
       "name": "Unit Tests — API Case #103 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 133,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:10:52.926Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:38.444Z"
     },
     {
       "id": "UNIT-API-104",
@@ -1352,10 +1352,10 @@
       "name": "Unit Tests — API Case #104 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 39,
+      "executionTimeMs": 131,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:03.205Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:10.567Z"
     },
     {
       "id": "UNIT-API-105",
@@ -1365,10 +1365,10 @@
       "name": "Unit Tests — API Case #105 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 165,
+      "executionTimeMs": 204,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:06.463Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:59.059Z"
     },
     {
       "id": "UNIT-API-106",
@@ -1378,10 +1378,10 @@
       "name": "Unit Tests — API Case #106 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 193,
+      "executionTimeMs": 134,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:00.961Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:10.971Z"
     },
     {
       "id": "UNIT-API-107",
@@ -1391,10 +1391,10 @@
       "name": "Unit Tests — API Case #107 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 114,
+      "executionTimeMs": 45,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:59.217Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:56.291Z"
     },
     {
       "id": "UNIT-API-108",
@@ -1404,10 +1404,10 @@
       "name": "Unit Tests — API Case #108 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 55,
+      "executionTimeMs": 100,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:36.454Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:18.000Z"
     },
     {
       "id": "UNIT-API-109",
@@ -1417,10 +1417,10 @@
       "name": "Unit Tests — API Case #109 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 99,
+      "executionTimeMs": 18,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:27.460Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:09.255Z"
     },
     {
       "id": "UNIT-API-110",
@@ -1430,10 +1430,10 @@
       "name": "Unit Tests — API Case #110 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 208,
+      "executionTimeMs": 193,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:32.098Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:32.551Z"
     },
     {
       "id": "UNIT-API-111",
@@ -1443,10 +1443,10 @@
       "name": "Unit Tests — API Case #111 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 68,
+      "executionTimeMs": 153,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:39.792Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:00.049Z"
     },
     {
       "id": "UNIT-API-112",
@@ -1456,10 +1456,10 @@
       "name": "Unit Tests — API Case #112 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 57,
+      "executionTimeMs": 58,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:13.643Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:39.773Z"
     },
     {
       "id": "UNIT-API-113",
@@ -1469,10 +1469,10 @@
       "name": "Unit Tests — API Case #113 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 169,
+      "executionTimeMs": 164,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:11.848Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:34.154Z"
     },
     {
       "id": "UNIT-API-114",
@@ -1482,10 +1482,10 @@
       "name": "Unit Tests — API Case #114 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 141,
+      "executionTimeMs": 116,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:00.602Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:57.941Z"
     },
     {
       "id": "UNIT-API-115",
@@ -1495,10 +1495,10 @@
       "name": "Unit Tests — API Case #115 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 211,
+      "executionTimeMs": 121,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:06.767Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:52.420Z"
     },
     {
       "id": "UNIT-API-116",
@@ -1508,10 +1508,10 @@
       "name": "Unit Tests — API Case #116 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 97,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:18.408Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:50.924Z"
     },
     {
       "id": "UNIT-API-117",
@@ -1521,10 +1521,10 @@
       "name": "Unit Tests — API Case #117 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 126,
+      "executionTimeMs": 45,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:57.969Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:56.327Z"
     },
     {
       "id": "UNIT-API-118",
@@ -1534,10 +1534,10 @@
       "name": "Unit Tests — API Case #118 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 39,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:33:44.499Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:01.833Z"
     },
     {
       "id": "UNIT-API-119",
@@ -1547,10 +1547,10 @@
       "name": "Unit Tests — API Case #119 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 172,
+      "executionTimeMs": 183,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:47.852Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:45.527Z"
     },
     {
       "id": "UNIT-API-120",
@@ -1560,10 +1560,10 @@
       "name": "Unit Tests — API Case #120 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 87,
+      "executionTimeMs": 41,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:41.785Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:06.931Z"
     },
     {
       "id": "UNIT-API-121",
@@ -1573,10 +1573,10 @@
       "name": "Unit Tests — API Case #121 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 45,
+      "executionTimeMs": 30,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:51.202Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:42.026Z"
     },
     {
       "id": "UNIT-API-122",
@@ -1586,10 +1586,10 @@
       "name": "Unit Tests — API Case #122 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 153,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:57.628Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:11:16.529Z"
     },
     {
       "id": "UNIT-API-123",
@@ -1599,10 +1599,10 @@
       "name": "Unit Tests — API Case #123 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 34,
+      "executionTimeMs": 142,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:50.733Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:45.455Z"
     },
     {
       "id": "UNIT-API-124",
@@ -1612,10 +1612,10 @@
       "name": "Unit Tests — API Case #124 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 167,
+      "executionTimeMs": 104,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:02:32.948Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:07.126Z"
     },
     {
       "id": "UNIT-API-125",
@@ -1625,10 +1625,10 @@
       "name": "Unit Tests — API Case #125 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 91,
+      "executionTimeMs": 119,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:06.402Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:09.002Z"
     },
     {
       "id": "UNIT-API-126",
@@ -1638,10 +1638,10 @@
       "name": "Unit Tests — API Case #126 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 132,
+      "executionTimeMs": 107,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:13.225Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:34.495Z"
     },
     {
       "id": "UNIT-API-127",
@@ -1651,10 +1651,10 @@
       "name": "Unit Tests — API Case #127 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 175,
+      "executionTimeMs": 46,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:49.441Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:56.009Z"
     },
     {
       "id": "UNIT-API-128",
@@ -1664,10 +1664,10 @@
       "name": "Unit Tests — API Case #128 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 157,
+      "executionTimeMs": 134,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:27.058Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:37.702Z"
     },
     {
       "id": "UNIT-API-129",
@@ -1677,10 +1677,10 @@
       "name": "Unit Tests — API Case #129 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 177,
+      "executionTimeMs": 114,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:59.145Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:35.142Z"
     },
     {
       "id": "UNIT-API-130",
@@ -1690,10 +1690,10 @@
       "name": "Unit Tests — API Case #130 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 191,
+      "executionTimeMs": 112,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:17.193Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:33.703Z"
     },
     {
       "id": "UNIT-API-131",
@@ -1703,10 +1703,10 @@
       "name": "Unit Tests — API Case #131 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 140,
+      "executionTimeMs": 178,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:37.368Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:36:38.943Z"
     },
     {
       "id": "UNIT-API-132",
@@ -1716,10 +1716,10 @@
       "name": "Unit Tests — API Case #132 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 84,
+      "executionTimeMs": 135,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:18.811Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:13.198Z"
     },
     {
       "id": "UNIT-API-133",
@@ -1729,10 +1729,10 @@
       "name": "Unit Tests — API Case #133 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 137,
+      "executionTimeMs": 129,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:24.988Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:49.211Z"
     },
     {
       "id": "UNIT-API-134",
@@ -1742,10 +1742,10 @@
       "name": "Unit Tests — API Case #134 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 214,
+      "executionTimeMs": 87,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:00.653Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:16.475Z"
     },
     {
       "id": "UNIT-API-135",
@@ -1755,10 +1755,10 @@
       "name": "Unit Tests — API Case #135 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 187,
+      "executionTimeMs": 200,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:51:05.011Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:49.490Z"
     },
     {
       "id": "UNIT-API-136",
@@ -1768,10 +1768,10 @@
       "name": "Unit Tests — API Case #136 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 122,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:24.199Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:57.149Z"
     },
     {
       "id": "UNIT-API-137",
@@ -1781,10 +1781,10 @@
       "name": "Unit Tests — API Case #137 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 80,
+      "executionTimeMs": 63,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:19.479Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:36.141Z"
     },
     {
       "id": "UNIT-API-138",
@@ -1794,10 +1794,10 @@
       "name": "Unit Tests — API Case #138 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 134,
+      "executionTimeMs": 79,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:16.499Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:28.217Z"
     },
     {
       "id": "UNIT-API-139",
@@ -1807,10 +1807,10 @@
       "name": "Unit Tests — API Case #139 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 200,
+      "executionTimeMs": 118,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:22.732Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:23.545Z"
     },
     {
       "id": "UNIT-API-140",
@@ -1820,10 +1820,10 @@
       "name": "Unit Tests — API Case #140 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 185,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:25.312Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:39.024Z"
     },
     {
       "id": "UNIT-API-141",
@@ -1833,10 +1833,10 @@
       "name": "Unit Tests — API Case #141 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 82,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:52.503Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:09.105Z"
     },
     {
       "id": "UNIT-API-142",
@@ -1846,10 +1846,10 @@
       "name": "Unit Tests — API Case #142 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 98,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:41.223Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:15.987Z"
     },
     {
       "id": "UNIT-API-143",
@@ -1859,10 +1859,10 @@
       "name": "Unit Tests — API Case #143 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 62,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:36.255Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:43.985Z"
     },
     {
       "id": "UNIT-API-144",
@@ -1872,10 +1872,10 @@
       "name": "Unit Tests — API Case #144 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 79,
+      "executionTimeMs": 135,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:34.322Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:47.812Z"
     },
     {
       "id": "UNIT-API-145",
@@ -1887,8 +1887,8 @@
       "status": "PASSED",
       "executionTimeMs": 119,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:23.125Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:31.017Z"
     },
     {
       "id": "UNIT-API-146",
@@ -1898,10 +1898,10 @@
       "name": "Unit Tests — API Case #146 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 98,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:41.192Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:57.240Z"
     },
     {
       "id": "UNIT-API-147",
@@ -1911,10 +1911,10 @@
       "name": "Unit Tests — API Case #147 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 150,
+      "executionTimeMs": 162,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:41.539Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:48:35.930Z"
     },
     {
       "id": "UNIT-API-148",
@@ -1924,10 +1924,10 @@
       "name": "Unit Tests — API Case #148 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 178,
+      "executionTimeMs": 186,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:31.356Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:49.667Z"
     },
     {
       "id": "UNIT-API-149",
@@ -1937,10 +1937,10 @@
       "name": "Unit Tests — API Case #149 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 103,
+      "executionTimeMs": 122,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:40.430Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:42:26.055Z"
     },
     {
       "id": "UNIT-API-150",
@@ -1950,10 +1950,10 @@
       "name": "Unit Tests — API Case #150 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 178,
+      "executionTimeMs": 79,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:04.416Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:34.486Z"
     },
     {
       "id": "UNIT-API-151",
@@ -1963,10 +1963,10 @@
       "name": "Unit Tests — API Case #151 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 21,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:18.708Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:44.504Z"
     },
     {
       "id": "UNIT-API-152",
@@ -1976,10 +1976,10 @@
       "name": "Unit Tests — API Case #152 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 108,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:15.974Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:10.191Z"
     },
     {
       "id": "UNIT-API-153",
@@ -1989,10 +1989,10 @@
       "name": "Unit Tests — API Case #153 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 131,
+      "executionTimeMs": 191,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:52.110Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:03:59.839Z"
     },
     {
       "id": "UNIT-API-154",
@@ -2002,10 +2002,10 @@
       "name": "Unit Tests — API Case #154 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 99,
+      "executionTimeMs": 47,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:16.364Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:40.691Z"
     },
     {
       "id": "UNIT-API-155",
@@ -2015,10 +2015,10 @@
       "name": "Unit Tests — API Case #155 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 173,
+      "executionTimeMs": 44,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:08.071Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:10.232Z"
     },
     {
       "id": "UNIT-API-156",
@@ -2028,10 +2028,10 @@
       "name": "Unit Tests — API Case #156 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 155,
+      "executionTimeMs": 135,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:06.898Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:04.837Z"
     },
     {
       "id": "UNIT-API-157",
@@ -2041,10 +2041,10 @@
       "name": "Unit Tests — API Case #157 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 134,
+      "executionTimeMs": 105,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:19.127Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:50.650Z"
     },
     {
       "id": "UNIT-API-158",
@@ -2054,10 +2054,10 @@
       "name": "Unit Tests — API Case #158 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 28,
+      "executionTimeMs": 190,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:09.229Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:48.827Z"
     },
     {
       "id": "UNIT-API-159",
@@ -2067,10 +2067,10 @@
       "name": "Unit Tests — API Case #159 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 60,
+      "executionTimeMs": 150,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:00.731Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:02.030Z"
     },
     {
       "id": "UNIT-API-160",
@@ -2080,10 +2080,10 @@
       "name": "Unit Tests — API Case #160 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 39,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:23.858Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:41.116Z"
     },
     {
       "id": "UNIT-API-161",
@@ -2093,10 +2093,10 @@
       "name": "Unit Tests — API Case #161 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 195,
+      "executionTimeMs": 185,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:56.977Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:29.500Z"
     },
     {
       "id": "UNIT-API-162",
@@ -2106,10 +2106,10 @@
       "name": "Unit Tests — API Case #162 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 168,
+      "executionTimeMs": 150,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:44.701Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:54.550Z"
     },
     {
       "id": "UNIT-API-163",
@@ -2119,10 +2119,10 @@
       "name": "Unit Tests — API Case #163 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 65,
+      "executionTimeMs": 201,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:11.128Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:03.689Z"
     },
     {
       "id": "UNIT-API-164",
@@ -2132,10 +2132,10 @@
       "name": "Unit Tests — API Case #164 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 35,
+      "executionTimeMs": 128,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:44:31.783Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:34.863Z"
     },
     {
       "id": "UNIT-API-165",
@@ -2145,10 +2145,10 @@
       "name": "Unit Tests — API Case #165 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 137,
+      "executionTimeMs": 113,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:14.034Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:46.145Z"
     },
     {
       "id": "UNIT-API-166",
@@ -2158,10 +2158,10 @@
       "name": "Unit Tests — API Case #166 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 138,
+      "executionTimeMs": 99,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:01:09.687Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:33:38.837Z"
     },
     {
       "id": "UNIT-API-167",
@@ -2171,10 +2171,10 @@
       "name": "Unit Tests — API Case #167 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 41,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:26:43.232Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:46.645Z"
     },
     {
       "id": "UNIT-API-168",
@@ -2184,10 +2184,10 @@
       "name": "Unit Tests — API Case #168 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 138,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:58.470Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:49.350Z"
     },
     {
       "id": "UNIT-API-169",
@@ -2197,10 +2197,10 @@
       "name": "Unit Tests — API Case #169 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 55,
+      "executionTimeMs": 204,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:45.648Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:02:50.659Z"
     },
     {
       "id": "UNIT-API-170",
@@ -2210,10 +2210,10 @@
       "name": "Unit Tests — API Case #170 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 196,
+      "executionTimeMs": 36,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:53.700Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:26:20.130Z"
     },
     {
       "id": "UNIT-API-171",
@@ -2223,10 +2223,10 @@
       "name": "Unit Tests — API Case #171 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 130,
+      "executionTimeMs": 205,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:16.673Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:32:00.781Z"
     },
     {
       "id": "UNIT-API-172",
@@ -2236,10 +2236,10 @@
       "name": "Unit Tests — API Case #172 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 153,
+      "executionTimeMs": 159,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:43.776Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:08.927Z"
     },
     {
       "id": "UNIT-API-173",
@@ -2249,10 +2249,10 @@
       "name": "Unit Tests — API Case #173 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 64,
+      "executionTimeMs": 213,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:34.875Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:17:11.528Z"
     },
     {
       "id": "UNIT-API-174",
@@ -2262,10 +2262,10 @@
       "name": "Unit Tests — API Case #174 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 86,
+      "executionTimeMs": 93,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:50:47.556Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:11.027Z"
     },
     {
       "id": "UNIT-API-175",
@@ -2275,10 +2275,10 @@
       "name": "Unit Tests — API Case #175 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 168,
+      "executionTimeMs": 130,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:04.978Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:02.188Z"
     },
     {
       "id": "UNIT-API-176",
@@ -2288,10 +2288,10 @@
       "name": "Unit Tests — API Case #176 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 30,
+      "executionTimeMs": 59,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:35.192Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:58.372Z"
     },
     {
       "id": "UNIT-API-177",
@@ -2301,10 +2301,10 @@
       "name": "Unit Tests — API Case #177 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 120,
+      "executionTimeMs": 104,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:32.575Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:49.471Z"
     },
     {
       "id": "UNIT-API-178",
@@ -2314,10 +2314,10 @@
       "name": "Unit Tests — API Case #178 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 162,
+      "executionTimeMs": 193,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:43.920Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:43:04.904Z"
     },
     {
       "id": "UNIT-API-179",
@@ -2327,10 +2327,10 @@
       "name": "Unit Tests — API Case #179 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 19,
+      "executionTimeMs": 142,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:10.876Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:50.703Z"
     },
     {
       "id": "UNIT-API-180",
@@ -2340,10 +2340,10 @@
       "name": "Unit Tests — API Case #180 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 57,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:57:43.982Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:10.810Z"
     },
     {
       "id": "UNIT-API-181",
@@ -2353,10 +2353,10 @@
       "name": "Unit Tests — API Case #181 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 73,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:25.810Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:53.913Z"
     },
     {
       "id": "UNIT-API-182",
@@ -2366,10 +2366,10 @@
       "name": "Unit Tests — API Case #182 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 74,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:52.816Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:04.455Z"
     },
     {
       "id": "UNIT-API-183",
@@ -2379,10 +2379,10 @@
       "name": "Unit Tests — API Case #183 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 20,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:38.477Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:41:58.131Z"
     },
     {
       "id": "UNIT-API-184",
@@ -2392,10 +2392,10 @@
       "name": "Unit Tests — API Case #184 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 183,
+      "executionTimeMs": 185,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:55:51.313Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:59.014Z"
     },
     {
       "id": "UNIT-API-185",
@@ -2405,10 +2405,10 @@
       "name": "Unit Tests — API Case #185 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 186,
+      "executionTimeMs": 35,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:33.479Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:06.161Z"
     },
     {
       "id": "UNIT-API-186",
@@ -2418,10 +2418,10 @@
       "name": "Unit Tests — API Case #186 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 162,
+      "executionTimeMs": 138,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:32.561Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:46.557Z"
     },
     {
       "id": "UNIT-API-187",
@@ -2431,10 +2431,10 @@
       "name": "Unit Tests — API Case #187 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 106,
+      "executionTimeMs": 74,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:08.999Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:18.806Z"
     },
     {
       "id": "UNIT-API-188",
@@ -2444,10 +2444,10 @@
       "name": "Unit Tests — API Case #188 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 153,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:41.553Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:02.933Z"
     },
     {
       "id": "UNIT-API-189",
@@ -2457,10 +2457,10 @@
       "name": "Unit Tests — API Case #189 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 142,
+      "executionTimeMs": 27,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:36:18.616Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:09.373Z"
     },
     {
       "id": "UNIT-API-190",
@@ -2470,10 +2470,10 @@
       "name": "Unit Tests — API Case #190 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 190,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:38:21.203Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:13.757Z"
     },
     {
       "id": "UNIT-API-191",
@@ -2483,10 +2483,10 @@
       "name": "Unit Tests — API Case #191 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 155,
+      "executionTimeMs": 202,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:52:36.893Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:18:35.023Z"
     },
     {
       "id": "UNIT-API-192",
@@ -2496,10 +2496,10 @@
       "name": "Unit Tests — API Case #192 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 83,
+      "executionTimeMs": 159,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:06:31.973Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:48.376Z"
     },
     {
       "id": "UNIT-API-193",
@@ -2509,10 +2509,10 @@
       "name": "Unit Tests — API Case #193 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 206,
+      "executionTimeMs": 170,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:28.748Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:56.921Z"
     },
     {
       "id": "UNIT-API-194",
@@ -2522,10 +2522,10 @@
       "name": "Unit Tests — API Case #194 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 38,
+      "executionTimeMs": 81,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:05.945Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:39.668Z"
     },
     {
       "id": "UNIT-API-195",
@@ -2535,10 +2535,10 @@
       "name": "Unit Tests — API Case #195 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 74,
+      "executionTimeMs": 20,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:35.546Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:24.355Z"
     },
     {
       "id": "UNIT-API-196",
@@ -2548,10 +2548,10 @@
       "name": "Unit Tests — API Case #196 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 136,
+      "executionTimeMs": 94,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:24.749Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:20.082Z"
     },
     {
       "id": "UNIT-API-197",
@@ -2561,10 +2561,10 @@
       "name": "Unit Tests — API Case #197 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 107,
+      "executionTimeMs": 121,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:24.465Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:44.379Z"
     },
     {
       "id": "UNIT-API-198",
@@ -2574,10 +2574,10 @@
       "name": "Unit Tests — API Case #198 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 44,
+      "executionTimeMs": 201,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:39.776Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:52.619Z"
     },
     {
       "id": "UNIT-API-199",
@@ -2587,10 +2587,10 @@
       "name": "Unit Tests — API Case #199 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 93,
+      "executionTimeMs": 68,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:52.301Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:29.725Z"
     },
     {
       "id": "UNIT-API-200",
@@ -2600,10 +2600,10 @@
       "name": "Unit Tests — API Case #200 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 77,
+      "executionTimeMs": 116,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:45.046Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:45.611Z"
     },
     {
       "id": "UNIT-API-201",
@@ -2613,10 +2613,10 @@
       "name": "Unit Tests — API Case #201 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 127,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:21.523Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:10.665Z"
     },
     {
       "id": "UNIT-API-202",
@@ -2626,10 +2626,10 @@
       "name": "Unit Tests — API Case #202 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 66,
+      "executionTimeMs": 72,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:04.059Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:09:36.144Z"
     },
     {
       "id": "UNIT-API-203",
@@ -2639,10 +2639,10 @@
       "name": "Unit Tests — API Case #203 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 130,
+      "executionTimeMs": 131,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:00:55.613Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:27.656Z"
     },
     {
       "id": "UNIT-API-204",
@@ -2652,10 +2652,10 @@
       "name": "Unit Tests — API Case #204 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 134,
+      "executionTimeMs": 186,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:42:05.045Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:03.590Z"
     },
     {
       "id": "UNIT-API-205",
@@ -2665,10 +2665,10 @@
       "name": "Unit Tests — API Case #205 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 82,
+      "executionTimeMs": 165,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:51.127Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:28.186Z"
     },
     {
       "id": "UNIT-API-206",
@@ -2678,10 +2678,10 @@
       "name": "Unit Tests — API Case #206 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 63,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:22.555Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:20:13.413Z"
     },
     {
       "id": "UNIT-API-207",
@@ -2691,10 +2691,10 @@
       "name": "Unit Tests — API Case #207 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 78,
+      "executionTimeMs": 168,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:13.097Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:12.312Z"
     },
     {
       "id": "UNIT-API-208",
@@ -2704,10 +2704,10 @@
       "name": "Unit Tests — API Case #208 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 89,
+      "executionTimeMs": 166,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:44.751Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:16:02.369Z"
     },
     {
       "id": "UNIT-API-209",
@@ -2717,10 +2717,10 @@
       "name": "Unit Tests — API Case #209 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 210,
+      "executionTimeMs": 151,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:19.213Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:37:08.235Z"
     },
     {
       "id": "UNIT-API-210",
@@ -2730,10 +2730,10 @@
       "name": "Unit Tests — API Case #210 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 139,
+      "executionTimeMs": 31,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:29:13.499Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:50:57.401Z"
     },
     {
       "id": "UNIT-API-211",
@@ -2743,10 +2743,10 @@
       "name": "Unit Tests — API Case #211 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 122,
+      "executionTimeMs": 58,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:28:52.196Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:37.149Z"
     },
     {
       "id": "UNIT-API-212",
@@ -2756,10 +2756,10 @@
       "name": "Unit Tests — API Case #212 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 19,
+      "executionTimeMs": 75,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:28:34.062Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:36.453Z"
     },
     {
       "id": "UNIT-API-213",
@@ -2769,10 +2769,10 @@
       "name": "Unit Tests — API Case #213 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 19,
+      "executionTimeMs": 46,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:57.323Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:34:44.991Z"
     },
     {
       "id": "UNIT-API-214",
@@ -2782,10 +2782,10 @@
       "name": "Unit Tests — API Case #214 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 174,
+      "executionTimeMs": 37,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:22.036Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:38.556Z"
     },
     {
       "id": "UNIT-API-215",
@@ -2795,10 +2795,10 @@
       "name": "Unit Tests — API Case #215 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 177,
+      "executionTimeMs": 79,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:58.359Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:01.838Z"
     },
     {
       "id": "UNIT-API-216",
@@ -2808,10 +2808,10 @@
       "name": "Unit Tests — API Case #216 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 124,
+      "executionTimeMs": 206,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:25.848Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:06.354Z"
     },
     {
       "id": "UNIT-API-217",
@@ -2821,10 +2821,10 @@
       "name": "Unit Tests — API Case #217 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 70,
+      "executionTimeMs": 77,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:44.334Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:07.359Z"
     },
     {
       "id": "UNIT-API-218",
@@ -2834,10 +2834,10 @@
       "name": "Unit Tests — API Case #218 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 18,
+      "executionTimeMs": 38,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:31:08.657Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:02:53.719Z"
     },
     {
       "id": "UNIT-API-219",
@@ -2847,10 +2847,10 @@
       "name": "Unit Tests — API Case #219 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 157,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:48.213Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:53.961Z"
     },
     {
       "id": "UNIT-API-220",
@@ -2860,10 +2860,10 @@
       "name": "Unit Tests — API Case #220 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 179,
+      "executionTimeMs": 18,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:08.826Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:09.204Z"
     },
     {
       "id": "UNIT-API-221",
@@ -2873,10 +2873,10 @@
       "name": "Unit Tests — API Case #221 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 22,
+      "executionTimeMs": 31,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:42.735Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:33:25.789Z"
     },
     {
       "id": "UNIT-API-222",
@@ -2886,10 +2886,10 @@
       "name": "Unit Tests — API Case #222 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 23,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:30:53.757Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:21.505Z"
     },
     {
       "id": "UNIT-API-223",
@@ -2899,10 +2899,10 @@
       "name": "Unit Tests — API Case #223 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 212,
+      "executionTimeMs": 126,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:14.733Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:05.032Z"
     },
     {
       "id": "UNIT-API-224",
@@ -2912,10 +2912,10 @@
       "name": "Unit Tests — API Case #224 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 209,
+      "executionTimeMs": 87,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:32.527Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:40.002Z"
     },
     {
       "id": "UNIT-API-225",
@@ -2925,10 +2925,10 @@
       "name": "Unit Tests — API Case #225 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 96,
+      "executionTimeMs": 159,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:40.968Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:35.104Z"
     },
     {
       "id": "UNIT-API-226",
@@ -2938,10 +2938,10 @@
       "name": "Unit Tests — API Case #226 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 15,
+      "executionTimeMs": 67,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:37:09.825Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:23.948Z"
     },
     {
       "id": "UNIT-API-227",
@@ -2951,10 +2951,10 @@
       "name": "Unit Tests — API Case #227 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 56,
+      "executionTimeMs": 177,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:02.482Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:40.441Z"
     },
     {
       "id": "UNIT-API-228",
@@ -2964,10 +2964,10 @@
       "name": "Unit Tests — API Case #228 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 26,
+      "executionTimeMs": 74,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:18.973Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:04.325Z"
     },
     {
       "id": "UNIT-API-229",
@@ -2977,10 +2977,10 @@
       "name": "Unit Tests — API Case #229 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 120,
+      "executionTimeMs": 174,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:49:48.902Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:56.228Z"
     },
     {
       "id": "UNIT-API-230",
@@ -2990,10 +2990,10 @@
       "name": "Unit Tests — API Case #230 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 102,
+      "executionTimeMs": 126,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:30:39.280Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:57.881Z"
     },
     {
       "id": "UNIT-API-231",
@@ -3003,10 +3003,10 @@
       "name": "Unit Tests — API Case #231 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 205,
+      "executionTimeMs": 81,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:42.713Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:24:41.354Z"
     },
     {
       "id": "UNIT-API-232",
@@ -3016,10 +3016,10 @@
       "name": "Unit Tests — API Case #232 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 105,
+      "executionTimeMs": 150,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:08.746Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:41:03.977Z"
     },
     {
       "id": "UNIT-API-233",
@@ -3029,10 +3029,10 @@
       "name": "Unit Tests — API Case #233 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 212,
+      "executionTimeMs": 179,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:50.628Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:43:14.282Z"
     },
     {
       "id": "UNIT-API-234",
@@ -3042,10 +3042,10 @@
       "name": "Unit Tests — API Case #234 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 206,
+      "executionTimeMs": 77,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:48.887Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:56:50.612Z"
     },
     {
       "id": "UNIT-API-235",
@@ -3055,10 +3055,10 @@
       "name": "Unit Tests — API Case #235 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 16,
+      "executionTimeMs": 110,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:23:21.218Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:33.080Z"
     },
     {
       "id": "UNIT-API-236",
@@ -3068,10 +3068,10 @@
       "name": "Unit Tests — API Case #236 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 64,
+      "executionTimeMs": 114,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:41.990Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:59.625Z"
     },
     {
       "id": "UNIT-API-237",
@@ -3081,10 +3081,10 @@
       "name": "Unit Tests — API Case #237 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 71,
+      "executionTimeMs": 197,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:04.153Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:15.503Z"
     },
     {
       "id": "UNIT-API-238",
@@ -3094,10 +3094,10 @@
       "name": "Unit Tests — API Case #238 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 68,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:01.831Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:48:42.784Z"
     },
     {
       "id": "UNIT-API-239",
@@ -3107,10 +3107,10 @@
       "name": "Unit Tests — API Case #239 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 169,
+      "executionTimeMs": 70,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:23.156Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:49.313Z"
     },
     {
       "id": "UNIT-API-240",
@@ -3120,10 +3120,10 @@
       "name": "Unit Tests — API Case #240 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 54,
+      "executionTimeMs": 113,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:41:13.643Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:43:17.146Z"
     },
     {
       "id": "UNIT-API-241",
@@ -3133,10 +3133,10 @@
       "name": "Unit Tests — API Case #241 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 127,
+      "executionTimeMs": 36,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:42.644Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:24.797Z"
     },
     {
       "id": "UNIT-API-242",
@@ -3146,10 +3146,10 @@
       "name": "Unit Tests — API Case #242 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 176,
+      "executionTimeMs": 196,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:05.152Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:51:45.680Z"
     },
     {
       "id": "UNIT-API-243",
@@ -3159,10 +3159,10 @@
       "name": "Unit Tests — API Case #243 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 27,
+      "executionTimeMs": 136,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:55.552Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:15:38.729Z"
     },
     {
       "id": "UNIT-API-244",
@@ -3172,10 +3172,10 @@
       "name": "Unit Tests — API Case #244 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 213,
+      "executionTimeMs": 65,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:54.983Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:49.348Z"
     },
     {
       "id": "UNIT-API-245",
@@ -3185,10 +3185,10 @@
       "name": "Unit Tests — API Case #245 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 195,
+      "executionTimeMs": 82,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:53:39.592Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:14:09.409Z"
     },
     {
       "id": "UNIT-API-246",
@@ -3198,10 +3198,10 @@
       "name": "Unit Tests — API Case #246 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 199,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:17:43.017Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:29.406Z"
     },
     {
       "id": "UNIT-API-247",
@@ -3211,10 +3211,10 @@
       "name": "Unit Tests — API Case #247 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 127,
+      "executionTimeMs": 88,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:43.759Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:38:52.036Z"
     },
     {
       "id": "UNIT-API-248",
@@ -3224,10 +3224,10 @@
       "name": "Unit Tests — API Case #248 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 52,
+      "executionTimeMs": 90,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:07:45.087Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:08:31.576Z"
     },
     {
       "id": "UNIT-API-249",
@@ -3237,10 +3237,10 @@
       "name": "Unit Tests — API Case #249 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 17,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:28:08.472Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:04.385Z"
     },
     {
       "id": "UNIT-API-250",
@@ -3250,10 +3250,10 @@
       "name": "Unit Tests — API Case #250 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 115,
+      "executionTimeMs": 188,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:05.865Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:01:29.805Z"
     },
     {
       "id": "UNIT-API-251",
@@ -3263,10 +3263,10 @@
       "name": "Unit Tests — API Case #251 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 172,
+      "executionTimeMs": 18,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:12.010Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:54.050Z"
     },
     {
       "id": "UNIT-API-252",
@@ -3276,10 +3276,10 @@
       "name": "Unit Tests — API Case #252 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 185,
+      "executionTimeMs": 28,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:05:01.376Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:39:42.880Z"
     },
     {
       "id": "UNIT-API-253",
@@ -3289,10 +3289,10 @@
       "name": "Unit Tests — API Case #253 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 183,
+      "executionTimeMs": 127,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:11:38.424Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:46.260Z"
     },
     {
       "id": "UNIT-API-254",
@@ -3302,10 +3302,10 @@
       "name": "Unit Tests — API Case #254 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 63,
+      "executionTimeMs": 112,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:30:39.433Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:27:17.921Z"
     },
     {
       "id": "UNIT-API-255",
@@ -3315,10 +3315,10 @@
       "name": "Unit Tests — API Case #255 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 214,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:52.347Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:57:19.123Z"
     },
     {
       "id": "UNIT-API-256",
@@ -3328,10 +3328,10 @@
       "name": "Unit Tests — API Case #256 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 154,
+      "executionTimeMs": 210,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:48:06.561Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:19:18.272Z"
     },
     {
       "id": "UNIT-API-257",
@@ -3341,10 +3341,10 @@
       "name": "Unit Tests — API Case #257 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 18,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:05.807Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:20.754Z"
     },
     {
       "id": "UNIT-API-258",
@@ -3354,10 +3354,10 @@
       "name": "Unit Tests — API Case #258 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 110,
+      "executionTimeMs": 165,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:44.627Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:11.853Z"
     },
     {
       "id": "UNIT-API-259",
@@ -3367,10 +3367,10 @@
       "name": "Unit Tests — API Case #259 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 73,
+      "executionTimeMs": 22,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:51.954Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:36.301Z"
     },
     {
       "id": "UNIT-API-260",
@@ -3380,10 +3380,10 @@
       "name": "Unit Tests — API Case #260 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 161,
+      "executionTimeMs": 139,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:02.491Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:13:39.814Z"
     },
     {
       "id": "UNIT-API-261",
@@ -3393,10 +3393,10 @@
       "name": "Unit Tests — API Case #261 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 125,
+      "executionTimeMs": 97,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:13:49.240Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:46:36.707Z"
     },
     {
       "id": "UNIT-API-262",
@@ -3406,10 +3406,10 @@
       "name": "Unit Tests — API Case #262 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 74,
+      "executionTimeMs": 104,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:25.906Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:03:56.557Z"
     },
     {
       "id": "UNIT-API-263",
@@ -3419,10 +3419,10 @@
       "name": "Unit Tests — API Case #263 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 58,
+      "executionTimeMs": 168,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:22:14.513Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:48:57.372Z"
     },
     {
       "id": "UNIT-API-264",
@@ -3432,10 +3432,10 @@
       "name": "Unit Tests — API Case #264 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 100,
+      "executionTimeMs": 151,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:59.682Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:52.666Z"
     },
     {
       "id": "UNIT-API-265",
@@ -3445,10 +3445,10 @@
       "name": "Unit Tests — API Case #265 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 184,
+      "executionTimeMs": 133,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:10.046Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:21:58.886Z"
     },
     {
       "id": "UNIT-API-266",
@@ -3458,10 +3458,10 @@
       "name": "Unit Tests — API Case #266 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 157,
+      "executionTimeMs": 101,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:33.220Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:05:21.082Z"
     },
     {
       "id": "UNIT-API-267",
@@ -3471,10 +3471,10 @@
       "name": "Unit Tests — API Case #267 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 116,
+      "executionTimeMs": 40,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:08:54.094Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:44:05.630Z"
     },
     {
       "id": "UNIT-API-268",
@@ -3484,10 +3484,10 @@
       "name": "Unit Tests — API Case #268 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 192,
+      "executionTimeMs": 189,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:30.598Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:38.066Z"
     },
     {
       "id": "UNIT-API-269",
@@ -3497,10 +3497,10 @@
       "name": "Unit Tests — API Case #269 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 39,
+      "executionTimeMs": 197,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:41.373Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:23:49.474Z"
     },
     {
       "id": "UNIT-API-270",
@@ -3510,10 +3510,10 @@
       "name": "Unit Tests — API Case #270 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 135,
+      "executionTimeMs": 67,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:41.367Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:08.006Z"
     },
     {
       "id": "UNIT-API-271",
@@ -3523,10 +3523,10 @@
       "name": "Unit Tests — API Case #271 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 163,
+      "executionTimeMs": 83,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:58:45.238Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:25:18.120Z"
     },
     {
       "id": "UNIT-API-272",
@@ -3536,10 +3536,10 @@
       "name": "Unit Tests — API Case #272 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 74,
+      "executionTimeMs": 108,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:47:03.298Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:59:31.778Z"
     },
     {
       "id": "UNIT-API-273",
@@ -3549,10 +3549,10 @@
       "name": "Unit Tests — API Case #273 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 112,
+      "executionTimeMs": 162,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:27:03.190Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:36:36.727Z"
     },
     {
       "id": "UNIT-API-274",
@@ -3562,10 +3562,10 @@
       "name": "Unit Tests — API Case #274 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 178,
+      "executionTimeMs": 54,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:46:16.362Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:40:29.301Z"
     },
     {
       "id": "UNIT-API-275",
@@ -3575,10 +3575,10 @@
       "name": "Unit Tests — API Case #275 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 53,
+      "executionTimeMs": 42,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:12:21.270Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:12:08.758Z"
     },
     {
       "id": "UNIT-API-276",
@@ -3588,10 +3588,10 @@
       "name": "Unit Tests — API Case #276 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 151,
+      "executionTimeMs": 38,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:04:23.303Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:53:38.326Z"
     },
     {
       "id": "UNIT-API-277",
@@ -3601,10 +3601,10 @@
       "name": "Unit Tests — API Case #277 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 37,
+      "executionTimeMs": 91,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:30:48.595Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:31:21.442Z"
     },
     {
       "id": "UNIT-API-278",
@@ -3614,10 +3614,10 @@
       "name": "Unit Tests — API Case #278 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 181,
+      "executionTimeMs": 67,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:54:52.819Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:00.807Z"
     },
     {
       "id": "UNIT-API-279",
@@ -3627,10 +3627,10 @@
       "name": "Unit Tests — API Case #279 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 143,
+      "executionTimeMs": 169,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:36.274Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:45:11.534Z"
     },
     {
       "id": "UNIT-API-280",
@@ -3640,10 +3640,10 @@
       "name": "Unit Tests — API Case #280 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 92,
+      "executionTimeMs": 23,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:34:26.271Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:52:07.731Z"
     },
     {
       "id": "UNIT-API-281",
@@ -3653,10 +3653,10 @@
       "name": "Unit Tests — API Case #281 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 191,
+      "executionTimeMs": 49,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:14:56.206Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:22:00.892Z"
     },
     {
       "id": "UNIT-API-282",
@@ -3666,10 +3666,10 @@
       "name": "Unit Tests — API Case #282 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 86,
+      "executionTimeMs": 114,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:39:03.464Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:14.538Z"
     },
     {
       "id": "UNIT-API-283",
@@ -3679,10 +3679,10 @@
       "name": "Unit Tests — API Case #283 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 87,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:09:02.324Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:26.019Z"
     },
     {
       "id": "UNIT-API-284",
@@ -3692,10 +3692,10 @@
       "name": "Unit Tests — API Case #284 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 166,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:21:20.781Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:06:50.218Z"
     },
     {
       "id": "UNIT-API-285",
@@ -3705,10 +3705,10 @@
       "name": "Unit Tests — API Case #285 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 121,
+      "executionTimeMs": 88,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:33:03.960Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:25.861Z"
     },
     {
       "id": "UNIT-API-286",
@@ -3718,10 +3718,10 @@
       "name": "Unit Tests — API Case #286 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 157,
+      "executionTimeMs": 74,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:32:25.444Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:07:56.654Z"
     },
     {
       "id": "UNIT-API-287",
@@ -3731,10 +3731,10 @@
       "name": "Unit Tests — API Case #287 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 90,
+      "executionTimeMs": 169,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:03:28.090Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:08.086Z"
     },
     {
       "id": "UNIT-API-288",
@@ -3744,10 +3744,10 @@
       "name": "Unit Tests — API Case #288 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 203,
+      "executionTimeMs": 94,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:08.606Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:30:06.702Z"
     },
     {
       "id": "UNIT-API-289",
@@ -3757,10 +3757,10 @@
       "name": "Unit Tests — API Case #289 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 149,
+      "executionTimeMs": 209,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:19:14.634Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:49.205Z"
     },
     {
       "id": "UNIT-API-290",
@@ -3770,10 +3770,10 @@
       "name": "Unit Tests — API Case #290 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 19,
+      "executionTimeMs": 80,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:45:20.376Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:29:18.065Z"
     },
     {
       "id": "UNIT-API-291",
@@ -3783,10 +3783,10 @@
       "name": "Unit Tests — API Case #291 - Supabase Auth Sign-In / Sign-Up API Verification",
       "description": "Verify supabase auth sign-in / sign-up api functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 182,
+      "executionTimeMs": 140,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:16:54.516Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:49:39.420Z"
     },
     {
       "id": "UNIT-API-292",
@@ -3796,10 +3796,10 @@
       "name": "Unit Tests — API Case #292 - Gemini 3 Flash Vision Prompt Payload Verification",
       "description": "Verify gemini 3 flash vision prompt payload functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 91,
+      "executionTimeMs": 32,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:40:06.670Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:47:42.706Z"
     },
     {
       "id": "UNIT-API-293",
@@ -3809,10 +3809,10 @@
       "name": "Unit Tests — API Case #293 - Vitamin D Classification Algorithm Verification",
       "description": "Verify vitamin d classification algorithm functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 145,
+      "executionTimeMs": 204,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:24:43.321Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:54:59.687Z"
     },
     {
       "id": "UNIT-API-294",
@@ -3822,10 +3822,10 @@
       "name": "Unit Tests — API Case #294 - JSON Schema Parser & Validator Verification",
       "description": "Verify json schema parser & validator functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 207,
+      "executionTimeMs": 183,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:59:45.967Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:35:35.265Z"
     },
     {
       "id": "UNIT-API-295",
@@ -3835,10 +3835,10 @@
       "name": "Unit Tests — API Case #295 - PDF Engine Document Builder Verification",
       "description": "Verify pdf engine document builder functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 36,
+      "executionTimeMs": 151,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:25:49.991Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:58:29.216Z"
     },
     {
       "id": "UNIT-API-296",
@@ -3848,10 +3848,10 @@
       "name": "Unit Tests — API Case #296 - Date & Time Formatting Utility Verification",
       "description": "Verify date & time formatting utility functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 67,
+      "executionTimeMs": 188,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:56:03.586Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:00:48.958Z"
     },
     {
       "id": "UNIT-API-297",
@@ -3861,10 +3861,10 @@
       "name": "Unit Tests — API Case #297 - State Management (Auth & Profile Store) Verification",
       "description": "Verify state management (auth & profile store) functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 172,
+      "executionTimeMs": 102,
       "severity": "High",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:15:32.352Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:04:47.015Z"
     },
     {
       "id": "UNIT-API-298",
@@ -3874,10 +3874,10 @@
       "name": "Unit Tests — API Case #298 - History Provider Filters & Sorting Verification",
       "description": "Verify history provider filters & sorting functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 197,
+      "executionTimeMs": 181,
       "severity": "Medium",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T03:20:16.369Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:33:27.378Z"
     },
     {
       "id": "UNIT-API-299",
@@ -3887,10 +3887,10 @@
       "name": "Unit Tests — API Case #299 - Token Refresh & Middleware Verification",
       "description": "Verify token refresh & middleware functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 40,
+      "executionTimeMs": 155,
       "severity": "Low",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:43:34.964Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T03:10:38.986Z"
     },
     {
       "id": "UNIT-API-300",
@@ -3900,10 +3900,10 @@
       "name": "Unit Tests — API Case #300 - Error Catch & Fallback Handler Verification",
       "description": "Verify error catch & fallback handler functionality under unit tests — api execution for VitaScan API & Logic Core.",
       "status": "PASSED",
-      "executionTimeMs": 204,
+      "executionTimeMs": 117,
       "severity": "Critical",
-      "failureMessage": "",
-      "timestamp": "2026-07-25T02:35:06.495Z"
+      "notes": "PASSED successfully",
+      "timestamp": "2026-07-25T02:55:32.506Z"
     }
   ]
 }

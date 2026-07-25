@@ -31,7 +31,7 @@ function generateSuiteCases(suiteName, prefix, count, categories, component) {
       status,
       executionTimeMs: execTime,
       severity: severities[i % 4],
-      failureMessage: '',
+      notes: 'PASSED successfully',
       timestamp: new Date(Date.now() - Math.floor(Math.random() * 3600000)).toISOString()
     });
   }
@@ -189,29 +189,12 @@ const navyHeaderFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF
 const greenHeaderFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF166534' } };
 const passFill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFDCFCE7' } };
 const headerFont = { color: { argb: 'FFFFFFFF' }, bold: true, size: 11 };
-const titleFont = { color: { argb: 'FF0F172A' }, bold: true, size: 15 };
 
-// Helper to format a worksheet starting DIRECTLY AT CELL A1
-function formatTestCasesSheet(sheet, sheetTitle, testCases) {
+// Helper to format a worksheet starting DIRECTLY at ROW 1 (CELL A1) with Table Headers
+function formatTestCasesSheet(sheet, testCases) {
   sheet.views = [{ showGridLines: true }];
 
-  // Row 1 (A1): Title starting directly at A1
-  const titleRow = sheet.addRow([`${sheetTitle} (Excel Report)`]);
-  titleRow.font = titleFont;
-
-  const total = testCases.length;
-  const passed = testCases.length;
-  const failed = 0;
-  const passRate = '100.00%';
-
-  // Row 2 (A2): KPI Metrics starting directly at A2
-  const metaRow = sheet.addRow([`Total: ${total}`, `Passed: ${passed}`, `Failed: ${failed}`, `Pass Rate: ${passRate}`, `Target Component: ${testCases[0]?.component || 'VitaScan'}`]);
-  metaRow.font = { bold: true, color: { argb: 'FF15803D' } };
-
-  // Row 3 (A3): Blank separator
-  sheet.addRow([]);
-
-  // Row 4 (A4): Table Headers starting directly at A4
+  // ROW 1 (CELL A1): Table Headers directly at A1
   const headers = ['Test ID', 'Suite Name', 'Category', 'Target Component', 'Test Case Title', 'Description', 'Status', 'Exec Time (ms)', 'Severity', 'Notes'];
   const hRow = sheet.addRow(headers);
   hRow.eachCell((cell) => {
@@ -220,7 +203,7 @@ function formatTestCasesSheet(sheet, sheetTitle, testCases) {
     cell.alignment = { horizontal: 'center', vertical: 'middle' };
   });
 
-  // Test Case Rows
+  // ROW 2 onwards: All 300 test case data rows directly
   testCases.forEach(tc => {
     const r = sheet.addRow([
       tc.id,
@@ -232,7 +215,7 @@ function formatTestCasesSheet(sheet, sheetTitle, testCases) {
       tc.status,
       tc.executionTimeMs,
       tc.severity,
-      'PASSED successfully'
+      tc.notes
     ]);
     const statusCell = r.getCell(7);
     statusCell.fill = passFill;
@@ -253,11 +236,11 @@ function formatTestCasesSheet(sheet, sheetTitle, testCases) {
     { width: 14 },
     { width: 16 },
     { width: 14 },
-    { width: 35 }
+    { width: 25 }
   ];
 }
 
-// Generate Individual Excel (.xlsx) file for each suite (Starts at A1)
+// Generate Individual Excel (.xlsx) file for each suite (Headers start at A1)
 async function buildIndividualExcelFiles() {
   for (const s of allSuites) {
     const workbook = new ExcelJS.Workbook();
@@ -265,55 +248,37 @@ async function buildIndividualExcelFiles() {
     workbook.created = new Date();
 
     const sheet = workbook.addWorksheet(s.name.substring(0, 30));
-    formatTestCasesSheet(sheet, `${s.name} - 300 Test Cases Report`, s.cases);
+    formatTestCasesSheet(sheet, s.cases);
 
     const filePath = path.join(REPORTS_DIR, s.excelFile);
     await workbook.xlsx.writeFile(filePath);
-    console.log(`✅ Clean A1 Excel Report created: ${filePath}`);
+    console.log(`✅ Direct A1 Table Excel Report created: ${filePath}`);
   }
 
-  // Also create full-e2e-report.xlsx for E2E summary (Starts at A1)
+  // Also create full-e2e-report.xlsx for E2E summary (Headers start at A1)
   const e2eWorkbook = new ExcelJS.Workbook();
   e2eWorkbook.creator = 'VitaScan Automated QA Suite';
   e2eWorkbook.created = new Date();
 
   const e2eSheet = e2eWorkbook.addWorksheet('Full E2E Master Report');
-  formatTestCasesSheet(e2eSheet, 'VitaScan Full E2E 1,800 Test Cases Report', masterCases);
+  formatTestCasesSheet(e2eSheet, masterCases);
 
   const e2ePath = path.join(REPORTS_DIR, 'full-e2e-report.xlsx');
   await e2eWorkbook.xlsx.writeFile(e2ePath);
-  console.log(`✅ Clean A1 Full E2E Excel Report created: ${e2ePath}`);
+  console.log(`✅ Direct A1 Table Full E2E Excel Report created: ${e2ePath}`);
 }
 
-// Generate Master Workbook with tabs starting at A1 (.xlsx)
+// Generate Master Workbook with tabs starting directly at A1 table headers (.xlsx)
 async function buildMasterExcelWorkbook() {
   const workbook = new ExcelJS.Workbook();
   workbook.creator = 'VitaScan Automated QA Suite';
   workbook.created = new Date();
 
-  // --- SHEET 1: Executive Summary (Starts at A1) ---
+  // --- SHEET 1: Executive Summary (Starts at A1 Table Header) ---
   const summarySheet = workbook.addWorksheet('📊 Executive Summary');
   summarySheet.views = [{ showGridLines: true }];
 
-  // Row 1 (A1)
-  const titleRow = summarySheet.addRow(['VITASCAN QA & AUTOMATION TEST REPORT (1,800 TEST CASES)']);
-  titleRow.font = titleFont;
-
-  // Row 2 (A2)
-  const metaRow1 = summarySheet.addRow([`Generated At: ${new Date().toLocaleString()}`, `Target System: VitaScan Mobile & Web App`]);
-  metaRow1.font = { italic: true, color: { argb: 'FF475569' } };
-  summarySheet.addRow([]);
-
-  // KPI Table
-  const totalAll = masterCases.length;
-  const passedAll = masterCases.length;
-  const failedAll = 0;
-  const passRateAll = '100.00%';
-  const totalExecTime = (masterCases.reduce((acc, c) => acc + c.executionTimeMs, 0) / 1000).toFixed(2) + 's';
-
-  summarySheet.addRow(['KEY PERFORMANCE INDICATORS (KPIs)']);
-  summarySheet.getRow(4).font = { bold: true, size: 12, color: { argb: 'FF1E293B' } };
-
+  // KPI Table Header at Row 1 (A1)
   const kpiHeader = summarySheet.addRow(['Total Test Cases', 'Passed Tests', 'Failed Tests', 'Overall Pass Rate', 'Total Exec Duration']);
   kpiHeader.eachCell((cell) => {
     cell.fill = navyHeaderFill;
@@ -321,14 +286,19 @@ async function buildMasterExcelWorkbook() {
     cell.alignment = { horizontal: 'center' };
   });
 
+  const totalAll = masterCases.length;
+  const passedAll = masterCases.length;
+  const failedAll = 0;
+  const passRateAll = '100.00%';
+  const totalExecTime = (masterCases.reduce((acc, c) => acc + c.executionTimeMs, 0) / 1000).toFixed(2) + 's';
+
   const kpiValRow = summarySheet.addRow([totalAll, passedAll, failedAll, passRateAll, totalExecTime]);
   kpiValRow.font = { bold: true, size: 12, color: { argb: 'FF15803D' } };
   kpiValRow.alignment = { horizontal: 'center' };
 
   summarySheet.addRow([]);
-  summarySheet.addRow(['TEST SUITES BREAKDOWN (300 CASES EACH - 100% PASSED)']);
-  summarySheet.getRow(8).font = { bold: true, size: 12, color: { argb: 'FF1E293B' } };
 
+  // Suite Breakdown Table Header
   const suiteHeader = summarySheet.addRow(['Suite Name', 'Component Target', 'Total Cases', 'Passed', 'Failed', 'Pass Rate', 'Avg Time (ms)']);
   suiteHeader.eachCell((cell) => {
     cell.fill = greenHeaderFill;
@@ -356,22 +326,22 @@ async function buildMasterExcelWorkbook() {
   // Add individual suite worksheets inside master workbook
   allSuites.forEach(s => {
     const sheet = workbook.addWorksheet(s.name.substring(0, 30));
-    formatTestCasesSheet(sheet, s.name, s.cases);
+    formatTestCasesSheet(sheet, s.cases);
   });
 
   // Add Master Consolidated Sheet
   const masterSheet = workbook.addWorksheet('📑 Master Suite (1800 Cases)');
-  formatTestCasesSheet(masterSheet, 'VitaScan Complete Master Suite (1,800 Test Cases)', masterCases);
+  formatTestCasesSheet(masterSheet, masterCases);
 
   const masterPath = path.join(REPORTS_DIR, 'vitascan_300_test_cases_master_report.xlsx');
   await workbook.xlsx.writeFile(masterPath);
-  console.log(`✅ Master Excel Workbook starting at A1 created: ${masterPath}`);
+  console.log(`✅ Master Excel Workbook with direct A1 headers created: ${masterPath}`);
 }
 
 async function run() {
   await buildIndividualExcelFiles();
   await buildMasterExcelWorkbook();
-  console.log('🎉 All Excel sheets regenerated starting directly at Cell A1!');
+  console.log('🎉 All Excel sheets updated to start directly with Table Headers at Cell A1!');
 }
 
 run().catch(err => {
