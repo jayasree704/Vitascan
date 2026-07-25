@@ -1,0 +1,186 @@
+name: VitaScan Automation & 300 Test Cases Suite
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  selenium-website-tests:
+    name: Selenium — Website Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute 300 Selenium Web Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Selenium Web Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-web-report
+          path: reports/selenium-web-report.json
+
+  appium-android-tests:
+    name: Appium — Android Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute 300 Appium Android Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Appium Android Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: appium-android-report
+          path: reports/appium-android-report.json
+
+  unit-api-tests:
+    name: Unit Tests — API (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute 300 Unit API Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Unit API Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-report
+          path: reports/unit-test-report.json
+
+  validation-tests:
+    name: Validation Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute 300 Validation Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Validation Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-test-report
+          path: reports/validation-test-report.json
+
+  deployment-status-tests:
+    name: Deployment Status (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute 300 Deployment Status Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Deployment Status Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-test-report
+          path: reports/deployment-test-report.json
+
+  load-performance-tests:
+    name: Load Testing — Performance (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute 300 Load Testing Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Load Performance Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: load-test-report
+          path: reports/load-test-report.json
+
+  compile-master-report-and-deploy:
+    name: Compile Master Report & Deploy
+    needs: [selenium-website-tests, appium-android-tests, unit-api-tests, validation-tests, deployment-status-tests, load-performance-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Web App & Test Master Suite
+        run: |
+          npm run build
+          node scripts/generate_test_reports.js
+
+      - name: Upload Full E2E JSON Report Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-e2e-report
+          path: reports/full-e2e-report.json
+
+      - name: Upload Master Excel Sheet Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: vitascan-300-test-cases-excel-report
+          path: reports/vitascan_300_test_cases_master_report.xlsx
