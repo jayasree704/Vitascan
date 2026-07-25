@@ -29,7 +29,7 @@ jobs:
       - name: Upload Selenium Web Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: selenium-web-report
+          name: selenium-web-report.xlsx
           path: reports/selenium-web-report.xlsx
 
   appium-android-tests:
@@ -53,7 +53,7 @@ jobs:
       - name: Upload Appium Android Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: appium-android-report
+          name: appium-android-report.xlsx
           path: reports/appium-android-report.xlsx
 
   unit-api-tests:
@@ -77,7 +77,7 @@ jobs:
       - name: Upload Unit API Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: unit-test-report
+          name: unit-test-report.xlsx
           path: reports/unit-test-report.xlsx
 
   validation-tests:
@@ -101,7 +101,7 @@ jobs:
       - name: Upload Validation Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: validation-test-report
+          name: validation-test-report.xlsx
           path: reports/validation-test-report.xlsx
 
   deployment-status-tests:
@@ -125,7 +125,7 @@ jobs:
       - name: Upload Deployment Status Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: deployment-test-report
+          name: deployment-test-report.xlsx
           path: reports/deployment-test-report.xlsx
 
   load-performance-tests:
@@ -149,7 +149,7 @@ jobs:
       - name: Upload Load Performance Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: load-test-report
+          name: load-test-report.xlsx
           path: reports/load-test-report.xlsx
 
   compile-master-report-and-deploy:
@@ -176,11 +176,11 @@ jobs:
       - name: Upload Full E2E Excel Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: full-e2e-report
+          name: full-e2e-report.xlsx
           path: reports/full-e2e-report.xlsx
 
       - name: Upload Master Excel Sheet Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: vitascan-300-test-cases-excel-report
+          name: vitascan-300-test-cases-excel-report.xlsx
           path: reports/vitascan_300_test_cases_master_report.xlsx
