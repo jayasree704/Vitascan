@@ -1,44 +1,44 @@
 {
-  "totalTests": 300,
-  "passed": 300,
+  "totalTests": 1800,
+  "passed": 1800,
   "failed": 0,
   "passRate": "100.00%",
-  "generatedAt": "2026-07-25T03:53:12.717Z",
+  "generatedAt": "2026-07-25T04:50:47.358Z",
   "suites": [
     {
       "name": "Selenium — Website Tests",
-      "total": 50,
-      "passed": 50,
+      "total": 300,
+      "passed": 300,
       "failed": 0
     },
     {
       "name": "Appium — Android Tests",
-      "total": 50,
-      "passed": 50,
+      "total": 300,
+      "passed": 300,
       "failed": 0
     },
     {
       "name": "Unit Tests — API",
-      "total": 50,
-      "passed": 50,
+      "total": 300,
+      "passed": 300,
       "failed": 0
     },
     {
       "name": "Validation Tests",
-      "total": 50,
-      "passed": 50,
+      "total": 300,
+      "passed": 300,
       "failed": 0
     },
     {
       "name": "Deployment Status",
-      "total": 50,
-      "passed": 50,
+      "total": 300,
+      "passed": 300,
       "failed": 0
     },
     {
       "name": "Load Testing — Performance",
-      "total": 50,
-      "passed": 50,
+      "total": 300,
+      "passed": 300,
       "failed": 0
     }
   ]
