@@ -35,13 +35,13 @@ function getGreeting() {
 const lifestyleTips = [
   'Expose arms and legs to direct sunlight for 15-20 minutes daily.',
   'Pair Vitamin D rich foods with healthy fats for optimal absorption.',
-  'Retest your levels in 8-12 weeks to monitor progress.',
+  'Retest your saliva Vitamin D levels in 8-12 weeks to monitor progress.',
 ];
 const ranges = [
-  { label: 'Deficient', range: '< 20 ng/mL', color: '#FF3B30', bg: '#FFF0EF', icon: '🔴', tip: 'Seek medical attention. Supplement immediately.' },
-  { label: 'Insufficient', range: '20–30 ng/mL', color: '#FF9500', bg: '#FFF8EE', icon: '🟡', tip: 'Increase sun exposure and dietary intake.' },
-  { label: 'Sufficient', range: '30–100 ng/mL', color: '#34C759', bg: '#F0FFF4', icon: '🟢', tip: 'Maintain current lifestyle. Keep monitoring.' },
-  { label: 'Toxic', range: '> 100 ng/mL', color: '#BA1A1A', bg: '#FFF0EF', icon: '⛔', tip: 'Reduce supplementation and consult a doctor.' },
+  { label: 'Deficient', range: '< 20 ng/mL', color: '#FF3B30', bg: '#FFF0EF', swatch: '#FFB3BA', swatchLabel: 'Faint Pink Line T', tip: 'Seek medical attention. Supplement immediately.' },
+  { label: 'Insufficient', range: '20–30 ng/mL', color: '#FF9500', bg: '#FFF8EE', swatch: '#FFC6FF', swatchLabel: 'Medium Pink Line T', tip: 'Increase sun exposure and dietary intake.' },
+  { label: 'Sufficient', range: '30–100 ng/mL', color: '#34C759', bg: '#F0FFF4', swatch: '#E85D04', swatchLabel: 'Deep Rose Line T', tip: 'Maintain current lifestyle. Keep monitoring.' },
+  { label: 'Toxic', range: '> 100 ng/mL', color: '#BA1A1A', bg: '#FFF0EF', swatch: '#6A040F', swatchLabel: 'Dark Purple Line T', tip: 'Reduce supplementation and consult a doctor.' },
 ];
 
 const FIXED_SAMPLE_SCANS = [
@@ -509,19 +509,29 @@ export default function Dashboard() {
 
             {/* Reference Guide */}
             <div className="section-card">
-              <h2 className="section-title" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-                </svg>
-                Reference Guide
-              </h2>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 }}>
+                <h2 className="section-title" style={{ display: 'flex', alignItems: 'center', gap: 6, margin: 0 }}>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                  </svg>
+                  Saliva Test Color Chart
+                </h2>
+                <span style={{ fontSize: 10, background: '#E8F5E9', color: '#2E7D32', padding: '2px 8px', borderRadius: 99, fontWeight: 700 }}>Line T Scale</span>
+              </div>
               <div className="ref-grid side-ref-grid">
                 {ranges.map((r) => (
-                  <div key={r.label} className="ref-card" style={{ background: r.bg, borderColor: r.color + '40' }}>
-                    <div className="ref-label" style={{ color: r.color }}>{r.label}</div>
-                    <div className="ref-range" style={{ color: r.color }}>{r.range}</div>
-                    <p className="ref-tip">{r.tip}</p>
+                  <div key={r.label} className="ref-card" style={{ background: r.bg, borderColor: r.color + '40', padding: '10px 12px' }}>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                      <div className="ref-label" style={{ color: r.color, fontWeight: 700 }}>{r.label}</div>
+                      <div className="ref-range" style={{ color: r.color, fontWeight: 800 }}>{r.range}</div>
+                    </div>
+                    {/* Visual Color Swatch representing Line T color intensity */}
+                    <div style={{ display: 'flex', alignItems: 'center', gap: 8, margin: '6px 0 4px 0', background: 'rgba(255,255,255,0.8)', padding: '4px 8px', borderRadius: 6, border: '1px solid rgba(0,0,0,0.06)' }}>
+                      <div style={{ width: 14, height: 14, borderRadius: 3, background: r.swatch, border: '1px solid rgba(0,0,0,0.15)' }} />
+                      <span style={{ fontSize: 10, fontWeight: 600, color: '#4A5568' }}>{r.swatchLabel}</span>
+                    </div>
+                    <p className="ref-tip" style={{ margin: 0 }}>{r.tip}</p>
                   </div>
                 ))}
               </div>
