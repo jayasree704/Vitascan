@@ -81,6 +81,42 @@ export default function Profile() {
           </div>
         </div>
 
+        {/* Account Settings & Notification Preferences */}
+        <div className="section-card" style={{ marginTop: 16 }}>
+          <h2 className="section-title">Account Settings</h2>
+          <div className="info-list">
+            <div
+              className="info-row"
+              style={{ cursor: 'pointer' }}
+              onClick={async () => {
+                if ('Notification' in window) {
+                  const perm = await Notification.requestPermission();
+                  if (perm === 'granted') {
+                    toast.success('Notification permissions enabled!');
+                  } else if (perm === 'denied') {
+                    toast.error('Notifications blocked in browser settings. Please allow notifications in site permissions.');
+                  } else {
+                    toast('Notification status: ' + perm);
+                  }
+                } else {
+                  toast.error('Notifications not supported in this browser');
+                }
+              }}
+            >
+              <div className="info-meta">
+                <span className="info-label">Notification Preferences</span>
+                <span className="info-value" style={{ fontSize: 12, color: 'var(--on-surface-var)' }}>Configure app push & lab reminder alerts</span>
+              </div>
+              <span className="info-icon" style={{ display: 'flex', alignItems: 'center' }}>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                  <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+
         {/* Sign Out */}
         <button className="btn btn-danger btn-full" onClick={handleSignOut} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8 }}>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

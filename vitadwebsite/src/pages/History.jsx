@@ -250,23 +250,30 @@ export default function History() {
               ) : (
                 <div className="history-scroll-list">
                   {filtered.map((scan) => {
-                    const c = statusColor(scan.vitamin_d_level);
-                    const meta = [scan.patient_age ? `${scan.patient_age} yrs` : '', scan.patient_gender || ''].filter(Boolean).join(' · ');
+                    const level = scan.vitamin_d_level != null ? Number(scan.vitamin_d_level) : 0;
+                    const c = statusColor(level);
+                    const name = (scan.patient_name && String(scan.patient_name).trim()) ? String(scan.patient_name).trim() : 'Patient Record';
+                    const ageStr = scan.patient_age ? `${scan.patient_age} yrs` : '';
+                    const genderStr = scan.patient_gender || '';
+                    const metaStr = [ageStr, genderStr].filter(Boolean).join(' · ');
+                    const displayMeta = metaStr || 'Vitamin D Analysis';
+                    const statusText = scan.status || (level < 20 ? 'Deficient' : level < 30 ? 'Insufficient' : 'Sufficient');
+
                     return (
-                      <div key={scan.id} className="history-card" style={{ borderLeftColor: c, padding: '8px 12px' }} onClick={() => setSelected(scan)}>
-                        <div className="hcard-circle" style={{ background: c + '18', width: 42, height: 42 }}>
-                          <div className="hcard-level" style={{ color: c, fontSize: 13 }}>{scan.vitamin_d_level.toFixed(1)}</div>
-                          <div className="hcard-unit" style={{ fontSize: 8 }}>ng/mL</div>
+                      <div key={scan.id || Math.random()} className="history-card" style={{ borderLeftColor: c }} onClick={() => setSelected(scan)}>
+                        <div className="hcard-circle" style={{ background: c + '18' }}>
+                          <div className="hcard-level" style={{ color: c }}>{level.toFixed(1)}</div>
+                          <div className="hcard-unit">ng/mL</div>
                         </div>
                         <div className="hcard-body">
-                          <div className="hcard-row" style={{ marginBottom: 2 }}>
-                            <span className="hcard-name" style={{ fontSize: 13 }}>{scan.patient_name || 'Patient'}</span>
-                            <span className="hcard-badge" style={{ background: c + '18', color: c, fontSize: 9, padding: '2px 6px' }}>{scan.status}</span>
+                          <div className="hcard-row">
+                            <span className="hcard-name">{name}</span>
+                            <span className="hcard-badge" style={{ background: c + '18', color: c, padding: '2px 8px', fontSize: '10px' }}>{statusText}</span>
                           </div>
-                          {meta && <div className="hcard-meta" style={{ fontSize: 10, marginBottom: 1 }}>{meta}</div>}
-                          <div className="hcard-date" style={{ fontSize: 10 }}>{fmt(scan.created_at)}</div>
+                          <div className="hcard-meta">{displayMeta}</div>
+                          <div className="hcard-date">{fmt(scan.created_at || new Date())}</div>
                         </div>
-                        <span className="hcard-arrow" style={{ color: c, fontSize: 16 }}>›</span>
+                        <span className="hcard-arrow" style={{ color: c }}>›</span>
                       </div>
                     );
                   })}

@@ -4,7 +4,8 @@ import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 import Sidebar from '../components/Sidebar';
 import toast from 'react-hot-toast';
-import { analyzeTestStripWithGemini } from '../lib/gemini';
+import { analyzeTestStrip, LINE_SHADES, shadeForLevel } from '../lib/stripAnalysis';
+import { lifestyleTipsForStatus, recommendationsForStatus } from '../lib/recommendations';
 import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, Tooltip,
 } from 'recharts';
@@ -41,6 +42,13 @@ const ranges = [
   { label: 'Insufficient', range: '20–30 ng/mL', color: '#FF9500', bg: '#FFF8EE', icon: '🟡', tip: 'Increase sun exposure and dietary intake.' },
   { label: 'Sufficient', range: '30–100 ng/mL', color: '#34C759', bg: '#F0FFF4', icon: '🟢', tip: 'Maintain current lifestyle. Keep monitoring.' },
   { label: 'Toxic', range: '> 100 ng/mL', color: '#BA1A1A', bg: '#FFF0EF', icon: '⛔', tip: 'Reduce supplementation and consult a doctor.' },
+];
+
+/* How deeply the T line develops is what grades the strip. */
+const shadeGuide = [
+  { ...LINE_SHADES[0], hint: 'Faint or no test line' },
+  { ...LINE_SHADES[1], hint: 'Clearly visible test line' },
+  { ...LINE_SHADES[2], hint: 'Strong, deeply coloured line' },
 ];
 
 const FIXED_SAMPLE_SCANS = [
@@ -123,6 +131,7 @@ export default function Dashboard() {
   const [preview, setPreview] = useState(null);
   const [file, setFile] = useState(null);
   const [result, setResult] = useState(null);
+  const [invalidImage, setInvalidImage] = useState(null);
   const fileRef = useRef();
 
   // Patient details form state
@@ -196,13 +205,20 @@ export default function Dashboard() {
 
     setStep(STEP.ANALYZING);
     try {
-      // Send uploaded image into real Google Gemini Vision AI API (gemini-3-flash-preview)
-      const aiResult = await analyzeTestStripWithGemini(preview || file);
+      // Colorimetric densitometry of the test strip — computed locally, no AI service.
+      const analysis = await analyzeTestStrip(preview || file);
 
-      const vitaminLevel = aiResult.level;
-      const statusText = aiResult.status || statusLabel(vitaminLevel);
-      const confidence = aiResult.confidence || 0.94;
-      const tips = aiResult.lifestyleTips?.length > 0 ? aiResult.lifestyleTips : lifestyleTips;
+      // Not a Vitamin D test strip (or unreadable): stop and tell the user.
+      if (!analysis.valid) {
+        setInvalidImage(analysis);
+        setStep(STEP.DETAILS);
+        return;
+      }
+
+      const vitaminLevel = analysis.level;
+      const statusText = analysis.status || statusLabel(vitaminLevel);
+      const confidence = analysis.confidence;
+      const tips = lifestyleTipsForStatus(statusText);
 
       const scanData = {
         user_id: user.id,
@@ -233,10 +249,15 @@ export default function Dashboard() {
 
       if (error) throw error;
 
-      setResult({ ...scanData, recommendations: aiResult.recommendations, id: saved?.id });
+      setResult({
+        ...scanData,
+        recommendations: recommendationsForStatus(statusText),
+        measurements: analysis.measurements,
+        id: saved?.id,
+      });
       setScans(prev => [{ ...scanData, id: saved?.id }, ...prev]);
       setStep(STEP.RESULT);
-      toast.success('AI Scan analysis complete & saved!');
+      toast.success('Scan analysis complete & saved!');
     } catch (err) {
       toast.error('Scan error: ' + err.message);
       setStep(STEP.DETAILS);
@@ -244,7 +265,7 @@ export default function Dashboard() {
   };
 
   const resetUpload = () => {
-    setStep(STEP.IDLE); setPreview(null); setFile(null); setResult(null);
+    setStep(STEP.IDLE); setPreview(null); setFile(null); setResult(null); setInvalidImage(null);
     setPatient({ name: '', age: '', gender: 'Male', height: '', weight: '', healthConditions: '',
       collectionDate: new Date().toISOString().slice(0, 10),
       collectionTime: 'Morning', oralIntake: 'Fasted (>8 hrs)', oralHealth: 'Healthy' });
@@ -329,7 +350,7 @@ export default function Dashboard() {
                 </svg>
                 Analyze Test Strip
               </h2>
-              <p className="upload-hint">Upload a photo of your Vitamin D test strip for instant AI analysis.</p>
+              <p className="upload-hint">Upload a photo of your Vitamin D test strip — the C and T lines are measured directly from the image.</p>
 
               {step === STEP.IDLE && (
                 <div className="drop-zone" onDragOver={e => e.preventDefault()} onDrop={handleDrop} onClick={() => fileRef.current?.click()}>
@@ -413,7 +434,7 @@ export default function Dashboard() {
 
                     <button type="submit" className="btn btn-primary btn-full" disabled={step === STEP.ANALYZING} style={{ marginTop: 4 }}>
                       {step === STEP.ANALYZING
-                        ? <><span className="btn-spinner" /> Analyzing with AI…</>
+                        ? <><span className="btn-spinner" /> Measuring test lines…</>
                         : 'Check Details & Analyze'}
                     </button>
                   </form>
@@ -438,7 +459,18 @@ export default function Dashboard() {
                         <span>Patient: {result.patient_name}</span>
                         {result.patient_age && <span> · {result.patient_age} yrs</span>}
                       </div>
+                      <div className="ar-shade">
+                        <span className="shade-dot" style={{ background: shadeForLevel(result.vitamin_d_level).hex }} />
+                        <span><strong>{shadeForLevel(result.vitamin_d_level).name}</strong> test line → {result.status}</span>
+                      </div>
                       <p className="ar-desc">{statusDesc(result.vitamin_d_level)}</p>
+                      {result.measurements && (
+                        <p className="ar-measurements">
+                          Measured C={result.measurements.controlIntensity}, T={result.measurements.testIntensity}
+                          {' · '}T/C={result.measurements.ratio}
+                          {' · '}confidence {(result.ai_confidence * 100).toFixed(0)}%
+                        </p>
+                      )}
                       <div className="ar-save-badge">Saved to history</div>
                       <div className="ar-actions">
                         <button className="btn btn-outline" onClick={resetUpload} style={{ flex: 1, padding: '8px' }}>New Scan</button>
@@ -525,9 +557,71 @@ export default function Dashboard() {
               </div>
             </div>
 
+            {/* Test line shade guide */}
+            <div className="section-card">
+              <h2 className="section-title" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="13.5" cy="6.5" r=".5" fill="currentColor" />
+                  <circle cx="17.5" cy="10.5" r=".5" fill="currentColor" />
+                  <circle cx="8.5" cy="7.5" r=".5" fill="currentColor" />
+                  <circle cx="6.5" cy="12.5" r=".5" fill="currentColor" />
+                  <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z" />
+                </svg>
+                Test Line Shade
+              </h2>
+              <p className="shade-intro">The deeper the T line develops, the higher your Vitamin D.</p>
+              <div className="shade-list">
+                {shadeGuide.map((s) => (
+                  <div key={s.name} className="shade-row">
+                    <span className="shade-swatch" style={{ background: s.hex }} />
+                    <div className="shade-text">
+                      <div className="shade-name">{s.name}</div>
+                      <div className="shade-hint">{s.hint}</div>
+                    </div>
+                    <span className="shade-status">{s.status}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
           </div>
 
         </div>
+
+        {/* Invalid image popup — shown when the upload is not a Vitamin D test strip */}
+        {invalidImage && (
+          <div className="modal-overlay" onClick={() => setInvalidImage(null)}>
+            <div className="modal-card invalid-modal" onClick={e => e.stopPropagation()}>
+              <button className="modal-close" onClick={() => setInvalidImage(null)}>✕</button>
+              <div className="invalid-modal-icon">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FF3B30" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                  <line x1="12" y1="9" x2="12" y2="13" />
+                  <line x1="12" y1="17" x2="12.01" y2="17" />
+                </svg>
+              </div>
+              <h3 className="invalid-modal-title">Please use the correct test report</h3>
+              <p className="invalid-modal-text">
+                This image is not a Vitamin D test strip, so no result can be calculated.
+                Upload a clear photo of your Vitamin D test strip or cassette report.
+              </p>
+              <p className="invalid-modal-reason">{invalidImage.message}</p>
+              <ul className="invalid-modal-list">
+                <li>Place the strip on a flat, plain background.</li>
+                <li>Keep the whole result window in frame, including the C and T lines.</li>
+                <li>Use bright, even light and avoid shadows or glare.</li>
+              </ul>
+              <div className="ar-actions">
+                <button className="btn btn-outline" style={{ flex: 1, padding: '9px' }} onClick={() => setInvalidImage(null)}>
+                  Close
+                </button>
+                <button className="btn btn-primary" style={{ flex: 1, padding: '9px' }} onClick={resetUpload}>
+                  Upload Another Image
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
       </main>
     </div>
