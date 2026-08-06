@@ -1,3 +1,4 @@
+// VitaScan Diagnostic Dashboard - Version 2.0 (Updated 3-Tone Pink Palette & Persistent History)
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
