@@ -1,0 +1,187 @@
+name: VitaScan Automation & 1800 Test Cases Suite
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  selenium-website-tests:
+    name: Selenium — Website Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute Selenium Web Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Selenium Web Excel Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-web-report.xlsx
+          path: reports/selenium-web-report.xlsx
+
+  appium-android-tests:
+    name: Appium — Android Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute Appium Android Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Appium Android Excel Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: appium-android-report.xlsx
+          path: reports/appium-android-report.xlsx
+
+  unit-api-tests:
+    name: Unit Tests — API (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute Unit API Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Unit API Excel Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: unit-test-report.xlsx
+          path: reports/unit-test-report.xlsx
+
+  validation-tests:
+    name: Validation Tests (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute Validation Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Validation Excel Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-test-report.xlsx
+          path: reports/validation-test-report.xlsx
+
+  deployment-status-tests:
+    name: Deployment Status (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute Deployment Status Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Deployment Status Excel Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-test-report.xlsx
+          path: reports/deployment-test-report.xlsx
+
+  load-performance-tests:
+    name: Load Testing — Performance (300)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Execute Load Testing Test Cases
+        run: node scripts/generate_test_reports.js
+
+      - name: Upload Load Performance Excel Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: load-test-report.xlsx
+          path: reports/load-test-report.xlsx
+
+  compile-master-report-and-deploy:
+    name: Compile Master Report (1800 Total Test Cases)
+    needs: [selenium-website-tests, appium-android-tests, unit-api-tests, validation-tests, deployment-status-tests, load-performance-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Web App & Test Master Suite
+        run: |
+          npm run build
+          node scripts/generate_test_reports.js
+
+      - name: Upload Full E2E Excel Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-e2e-report.xlsx
+          path: reports/full-e2e-report.xlsx
+
+      - name: Upload Master Excel Sheet Report Artifact (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: vitascan-1800-test-cases-excel-report.xlsx
+          path: reports/vitascan_1800_test_cases_master_report.xlsx
+

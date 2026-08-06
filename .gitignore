@@ -7,10 +7,16 @@ build/
 .pub-cache/
 .pub/
 ephemeral/
+*.local
 
 # Logs
-*.log
 logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 # Environment & Secrets
 .env
@@ -19,7 +25,15 @@ logs/
 
 # IDE / OS
 .idea/
-.vscode/
+.vscode/*
+!.vscode/extensions.json
 *.swp
 .DS_Store
 Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temp directory
+temp_repo/
