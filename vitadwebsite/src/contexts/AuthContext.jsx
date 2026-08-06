@@ -6,9 +6,9 @@ import toast from 'react-hot-toast';
 const AuthContext = createContext(null);
 
 const DEFAULT_GUEST_USER = {
-  id: 'user_jayasree',
-  email: 'jayasreechitra1@gmail.com',
-  user_metadata: { full_name: 'Jayasree Chitra' },
+  id: 'user_priya',
+  email: 'priya@vitascan.ai',
+  user_metadata: { full_name: 'priya' },
 };
 
 export function AuthProvider({ children }) {
@@ -20,12 +20,9 @@ export function AuthProvider({ children }) {
   const navigate = useNavigate();
 
   const saveUserSession = (userData) => {
-    setUser(userData);
-    if (userData) {
-      localStorage.setItem('vitascan_web_user', JSON.stringify(userData));
-    } else {
-      localStorage.removeItem('vitascan_web_user');
-    }
+    const finalUser = userData || DEFAULT_GUEST_USER;
+    setUser(finalUser);
+    localStorage.setItem('vitascan_web_user', JSON.stringify(finalUser));
   };
 
   useEffect(() => {
