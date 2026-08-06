@@ -1,5 +1,16 @@
+# Dependencies & Builds
+node_modules/
+dist/
+dist-ssr/
+build/
+.dart_tool/
+.pub-cache/
+.pub/
+ephemeral/
+*.local
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +18,18 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment & Secrets
 .env
 .env.*
+*.env
 
-# Editor directories and files
+# IDE / OS
+.idea/
 .vscode/*
 !.vscode/extensions.json
-.idea
+*.swp
 .DS_Store
+Thumbs.db
 *.suo
 *.ntvs*
 *.njsproj
@@ -26,4 +37,3 @@ dist-ssr
 
 # Temp directory
 temp_repo/
-
