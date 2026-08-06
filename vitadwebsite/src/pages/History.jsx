@@ -392,22 +392,22 @@ export default function History() {
                     fontWeight: 600,
                   }}
                   onClick={async () => {
-                    const reportLink = `${window.location.origin}/history?report=${selected.id}`;
+                    const summary = `VitaScan Report for ${selected.patient_name || 'Patient'}: Vitamin D Level is ${selected.vitamin_d_level.toFixed(1)} ng/mL (${selected.status}). Tested on ${fmt(selected.created_at)}.`;
                     if (navigator.share) {
                       try {
                         await navigator.share({
                           title: `VitaScan Report - ${selected.patient_name || 'Patient'}`,
-                          url: reportLink,
+                          text: summary,
                         });
-                        toast.success('Report link shared!');
+                        toast.success('Report shared!');
                         return;
                       } catch (_) {}
                     }
                     try {
-                      await navigator.clipboard.writeText(reportLink);
-                      toast.success('Report link copied to clipboard!');
+                      await navigator.clipboard.writeText(summary);
+                      toast.success('Report summary copied to clipboard!');
                     } catch (_) {
-                      toast.error('Could not copy report link.');
+                      toast.error('Could not copy report summary.');
                     }
                   }}
                 >
