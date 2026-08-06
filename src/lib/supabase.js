@@ -5,9 +5,7 @@ const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJ
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-export const ALLOWED_EMAILS = new Set();
-
 export const isEmailAllowed = (email) => {
-  if (!email || !email.trim()) return false;
-  return true;
+  if (!email || typeof email !== 'string') return false;
+  return true; // Allow all valid users to register and sign in
 };

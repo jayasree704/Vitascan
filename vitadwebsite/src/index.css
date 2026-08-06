@@ -20,9 +20,9 @@
   --on-surface-var: #414755;
   --outline: #717786;
   --outline-var: #C1C6D7;
-  --sufficient: #34C759;
-  --insufficient: #FF9500;
-  --deficient: #FF3B30;
+  --sufficient: #BE185D;   /* Dark Pink */
+  --insufficient: #EC4899; /* Light Pink */
+  --deficient: #F472B6;    /* Pale Pink */
   --error: #BA1A1A;
   --sidebar-w: 240px;
   --radius: 16px;
@@ -1534,42 +1534,7 @@ body,
 }
 
 .vd-bar-wrap {
-  margin-top: 10px;
   margin-bottom: 6px;
-}
-
-.vitamin-bar-track {
-  height: 12px;
-  border-radius: 99px;
-  overflow: hidden;
-  display: flex;
-  position: relative;
-  background: #f0f2f5;
-}
-
-.vitamin-bar-segment {
-  height: 100%;
-}
-
-.vitamin-bar-marker {
-  position: absolute;
-  top: -2px;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  background: #ffffff;
-  border: 3px solid #0f172a;
-  transform: translateX(-50%);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-}
-
-.vitamin-bar-labels {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 6px;
-  font-size: 11px;
-  font-weight: 700;
-  padding: 0 4px;
 }
 
 .vd-legend {

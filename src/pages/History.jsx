@@ -2,14 +2,13 @@ import { useEffect, useState, useMemo } from 'react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 import Sidebar from '../components/Sidebar';
-import { downloadReportPDF, buildShareText } from '../lib/reportUtils';
-import toast from 'react-hot-toast';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, Tooltip } from 'recharts';
+import { downloadReportPDF, shareReport } from '../lib/pdfGenerator';
 
 function statusColor(level) {
-  if (level < 20) return '#FFC0CB'; // Pale Pink (Deficient)
-  if (level < 30) return '#FF69B4'; // Light Pink (Insufficient)
-  return '#C71585'; // Dark Pink (Sufficient)
+  if (level < 20) return '#F472B6'; // Pale Pink (Deficient)
+  if (level < 30) return '#EC4899'; // Light Pink (Insufficient)
+  return '#BE185D';                 // Dark Pink (Sufficient)
 }
 
 function fmt(dt) {
@@ -30,6 +29,58 @@ const FIXED_SAMPLE_SCANS = [
     created_at: '2026-07-24T08:30:00Z',
     isSample: true,
   },
+  {
+    id: 'sample-2',
+    user_id: 'sample',
+    patient_name: 'Sample Patient A',
+    patient_age: 30,
+    patient_gender: 'Female',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Pair Vitamin D rich foods with healthy fats.'],
+    created_at: '2026-07-20T14:15:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-3',
+    user_id: 'sample',
+    patient_name: 'Sample Patient B',
+    patient_age: 45,
+    patient_gender: 'Male',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Retest your levels in 8-12 weeks.'],
+    created_at: '2026-07-15T09:10:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-4',
+    user_id: 'sample',
+    patient_name: 'Sample Patient C',
+    patient_age: 22,
+    patient_gender: 'Female',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Maintain optimal sunlight exposure.'],
+    created_at: '2026-07-10T11:45:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-5',
+    user_id: 'sample',
+    patient_name: 'Sample Patient D',
+    patient_age: 35,
+    patient_gender: 'Male',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Keep monitoring regularly.'],
+    created_at: '2026-07-05T16:20:00Z',
+    isSample: true,
+  },
 ];
 
 export default function History() {
@@ -38,85 +89,23 @@ export default function History() {
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState('');
   const [selected, setSelected] = useState(null);
-  const [shareOpen, setShareOpen] = useState(false);
-  const [pdfLoading, setPdfLoading] = useState(false);
-  const [copied, setCopied] = useState(false);
-
-  const handleDownload = async () => {
-    if (!selected) return;
-    setPdfLoading(true);
-    try {
-      downloadReportPDF(selected);
-      toast.success('Report downloaded!');
-    } catch (err) {
-      toast.error('Failed to generate PDF: ' + err.message);
-    } finally {
-      setPdfLoading(false);
-    }
-  };
-
-  const handleCopy = async () => {
-    if (!selected) return;
-    try {
-      await navigator.clipboard.writeText(buildShareText(selected));
-      setCopied(true);
-      toast.success('Report text copied!');
-      setTimeout(() => setCopied(false), 2500);
-    } catch {
-      toast.error('Could not copy to clipboard.');
-    }
-  };
-
-  const handleNativeShare = async () => {
-    if (!selected) return;
-    const summary = `VitaScan Report for ${selected.patient_name || 'Patient'}: Vitamin D Level is ${selected.vitamin_d_level.toFixed(1)} ng/mL (${selected.status}). Tested on ${fmt(selected.created_at)}.`;
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: `VitaScan Report - ${selected.patient_name || 'Patient'}`,
-          text: summary,
-        });
-        toast.success('Report shared!');
-        return;
-      } catch { /* user cancelled */ }
-    }
-    try {
-      await navigator.clipboard.writeText(summary);
-      toast.success('Report summary copied!');
-    } catch {
-      toast.error('Could not copy report text.');
-    }
-  };
 
   const fetchScans = async () => {
     setLoading(true);
-    let remoteScans = [];
-    try {
-      let { data } = await supabase
+    let { data } = await supabase
+      .from('scans')
+      .select('*')
+      .eq('user_id', user.id)
+      .order('created_at', { ascending: false });
+    if (!data || data.length === 0) {
+      const res = await supabase
         .from('scans')
         .select('*')
         .order('created_at', { ascending: false })
         .limit(50);
-      remoteScans = data || [];
-    } catch (_) {}
-
-    const localRaw = localStorage.getItem('vitascan_local_history');
-    const localScans = localRaw ? JSON.parse(localRaw) : [];
-
-    const combinedMap = new Map();
-    [...localScans, ...remoteScans, ...FIXED_SAMPLE_SCANS].forEach(s => {
-      const key = s.id || `${s.patient_name}_${s.created_at}`;
-      if (!combinedMap.has(key)) {
-        combinedMap.set(key, s);
-      }
-    });
-
-    const combinedList = Array.from(combinedMap.values()).filter(
-      s => !s.patient_name || !s.patient_name.startsWith('Sample Patient')
-    );
-    combinedList.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
-
-    setScans(combinedList);
+      data = res.data;
+    }
+    setScans(data && data.length > 0 ? data : FIXED_SAMPLE_SCANS);
     setLoading(false);
   };
 
@@ -130,19 +119,6 @@ export default function History() {
       (s.status || '').toLowerCase().includes(q)
     );
   }, [scans, search]);
-
-  useEffect(() => {
-    if (scans.length > 0) {
-      const params = new URLSearchParams(window.location.search);
-      const reportId = params.get('report');
-      if (reportId) {
-        const found = scans.find(s => String(s.id) === String(reportId));
-        if (found) {
-          setSelected(found);
-        }
-      }
-    }
-  }, [scans]);
 
   const trendData = [...scans].reverse().slice(-10).map((s, i) => ({
     name: `#${i + 1}`,
@@ -275,23 +251,30 @@ export default function History() {
               ) : (
                 <div className="history-scroll-list">
                   {filtered.map((scan) => {
-                    const c = statusColor(scan.vitamin_d_level);
-                    const meta = [scan.patient_age ? `${scan.patient_age} yrs` : '', scan.patient_gender || ''].filter(Boolean).join(' · ');
+                    const level = scan.vitamin_d_level != null ? Number(scan.vitamin_d_level) : 0;
+                    const c = statusColor(level);
+                    const name = (scan.patient_name && String(scan.patient_name).trim()) ? String(scan.patient_name).trim() : 'Patient Record';
+                    const ageStr = scan.patient_age ? `${scan.patient_age} yrs` : '';
+                    const genderStr = scan.patient_gender || '';
+                    const metaStr = [ageStr, genderStr].filter(Boolean).join(' · ');
+                    const displayMeta = metaStr || 'Vitamin D Analysis';
+                    const statusText = scan.status || (level < 20 ? 'Deficient' : level < 30 ? 'Insufficient' : 'Sufficient');
+
                     return (
-                      <div key={scan.id} className="history-card" style={{ borderLeftColor: c, padding: '8px 12px' }} onClick={() => setSelected(scan)}>
-                        <div className="hcard-circle" style={{ background: c + '18', width: 42, height: 42 }}>
-                          <div className="hcard-level" style={{ color: c, fontSize: 13 }}>{scan.vitamin_d_level.toFixed(1)}</div>
-                          <div className="hcard-unit" style={{ fontSize: 8 }}>ng/mL</div>
+                      <div key={scan.id || Math.random()} className="history-card" style={{ borderLeftColor: c }} onClick={() => setSelected(scan)}>
+                        <div className="hcard-circle" style={{ background: c + '18' }}>
+                          <div className="hcard-level" style={{ color: c }}>{level.toFixed(1)}</div>
+                          <div className="hcard-unit">ng/mL</div>
                         </div>
                         <div className="hcard-body">
-                          <div className="hcard-row" style={{ marginBottom: 2 }}>
-                            <span className="hcard-name" style={{ fontSize: 13 }}>{scan.patient_name || 'Patient'}</span>
-                            <span className="hcard-badge" style={{ background: c + '18', color: c, fontSize: 9, padding: '2px 6px' }}>{scan.status}</span>
+                          <div className="hcard-row">
+                            <span className="hcard-name">{name}</span>
+                            <span className="hcard-badge" style={{ background: c + '18', color: c, padding: '2px 8px', fontSize: '10px' }}>{statusText}</span>
                           </div>
-                          {meta && <div className="hcard-meta" style={{ fontSize: 10, marginBottom: 1 }}>{meta}</div>}
-                          <div className="hcard-date" style={{ fontSize: 10 }}>{fmt(scan.created_at)}</div>
+                          <div className="hcard-meta">{displayMeta}</div>
+                          <div className="hcard-date">{fmt(scan.created_at || new Date())}</div>
                         </div>
-                        <span className="hcard-arrow" style={{ color: c, fontSize: 16 }}>›</span>
+                        <span className="hcard-arrow" style={{ color: c }}>›</span>
                       </div>
                     );
                   })}
@@ -303,160 +286,75 @@ export default function History() {
 
         </div>
 
+        {/* Detail Modal */}
         {selected && (
           <div className="modal-overlay" onClick={() => setSelected(null)}>
             <div className="modal-card" onClick={e => e.stopPropagation()}>
-
-              {/* ── Scrollable content ── */}
-              <div className="modal-scroll-body">
-                <button className="modal-close" onClick={() => setSelected(null)}>✕</button>
-                <div className="modal-header" style={{ borderLeftColor: statusColor(selected.vitamin_d_level) }}>
-                  <div className="modal-level" style={{ color: statusColor(selected.vitamin_d_level) }}>
-                    {selected.vitamin_d_level.toFixed(1)} <small>ng/mL</small>
-                  </div>
-                  <span className="hcard-badge" style={{ background: statusColor(selected.vitamin_d_level) + '18', color: statusColor(selected.vitamin_d_level) }}>
-                    {selected.status}
-                  </span>
+              <button className="modal-close" onClick={() => setSelected(null)}>✕</button>
+              <div className="modal-header" style={{ borderLeftColor: statusColor(selected.vitamin_d_level) }}>
+                <div className="modal-level" style={{ color: statusColor(selected.vitamin_d_level) }}>
+                  {selected.vitamin_d_level.toFixed(1)} <small>ng/mL</small>
                 </div>
-                <div className="modal-body">
-                  {selected.patient_name && <div className="modal-row"><span>Patient</span><strong>{selected.patient_name}</strong></div>}
-                  {selected.patient_age && <div className="modal-row"><span>Age</span><strong>{selected.patient_age} yrs</strong></div>}
-                  {selected.patient_gender && <div className="modal-row"><span>Gender</span><strong>{selected.patient_gender}</strong></div>}
-                  <div className="modal-row"><span>Date</span><strong>{fmt(selected.created_at)}</strong></div>
-                  <div className="modal-row"><span>AI Confidence</span><strong>{((selected.ai_confidence || 0.94) * 100).toFixed(0)}%</strong></div>
-                </div>
-                {selected.lifestyle_tips?.length > 0 && (
-                  <div className="modal-tips">
-                    <h4>Lifestyle Tips</h4>
-                    {selected.lifestyle_tips.map((tip, i) => (
-                      <div key={i} className="tip-row" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#34C759" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                          <polyline points="20 6 9 17 4 12" />
-                        </svg>
-                        {tip}
-                      </div>
-                    ))}
-                  </div>
-                )}
-              {/* Action Buttons: Download & Share Report */}
-              <div style={{ display: 'flex', gap: 10, marginTop: 20, paddingTop: 16, borderTop: '1px solid #E0E2ED' }}>
-                <button className="modal-btn-dl" onClick={handleDownload} disabled={pdfLoading}>
-                  {pdfLoading ? (
-                    <><span className="btn-spinner" style={{ width: 14, height: 14 }} /> Generating…</>
-                  ) : (
-                    <>
-                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                        <polyline points="7 10 12 15 17 10" />
-                        <line x1="12" y1="15" x2="12" y2="3" />
+                <span className="hcard-badge" style={{ background: statusColor(selected.vitamin_d_level) + '18', color: statusColor(selected.vitamin_d_level) }}>
+                  {selected.status}
+                </span>
+              </div>
+              <div className="modal-body">
+                {selected.patient_name && <div className="modal-row"><span>Patient</span><strong>{selected.patient_name}</strong></div>}
+                {selected.patient_age && <div className="modal-row"><span>Age</span><strong>{selected.patient_age} yrs</strong></div>}
+                {selected.patient_gender && <div className="modal-row"><span>Gender</span><strong>{selected.patient_gender}</strong></div>}
+                <div className="modal-row"><span>Date</span><strong>{fmt(selected.created_at)}</strong></div>
+                <div className="modal-row"><span>AI Confidence</span><strong>{((selected.ai_confidence || 0.94) * 100).toFixed(0)}%</strong></div>
+              </div>
+              {selected.lifestyle_tips?.length > 0 && (
+                <div className="modal-tips">
+                  <h4>Lifestyle Tips</h4>
+                  {selected.lifestyle_tips.map((tip, i) => (
+                    <div key={i} className="tip-row" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#BE185D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                        <polyline points="20 6 9 17 4 12" />
                       </svg>
-                      Download Report
-                    </>
-                  )}
-                </button>
-                <button className="modal-btn-share" onClick={handleNativeShare}>
-                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
+                      {tip}
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* Share & Download Action Buttons */}
+              <div className="modal-actions" style={{ display: 'flex', gap: 10, marginTop: 20, paddingTop: 16, borderTop: '1px solid #E2E8F0', flexWrap: 'wrap' }}>
+                <button
+                  className="btn btn-outline"
+                  style={{ flex: 1, minWidth: 120, padding: '10px 14px', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, fontSize: 13, fontWeight: 600, color: '#2563EB', borderColor: '#BFDBFE', background: '#EFF6FF' }}
+                  onClick={() => shareReport(selected)}
+                  title="Share Report Summary"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <circle cx="18" cy="5" r="3" />
+                    <circle cx="6" cy="12" r="3" />
+                    <circle cx="18" cy="19" r="3" />
                     <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
                     <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
                   </svg>
-                  Share Report
+                  Share
+                </button>
+
+                <button
+                  className="btn btn-primary"
+                  style={{ flex: 1, minWidth: 120, padding: '10px 14px', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, fontSize: 13, fontWeight: 600, background: 'linear-gradient(135deg, #0058BC, #1D4ED8)' }}
+                  onClick={() => downloadReportPDF(selected)}
+                  title="Download Report PDF"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Download PDF
                 </button>
               </div>
             </div>
           </div>
-        </div>
-      )}
-
-        {/* ── Share Sheet Modal ── */}
-        {shareOpen && selected && (() => {
-          const shareText = buildShareText(selected);
-          const waUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
-          const smsUrl = `sms:?body=${encodeURIComponent(shareText)}`;
-          const emailUrl = `mailto:?subject=${encodeURIComponent('VitaScan Vitamin D Report')}&body=${encodeURIComponent(shareText)}`;
-          const tgUrl = `https://t.me/share/url?url=${encodeURIComponent(window.location.href)}&text=${encodeURIComponent('VitaScan Vitamin D Report')}`;
-          return (
-            <div className="share-overlay" onClick={() => setShareOpen(false)}>
-              <div className="share-modal" onClick={e => e.stopPropagation()}>
-                <div className="share-modal-header">
-                  <div className="share-modal-title">
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
-                      <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
-                      <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
-                    </svg>
-                    Share Report
-                  </div>
-                  <button className="share-modal-close" onClick={() => setShareOpen(false)}>✕</button>
-                </div>
-                <p className="share-modal-sub">Send this Vitamin D result via your preferred app</p>
-                <div className="share-apps-grid">
-
-                  {/* WhatsApp */}
-                  <a href={waUrl} target="_blank" rel="noopener noreferrer" className="share-app-btn share-wa">
-                    <svg viewBox="0 0 32 32" className="share-app-icon">
-                      <circle cx="16" cy="16" r="16" fill="#25D366" />
-                      <path fill="#fff" d="M23.5 8.5A10.4 10.4 0 0 0 16 5.5C10.2 5.5 5.5 10.2 5.5 16c0 1.8.5 3.6 1.4 5.2L5.5 26.5l5.5-1.4a10.5 10.5 0 0 0 5 1.3c5.8 0 10.5-4.7 10.5-10.5 0-2.8-1.1-5.4-3-7.4zm-7.5 16.1a8.7 8.7 0 0 1-4.5-1.2l-.3-.2-3.3.9.9-3.2-.2-.3A8.7 8.7 0 0 1 7.3 16a8.7 8.7 0 1 1 17.4 0 8.7 8.7 0 0 1-8.7 8.6zm4.8-6.5c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.5.1-.2.2-.6.9-.8 1-.1.2-.3.2-.5.1-.3-.1-1.1-.4-2.1-1.3-.8-.7-1.3-1.5-1.4-1.8-.1-.3 0-.4.1-.5l.4-.4.2-.4v-.4l-.9-2.1c-.2-.5-.5-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.7 1.2 2.9c.2.3 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.8-1.3.2-.6.2-1.2.1-1.3-.1-.2-.2-.2-.5-.3z"/>
-                    </svg>
-                    <span>WhatsApp</span>
-                  </a>
-
-                  {/* SMS */}
-                  <a href={smsUrl} className="share-app-btn share-sms">
-                    <svg viewBox="0 0 32 32" className="share-app-icon">
-                      <circle cx="16" cy="16" r="16" fill="#007AFF" />
-                      <path fill="#fff" d="M8 8h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H11l-5 4V10a2 2 0 0 1 2-2z" />
-                    </svg>
-                    <span>SMS</span>
-                  </a>
-
-                  {/* Email */}
-                  <a href={emailUrl} className="share-app-btn share-email">
-                    <svg viewBox="0 0 32 32" className="share-app-icon">
-                      <circle cx="16" cy="16" r="16" fill="#EA4335" />
-                      <path fill="#fff" d="M7 10l9 7 9-7V22H7V10zm0 0l9 7 9-7" />
-                    </svg>
-                    <span>Email</span>
-                  </a>
-
-                  {/* Telegram */}
-                  <a href={tgUrl} target="_blank" rel="noopener noreferrer" className="share-app-btn share-telegram">
-                    <svg viewBox="0 0 32 32" className="share-app-icon">
-                      <circle cx="16" cy="16" r="16" fill="#2CA5E0" />
-                      <path fill="#fff" d="M7 15.7l4.5 1.7 1.7 5.5 2.7-3.2 4.9 3.8 3.7-15.5L7 15.7zm5.1.7 8.8-5.5-5.9 6.8-.3 3-2.6-4.3z"/>
-                    </svg>
-                    <span>Telegram</span>
-                  </a>
-
-                  {/* Copy */}
-                  <button className="share-app-btn share-copy" onClick={handleCopy}>
-                    <div className="share-copy-circle">
-                      {copied
-                        ? <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><polyline points="20 6 9 17 4 12" /></svg>
-                        : <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" /><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" /></svg>}
-                    </div>
-                    <span>{copied ? 'Copied!' : 'Copy Text'}</span>
-                  </button>
-
-                  {/* Native Share */}
-                  {typeof navigator !== 'undefined' && !!navigator.share && (
-                    <button className="share-app-btn share-native" onClick={handleNativeShare}>
-                      <div className="share-native-circle">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          <circle cx="18" cy="5" r="3" /><circle cx="6" cy="12" r="3" /><circle cx="18" cy="19" r="3" />
-                          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
-                          <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
-                        </svg>
-                      </div>
-                      <span>More…</span>
-                    </button>
-                  )}
-
-                </div>
-              </div>
-            </div>
-          );
-        })()}
+        )}
       </main>
     </div>
   );

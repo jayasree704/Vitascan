@@ -1,4 +1,3 @@
-// VitaScan Diagnostic Dashboard - Version 2.0 (Updated 3-Tone Pink Palette & Persistent History)
 import { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
@@ -7,15 +6,16 @@ import Sidebar from '../components/Sidebar';
 import toast from 'react-hot-toast';
 import { analyzeTestStrip, LINE_SHADES, shadeForLevel } from '../lib/stripAnalysis';
 import { lifestyleTipsForStatus, recommendationsForStatus } from '../lib/recommendations';
+import { downloadReportPDF, shareReport } from '../lib/pdfGenerator';
 import {
   BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, Tooltip,
 } from 'recharts';
 
 /* ─── Helpers ──────────────────────────────────────────── */
 function statusColor(level) {
-  if (level < 20) return '#FFC0CB'; // Pale Pink
-  if (level < 30) return '#FF69B4'; // Light Pink
-  return '#C71585'; // Dark Pink
+  if (level < 20) return '#F472B6'; // Pale Pink (Deficient)
+  if (level < 30) return '#EC4899'; // Light Pink (Insufficient)
+  return '#BE185D';                 // Dark Pink (Sufficient)
 }
 function statusLabel(level) {
   if (level < 20) return 'Deficient';
@@ -36,12 +36,13 @@ function getGreeting() {
 const lifestyleTips = [
   'Expose arms and legs to direct sunlight for 15-20 minutes daily.',
   'Pair Vitamin D rich foods with healthy fats for optimal absorption.',
-  'Retest your saliva Vitamin D levels in 8-12 weeks to monitor progress.',
+  'Retest your levels in 8-12 weeks to monitor progress.',
 ];
 const ranges = [
-  { label: 'Deficient', range: '< 20 ng/mL', color: '#881337', bg: '#FFF0F5', swatch: '#FFC0CB', swatchLabel: 'Pale Pink Line T', tip: 'Seek medical attention. Supplement immediately.' },
-  { label: 'Insufficient', range: '20–30 ng/mL', color: '#C71585', bg: '#FFF0F5', swatch: '#FF69B4', swatchLabel: 'Light Pink Line T', tip: 'Increase sun exposure and dietary intake.' },
-  { label: 'Sufficient', range: '30–100 ng/mL', color: '#C71585', bg: '#FFF0F5', swatch: '#C71585', swatchLabel: 'Dark Pink Line T', tip: 'Maintain current lifestyle. Keep monitoring.' },
+  { label: 'Deficient', range: '< 20 ng/mL', color: '#F472B6', bg: '#FDF2F8', icon: '🌸', tip: 'Seek medical attention. Supplement immediately.' },
+  { label: 'Insufficient', range: '20–30 ng/mL', color: '#EC4899', bg: '#FCE7F3', icon: '💖', tip: 'Increase sun exposure and dietary intake.' },
+  { label: 'Sufficient', range: '30–100 ng/mL', color: '#BE185D', bg: '#FBCFE8', icon: '💗', tip: 'Maintain current lifestyle. Keep monitoring.' },
+  { label: 'Toxic', range: '> 100 ng/mL', color: '#BA1A1A', bg: '#FFF0EF', icon: '⛔', tip: 'Reduce supplementation and consult a doctor.' },
 ];
 
 /* How deeply the T line develops is what grades the strip. */
@@ -63,6 +64,58 @@ const FIXED_SAMPLE_SCANS = [
     ai_confidence: 0.94,
     lifestyle_tips: lifestyleTips,
     created_at: '2026-07-24T08:30:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-2',
+    user_id: 'sample',
+    patient_name: 'Sample Patient A',
+    patient_age: 30,
+    patient_gender: 'Female',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: lifestyleTips,
+    created_at: '2026-07-20T14:15:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-3',
+    user_id: 'sample',
+    patient_name: 'Sample Patient B',
+    patient_age: 45,
+    patient_gender: 'Male',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: lifestyleTips,
+    created_at: '2026-07-15T09:10:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-4',
+    user_id: 'sample',
+    patient_name: 'Sample Patient C',
+    patient_age: 22,
+    patient_gender: 'Female',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: lifestyleTips,
+    created_at: '2026-07-10T11:45:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-5',
+    user_id: 'sample',
+    patient_name: 'Sample Patient D',
+    patient_age: 35,
+    patient_gender: 'Male',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: lifestyleTips,
+    created_at: '2026-07-05T16:20:00Z',
     isSample: true,
   },
 ];
@@ -102,31 +155,22 @@ export default function Dashboard() {
 
   const fetchScans = async () => {
     setLoading(true);
-    let remoteScans = [];
-    try {
-      let { data } = await supabase
+    let { data } = await supabase
+      .from('scans')
+      .select('*')
+      .eq('user_id', user.id)
+      .order('created_at', { ascending: false });
+
+    if (!data || data.length === 0) {
+      const res = await supabase
         .from('scans')
         .select('*')
         .order('created_at', { ascending: false })
         .limit(50);
-      remoteScans = data || [];
-    } catch (_) {}
+      data = res.data;
+    }
 
-    const localRaw = localStorage.getItem('vitascan_local_history');
-    const localScans = localRaw ? JSON.parse(localRaw) : [];
-
-    const combinedMap = new Map();
-    [...localScans, ...remoteScans, ...FIXED_SAMPLE_SCANS].forEach(s => {
-      const key = s.id || `${s.patient_name}_${s.created_at}`;
-      if (!combinedMap.has(key)) {
-        combinedMap.set(key, s);
-      }
-    });
-
-    const combinedList = Array.from(combinedMap.values());
-    combinedList.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
-
-    setScans(combinedList);
+    setScans(data && data.length > 0 ? data : FIXED_SAMPLE_SCANS);
     setLoading(false);
   };
   useEffect(() => { fetchScans(); }, [user]);
@@ -147,18 +191,22 @@ export default function Dashboard() {
     if (!f) return;
     setFile(f);
     setResult(null);
+    setInvalidImage(null);
     const reader = new FileReader();
     reader.onload = async (ev) => {
       const dataUrl = ev.target.result;
       setPreview(dataUrl);
-      setStep(STEP.DETAILS);
 
-      // Pre-check if uploaded image is a valid Vitamin D cassette strip
+      // Immediately validate if the uploaded image is a valid Vitamin D test strip
       const check = await analyzeTestStrip(dataUrl);
       if (!check.valid) {
         setInvalidImage(check);
-        toast.error('This image does not belong to test result for Vitamin D. Use correct image.', { duration: 5000 });
+        toast.error('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.', { id: 'invalid-image-toast', duration: 8000 });
+        setStep(STEP.IDLE);
+        return;
       }
+
+      setStep(STEP.DETAILS);
     };
     reader.readAsDataURL(f);
   };
@@ -179,7 +227,8 @@ export default function Dashboard() {
       // Not a Vitamin D test strip (or unreadable): stop and tell the user.
       if (!analysis.valid) {
         setInvalidImage(analysis);
-        setStep(STEP.DETAILS);
+        toast.error('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.', { id: 'invalid-image-toast', duration: 8000 });
+        setStep(STEP.IDLE);
         return;
       }
 
@@ -188,14 +237,8 @@ export default function Dashboard() {
       const confidence = analysis.confidence;
       const tips = lifestyleTipsForStatus(statusText);
 
-      const isUuid = (id) =>
-        typeof id === 'string' &&
-        /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
-
-      const validUserId = isUuid(user?.id) ? user.id : null;
-
       const scanData = {
-        ...(validUserId ? { user_id: validUserId } : {}),
+        user_id: user.id,
         patient_name: patient.name.trim(),
         patient_age: parseInt(patient.age) || null,
         patient_gender: patient.gender,
@@ -206,43 +249,34 @@ export default function Dashboard() {
         created_at: new Date().toISOString(),
       };
 
-      let saved = null;
-      try {
-        let { data, error } = await supabase.from('scans').insert([scanData]).select().single();
-        if (error) {
-          const fallbackPayload = {
-            ...(validUserId ? { user_id: validUserId } : {}),
-            vitamin_d_level: vitaminLevel,
-            status: statusText,
-            ai_confidence: confidence,
-          };
-          const res = await supabase.from('scans').insert([fallbackPayload]).select().single();
-          data = res.data;
-        }
-        saved = data;
-      } catch (_) {}
+      let { data: saved, error } = await supabase.from('scans').insert([scanData]).select().single();
 
-      const finalScanObj = {
+      // If full insert encounters schema column differences, fallback to core fields insert
+      if (error) {
+        const fallbackPayload = {
+          user_id: user.id,
+          vitamin_d_level: vitaminLevel,
+          status: statusText,
+          ai_confidence: confidence,
+        };
+        const res = await supabase.from('scans').insert([fallbackPayload]).select().single();
+        error = res.error;
+        saved = res.data;
+      }
+
+      if (error) throw error;
+
+      setResult({
         ...scanData,
         recommendations: recommendationsForStatus(statusText),
         measurements: analysis.measurements,
-        id: saved?.id || `scan_${Date.now()}`,
-      };
-
-      // Save to localStorage history so it persists across sessions & history tab
-      const existingHistoryRaw = localStorage.getItem('vitascan_local_history');
-      const existingHistory = existingHistoryRaw ? JSON.parse(existingHistoryRaw) : [];
-      localStorage.setItem(
-        'vitascan_local_history',
-        JSON.stringify([finalScanObj, ...existingHistory])
-      );
-
-      setResult(finalScanObj);
-      setScans(prev => [finalScanObj, ...prev]);
+        id: saved?.id,
+      });
+      setScans(prev => [{ ...scanData, id: saved?.id }, ...prev]);
       setStep(STEP.RESULT);
-      toast.success('Scan analysis complete & saved to history!');
+      toast.success('Scan analysis complete & saved!');
     } catch (err) {
-      toast.error('Scan error: ' + (err.message || 'Analysis failed'));
+      toast.error('Scan error: ' + err.message);
       setStep(STEP.DETAILS);
     }
   };
@@ -308,16 +342,19 @@ export default function Dashboard() {
               </div>
               <div className="vd-bar-wrap">
                 <div className="vitamin-bar-track">
-                  <div className="vitamin-bar-segment" style={{ background: '#FFC0CB', width: '33.3%' }} />
-                  <div className="vitamin-bar-segment" style={{ background: '#FF69B4', width: '33.3%' }} />
-                  <div className="vitamin-bar-segment" style={{ background: '#C71585', width: '33.4%' }} />
+                  <div className="vitamin-bar-segment" style={{ background: '#F472B6', width: '33.3%' }} />
+                  <div className="vitamin-bar-segment" style={{ background: '#EC4899', width: '16.7%' }} />
+                  <div className="vitamin-bar-segment" style={{ background: '#BE185D', width: '50%' }} />
                   <div className="vitamin-bar-marker" style={{ left: `${Math.min((level / 60) * 100, 100)}%` }} />
                 </div>
                 <div className="vitamin-bar-labels">
-                  <span style={{ color: '#881337' }}>Deficient</span>
-                  <span style={{ color: '#C71585' }}>Insufficient</span>
-                  <span style={{ color: '#C71585' }}>Sufficient</span>
+                  <span>Deficient &lt;20</span><span>Insufficient 20-30</span><span>Sufficient 30+</span>
                 </div>
+              </div>
+              <div className="vd-legend">
+                <div className="vd-legend-item" style={{ color: '#F472B6' }}>● Deficient &lt;20</div>
+                <div className="vd-legend-item" style={{ color: '#EC4899' }}>● Insufficient 20-30</div>
+                <div className="vd-legend-item" style={{ color: '#BE185D' }}>● Sufficient 30+</div>
               </div>
             </div>
 
@@ -414,7 +451,7 @@ export default function Dashboard() {
 
                     <button type="submit" className="btn btn-primary btn-full" disabled={step === STEP.ANALYZING} style={{ marginTop: 4 }}>
                       {step === STEP.ANALYZING
-                        ? <><span className="btn-spinner" /> Measuring Saliva Test Lines…</>
+                        ? <><span className="btn-spinner" /> Measuring test lines…</>
                         : 'Check Details & Analyze'}
                     </button>
                   </form>
@@ -452,9 +489,10 @@ export default function Dashboard() {
                         </p>
                       )}
                       <div className="ar-save-badge">Saved to history</div>
-                      <div className="ar-actions">
-                        <button className="btn btn-outline" onClick={resetUpload} style={{ flex: 1, padding: '8px' }}>New Scan</button>
-                        <Link to="/history" className="btn btn-primary" style={{ flex: 1, textDecoration: 'none', justifyContent: 'center', padding: '8px' }}>View History</Link>
+                      <div className="ar-actions" style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginTop: 12 }}>
+                        <button className="btn btn-outline" onClick={resetUpload} style={{ flex: 1, minWidth: 100, padding: '8px 12px', fontSize: 13 }}>New Scan</button>
+                        <button className="btn btn-outline" onClick={() => shareReport(result)} style={{ flex: 1, minWidth: 100, padding: '8px 12px', fontSize: 13, color: '#2563EB', borderColor: '#BFDBFE', background: '#EFF6FF' }}>Share</button>
+                        <button className="btn btn-primary" onClick={() => downloadReportPDF(result)} style={{ flex: 1, minWidth: 120, padding: '8px 12px', fontSize: 13, background: 'linear-gradient(135deg, #0058BC, #1D4ED8)' }}>Download PDF</button>
                       </div>
                     </div>
                   </div>
@@ -570,34 +608,34 @@ export default function Dashboard() {
 
         {/* Invalid image popup — shown when the upload is not a Vitamin D test strip */}
         {invalidImage && (
-          <div className="modal-overlay" onClick={() => setInvalidImage(null)}>
-            <div className="modal-card invalid-modal" onClick={e => e.stopPropagation()}>
-              <button className="modal-close" onClick={() => setInvalidImage(null)}>✕</button>
-              <div className="invalid-modal-icon">
-                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FF3B30" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
-                  <line x1="12" y1="9" x2="12" y2="13" />
-                  <line x1="12" y1="17" x2="12.01" y2="17" />
+          <div className="modal-overlay" style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 999999, background: 'rgba(15, 23, 42, 0.75)', backdropFilter: 'blur(6px)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 20 }} onClick={() => setInvalidImage(null)}>
+            <div className="modal-card invalid-modal" style={{ maxWidth: 460, width: '100%', padding: 28, borderRadius: 20, background: '#FFFFFF', boxShadow: '0 20px 25px -5px rgba(0,0,0,0.2)', textAlign: 'center', position: 'relative' }} onClick={e => e.stopPropagation()}>
+              <button className="modal-close" style={{ position: 'absolute', top: 16, right: 16, border: 'none', background: '#F1F5F9', borderRadius: '50%', width: 32, height: 32, cursor: 'pointer', fontSize: 16 }} onClick={() => setInvalidImage(null)}>✕</button>
+              <div className="invalid-modal-icon" style={{ width: 56, height: 56, borderRadius: '50%', background: '#FEE2E2', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px auto' }}>
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#EF4444" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="12" y1="8" x2="12" y2="12" />
+                  <line x1="12" y1="16" x2="12.01" y2="16" />
                 </svg>
               </div>
-              <h3 className="invalid-modal-title" style={{ color: '#FF3B30', fontSize: '18px', fontWeight: 'bold' }}>Invalid Image Uploaded</h3>
-              <p className="invalid-modal-text" style={{ fontSize: '15px', fontWeight: '600', color: '#1E293B', marginBottom: '12px' }}>
-                This image does not belong to test result for Vitamin D. Use correct image.
-              </p>
-              <p className="invalid-modal-reason" style={{ background: '#FFF0F5', color: '#C71585', border: '1px solid #FFC0CB', padding: '8px 12px', borderRadius: '8px', fontSize: '13px' }}>
-                {invalidImage.message || 'The uploaded photo could not be verified as a valid Vitamin D cassette or strip.'}
-              </p>
-              <ul className="invalid-modal-list">
-                <li>Place the test cassette/strip on a flat, plain background.</li>
-                <li>Ensure the complete result window with C and T lines is visible.</li>
-                <li>Use clear lighting with no severe shadows or camera glare.</li>
+              <h3 className="invalid-modal-title" style={{ fontSize: 18, fontWeight: 800, color: '#0F172A', margin: '0 0 12px 0' }}>Incorrect Image Selected</h3>
+              <div style={{ background: '#FFF1F2', border: '1px solid #FECDD3', borderRadius: 12, padding: '12px 14px', marginBottom: 14 }}>
+                <p className="invalid-modal-text" style={{ fontSize: 14, fontWeight: 700, color: '#BE123C', margin: 0, lineHeight: 1.4 }}>
+                  This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.
+                </p>
+              </div>
+              <p className="invalid-modal-reason" style={{ fontSize: 13, color: '#64748B', marginBottom: 16 }}>{invalidImage.message}</p>
+              <ul className="invalid-modal-list" style={{ textAlign: 'left', fontSize: 13, color: '#334155', marginBottom: 20, paddingLeft: 20 }}>
+                <li>Make sure to upload a photo of a Vitamin D test cassette or strip.</li>
+                <li>Keep the full result window in frame, including the C and T test lines.</li>
+                <li>Avoid uploading personal portraits, selfies, or non-medical photos.</li>
               </ul>
-              <div className="ar-actions">
-                <button className="btn btn-outline" style={{ flex: 1, padding: '9px' }} onClick={() => setInvalidImage(null)}>
+              <div className="ar-actions" style={{ display: 'flex', gap: 12 }}>
+                <button className="btn btn-outline" style={{ flex: 1, padding: '10px 14px', borderRadius: 10, fontWeight: 600 }} onClick={() => setInvalidImage(null)}>
                   Close
                 </button>
-                <button className="btn btn-primary" style={{ flex: 1, padding: '9px' }} onClick={resetUpload}>
-                  Upload Correct Image
+                <button className="btn btn-primary" style={{ flex: 1, padding: '10px 14px', borderRadius: 10, fontWeight: 600 }} onClick={resetUpload}>
+                  Upload Test Strip
                 </button>
               </div>
             </div>

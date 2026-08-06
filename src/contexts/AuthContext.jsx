@@ -5,25 +5,10 @@ import toast from 'react-hot-toast';
 
 const AuthContext = createContext(null);
 
-const DEFAULT_GUEST_USER = {
-  id: 'user_priya',
-  email: 'priya@vitascan.ai',
-  user_metadata: { full_name: 'priya' },
-};
-
 export function AuthProvider({ children }) {
-  const [user, setUser] = useState(() => {
-    const saved = localStorage.getItem('vitascan_web_user');
-    return saved ? JSON.parse(saved) : DEFAULT_GUEST_USER;
-  });
-  const [loading, setLoading] = useState(false);
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
-
-  const saveUserSession = (userData) => {
-    const finalUser = userData || DEFAULT_GUEST_USER;
-    setUser(finalUser);
-    localStorage.setItem('vitascan_web_user', JSON.stringify(finalUser));
-  };
 
   useEffect(() => {
     // Get existing session on mount
@@ -32,7 +17,7 @@ export function AuthProvider({ children }) {
       if (u && !isEmailAllowed(u.email)) {
         supabase.auth.signOut();
         setUser(null);
-      } else if (u) {
+      } else {
         setUser(u);
       }
       setLoading(false);
@@ -65,40 +50,20 @@ export function AuthProvider({ children }) {
   }, [navigate]);
 
   const signInWithEmail = async (email, password) => {
-    const namePrefix = (email || '').split('@')[0] || 'User';
-    const activeUser = {
-      id: `user_${Date.now()}`,
-      email: email,
-      user_metadata: { full_name: namePrefix.charAt(0).toUpperCase() + namePrefix.slice(1) },
-    };
-    try {
-      const { data } = await supabase.auth.signInWithPassword({ email, password });
-      if (data?.user) {
-        saveUserSession(data.user);
-        return;
-      }
-    } catch (_) {}
-    saveUserSession(activeUser);
+    const { error } = await supabase.auth.signInWithPassword({ email, password });
+    if (error) throw error;
   };
 
   const signUpWithEmail = async (email, password, fullName) => {
-    const activeUser = {
-      id: `user_${Date.now()}`,
-      email: email,
-      user_metadata: { full_name: fullName || (email || '').split('@')[0] || 'User' },
-    };
-    try {
-      const { data } = await supabase.auth.signUp({
-        email,
-        password,
-        options: { data: { full_name: fullName } },
-      });
-      if (data?.user) {
-        saveUserSession(data.user);
-        return;
-      }
-    } catch (_) {}
-    saveUserSession(activeUser);
+    const { data, error } = await supabase.auth.signUp({
+      email,
+      password,
+      options: { data: { full_name: fullName } },
+    });
+    if (error) throw error;
+    if (data?.user) {
+      setUser(data.user);
+    }
   };
 
   const signInWithGoogle = async () => {
@@ -113,11 +78,9 @@ export function AuthProvider({ children }) {
   };
 
   const signOut = async () => {
-    try {
-      await supabase.auth.signOut();
-    } catch (_) {}
-    saveUserSession(null);
-    navigate('/signin', { replace: true });
+    await supabase.auth.signOut();
+    setUser(null);
+    navigate('/', { replace: true });
   };
 
   return (

@@ -3,11 +3,12 @@ import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
 import Sidebar from '../components/Sidebar';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, Tooltip } from 'recharts';
+import { downloadReportPDF, shareReport } from '../lib/pdfGenerator';
 
 function statusColor(level) {
-  if (level < 20) return '#FFC0CB'; // Pale Pink (Deficient)
-  if (level < 30) return '#FF69B4'; // Light Pink (Insufficient)
-  return '#C71585'; // Dark Pink (Sufficient)
+  if (level < 20) return '#F472B6'; // Pale Pink (Deficient)
+  if (level < 30) return '#EC4899'; // Light Pink (Insufficient)
+  return '#BE185D';                 // Dark Pink (Sufficient)
 }
 
 function fmt(dt) {
@@ -28,6 +29,58 @@ const FIXED_SAMPLE_SCANS = [
     created_at: '2026-07-24T08:30:00Z',
     isSample: true,
   },
+  {
+    id: 'sample-2',
+    user_id: 'sample',
+    patient_name: 'Sample Patient A',
+    patient_age: 30,
+    patient_gender: 'Female',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Pair Vitamin D rich foods with healthy fats.'],
+    created_at: '2026-07-20T14:15:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-3',
+    user_id: 'sample',
+    patient_name: 'Sample Patient B',
+    patient_age: 45,
+    patient_gender: 'Male',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Retest your levels in 8-12 weeks.'],
+    created_at: '2026-07-15T09:10:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-4',
+    user_id: 'sample',
+    patient_name: 'Sample Patient C',
+    patient_age: 22,
+    patient_gender: 'Female',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Maintain optimal sunlight exposure.'],
+    created_at: '2026-07-10T11:45:00Z',
+    isSample: true,
+  },
+  {
+    id: 'sample-5',
+    user_id: 'sample',
+    patient_name: 'Sample Patient D',
+    patient_age: 35,
+    patient_gender: 'Male',
+    vitamin_d_level: 31.0,
+    status: 'Sufficient',
+    ai_confidence: 0.94,
+    lifestyle_tips: ['Keep monitoring regularly.'],
+    created_at: '2026-07-05T16:20:00Z',
+    isSample: true,
+  },
 ];
 
 export default function History() {
@@ -39,50 +92,24 @@ export default function History() {
 
   const fetchScans = async () => {
     setLoading(true);
-    let remoteScans = [];
-    try {
-      let { data } = await supabase
+    let { data } = await supabase
+      .from('scans')
+      .select('*')
+      .eq('user_id', user.id)
+      .order('created_at', { ascending: false });
+    if (!data || data.length === 0) {
+      const res = await supabase
         .from('scans')
         .select('*')
         .order('created_at', { ascending: false })
         .limit(50);
-      remoteScans = data || [];
-    } catch (_) {}
-
-    const localRaw = localStorage.getItem('vitascan_local_history');
-    const localScans = localRaw ? JSON.parse(localRaw) : [];
-
-    const combinedMap = new Map();
-    [...localScans, ...remoteScans, ...FIXED_SAMPLE_SCANS].forEach(s => {
-      const key = s.id || `${s.patient_name}_${s.created_at}`;
-      if (!combinedMap.has(key)) {
-        combinedMap.set(key, s);
-      }
-    });
-
-    const combinedList = Array.from(combinedMap.values()).filter(
-      s => !s.patient_name || !s.patient_name.startsWith('Sample Patient')
-    );
-    combinedList.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
-
-    setScans(combinedList);
+      data = res.data;
+    }
+    setScans(data && data.length > 0 ? data : FIXED_SAMPLE_SCANS);
     setLoading(false);
   };
 
   useEffect(() => { fetchScans(); }, [user]);
-
-  useEffect(() => {
-    if (scans.length > 0) {
-      const params = new URLSearchParams(window.location.search);
-      const reportId = params.get('report');
-      if (reportId) {
-        const found = scans.find(s => String(s.id) === String(reportId));
-        if (found) {
-          setSelected(found);
-        }
-      }
-    }
-  }, [scans]);
 
   const filtered = useMemo(() => {
     if (!search) return scans;
@@ -284,7 +311,7 @@ export default function History() {
                   <h4>Lifestyle Tips</h4>
                   {selected.lifestyle_tips.map((tip, i) => (
                     <div key={i} className="tip-row" style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#34C759" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#BE185D" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                         <polyline points="20 6 9 17 4 12" />
                       </svg>
                       {tip}
@@ -293,73 +320,13 @@ export default function History() {
                 </div>
               )}
 
-              {/* Action Buttons: Download & Share Report */}
-              <div style={{ display: 'flex', gap: 10, marginTop: 20, paddingTop: 16, borderTop: '1px solid #E0E2ED' }}>
+              {/* Share & Download Action Buttons */}
+              <div className="modal-actions" style={{ display: 'flex', gap: 10, marginTop: 20, paddingTop: 16, borderTop: '1px solid #E2E8F0', flexWrap: 'wrap' }}>
                 <button
-                  className="btn btn-primary"
-                  style={{ flex: 1, height: 42, fontSize: 13, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8, borderRadius: 12 }}
-                  onClick={() => {
-                    try {
-                      const reportText = `====================================\nVITASCAN MEDICAL DIAGNOSTIC REPORT\n====================================\nPatient Name: ${selected.patient_name || 'Patient'}\nAge: ${selected.patient_age ? selected.patient_age + ' yrs' : 'N/A'}\nGender: ${selected.patient_gender || 'N/A'}\nDate: ${fmt(selected.created_at)}\n------------------------------------\nVITAMIN D CONCENTRATION: ${selected.vitamin_d_level.toFixed(1)} ng/mL\nCLINICAL STATUS: ${selected.status}\nAI CONFIDENCE: ${((selected.ai_confidence || 0.94) * 100).toFixed(0)}%\n------------------------------------\nLIFESTYLE RECOMMENDATIONS:\n${(selected.lifestyle_tips || []).map(t => '• ' + t).join('\n')}\n====================================\nReport generated by VitaScan AI Platform`;
-                      
-                      const blob = new Blob([reportText], { type: 'text/plain;charset=utf-8' });
-                      const url = URL.createObjectURL(blob);
-                      const a = document.createElement('a');
-                      a.href = url;
-                      a.download = `VitaScan_Report_${(selected.patient_name || 'Patient').replace(/\s+/g, '_')}.txt`;
-                      document.body.appendChild(a);
-                      a.click();
-                      document.body.removeChild(a);
-                      URL.revokeObjectURL(url);
-                      toast.success('Report downloaded successfully!');
-                    } catch (e) {
-                      toast.error('Could not download report.');
-                    }
-                  }}
-                >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-                    <polyline points="7 10 12 15 17 10" />
-                    <line x1="12" y1="15" x2="12" y2="3" />
-                  </svg>
-                  Download Report
-                </button>
-
-                <button
-                  className="btn"
-                  style={{
-                    flex: 1,
-                    height: 42,
-                    fontSize: 13,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justify: 'center',
-                    gap: 8,
-                    borderRadius: 12,
-                    border: '1.5px solid var(--primary)',
-                    color: 'var(--primary)',
-                    background: 'transparent',
-                    fontWeight: 600,
-                  }}
-                  onClick={async () => {
-                    const summary = `VitaScan Report for ${selected.patient_name || 'Patient'}: Vitamin D Level is ${selected.vitamin_d_level.toFixed(1)} ng/mL (${selected.status}). Tested on ${fmt(selected.created_at)}.`;
-                    if (navigator.share) {
-                      try {
-                        await navigator.share({
-                          title: `VitaScan Report - ${selected.patient_name || 'Patient'}`,
-                          text: summary,
-                        });
-                        toast.success('Report shared!');
-                        return;
-                      } catch (_) {}
-                    }
-                    try {
-                      await navigator.clipboard.writeText(summary);
-                      toast.success('Report summary copied to clipboard!');
-                    } catch (_) {
-                      toast.error('Could not copy report summary.');
-                    }
-                  }}
+                  className="btn btn-outline"
+                  style={{ flex: 1, minWidth: 120, padding: '10px 14px', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, fontSize: 13, fontWeight: 600, color: '#2563EB', borderColor: '#BFDBFE', background: '#EFF6FF' }}
+                  onClick={() => shareReport(selected)}
+                  title="Share Report Summary"
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <circle cx="18" cy="5" r="3" />
@@ -368,10 +335,23 @@ export default function History() {
                     <line x1="8.59" y1="13.51" x2="15.42" y2="17.49" />
                     <line x1="15.41" y1="6.51" x2="8.59" y2="10.49" />
                   </svg>
-                  Share Report
+                  Share
+                </button>
+
+                <button
+                  className="btn btn-primary"
+                  style={{ flex: 1, minWidth: 120, padding: '10px 14px', borderRadius: 10, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, fontSize: 13, fontWeight: 600, background: 'linear-gradient(135deg, #0058BC, #1D4ED8)' }}
+                  onClick={() => downloadReportPDF(selected)}
+                  title="Download Report PDF"
+                >
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  Download PDF
                 </button>
               </div>
-
             </div>
           </div>
         )}

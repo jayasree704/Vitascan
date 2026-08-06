@@ -35,10 +35,13 @@ export default function SignUp() {
     setLoading(true);
     try {
       await signUpWithEmail(form.email, form.password, form.fullName);
-    } catch (_) {}
-    toast.success('Account created successfully! Welcome to Vitascan.');
-    setLoading(false);
-    navigate('/dashboard', { replace: true });
+      toast.success('Account created! Check your email to confirm.');
+      navigate('/dashboard');
+    } catch (err) {
+      toast.error(err.message || 'Sign up failed');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const handleGoogle = async () => {
