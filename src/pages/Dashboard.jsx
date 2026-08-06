@@ -237,7 +237,7 @@ export default function Dashboard() {
       setResult({ ...scanData, recommendations: aiResult.recommendations, id: saved?.id });
       setScans(prev => [{ ...scanData, id: saved?.id }, ...prev]);
       setStep(STEP.RESULT);
-      toast.success('AI Scan analysis complete & saved!');
+      toast.success('Saliva test strip analysis complete & saved!');
     } catch (err) {
       toast.error('Scan error: ' + err.message);
       setStep(STEP.DETAILS);
@@ -414,7 +414,7 @@ export default function Dashboard() {
 
                     <button type="submit" className="btn btn-primary btn-full" disabled={step === STEP.ANALYZING} style={{ marginTop: 4 }}>
                       {step === STEP.ANALYZING
-                        ? <><span className="btn-spinner" /> Analyzing with AI…</>
+                        ? <><span className="btn-spinner" /> Analyzing Saliva Test Strip…</>
                         : 'Check Details & Analyze'}
                     </button>
                   </form>

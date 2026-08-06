@@ -434,7 +434,7 @@ export default function Dashboard() {
 
                     <button type="submit" className="btn btn-primary btn-full" disabled={step === STEP.ANALYZING} style={{ marginTop: 4 }}>
                       {step === STEP.ANALYZING
-                        ? <><span className="btn-spinner" /> Measuring test lines…</>
+                        ? <><span className="btn-spinner" /> Measuring Saliva Test Lines…</>
                         : 'Check Details & Analyze'}
                     </button>
                   </form>
