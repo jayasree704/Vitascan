@@ -35,13 +35,13 @@ function getGreeting() {
 const lifestyleTips = [
   'Expose arms and legs to direct sunlight for 15-20 minutes daily.',
   'Pair Vitamin D rich foods with healthy fats for optimal absorption.',
-  'Retest your levels in 8-12 weeks to monitor progress.',
+  'Retest your saliva Vitamin D levels in 8-12 weeks to monitor progress.',
 ];
 const ranges = [
-  { label: 'Deficient', range: '< 20 ng/mL', color: '#FF3B30', bg: '#FFF0EF', icon: '🔴', tip: 'Seek medical attention. Supplement immediately.' },
-  { label: 'Insufficient', range: '20–30 ng/mL', color: '#FF9500', bg: '#FFF8EE', icon: '🟡', tip: 'Increase sun exposure and dietary intake.' },
-  { label: 'Sufficient', range: '30–100 ng/mL', color: '#34C759', bg: '#F0FFF4', icon: '🟢', tip: 'Maintain current lifestyle. Keep monitoring.' },
-  { label: 'Toxic', range: '> 100 ng/mL', color: '#BA1A1A', bg: '#FFF0EF', icon: '⛔', tip: 'Reduce supplementation and consult a doctor.' },
+  { label: 'Deficient', range: '< 20 ng/mL', color: '#FF3B30', bg: '#FFF0EF', swatch: '#FFB3BA', swatchLabel: 'Faint Pink Line T', tip: 'Seek medical attention. Supplement immediately.' },
+  { label: 'Insufficient', range: '20–30 ng/mL', color: '#FF9500', bg: '#FFF8EE', swatch: '#FFC6FF', swatchLabel: 'Medium Pink Line T', tip: 'Increase sun exposure and dietary intake.' },
+  { label: 'Sufficient', range: '30–100 ng/mL', color: '#34C759', bg: '#F0FFF4', swatch: '#E85D04', swatchLabel: 'Deep Rose Line T', tip: 'Maintain current lifestyle. Keep monitoring.' },
+  { label: 'Toxic', range: '> 100 ng/mL', color: '#BA1A1A', bg: '#FFF0EF', swatch: '#6A040F', swatchLabel: 'Dark Purple Line T', tip: 'Reduce supplementation and consult a doctor.' },
 ];
 
 /* How deeply the T line develops is what grades the strip. */
