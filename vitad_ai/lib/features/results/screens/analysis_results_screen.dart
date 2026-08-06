@@ -28,9 +28,13 @@ class _AnalysisResultsScreenState extends State<AnalysisResultsScreen>
   bool _isSharing = false;
 
   Color get _statusColor {
-    if (_data.vitaminDLevel < 20) return AppColors.deficient;
-    if (_data.vitaminDLevel < 30) return AppColors.insufficient;
-    return AppColors.sufficient;
+    if (_data.vitaminDLevel < 20 || _data.status == 'Deficient') {
+      return AppColors.palePink; // Pale Pink for Deficiency
+    }
+    if (_data.vitaminDLevel < 30 || _data.status == 'Insufficient') {
+      return AppColors.lightPink; // Light Pink for Insufficient
+    }
+    return AppColors.darkPink; // Dark Pink for Sufficient
   }
 
   List<RecommendedFood> _getDynamicFoodRecommendations(double level, String status) {
@@ -365,15 +369,19 @@ class _StatusOverviewCard extends StatelessWidget {
                   children: [
                     Container(
                       padding: const EdgeInsets.symmetric(
-                          horizontal: 12, vertical: 6),
+                          horizontal: 14, vertical: 6),
                       decoration: BoxDecoration(
-                        color: statusColor.withValues(alpha: 0.12),
+                        color: statusColor,
                         borderRadius: BorderRadius.circular(999),
                       ),
                       child: Text(
                         data.status,
-                        style: AppTextStyles.labelMd(context)
-                            .copyWith(color: statusColor),
+                        style: AppTextStyles.labelMd(context).copyWith(
+                          color: statusColor == AppColors.palePink
+                              ? const Color(0xFF881337)
+                              : Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                     const SizedBox(height: 10),

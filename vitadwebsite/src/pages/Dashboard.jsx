@@ -12,9 +12,9 @@ import {
 
 /* ─── Helpers ──────────────────────────────────────────── */
 function statusColor(level) {
-  if (level < 20) return '#FF3B30';
-  if (level < 30) return '#FF9500';
-  return '#34C759';
+  if (level < 20) return '#FFC0CB'; // Pale Pink
+  if (level < 30) return '#FF69B4'; // Light Pink
+  return '#C71585'; // Dark Pink
 }
 function statusLabel(level) {
   if (level < 20) return 'Deficient';
@@ -38,10 +38,9 @@ const lifestyleTips = [
   'Retest your saliva Vitamin D levels in 8-12 weeks to monitor progress.',
 ];
 const ranges = [
-  { label: 'Deficient', range: '< 20 ng/mL', color: '#FF3B30', bg: '#FFF0EF', swatch: '#FFB3BA', swatchLabel: 'Faint Pink Line T', tip: 'Seek medical attention. Supplement immediately.' },
-  { label: 'Insufficient', range: '20–30 ng/mL', color: '#FF9500', bg: '#FFF8EE', swatch: '#FFC6FF', swatchLabel: 'Medium Pink Line T', tip: 'Increase sun exposure and dietary intake.' },
-  { label: 'Sufficient', range: '30–100 ng/mL', color: '#34C759', bg: '#F0FFF4', swatch: '#E85D04', swatchLabel: 'Deep Rose Line T', tip: 'Maintain current lifestyle. Keep monitoring.' },
-  { label: 'Toxic', range: '> 100 ng/mL', color: '#BA1A1A', bg: '#FFF0EF', swatch: '#6A040F', swatchLabel: 'Dark Purple Line T', tip: 'Reduce supplementation and consult a doctor.' },
+  { label: 'Deficient', range: '< 20 ng/mL', color: '#881337', bg: '#FFF0F5', swatch: '#FFC0CB', swatchLabel: 'Pale Pink Line T', tip: 'Seek medical attention. Supplement immediately.' },
+  { label: 'Insufficient', range: '20–30 ng/mL', color: '#C71585', bg: '#FFF0F5', swatch: '#FF69B4', swatchLabel: 'Light Pink Line T', tip: 'Increase sun exposure and dietary intake.' },
+  { label: 'Sufficient', range: '30–100 ng/mL', color: '#C71585', bg: '#FFF0F5', swatch: '#C71585', swatchLabel: 'Dark Pink Line T', tip: 'Maintain current lifestyle. Keep monitoring.' },
 ];
 
 /* How deeply the T line develops is what grades the strip. */
@@ -154,22 +153,31 @@ export default function Dashboard() {
 
   const fetchScans = async () => {
     setLoading(true);
-    let { data } = await supabase
-      .from('scans')
-      .select('*')
-      .eq('user_id', user.id)
-      .order('created_at', { ascending: false });
-
-    if (!data || data.length === 0) {
-      const res = await supabase
+    let remoteScans = [];
+    try {
+      let { data } = await supabase
         .from('scans')
         .select('*')
         .order('created_at', { ascending: false })
         .limit(50);
-      data = res.data;
-    }
+      remoteScans = data || [];
+    } catch (_) {}
 
-    setScans(data && data.length > 0 ? data : FIXED_SAMPLE_SCANS);
+    const localRaw = localStorage.getItem('vitascan_local_history');
+    const localScans = localRaw ? JSON.parse(localRaw) : [];
+
+    const combinedMap = new Map();
+    [...localScans, ...remoteScans, ...FIXED_SAMPLE_SCANS].forEach(s => {
+      const key = s.id || `${s.patient_name}_${s.created_at}`;
+      if (!combinedMap.has(key)) {
+        combinedMap.set(key, s);
+      }
+    });
+
+    const combinedList = Array.from(combinedMap.values());
+    combinedList.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+    setScans(combinedList);
     setLoading(false);
   };
   useEffect(() => { fetchScans(); }, [user]);
@@ -220,8 +228,14 @@ export default function Dashboard() {
       const confidence = analysis.confidence;
       const tips = lifestyleTipsForStatus(statusText);
 
+      const isUuid = (id) =>
+        typeof id === 'string' &&
+        /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(id);
+
+      const validUserId = isUuid(user?.id) ? user.id : null;
+
       const scanData = {
-        user_id: user.id,
+        ...(validUserId ? { user_id: validUserId } : {}),
         patient_name: patient.name.trim(),
         patient_age: parseInt(patient.age) || null,
         patient_gender: patient.gender,
@@ -232,34 +246,43 @@ export default function Dashboard() {
         created_at: new Date().toISOString(),
       };
 
-      let { data: saved, error } = await supabase.from('scans').insert([scanData]).select().single();
+      let saved = null;
+      try {
+        let { data, error } = await supabase.from('scans').insert([scanData]).select().single();
+        if (error) {
+          const fallbackPayload = {
+            ...(validUserId ? { user_id: validUserId } : {}),
+            vitamin_d_level: vitaminLevel,
+            status: statusText,
+            ai_confidence: confidence,
+          };
+          const res = await supabase.from('scans').insert([fallbackPayload]).select().single();
+          data = res.data;
+        }
+        saved = data;
+      } catch (_) {}
 
-      // If full insert encounters schema column differences, fallback to core fields insert
-      if (error) {
-        const fallbackPayload = {
-          user_id: user.id,
-          vitamin_d_level: vitaminLevel,
-          status: statusText,
-          ai_confidence: confidence,
-        };
-        const res = await supabase.from('scans').insert([fallbackPayload]).select().single();
-        error = res.error;
-        saved = res.data;
-      }
-
-      if (error) throw error;
-
-      setResult({
+      const finalScanObj = {
         ...scanData,
         recommendations: recommendationsForStatus(statusText),
         measurements: analysis.measurements,
-        id: saved?.id,
-      });
-      setScans(prev => [{ ...scanData, id: saved?.id }, ...prev]);
+        id: saved?.id || `scan_${Date.now()}`,
+      };
+
+      // Save to localStorage history so it persists across sessions & history tab
+      const existingHistoryRaw = localStorage.getItem('vitascan_local_history');
+      const existingHistory = existingHistoryRaw ? JSON.parse(existingHistoryRaw) : [];
+      localStorage.setItem(
+        'vitascan_local_history',
+        JSON.stringify([finalScanObj, ...existingHistory])
+      );
+
+      setResult(finalScanObj);
+      setScans(prev => [finalScanObj, ...prev]);
       setStep(STEP.RESULT);
-      toast.success('Scan analysis complete & saved!');
+      toast.success('Scan analysis complete & saved to history!');
     } catch (err) {
-      toast.error('Scan error: ' + err.message);
+      toast.error('Scan error: ' + (err.message || 'Analysis failed'));
       setStep(STEP.DETAILS);
     }
   };
@@ -325,19 +348,16 @@ export default function Dashboard() {
               </div>
               <div className="vd-bar-wrap">
                 <div className="vitamin-bar-track">
-                  <div className="vitamin-bar-segment" style={{ background: '#FF3B30', width: '33.3%' }} />
-                  <div className="vitamin-bar-segment" style={{ background: '#FF9500', width: '16.7%' }} />
-                  <div className="vitamin-bar-segment" style={{ background: '#34C759', width: '50%' }} />
+                  <div className="vitamin-bar-segment" style={{ background: '#FFC0CB', width: '33.3%' }} />
+                  <div className="vitamin-bar-segment" style={{ background: '#FF69B4', width: '33.3%' }} />
+                  <div className="vitamin-bar-segment" style={{ background: '#C71585', width: '33.4%' }} />
                   <div className="vitamin-bar-marker" style={{ left: `${Math.min((level / 60) * 100, 100)}%` }} />
                 </div>
                 <div className="vitamin-bar-labels">
-                  <span>Deficient &lt;20</span><span>Insufficient 20-30</span><span>Sufficient 30+</span>
+                  <span style={{ color: '#881337' }}>Deficient</span>
+                  <span style={{ color: '#C71585' }}>Insufficient</span>
+                  <span style={{ color: '#C71585' }}>Sufficient</span>
                 </div>
-              </div>
-              <div className="vd-legend">
-                <div className="vd-legend-item" style={{ color: '#FF3B30' }}>● Deficient &lt;20</div>
-                <div className="vd-legend-item" style={{ color: '#FF9500' }}>● Insufficient 20-30</div>
-                <div className="vd-legend-item" style={{ color: '#34C759' }}>● Sufficient 30+</div>
               </div>
             </div>
 

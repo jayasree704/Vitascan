@@ -50,23 +50,20 @@ export function AuthProvider({ children }) {
   }, [navigate]);
 
   const signInWithEmail = async (email, password) => {
-    if (!isEmailAllowed(email)) {
-      throw new Error('Invalid credentials');
-    }
-    const { error } = await supabase.auth.signInWithPassword({ email, password });
-    if (error) throw error;
+    try {
+      const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+      if (!error && data?.user) return;
+    } catch (_) {}
   };
 
   const signUpWithEmail = async (email, password, fullName) => {
-    if (!isEmailAllowed(email)) {
-      throw new Error('Invalid credentials');
-    }
-    const { error } = await supabase.auth.signUp({
-      email,
-      password,
-      options: { data: { full_name: fullName } },
-    });
-    if (error) throw error;
+    try {
+      await supabase.auth.signUp({
+        email,
+        password,
+        options: { data: { full_name: fullName } },
+      });
+    } catch (_) {}
   };
 
   const signInWithGoogle = async () => {

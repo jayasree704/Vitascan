@@ -168,10 +168,10 @@ class GetStartedScreen extends StatelessWidget {
 
                         const SizedBox(height: 24),
 
-                        // Primary CTA Button
+                        // Primary CTA Button: Create Account
                         SizedBox(
                           width: double.infinity,
-                          height: 54,
+                          height: 52,
                           child: ElevatedButton(
                             onPressed: () => context.go(AppRoutes.signUp),
                             style: ElevatedButton.styleFrom(
@@ -187,10 +187,11 @@ class GetStartedScreen extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  'Get Started',
+                                  'Create User Account',
                                   style: AppTextStyles.headlineMd(context).copyWith(
                                     color: Colors.white,
                                     fontWeight: FontWeight.w700,
+                                    fontSize: 16,
                                   ),
                                 ),
                                 const SizedBox(width: 8),
@@ -198,7 +199,32 @@ class GetStartedScreen extends StatelessWidget {
                               ],
                             ),
                           ),
-                        ).animate().fadeIn(delay: 500.ms).scale(begin: const Offset(0.98, 0.98)),
+                        ).animate().fadeIn(delay: 500.ms),
+
+                        const SizedBox(height: 12),
+
+                        // Secondary Option: Continue Directly / Open Access
+                        SizedBox(
+                          width: double.infinity,
+                          height: 48,
+                          child: OutlinedButton(
+                            onPressed: () => context.go(AppRoutes.home),
+                            style: OutlinedButton.styleFrom(
+                              side: const BorderSide(color: AppColors.primary, width: 1.5),
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(14),
+                              ),
+                            ),
+                            child: Text(
+                              'Continue without Account',
+                              style: AppTextStyles.labelMd(context).copyWith(
+                                color: AppColors.primary,
+                                fontWeight: FontWeight.w700,
+                                fontSize: 14,
+                              ),
+                            ),
+                          ),
+                        ).animate().fadeIn(delay: 550.ms),
 
                         const SizedBox(height: 16),
 

@@ -53,10 +53,15 @@ class AppColors {
   static const errorContainer = Color(0xFFFFDAD6);
   static const onErrorContainer = Color(0xFF93000A);
 
+  // Status Pink Palette
+  static const palePink = Color(0xFFFFC0CB); // Deficient
+  static const lightPink = Color(0xFFFF69B4); // Insufficient
+  static const darkPink = Color(0xFFC71585); // Sufficient
+
   // Status Colors
-  static const sufficient = Color(0xFF34C759);
-  static const insufficient = Color(0xFFFF9500);
-  static const deficient = Color(0xFFFF3B30);
+  static const sufficient = Color(0xFFC71585); // Dark Pink
+  static const insufficient = Color(0xFFFF69B4); // Light Pink
+  static const deficient = Color(0xFFFFC0CB); // Pale Pink
   static const statusPink = Color(0xFFFF1E90);
   static const statusPinkLight = Color(0xFFFFD0E5);
 }

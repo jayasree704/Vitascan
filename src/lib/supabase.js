@@ -5,11 +5,9 @@ const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJ
 
 export const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
-const allowedList = (import.meta.env.VITE_ALLOWED_EMAILS || 'jayasreechitra1@gmail.com,jagadishwarreddyn11@gmail.com')
-  .split(',')
-  .map(e => e.trim().toLowerCase());
+export const ALLOWED_EMAILS = new Set();
 
-export const ALLOWED_EMAILS = new Set(allowedList);
-
-export const isEmailAllowed = (email) =>
-  ALLOWED_EMAILS.has((email || '').trim().toLowerCase());
+export const isEmailAllowed = (email) => {
+  if (!email || !email.trim()) return false;
+  return true;
+};

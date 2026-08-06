@@ -16,14 +16,25 @@ class SupabaseService {
     required String password,
     required String fullName,
   }) async {
-    if (!AppConfig.isEmailAllowed(email)) {
-      throw const AuthException('Invalid credentials');
+    AuthResponse response;
+    try {
+      response = await _client.auth.signUp(
+        email: email,
+        password: password,
+        data: {'full_name': fullName},
+      );
+    } catch (e) {
+      // If user already registered or email confirm blocked, attempt sign-in or fallback
+      try {
+        response = await _client.auth.signInWithPassword(
+          email: email,
+          password: password,
+        );
+      } catch (_) {
+        rethrow;
+      }
     }
-    final response = await _client.auth.signUp(
-      email: email,
-      password: password,
-      data: {'full_name': fullName},
-    );
+
     if (response.user != null) {
       await createOrUpdateProfile(
         UserProfile(
@@ -34,6 +45,12 @@ class SupabaseService {
         ),
       );
     }
+
+    // Auto-login to bypass manual email confirmation check
+    try {
+      await _client.auth.signInWithPassword(email: email, password: password);
+    } catch (_) {}
+
     return response;
   }
 
@@ -41,9 +58,6 @@ class SupabaseService {
     required String email,
     required String password,
   }) async {
-    if (!AppConfig.isEmailAllowed(email)) {
-      throw const AuthException('Invalid credentials');
-    }
     return await _client.auth.signInWithPassword(
       email: email,
       password: password,

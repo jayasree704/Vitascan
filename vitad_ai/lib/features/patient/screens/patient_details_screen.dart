@@ -68,13 +68,90 @@ class _PatientDetailsScreenState extends ConsumerState<PatientDetailsScreen> {
     return double.parse((w / (hm * hm)).toStringAsFixed(1));
   }
 
+  Future<void> _showInvalidImageDialog() async {
+    return showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        backgroundColor: Colors.white,
+        title: Column(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: Colors.red.shade50,
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(
+                Icons.error_outline_rounded,
+                color: Color(0xFFDC2626),
+                size: 44,
+              ),
+            ),
+            const SizedBox(height: 16),
+            const Text(
+              'Invalid Test Strip Image',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                color: Color(0xFF1E293B),
+              ),
+            ),
+          ],
+        ),
+        content: const Text(
+          'This image does not belong to a test result for Vitamin D. Please use a correct image of a test strip.',
+          textAlign: TextAlign.center,
+          style: TextStyle(
+            fontSize: 14,
+            color: Color(0xFF64748B),
+            height: 1.4,
+          ),
+        ),
+        actionsAlignment: MainAxisAlignment.center,
+        actions: [
+          SizedBox(
+            width: double.infinity,
+            height: 46,
+            child: ElevatedButton(
+              onPressed: () => Navigator.of(ctx).pop(),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.primary,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+              child: const Text(
+                'Use Correct Image',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   Future<void> _pickNewImage() async {
     try {
       final picker = ImagePicker();
       final XFile? image = await picker.pickImage(source: ImageSource.gallery, imageQuality: 90);
       if (image != null && mounted) {
+        final newFile = File(image.path);
+        final validation = await ref
+            .read(scanNotifierProvider.notifier)
+            .validateTestStripImage(newFile);
+
+        if (!validation.isValid && mounted) {
+          await _showInvalidImageDialog();
+          return;
+        }
+
         setState(() {
-          _currentImageFile = File(image.path);
+          _currentImageFile = newFile;
         });
       }
     } catch (e) {
@@ -90,6 +167,15 @@ class _PatientDetailsScreenState extends ConsumerState<PatientDetailsScreen> {
     if (!_formKey.currentState!.validate()) return;
 
     if (_currentImageFile != null) {
+      final validation = await ref
+          .read(scanNotifierProvider.notifier)
+          .validateTestStripImage(_currentImageFile!);
+
+      if (!validation.isValid && mounted) {
+        await _showInvalidImageDialog();
+        return;
+      }
+
       setState(() => _isAnalyzing = true);
       try {
         final result = await ref.read(scanNotifierProvider.notifier).processAndAnalyzeImage(

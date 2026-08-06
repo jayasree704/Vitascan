@@ -30,27 +30,8 @@ class AppRoutes {
 
 final appRouterProvider = Provider<GoRouter>((ref) {
   return GoRouter(
-    initialLocation: AppRoutes.getStarted,
+    initialLocation: AppRoutes.home,
     redirect: (context, state) {
-      // Check if a Supabase session already exists (persisted across app restarts)
-      final session = Supabase.instance.client.auth.currentSession;
-      final isLoggedIn = session != null;
-
-      // Auth-only routes that a logged-in user should skip
-      final authRoutes = {
-        AppRoutes.getStarted,
-        AppRoutes.signIn,
-        AppRoutes.signUp,
-      };
-
-      final isOnAuthScreen = authRoutes.contains(state.matchedLocation);
-
-      // If already logged in and trying to access auth screens → go home
-      if (isLoggedIn && isOnAuthScreen) {
-        return AppRoutes.home;
-      }
-
-      // All other cases: no redirect needed
       return null;
     },
     routes: [

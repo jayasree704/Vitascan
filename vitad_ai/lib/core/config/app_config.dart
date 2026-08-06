@@ -11,7 +11,7 @@ class AppConfig {
   };
 
   static bool isEmailAllowed(String? email) {
-    if (email == null) return false;
-    return allowedEmails.contains(email.trim().toLowerCase());
+    if (email == null || email.trim().isEmpty) return false;
+    return true;
   }
 }

@@ -18,7 +18,85 @@ class ScanScreen extends ConsumerStatefulWidget {
 class _ScanScreenState extends ConsumerState<ScanScreen> {
   final ImagePicker _picker = ImagePicker();
 
-  void _processImage(File imageFile) {
+  Future<void> _showInvalidImageDialog(String customMessage) async {
+    return showDialog(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        backgroundColor: Colors.white,
+        title: Column(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(16),
+              decoration: BoxDecoration(
+                color: Colors.red.shade50,
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(
+                Icons.error_outline_rounded,
+                color: Color(0xFFDC2626),
+                size: 44,
+              ),
+            ),
+            const SizedBox(height: 16),
+            const Text(
+              'Invalid Test Strip Image',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.bold,
+                color: Color(0xFF1E293B),
+              ),
+            ),
+          ],
+        ),
+        content: Text(
+          'This image does not belong to a test result for Vitamin D. Please use a correct image of a test strip.',
+          textAlign: TextAlign.center,
+          style: const TextStyle(
+            fontSize: 14,
+            color: Color(0xFF64748B),
+            height: 1.4,
+          ),
+        ),
+        actionsAlignment: MainAxisAlignment.center,
+        actions: [
+          SizedBox(
+            width: double.infinity,
+            height: 46,
+            child: ElevatedButton(
+              onPressed: () => Navigator.of(ctx).pop(),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.primary,
+                foregroundColor: Colors.white,
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(12),
+                ),
+              ),
+              child: const Text(
+                'Use Correct Image',
+                style: TextStyle(fontSize: 15, fontWeight: FontWeight.w600),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _processImage(File imageFile) async {
+    if (!mounted) return;
+
+    final validation = await ref
+        .read(scanNotifierProvider.notifier)
+        .validateTestStripImage(imageFile);
+
+    if (!validation.isValid && mounted) {
+      await _showInvalidImageDialog(validation.message);
+      return;
+    }
+
     if (mounted) {
       context.go(AppRoutes.patientDetails, extra: imageFile);
     }
@@ -29,7 +107,7 @@ class _ScanScreenState extends ConsumerState<ScanScreen> {
       final XFile? photo =
           await _picker.pickImage(source: ImageSource.camera, imageQuality: 90);
       if (photo != null && mounted) {
-        _processImage(File(photo.path));
+        await _processImage(File(photo.path));
       }
     } catch (e) {
       if (mounted) {
@@ -45,7 +123,7 @@ class _ScanScreenState extends ConsumerState<ScanScreen> {
       final XFile? image =
           await _picker.pickImage(source: ImageSource.gallery, imageQuality: 90);
       if (image != null && mounted) {
-        _processImage(File(image.path));
+        await _processImage(File(image.path));
       }
     } catch (e) {
       if (mounted) {

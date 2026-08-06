@@ -159,6 +159,19 @@ export default function History() {
     );
   }, [scans, search]);
 
+  useEffect(() => {
+    if (scans.length > 0) {
+      const params = new URLSearchParams(window.location.search);
+      const reportId = params.get('report');
+      if (reportId) {
+        const found = scans.find(s => String(s.id) === String(reportId));
+        if (found) {
+          setSelected(found);
+        }
+      }
+    }
+  }, [scans]);
+
   const trendData = [...scans].reverse().slice(-10).map((s, i) => ({
     name: `#${i + 1}`,
     level: s.vitamin_d_level,
@@ -353,10 +366,8 @@ export default function History() {
                     ))}
                   </div>
                 )}
-              </div>
-
-              {/* ── Action Footer: always visible at bottom ── */}
-              <div className="modal-action-footer">
+              {/* Action Buttons: Download & Share Report */}
+              <div style={{ display: 'flex', gap: 10, marginTop: 20, paddingTop: 16, borderTop: '1px solid #E0E2ED' }}>
                 <button className="modal-btn-dl" onClick={handleDownload} disabled={pdfLoading}>
                   {pdfLoading ? (
                     <><span className="btn-spinner" style={{ width: 14, height: 14 }} /> Generating…</>
@@ -367,7 +378,7 @@ export default function History() {
                         <polyline points="7 10 12 15 17 10" />
                         <line x1="12" y1="15" x2="12" y2="3" />
                       </svg>
-                      Download PDF
+                      Download Report
                     </>
                   )}
                 </button>
@@ -380,10 +391,10 @@ export default function History() {
                   Share Report
                 </button>
               </div>
-
             </div>
           </div>
-        )}
+        </div>
+      )}
 
         {/* ── Share Sheet Modal ── */}
         {shareOpen && selected && (() => {

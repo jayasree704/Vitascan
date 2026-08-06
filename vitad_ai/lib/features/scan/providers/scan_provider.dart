@@ -1,12 +1,12 @@
 import 'dart:io';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../core/services/gemini_service.dart';
+import '../../../core/services/test_strip_analyzer_service.dart';
 import '../../../domain/models/scan_result.dart';
 import '../../auth/providers/auth_provider.dart';
 import '../../history/providers/history_provider.dart';
 
-final geminiServiceProvider = Provider<GeminiService>((ref) {
-  return GeminiService();
+final testStripAnalyzerServiceProvider = Provider<TestStripAnalyzerService>((ref) {
+  return TestStripAnalyzerService();
 });
 
 enum ScanStateStatus { initial, uploading, analyzing, success, error }
@@ -40,6 +40,12 @@ class ScanNotifier extends StateNotifier<ScanState> {
 
   ScanNotifier(this._ref) : super(const ScanState());
 
+  /// Validates whether the image is a valid Vitamin D test strip
+  Future<TestStripValidationResult> validateTestStripImage(File imageFile) async {
+    final analyzerService = _ref.read(testStripAnalyzerServiceProvider);
+    return await analyzerService.validateImage(imageFile);
+  }
+
   Future<ScanResult?> processAndAnalyzeImage({
     required File imageFile,
     String? patientName,
@@ -55,19 +61,19 @@ class ScanNotifier extends StateNotifier<ScanState> {
     final userId = currentUser?.id ?? 'guest_user';
 
     final supabaseService = _ref.read(supabaseServiceProvider);
-    final geminiService = _ref.read(geminiServiceProvider);
+    final analyzerService = _ref.read(testStripAnalyzerServiceProvider);
 
     try {
-      // Step 1: Upload image to Supabase Storage
+      // Step 1: Upload image to Supabase Storage (if connected)
       final imageUrl = await supabaseService.uploadScanImage(imageFile, userId);
 
       state = state.copyWith(
         status: ScanStateStatus.analyzing,
-        message: 'AI is analyzing Vitamin D levels...',
+        message: 'Analyzing test strip image for Vitamin D levels...',
       );
 
-      // Step 2: Analyze image with Gemini AI
-      final rawResult = await geminiService.analyzeTestStripImage(
+      // Step 2: Analyze image with custom image processing backend
+      final rawResult = await analyzerService.analyzeTestStripImage(
         imageFile: imageFile,
         userId: userId,
         imageUrl: imageUrl,
@@ -98,7 +104,7 @@ class ScanNotifier extends StateNotifier<ScanState> {
         // Fallback for offline or guest usage
       }
 
-      // Invalidate history provider so it re-fetches from Supabase
+      // Invalidate history provider so it re-fetches
       _ref.invalidate(scanHistoryProvider);
 
       state = state.copyWith(
@@ -125,3 +131,4 @@ final scanNotifierProvider =
     StateNotifierProvider<ScanNotifier, ScanState>((ref) {
   return ScanNotifier(ref);
 });
+

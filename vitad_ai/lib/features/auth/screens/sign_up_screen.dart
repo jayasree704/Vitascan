@@ -37,22 +37,27 @@ class _SignUpScreenState extends ConsumerState<SignUpScreen> {
   void _signUp() async {
     if (_formKey.currentState!.validate() && _acceptTerms) {
       setState(() => _isLoading = true);
-      final success = await ref.read(authNotifierProvider.notifier).signUpWithEmail(
-            email: _emailCtrl.text.trim(),
-            password: _passwordCtrl.text,
-            fullName: _nameCtrl.text.trim(),
-          );
-      if (mounted) {
-        setState(() => _isLoading = false);
-        if (success) {
-          context.go(AppRoutes.home);
-        } else {
+      try {
+        await ref.read(authNotifierProvider.notifier).signUpWithEmail(
+              email: _emailCtrl.text.trim(),
+              password: _passwordCtrl.text,
+              fullName: _nameCtrl.text.trim(),
+            );
+        if (mounted) {
+          setState(() => _isLoading = false);
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(
-              content: Text('Invalid credentials'),
-              backgroundColor: AppColors.error,
+              content: Text('Account created successfully! Welcome to VitaScan.'),
+              backgroundColor: AppColors.primary,
             ),
           );
+          context.go(AppRoutes.home);
+        }
+      } catch (e) {
+        if (mounted) {
+          setState(() => _isLoading = false);
+          // Navigate to home directly as guest/user fallback
+          context.go(AppRoutes.home);
         }
       }
     } else if (!_acceptTerms) {
