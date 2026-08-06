@@ -30,58 +30,6 @@ const FIXED_SAMPLE_SCANS = [
     created_at: '2026-07-24T08:30:00Z',
     isSample: true,
   },
-  {
-    id: 'sample-2',
-    user_id: 'sample',
-    patient_name: 'Sample Patient A',
-    patient_age: 30,
-    patient_gender: 'Female',
-    vitamin_d_level: 31.0,
-    status: 'Sufficient',
-    ai_confidence: 0.94,
-    lifestyle_tips: ['Pair Vitamin D rich foods with healthy fats.'],
-    created_at: '2026-07-20T14:15:00Z',
-    isSample: true,
-  },
-  {
-    id: 'sample-3',
-    user_id: 'sample',
-    patient_name: 'Sample Patient B',
-    patient_age: 45,
-    patient_gender: 'Male',
-    vitamin_d_level: 31.0,
-    status: 'Sufficient',
-    ai_confidence: 0.94,
-    lifestyle_tips: ['Retest your levels in 8-12 weeks.'],
-    created_at: '2026-07-15T09:10:00Z',
-    isSample: true,
-  },
-  {
-    id: 'sample-4',
-    user_id: 'sample',
-    patient_name: 'Sample Patient C',
-    patient_age: 22,
-    patient_gender: 'Female',
-    vitamin_d_level: 31.0,
-    status: 'Sufficient',
-    ai_confidence: 0.94,
-    lifestyle_tips: ['Maintain optimal sunlight exposure.'],
-    created_at: '2026-07-10T11:45:00Z',
-    isSample: true,
-  },
-  {
-    id: 'sample-5',
-    user_id: 'sample',
-    patient_name: 'Sample Patient D',
-    patient_age: 35,
-    patient_gender: 'Male',
-    vitamin_d_level: 31.0,
-    status: 'Sufficient',
-    ai_confidence: 0.94,
-    lifestyle_tips: ['Keep monitoring regularly.'],
-    created_at: '2026-07-05T16:20:00Z',
-    isSample: true,
-  },
 ];
 
 export default function History() {
@@ -121,30 +69,54 @@ export default function History() {
 
   const handleNativeShare = async () => {
     if (!selected) return;
+    const summary = `VitaScan Report for ${selected.patient_name || 'Patient'}: Vitamin D Level is ${selected.vitamin_d_level.toFixed(1)} ng/mL (${selected.status}). Tested on ${fmt(selected.created_at)}.`;
     if (navigator.share) {
-      try { await navigator.share({ title: 'VitaScan Report', text: buildShareText(selected) }); }
-      catch { /* user cancelled */ }
-    } else {
-      setShareOpen(true);
+      try {
+        await navigator.share({
+          title: `VitaScan Report - ${selected.patient_name || 'Patient'}`,
+          text: summary,
+        });
+        toast.success('Report shared!');
+        return;
+      } catch { /* user cancelled */ }
+    }
+    try {
+      await navigator.clipboard.writeText(summary);
+      toast.success('Report summary copied!');
+    } catch {
+      toast.error('Could not copy report text.');
     }
   };
 
   const fetchScans = async () => {
     setLoading(true);
-    let { data } = await supabase
-      .from('scans')
-      .select('*')
-      .eq('user_id', user.id)
-      .order('created_at', { ascending: false });
-    if (!data || data.length === 0) {
-      const res = await supabase
+    let remoteScans = [];
+    try {
+      let { data } = await supabase
         .from('scans')
         .select('*')
         .order('created_at', { ascending: false })
         .limit(50);
-      data = res.data;
-    }
-    setScans(data && data.length > 0 ? data : FIXED_SAMPLE_SCANS);
+      remoteScans = data || [];
+    } catch (_) {}
+
+    const localRaw = localStorage.getItem('vitascan_local_history');
+    const localScans = localRaw ? JSON.parse(localRaw) : [];
+
+    const combinedMap = new Map();
+    [...localScans, ...remoteScans, ...FIXED_SAMPLE_SCANS].forEach(s => {
+      const key = s.id || `${s.patient_name}_${s.created_at}`;
+      if (!combinedMap.has(key)) {
+        combinedMap.set(key, s);
+      }
+    });
+
+    const combinedList = Array.from(combinedMap.values()).filter(
+      s => !s.patient_name || !s.patient_name.startsWith('Sample Patient')
+    );
+    combinedList.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+
+    setScans(combinedList);
     setLoading(false);
   };
 
