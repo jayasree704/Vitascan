@@ -20,9 +20,12 @@ export function AuthProvider({ children }) {
   const navigate = useNavigate();
 
   const saveUserSession = (userData) => {
-    const finalUser = userData || DEFAULT_GUEST_USER;
-    setUser(finalUser);
-    localStorage.setItem('vitascan_web_user', JSON.stringify(finalUser));
+    setUser(userData);
+    if (userData) {
+      localStorage.setItem('vitascan_web_user', JSON.stringify(userData));
+    } else {
+      localStorage.removeItem('vitascan_web_user');
+    }
   };
 
   useEffect(() => {
@@ -113,9 +116,11 @@ export function AuthProvider({ children }) {
   };
 
   const signOut = async () => {
-    await supabase.auth.signOut();
-    setUser(null);
-    navigate('/', { replace: true });
+    try {
+      await supabase.auth.signOut();
+    } catch (_) {}
+    saveUserSession(null);
+    navigate('/signin', { replace: true });
   };
 
   return (

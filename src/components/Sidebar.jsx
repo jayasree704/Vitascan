@@ -8,7 +8,7 @@ export default function Sidebar() {
 
   const handleSignOut = async () => {
     await signOut();
-    navigate('/');
+    navigate('/signin');
     toast.success('Signed out successfully');
   };
 
