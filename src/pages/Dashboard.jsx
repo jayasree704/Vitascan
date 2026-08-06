@@ -187,12 +187,19 @@ export default function Dashboard() {
   const displayName = user?.user_metadata?.full_name || user?.user_metadata?.name || user?.email?.split('@')[0] || 'there';
 
   /* ── File pick / drop ── */
+  const [invalidImage, setInvalidImage] = useState(null);
+
+  /* ── File pick / drop ── */
   const handleFile = (f) => {
     if (!f) return;
     setFile(f);
     setResult(null);
     const reader = new FileReader();
-    reader.onload = (ev) => { setPreview(ev.target.result); setStep(STEP.DETAILS); };
+    reader.onload = async (ev) => {
+      const dataUrl = ev.target.result;
+      setPreview(dataUrl);
+      setStep(STEP.DETAILS);
+    };
     reader.readAsDataURL(f);
   };
   const handleFileInput = (e) => handleFile(e.target.files?.[0]);
@@ -568,6 +575,42 @@ export default function Dashboard() {
           </div>
 
         </div>
+
+        {/* Invalid image popup — shown when the upload is not a Vitamin D test strip */}
+        {invalidImage && (
+          <div className="modal-overlay" onClick={() => setInvalidImage(null)}>
+            <div className="modal-card invalid-modal" onClick={e => e.stopPropagation()}>
+              <button className="modal-close" onClick={() => setInvalidImage(null)}>✕</button>
+              <div className="invalid-modal-icon">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#FF3B30" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M10.29 3.86 1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z" />
+                  <line x1="12" y1="9" x2="12" y2="13" />
+                  <line x1="12" y1="17" x2="12.01" y2="17" />
+                </svg>
+              </div>
+              <h3 className="invalid-modal-title" style={{ color: '#FF3B30', fontSize: '18px', fontWeight: 'bold' }}>Invalid Image Uploaded</h3>
+              <p className="invalid-modal-text" style={{ fontSize: '15px', fontWeight: '600', color: '#1E293B', marginBottom: '12px' }}>
+                This image does not belong to test result for Vitamin D. Use correct image.
+              </p>
+              <p className="invalid-modal-reason" style={{ background: '#FFF0F5', color: '#C71585', border: '1px solid #FFC0CB', padding: '8px 12px', borderRadius: '8px', fontSize: '13px' }}>
+                {invalidImage.message || 'The uploaded photo could not be verified as a valid Vitamin D cassette or strip.'}
+              </p>
+              <ul className="invalid-modal-list">
+                <li>Place the test cassette/strip on a flat, plain background.</li>
+                <li>Ensure the complete result window with C and T lines is visible.</li>
+                <li>Use clear lighting with no severe shadows or camera glare.</li>
+              </ul>
+              <div className="ar-actions">
+                <button className="btn btn-outline" style={{ flex: 1, padding: '9px' }} onClick={() => setInvalidImage(null)}>
+                  Close
+                </button>
+                <button className="btn btn-primary" style={{ flex: 1, padding: '9px' }} onClick={resetUpload}>
+                  Upload Correct Image
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
       </main>
     </div>

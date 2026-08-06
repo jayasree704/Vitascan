@@ -200,7 +200,18 @@ export default function Dashboard() {
     setFile(f);
     setResult(null);
     const reader = new FileReader();
-    reader.onload = (ev) => { setPreview(ev.target.result); setStep(STEP.DETAILS); };
+    reader.onload = async (ev) => {
+      const dataUrl = ev.target.result;
+      setPreview(dataUrl);
+      setStep(STEP.DETAILS);
+
+      // Pre-check if uploaded image is a valid Vitamin D cassette strip
+      const check = await analyzeTestStrip(dataUrl);
+      if (!check.valid) {
+        setInvalidImage(check);
+        toast.error('This image does not belong to test result for Vitamin D. Use correct image.', { duration: 5000 });
+      }
+    };
     reader.readAsDataURL(f);
   };
   const handleFileInput = (e) => handleFile(e.target.files?.[0]);
@@ -621,23 +632,24 @@ export default function Dashboard() {
                   <line x1="12" y1="17" x2="12.01" y2="17" />
                 </svg>
               </div>
-              <h3 className="invalid-modal-title">Please use the correct test report</h3>
-              <p className="invalid-modal-text">
-                This image is not a Vitamin D test strip, so no result can be calculated.
-                Upload a clear photo of your Vitamin D test strip or cassette report.
+              <h3 className="invalid-modal-title" style={{ color: '#FF3B30', fontSize: '18px', fontWeight: 'bold' }}>Invalid Image Uploaded</h3>
+              <p className="invalid-modal-text" style={{ fontSize: '15px', fontWeight: '600', color: '#1E293B', marginBottom: '12px' }}>
+                This image does not belong to test result for Vitamin D. Use correct image.
               </p>
-              <p className="invalid-modal-reason">{invalidImage.message}</p>
+              <p className="invalid-modal-reason" style={{ background: '#FFF0F5', color: '#C71585', border: '1px solid #FFC0CB', padding: '8px 12px', borderRadius: '8px', fontSize: '13px' }}>
+                {invalidImage.message || 'The uploaded photo could not be verified as a valid Vitamin D cassette or strip.'}
+              </p>
               <ul className="invalid-modal-list">
-                <li>Place the strip on a flat, plain background.</li>
-                <li>Keep the whole result window in frame, including the C and T lines.</li>
-                <li>Use bright, even light and avoid shadows or glare.</li>
+                <li>Place the test cassette/strip on a flat, plain background.</li>
+                <li>Ensure the complete result window with C and T lines is visible.</li>
+                <li>Use clear lighting with no severe shadows or camera glare.</li>
               </ul>
               <div className="ar-actions">
                 <button className="btn btn-outline" style={{ flex: 1, padding: '9px' }} onClick={() => setInvalidImage(null)}>
                   Close
                 </button>
                 <button className="btn btn-primary" style={{ flex: 1, padding: '9px' }} onClick={resetUpload}>
-                  Upload Another Image
+                  Upload Correct Image
                 </button>
               </div>
             </div>
