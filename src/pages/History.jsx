@@ -7,9 +7,9 @@ import toast from 'react-hot-toast';
 import { BarChart, Bar, XAxis, YAxis, ResponsiveContainer, Cell, Tooltip } from 'recharts';
 
 function statusColor(level) {
-  if (level < 20) return '#FF3B30';
-  if (level < 30) return '#FF9500';
-  return '#34C759';
+  if (level < 20) return '#FFC0CB'; // Pale Pink (Deficient)
+  if (level < 30) return '#FF69B4'; // Light Pink (Insufficient)
+  return '#C71585'; // Dark Pink (Sufficient)
 }
 
 function fmt(dt) {
