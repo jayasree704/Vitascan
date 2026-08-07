@@ -138,11 +138,16 @@ export default function History() {
             <h1 className="page-title">Scan History</h1>
             <p className="page-subtitle">Your complete Vitamin D test records</p>
           </div>
-          <button className="btn btn-icon btn-outline" onClick={fetchScans} title="Refresh">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
-            </svg>
-          </button>
+          <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+            <a href="/vitascan_1000_vitamin_d_dataset.csv" download className="btn btn-primary" style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', textDecoration: 'none', background: '#BE185D', color: '#FFF', fontWeight: 600, padding: '8px 16px', borderRadius: '8px' }}>
+              📥 Download 1,000 Datasets (CSV)
+            </a>
+            <button className="btn btn-icon btn-outline" onClick={fetchScans} title="Refresh">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2" />
+              </svg>
+            </button>
+          </div>
         </div>
 
         {/* 2-Column Equal Size Grid (Left: Analytics, Right: Scrollable Records Card) */}
