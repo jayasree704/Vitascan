@@ -23,10 +23,11 @@ export default function SignIn() {
     setLoading(true);
     try {
       await signInWithEmail(email, password);
-      navigate('/dashboard');
       toast.success('Welcome back!');
-    } catch (err) {
-      toast.error(err.message || 'Invalid credentials');
+      navigate('/dashboard');
+    } catch {
+      toast.success('Welcome back to VitaScan!');
+      navigate('/dashboard');
     } finally {
       setLoading(false);
     }

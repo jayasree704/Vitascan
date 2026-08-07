@@ -1,0 +1,11 @@
+{
+  "name": "vitad_ai",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/generate_test_reports.js"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}

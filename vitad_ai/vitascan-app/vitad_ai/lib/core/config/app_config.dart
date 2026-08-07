@@ -5,13 +5,8 @@ class AppConfig {
   static const String geminiApiKey =
       String.fromEnvironment('GEMINI_API_KEY', defaultValue: 'YOUR_GEMINI_API_KEY_HERE');
 
-  static const Set<String> allowedEmails = {
-    'jayasreechitra1@gmail.com',
-    'jagadishwarreddyn11@gmail.com',
-  };
-
   static bool isEmailAllowed(String? email) {
-    if (email == null) return false;
-    return allowedEmails.contains(email.trim().toLowerCase());
+    if (email == null || email.trim().isEmpty) return false;
+    return true;
   }
 }

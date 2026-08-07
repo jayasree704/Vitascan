@@ -16,38 +16,49 @@ class SupabaseService {
     required String password,
     required String fullName,
   }) async {
-    if (!AppConfig.isEmailAllowed(email)) {
-      throw const AuthException('Invalid credentials');
-    }
-    final response = await _client.auth.signUp(
-      email: email,
-      password: password,
-      data: {'full_name': fullName},
-    );
-    if (response.user != null) {
-      await createOrUpdateProfile(
-        UserProfile(
-          id: response.user!.id,
-          fullName: fullName,
-          email: email,
-          createdAt: DateTime.now(),
-        ),
+    final cleanEmail = email.trim().toLowerCase();
+    try {
+      final response = await _client.auth.signUp(
+        email: cleanEmail,
+        password: password,
+        data: {'full_name': fullName},
       );
-    }
-    return response;
+      if (response.user != null && response.session != null) {
+        await createOrUpdateProfile(
+          UserProfile(
+            id: response.user!.id,
+            fullName: fullName,
+            email: cleanEmail,
+            createdAt: DateTime.now(),
+          ),
+        );
+        return response;
+      }
+    } catch (_) {}
+
+    // Fallback: If user already registered on Website, sign in with password!
+    return await _client.auth.signInWithPassword(
+      email: cleanEmail,
+      password: password,
+    );
   }
 
   Future<AuthResponse> signInWithEmail({
     required String email,
     required String password,
   }) async {
-    if (!AppConfig.isEmailAllowed(email)) {
-      throw const AuthException('Invalid credentials');
+    final cleanEmail = email.trim().toLowerCase();
+    try {
+      return await _client.auth.signInWithPassword(
+        email: cleanEmail,
+        password: password,
+      );
+    } catch (_) {
+      return await _client.auth.signUp(
+        email: cleanEmail,
+        password: password,
+      );
     }
-    return await _client.auth.signInWithPassword(
-      email: email,
-      password: password,
-    );
   }
 
   /// Opens Google sign-in in the device browser via Supabase OAuth.

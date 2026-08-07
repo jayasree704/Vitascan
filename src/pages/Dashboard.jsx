@@ -201,7 +201,10 @@ export default function Dashboard() {
       const check = await analyzeTestStrip(dataUrl);
       if (!check.valid) {
         setInvalidImage(check);
-        toast.error('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.', { id: 'invalid-image-toast', duration: 8000 });
+        toast.error('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.', { id: 'invalid-image-toast', duration: 10000 });
+        setTimeout(() => {
+          window.alert('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.');
+        }, 100);
         setStep(STEP.IDLE);
         return;
       }
@@ -227,7 +230,10 @@ export default function Dashboard() {
       // Not a Vitamin D test strip (or unreadable): stop and tell the user.
       if (!analysis.valid) {
         setInvalidImage(analysis);
-        toast.error('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.', { id: 'invalid-image-toast', duration: 8000 });
+        toast.error('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.', { id: 'invalid-image-toast', duration: 10000 });
+        setTimeout(() => {
+          window.alert('This image does not belong to a test result for Vitamin D. Please choose a correct image of a test strip.');
+        }, 100);
         setStep(STEP.IDLE);
         return;
       }

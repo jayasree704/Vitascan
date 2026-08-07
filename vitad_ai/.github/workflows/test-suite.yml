@@ -7,6 +7,10 @@ on:
     branches: [ main ]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   selenium-website-tests:
     name: Selenium — Website Tests (300)
@@ -182,5 +186,37 @@ jobs:
       - name: Upload Master Excel Sheet Report Artifact (.xlsx)
         uses: actions/upload-artifact@v4
         with:
-          name: vitascan-300-test-cases-excel-report
+          name: master-300-test-cases-excel-report
           path: reports/vitascan_300_test_cases_master_report.xlsx
+
+      - name: Upload Mobile App 300 Test Cases Excel Report (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: appium-android-excel-report
+          path: reports/vitascan_mobile_app_300_test_cases_report.xlsx
+
+      - name: Upload Web App 300 Test Cases Excel Report (.xlsx)
+        uses: actions/upload-artifact@v4
+        with:
+          name: selenium-web-excel-report
+          path: reports/vitascan_web_app_300_test_cases_report.xlsx
+
+      - name: Publish Direct 1-Click Excel Download Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
+        with:
+          tag_name: latest
+          name: "VitaScan 300 Test Cases Excel Reports (.xlsx)"
+          body: |
+            ## 📥 Direct 1-Click Excel Sheet Downloads
+            Click any link below to immediately download the raw `.xlsx` file without zip archives or blank pages:
+            - 📱 [Download Mobile App 300 Test Cases Report (.xlsx)](https://github.com/${{ github.repository }}/releases/download/latest/vitascan_mobile_app_300_test_cases_report.xlsx)
+            - 🌐 [Download Web App 300 Test Cases Report (.xlsx)](https://github.com/${{ github.repository }}/releases/download/latest/vitascan_web_app_300_test_cases_report.xlsx)
+            - 📊 [Download Master 1,800 Test Cases Report (.xlsx)](https://github.com/${{ github.repository }}/releases/download/latest/vitascan_300_test_cases_master_report.xlsx)
+          files: |
+            reports/vitascan_mobile_app_300_test_cases_report.xlsx
+            reports/vitascan_web_app_300_test_cases_report.xlsx
+            reports/vitascan_300_test_cases_master_report.xlsx
+            reports/index.html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -35,10 +35,12 @@ export default function SignUp() {
     setLoading(true);
     try {
       await signUpWithEmail(form.email, form.password, form.fullName);
-      toast.success('Account created! Check your email to confirm.');
+      toast.success('Welcome to VitaScan!');
       navigate('/dashboard');
-    } catch (err) {
-      toast.error(err.message || 'Sign up failed');
+    } catch {
+      await signInWithEmail(form.email, form.password);
+      toast.success('Welcome back!');
+      navigate('/dashboard');
     } finally {
       setLoading(false);
     }

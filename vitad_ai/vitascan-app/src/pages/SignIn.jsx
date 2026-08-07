@@ -26,8 +26,7 @@ export default function SignIn() {
       navigate('/dashboard');
       toast.success('Welcome back!');
     } catch (err) {
-      navigate('/dashboard');
-      toast.success('Welcome to Vitascan!');
+      toast.error(err.message || 'Invalid credentials');
     } finally {
       setLoading(false);
     }
